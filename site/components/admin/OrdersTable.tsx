@@ -150,7 +150,9 @@ export function OrdersTable({
                       {o.items.map((it, i) => (
                         <p key={i} className="truncate">
                           <span className="tabular-nums text-ivory-dim/90">{it.qty}×</span> {it.name}
+                          {it.options?.Couleur ? ` · ${it.options.Couleur.toLowerCase()}` : ""}
                           {it.options?.Puce ? ` · puce ${it.options.Puce.toLowerCase()}` : ""}
+                          {it.options?.Encoche ? ` · encoche` : ""}
                         </p>
                       ))}
                     </div>

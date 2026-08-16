@@ -11,8 +11,7 @@ export const dynamic = "force-dynamic";
 import { VitrineTile } from "@/components/VitrineTile";
 import { CategoryCard } from "@/components/CategoryCard";
 import { VitrineMarquee } from "@/components/VitrineMarquee";
-import { CardDesign } from "@/components/CardDesign";
-import { Tilt3DCard } from "@/components/Tilt3DCard";
+import { HeroVitrine } from "@/components/HeroVitrine";
 import { Reveal } from "@/components/Reveal";
 import { PrecisionSchematic } from "@/components/PrecisionSchematic";
 import { Stars } from "@/components/Stars";
@@ -61,6 +60,19 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
   const justDropped = await getCategoryProductsCached("just-dropped");
   const all = await getCategoryProductsCached("all");
   const vitrine = all.filter((p) => p.kind === "sticker").slice(0, 14);
+
+  // Cartes de la vitrine du hero : bestsellers d'abord, puis le reste, sans
+  // doublon. On privilégie les designs avec une vraie image (cartes déjà
+  // customisées) ; à défaut (base fraîche), CardVisual retombe sur le thème.
+  const seenHero = new Set<string>();
+  const heroStickers = [...bestsellers, ...all].filter(
+    (p) => p.kind === "sticker" && !seenHero.has(p.handle) && seenHero.add(p.handle),
+  );
+  const withArt = heroStickers.filter((p) => p.image);
+  const heroPool = withArt.length >= 6 ? withArt : heroStickers;
+  const heroFocal = heroPool[0];
+  const heroVideoCard = heroPool[1] ?? heroPool[0];
+  const heroWall = heroPool.slice(2, 6);
 
   // Catégories mises en avant : celles qui ont une photo ou au moins un design.
   const { categories } = await getCatalogCached();
@@ -128,7 +140,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               </div>
             </Reveal>
             <Reveal load delay={360}>
-              <div className="mt-7 flex items-center gap-2 text-sm text-ivory-dim">
+              <div className="mt-7 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-sm text-ivory-dim">
                 <Stars value={SITE.rating.value} tone="dark" />
                 <span className="font-semibold text-ivory">
                   {SITE.rating.value.toLocaleString(LOCALE_INTL[locale])}/5
@@ -139,52 +151,17 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
                     count: SITE.rating.count.toLocaleString(LOCALE_INTL[locale]),
                   })}
                 </span>
+                <span aria-hidden className="text-ivory-dim/40">·</span>
+                <span className="font-semibold text-ivory">{dict.home.hero.bogo}</span>
               </div>
             </Reveal>
           </div>
 
-          {/* La pièce maîtresse : carte 3D sous les projecteurs, deux cartes en retrait */}
-          <div className="relative h-80 sm:h-[26rem] lg:h-[30rem]">
-            <Reveal load delay={420} className="absolute left-0 top-1/2 w-[46%] hidden sm:block">
-              <div className="-translate-y-[70%] -rotate-12 opacity-75">
-                <div
-                  className="glow-tile glow-on"
-                  style={{ "--g1": "#d4af3766", "--g2": "#d4af3733" } as CSSProperties}
-                >
-                  <CardDesign
-                    theme={{ pattern: "dots", colors: ["#101010", "#d4af37"], dark: true }}
-                    seed="or-noir"
-                    className="w-full"
-                  />
-                </div>
-              </div>
-            </Reveal>
-            <Reveal load delay={500} className="absolute right-0 bottom-0 w-[42%] hidden sm:block">
-              <div className="rotate-12 opacity-75">
-                <div
-                  className="glow-tile glow-on"
-                  style={{ "--g1": "#7ec8e366", "--g2": "#3a9bd566" } as CSSProperties}
-                >
-                  <CardDesign
-                    theme={{ pattern: "waves", colors: ["#7ec8e3", "#f7e7c4", "#3a9bd5"] }}
-                    seed="plage"
-                    className="w-full"
-                  />
-                </div>
-              </div>
-            </Reveal>
-            <Reveal load delay={140} className="absolute inset-x-4 sm:inset-x-14 top-1/2">
-              <div className="-translate-y-1/2">
-                <Tilt3DCard glow={["#ff2d95", "#ff8ac2"]} className="-rotate-3">
-                  <CardDesign
-                    theme={{ pattern: "rays", colors: ["#ff2d95", "#2b0a3d", "#ff8ac2"], dark: true }}
-                    seed="neon-rose"
-                    className="w-full drop-shadow-2xl"
-                  />
-                </Tilt3DCard>
-              </div>
-            </Reveal>
-          </div>
+          {/* La pièce maîtresse : vitrine vivante de vraies cartes + slot vidéo.
+              Dépose l'URL du MP4 dans videoSrc quand la pose sera filmée. */}
+          {heroFocal && (
+            <HeroVitrine focal={heroFocal} wall={heroWall} videoCard={heroVideoCard} />
+          )}
         </div>
       </section>
 

@@ -98,6 +98,22 @@
       }
     }
   },
+  "notch": {
+    "ariaLabel": "Encoche de la carte",
+    "hint": "Certaines cartes ont une petite encoche sur le bord opposé à la puce (repère tactile pour le doigt, sens d'insertion). Indique si la tienne en a une pour une découpe au plus juste.",
+    "options": {
+      "none": {
+        "label": "Sans encoche",
+        "hint": "bord de carte droit",
+        "tag": "Le plus courant"
+      },
+      "notch": {
+        "label": "Avec encoche",
+        "hint": "petit repère sur le bord",
+        "tag": ""
+      }
+    }
+  },
   "checkout": {
     "button": "Commander",
     "buttonBusy": "Redirection…",
@@ -107,6 +123,8 @@
     "shippingFree": "Livraison offerte (lettre suivie)",
     "shippingTracked": "Lettre suivie",
     "optionChip": "Puce",
+    "optionNotch": "Encoche",
+    "optionColor": "Couleur",
     "errEmpty": "Ton panier est vide.",
     "errUnconfigured": "Le paiement n'est pas encore activé. Reviens dans un instant.",
     "errUnreadable": "Panier illisible.",
@@ -348,7 +366,15 @@
       "titleLine1": "Ta carte,",
       "titleLine2": "en mieux.",
       "subtitle": "Découpé aux cotes exactes de ta carte, fenêtre puce comprise. Pose en 30 secondes, retrait sans trace.",
-      "reviews": "{count} avis"
+      "reviews": "{count} avis",
+      "bogo": "1 acheté = 1 offert",
+      "cardAlt": "{name}, sticker sur carte bancaire",
+      "video": {
+        "title": "La pose, filmée",
+        "duration": "0:30",
+        "teaser": "Bientôt",
+        "play": "Lire la vidéo"
+      }
     },
     "sections": {
       "bestsellers": {
@@ -884,6 +910,9 @@
       "other": "dont {count} offerts"
     },
     "chipHeading": "La puce de ta carte",
+    "notchHeading": "Encoche de la carte",
+    "colorHeading": "Choisis ta couleur",
+    "variantSwatchLabel": "Voir {color}",
     "includedTitle": "Offert avec chaque commande",
     "includedItems": [
       "Kit d'application : berceau de pose, raclette, lingette",

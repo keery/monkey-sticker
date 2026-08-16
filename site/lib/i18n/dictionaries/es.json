@@ -98,6 +98,22 @@
       }
     }
   },
+  "notch": {
+    "ariaLabel": "Muesca de la tarjeta",
+    "hint": "Algunas tarjetas tienen una pequeña muesca en el borde opuesto al chip (guía táctil para el dedo, sentido de inserción). Indícanos si la tuya la tiene para recortarla con precisión.",
+    "options": {
+      "none": {
+        "label": "Sin muesca",
+        "hint": "borde recto de la tarjeta",
+        "tag": "La más común"
+      },
+      "notch": {
+        "label": "Con muesca",
+        "hint": "pequeña marca en el borde",
+        "tag": ""
+      }
+    }
+  },
   "checkout": {
     "button": "Pagar",
     "buttonBusy": "Redirigiendo…",
@@ -107,6 +123,8 @@
     "shippingFree": "Envío gratis (carta con seguimiento)",
     "shippingTracked": "Carta con seguimiento",
     "optionChip": "Chip",
+    "optionNotch": "Muesca",
+    "optionColor": "Color",
     "errEmpty": "Tu carrito está vacío.",
     "errUnconfigured": "El pago aún no está activado. Vuelve en un momento.",
     "errUnreadable": "No se pudo leer el carrito.",
@@ -121,7 +139,15 @@
       "titleLine1": "Tu tarjeta,",
       "titleLine2": "a otro nivel.",
       "subtitle": "Cortada a las medidas exactas de tu tarjeta, ventana del chip incluida. Puesta en 30 segundos, retirada sin dejar rastro.",
-      "reviews": "{count} opiniones"
+      "reviews": "{count} opiniones",
+      "bogo": "1 comprado = 1 gratis",
+      "cardAlt": "{name}, pegatina sobre tarjeta bancaria",
+      "video": {
+        "title": "La colocación, en vídeo",
+        "duration": "0:30",
+        "teaser": "Muy pronto",
+        "play": "Reproducir el vídeo"
+      }
     },
     "sections": {
       "bestsellers": {
@@ -274,6 +300,9 @@
       "other": "incluye {count} gratis"
     },
     "chipHeading": "El chip de tu tarjeta",
+    "notchHeading": "Muesca de la tarjeta",
+    "colorHeading": "Elige tu color",
+    "variantSwatchLabel": "Ver {color}",
     "includedTitle": "Incluido con cada pedido",
     "includedItems": [
       "Kit de aplicación: soporte de alineación, rasqueta, paño",

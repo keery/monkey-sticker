@@ -21,7 +21,7 @@ import {
 } from "./catalog";
 import { setProposalStatus } from "./proposals";
 import { requireAdmin } from "./auth";
-import type { CategoryI18n, ImageTransform, PatternType, Product, ProductI18n, Theme } from "./products";
+import type { CategoryI18n, ImageTransform, PatternType, Product, ProductI18n, ProductVariant, Theme } from "./products";
 import { isIdentityTransform, normalizeTransform } from "./card-art";
 import { LOCALES, type Locale } from "./i18n/config";
 
@@ -186,6 +186,74 @@ async function resolveImage(formData: FormData, handle: string): Promise<string 
   return existing.startsWith("/designs/") ? existing : undefined;
 }
 
+/** Métadonnées d'une couleur telles qu'envoyées par le formulaire (`variantsJson`).
+ * L'image de la couleur principale (index 0) vient de l'éditeur principal ;
+ * celle des autres couleurs d'un upload `variantImageFile.<i>` ou d'un chemin
+ * /designs existant (édition sans re-upload). */
+interface VariantMeta {
+  name?: unknown;
+  swatch?: unknown;
+  imageBackground?: unknown;
+  image?: unknown;
+}
+
+/** Construit les variantes de couleur du produit à partir du formulaire.
+ * `primaryImage` = image de l'éditeur principal (couleur #0). Renvoie `undefined`
+ * s'il n'y a pas de choix de couleur (< 2 couleurs). Lève une erreur lisible si
+ * une couleur est incomplète (nom / image manquants, doublon). */
+async function resolveVariants(
+  formData: FormData,
+  handle: string,
+  primaryImage: string | undefined,
+  primaryBackground: string | undefined,
+): Promise<ProductVariant[] | undefined> {
+  const raw = String(formData.get("variantsJson") ?? "").trim();
+  if (!raw) return undefined;
+  let metas: VariantMeta[];
+  try {
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return undefined;
+    metas = parsed as VariantMeta[];
+  } catch {
+    return undefined;
+  }
+  // Moins de 2 couleurs = pas de choix obligatoire → on ignore le bloc.
+  if (metas.length < 2) return undefined;
+
+  const variants: ProductVariant[] = [];
+  const seen = new Set<string>();
+  for (let i = 0; i < metas.length; i++) {
+    const m = metas[i];
+    const name = String(m?.name ?? "").trim();
+    if (!name) throw new Error(`Nom de couleur manquant (couleur ${i + 1}).`);
+    const key = name.toLowerCase();
+    if (seen.has(key)) throw new Error(`Couleur en double : « ${name} ».`);
+    seen.add(key);
+
+    const swatchRaw = String(m?.swatch ?? "").trim();
+    const swatch = isHex(swatchRaw) ? swatchRaw : undefined;
+    const bgRaw = String(m?.imageBackground ?? "").trim();
+    let imageBackground = isHex(bgRaw) ? bgRaw : undefined;
+
+    let image: string | undefined;
+    if (i === 0) {
+      // Couleur principale : image + fond de l'éditeur principal.
+      image = primaryImage;
+      if (imageBackground === undefined) imageBackground = primaryBackground;
+    } else {
+      const file = uploadedFile(formData, `variantImageFile.${i}`);
+      if (file) image = await saveUpload(file, "designs", `${handle}-${slugify(name)}`);
+      else {
+        const existing = String(m?.image ?? "").trim();
+        if (existing.startsWith("/designs/")) image = existing;
+      }
+    }
+    if (!image) throw new Error(`Image manquante pour la couleur « ${name} ».`);
+    variants.push({ name, swatch, image, imageBackground });
+  }
+  return variants;
+}
+
 export async function createDesignAction(_prev: ActionState, formData: FormData): Promise<ActionState> {
   await requireAdmin();
   const parsed = parseDesignForm(formData);
@@ -204,11 +272,18 @@ export async function createDesignAction(_prev: ActionState, formData: FormData)
   }
   // Flux image-first : un design se crée à partir d'une image téléversée.
   if (!image) return { error: "Une image est requise pour créer un design." };
+  let variants: ProductVariant[] | undefined;
+  try {
+    variants = await resolveVariants(formData, product.handle, image, product.imageBackground);
+  } catch (e) {
+    return { error: (e as Error).message };
+  }
   await upsertDesign({
     ...product,
-    image,
+    image, // = variants[0].image (couleur principale) le cas échéant
     imageTransform: image ? product.imageTransform : undefined,
-    imageBackground: image ? product.imageBackground : undefined,
+    imageBackground: variants?.[0]?.imageBackground ?? (image ? product.imageBackground : undefined),
+    variants,
     rating: 5,
     reviewCount: 0,
   });
@@ -251,11 +326,19 @@ export async function updateDesignAction(previousHandle: string, _prev: ActionSt
   } catch (e) {
     return { error: (e as Error).message };
   }
+  let variants: ProductVariant[] | undefined;
+  try {
+    variants = await resolveVariants(formData, product.handle, image, product.imageBackground);
+  } catch (e) {
+    return { error: (e as Error).message };
+  }
   await upsertDesign(
     {
       ...product,
-      image,
+      image, // = variants[0].image (couleur principale) le cas échéant
       imageTransform: image ? product.imageTransform : undefined,
+      imageBackground: variants?.[0]?.imageBackground ?? product.imageBackground,
+      variants,
       rating: existing.rating,
       reviewCount: existing.reviewCount,
     },

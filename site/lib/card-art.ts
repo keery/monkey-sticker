@@ -9,7 +9,7 @@
 //   s'imprime, sans jamais passer par un autre logiciel.
 
 import type { ImageTransform } from "./products";
-import { CARD } from "./site";
+import { CARD, CARD_NOTCH } from "./site";
 
 // Repère commun (dixièmes de mm) — mêmes dimensions que CardDesign.
 const W = Math.round(CARD.widthMm * 10); // 856
@@ -42,6 +42,41 @@ export function normalizeTransform(raw: unknown): ImageTransform {
     y: round(clamp(num(o.y, 0), -3, 3)),
     rotation: round(rotation),
   };
+}
+
+// Silhouette de la carte (coins arrondis + encoche optionnelle) sous forme d'un
+// `d` de <path>, dans un repère `w`×`h`. Deux usages :
+//   · w = h = 1 → coordonnées objectBoundingBox pour un `clip-path` CSS
+//     responsive (l'encoche reste ronde car les rayons sont donnés séparément en
+//     x et en y, ÷ largeur / ÷ hauteur, puis réétirés par le ratio de la carte) ;
+//   · w = 856, h = 540 → repère userSpace du SVG CardDesign (dixièmes de mm).
+// L'encoche est un demi-cercle concave sur le bord droit (voir CARD_NOTCH) ;
+// parcours horaire → le repli vers l'intérieur se fait avec sweep-flag 0.
+export function cardSilhouetteD(notch: boolean, w = 1, h = 1): string {
+  const p = 100000; // arrondi fin (les coords objectBoundingBox valent < 1)
+  const rr = (n: number) => Math.round(n * p) / p;
+  const crx = rr((CARD.cornerRadiusMm / CARD.widthMm) * w);
+  const cry = rr((CARD.cornerRadiusMm / CARD.heightMm) * h);
+  const rx = rr((CARD_NOTCH.rMm / CARD.widthMm) * w);
+  const ry = rr((CARD_NOTCH.rMm / CARD.heightMm) * h);
+  const cy = rr((CARD_NOTCH.cyMm / CARD.heightMm) * h);
+  const W = rr(w);
+  const H = rr(h);
+  const rightEdge = notch
+    ? `V ${rr(cy - ry)} A ${rx} ${ry} 0 0 0 ${W} ${rr(cy + ry)} V ${rr(H - cry)}`
+    : `V ${rr(H - cry)}`;
+  return [
+    `M ${crx} 0`,
+    `H ${rr(W - crx)}`,
+    `A ${crx} ${cry} 0 0 1 ${W} ${cry}`,
+    rightEdge,
+    `A ${crx} ${cry} 0 0 1 ${rr(W - crx)} ${H}`,
+    `H ${crx}`,
+    `A ${crx} ${cry} 0 0 1 0 ${rr(H - cry)}`,
+    `V ${cry}`,
+    `A ${crx} ${cry} 0 0 1 ${crx} 0`,
+    `Z`,
+  ].join(" ");
 }
 
 /** Chaîne `transform` du <g> SVG plaçant l'image dans le repère `w`×`h`.

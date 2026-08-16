@@ -7,6 +7,7 @@
 
 import { headers } from "next/headers";
 import { getProductByHandle } from "./catalog";
+import { hasColorVariants } from "./products";
 import {
   createOrder,
   setOrderSession,
@@ -75,15 +76,39 @@ async function rebuildOrderItems(raw: RawCartItem[]): Promise<OrderItem[]> {
     if (product.kind === "custom" && !customImage) {
       throw new Error("Un design personnalisé n'a pas d'image. Recommence la création.");
     }
+
+    // Options du panier assainies (générique). Pour un produit à variantes de
+    // couleur, la couleur choisie détermine l'image/fond imprimés : on la
+    // valide contre le catalogue serveur (le client ne peut pas en injecter une
+    // arbitraire) et on fige image + cadrage + fond sur la ligne de commande.
+    const options = sanitizeOptions(r.options);
+    let image = product.image;
+    let imageTransform = undefined as (typeof product)["imageTransform"] | undefined;
+    let imageBackground = undefined as string | undefined;
+    if (hasColorVariants(product)) {
+      const chosen = options?.Couleur;
+      const variant = product.variants!.find((v) => v.name === chosen);
+      if (!variant) {
+        throw new Error(`Choisis une couleur pour « ${product.name} ».`);
+      }
+      image = variant.image;
+      // cadrage partagé (couleur principale) ; fond propre à la couleur, sinon
+      // fond du produit. Figés ici : l'impression ne les résout pas par handle.
+      imageTransform = product.imageTransform;
+      imageBackground = variant.imageBackground ?? product.imageBackground;
+    }
+
     items.push({
       handle: product.handle,
       name: product.name,
       price: product.price, // ← prix serveur, source de vérité
       qty,
       kind: product.kind,
-      options: sanitizeOptions(r.options),
+      options,
       theme: product.theme,
-      image: product.image,
+      image,
+      imageTransform,
+      imageBackground,
       customImage,
     });
   }
@@ -163,7 +188,14 @@ export async function createCheckoutSessionAction(
         unit_amount: Math.round(it.price * 100),
         product_data: {
           name: it.name,
-          description: it.options?.Puce ? `${dict.checkout.optionChip} : ${it.options.Puce}` : undefined,
+          description:
+            [
+              it.options?.Couleur ? `${dict.checkout.optionColor} : ${it.options.Couleur}` : null,
+              it.options?.Puce ? `${dict.checkout.optionChip} : ${it.options.Puce}` : null,
+              it.options?.Encoche ? dict.checkout.optionNotch : null,
+            ]
+              .filter(Boolean)
+              .join(" · ") || undefined,
         },
       },
     }));

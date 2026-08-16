@@ -2,7 +2,7 @@
 // objet complet en JSONB). NE PAS importer côté client.
 
 import { pool, ensureSchema } from "./db";
-import type { Theme } from "./products";
+import type { ImageTransform, Theme } from "./products";
 import { computeOrderTotals, type OrderTotals } from "./order-math";
 
 // Statut de traitement (production / logistique).
@@ -25,7 +25,12 @@ export interface OrderItem {
   options?: Record<string, string>;
   customImage?: string; // dataURL (commandes personnalisées)
   theme?: Theme;
-  image?: string; // artwork catalogue (/designs/…)
+  image?: string; // artwork catalogue (/designs/…) — image de la couleur choisie si variante
+  /** cadrage/fond figés à la commande — renseignés pour les articles à variante
+   * de couleur (l'image de la couleur ne partage pas le cadrage résolu par handle,
+   * qui vaut la couleur principale). Absent = résolu par handle à l'impression. */
+  imageTransform?: ImageTransform;
+  imageBackground?: string;
 }
 
 /** Coordonnées client renvoyées par Stripe Checkout (adresse de livraison). */
@@ -306,6 +311,9 @@ export interface PrintUnit {
   image?: string;
   customImage?: string;
   options?: Record<string, string>;
+  /** cadrage/fond figés (article à variante) — priment sur la résolution par handle. */
+  imageTransform?: ImageTransform;
+  imageBackground?: string;
 }
 
 export function flattenPrintUnits(orders: Order[]): PrintUnit[] {
@@ -322,6 +330,8 @@ export function flattenPrintUnits(orders: Order[]): PrintUnit[] {
           image: it.image,
           customImage: it.customImage,
           options: it.options,
+          imageTransform: it.imageTransform,
+          imageBackground: it.imageBackground,
         });
       }
     }

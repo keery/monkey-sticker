@@ -98,6 +98,22 @@
       }
     }
   },
+  "notch": {
+    "ariaLabel": "Kerbe der Karte",
+    "hint": "Manche Karten haben eine kleine Kerbe an der dem Chip gegenüberliegenden Kante (Tasthilfe für den Finger, Einsteckrichtung). Sag uns, ob deine eine hat, damit wir sie passgenau schneiden.",
+    "options": {
+      "none": {
+        "label": "Ohne Kerbe",
+        "hint": "gerade Kartenkante",
+        "tag": "Am häufigsten"
+      },
+      "notch": {
+        "label": "Mit Kerbe",
+        "hint": "kleine Markierung an der Kante",
+        "tag": ""
+      }
+    }
+  },
   "checkout": {
     "button": "Zur Kasse",
     "buttonBusy": "Weiterleitung…",
@@ -107,6 +123,8 @@
     "shippingFree": "Kostenloser Versand (verfolgbarer Brief)",
     "shippingTracked": "Verfolgbarer Brief",
     "optionChip": "Chip",
+    "optionNotch": "Kerbe",
+    "optionColor": "Farbe",
     "errEmpty": "Dein Warenkorb ist leer.",
     "errUnconfigured": "Die Zahlung ist noch nicht aktiviert. Komm gleich wieder.",
     "errUnreadable": "Warenkorb konnte nicht gelesen werden.",
@@ -121,7 +139,15 @@
       "titleLine1": "Deine Karte,",
       "titleLine2": "aufgewertet.",
       "subtitle": "Passgenau auf die Maße deiner Karte zugeschnitten, Chip-Fenster inklusive. In 30 Sekunden drauf, rückstandslos wieder ab.",
-      "reviews": "{count} Bewertungen"
+      "reviews": "{count} Bewertungen",
+      "bogo": "1 gekauft = 1 gratis",
+      "cardAlt": "{name}, Sticker auf einer Bankkarte",
+      "video": {
+        "title": "Das Anbringen, gefilmt",
+        "duration": "0:30",
+        "teaser": "Bald",
+        "play": "Video abspielen"
+      }
     },
     "sections": {
       "bestsellers": {
@@ -884,6 +910,9 @@
       "other": "davon {count} gratis"
     },
     "chipHeading": "Der Chip deiner Karte",
+    "notchHeading": "Kerbe der Karte",
+    "colorHeading": "Wähle deine Farbe",
+    "variantSwatchLabel": "{color} ansehen",
     "includedTitle": "Bei jeder Bestellung inklusive",
     "includedItems": [
       "Anbringungs-Kit: Ausrichthilfe, Rakel, Tuch",

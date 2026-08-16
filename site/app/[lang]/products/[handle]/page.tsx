@@ -7,8 +7,8 @@ import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { localizedProduct } from "@/lib/i18n/catalog";
 import { interpolate, plural } from "@/lib/i18n/interpolate";
 import { LocaleLink } from "@/components/LocaleLink";
-import { CardVisual } from "@/components/CardVisual";
 import { ChipSelectionProvider, LiveCardVisual } from "@/components/ChipSelection";
+import { VariantStage } from "@/components/VariantStage";
 import { Stars } from "@/components/Stars";
 import { Accordion } from "@/components/Accordion";
 import { VitrineTile } from "@/components/VitrineTile";
@@ -75,12 +75,13 @@ export default async function ProductPage(props: PageProps<"/[lang]/products/[ha
             <div className="lg:sticky lg:top-24">
               <Reveal className="px-4 sm:px-10 pt-8 pb-4">
                 <Tilt3DCard glow={[c1, c2]} className="-rotate-2">
-                  <LiveCardVisual
+                  <VariantStage
                     image={product.image}
                     theme={product.theme}
                     seed={product.handle}
                     transform={product.imageTransform}
                     background={product.imageBackground}
+                    variants={product.variants}
                     className="w-full drop-shadow-2xl"
                   />
                 </Tilt3DCard>
@@ -91,7 +92,7 @@ export default async function ProductPage(props: PageProps<"/[lang]/products/[ha
                     className="glow-tile glow-on"
                     style={{ "--g1": `${c1}59`, "--g2": `${c2}59` } as CSSProperties}
                   >
-                    <CardVisual
+                    <LiveCardVisual
                       image={product.image}
                       theme={product.theme}
                       seed={`${product.handle}-alt`}

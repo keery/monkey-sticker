@@ -27,6 +27,17 @@ export const CARD = {
   ratio: 85.6 / 53.98,
 } as const;
 
+// Encoche d'accessibilité (repère tactile) : demi-cercle découpé dans le bord
+// COURT opposé à la puce (donc le bord droit, la puce étant à gauche), centré en
+// hauteur — position des cartes type Mastercard Touch Card / cartes « à encoche »
+// européennes, qui sert à repérer le sens d'insertion au toucher. Cotes
+// indicatives, ajustables : `cyMm` = centre vertical, `rMm` = rayon (profondeur
+// de l'encoche = rMm, largeur sur le bord = 2·rMm).
+export const CARD_NOTCH = {
+  cyMm: 53.98 / 2,
+  rMm: 3.5,
+} as const;
+
 // Les cartes n'ont pas toutes le même module puce : grande plaque 8 contacts
 // (presque carrée) ou petite plaque 6 contacts (plus large que haute, la plus
 // courante — cartes récentes). La fenêtre découpée s'adapte ; « sans puce »
@@ -61,6 +72,17 @@ export const CHIP_PLATES: Record<Exclude<ChipSize, "none">, { wMm: number; hMm: 
   large: { wMm: 12.6, hMm: 11.4 },
   small: { wMm: 10.6, hMm: 8.0 },
 } as const;
+
+// Encoche / repère tactile : certaines cartes ont une petite encoche sur le bord
+// opposé à la puce (repère de préhension, sens d'insertion). Le client indique
+// si SA carte en a une, pour une découpe qui respecte ce détail. Comme pour la
+// puce, la valeur stockée dans les options du panier est canonique (FR) ; on ne
+// l'ajoute que lorsqu'une encoche est demandée (« sans encoche » = carte
+// standard, aucune action de production).
+export type NotchChoice = "none" | "notch";
+
+/** Clé et valeur de l'option encoche dans les options du panier / la commande. */
+export const NOTCH_OPTION = { key: "Encoche", value: "Oui" } as const;
 
 export const CHIP_SIZES: {
   key: ChipSize;

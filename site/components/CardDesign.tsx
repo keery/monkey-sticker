@@ -4,6 +4,7 @@
 
 import { CARD, CHIP_PLATES, type ChipSize } from "@/lib/site";
 import type { Theme } from "@/lib/products";
+import { cardSilhouetteD } from "@/lib/card-art";
 
 // viewBox en dixièmes de mm : 856 × 540 (arrondi 539,8)
 const W = 856;
@@ -177,6 +178,7 @@ export function CardDesign({
   seed,
   showChip = true,
   chipSize = "small",
+  notch = false,
   className,
   preserveAspectRatio,
 }: {
@@ -185,6 +187,8 @@ export function CardDesign({
   showChip?: boolean;
   /** format de la puce dessinée — "none" = aucune puce (par défaut petite) */
   chipSize?: ChipSize;
+  /** découpe l'encoche d'accessibilité sur le bord droit (repère tactile) */
+  notch?: boolean;
   className?: string;
   // "xMidYMid slice" (= cover) pour remplir une zone au ratio différent, ex.
   // la couche de fond perdu à l'impression. Défaut navigateur = meet (contain).
@@ -192,6 +196,8 @@ export function CardDesign({
 }) {
   const gid = `g-${seed.replace(/[^a-z0-9]/gi, "")}`;
   const p = chipSize === "none" ? null : plate(chipSize);
+  // Silhouette (userSpace 856×540) : rectangle arrondi + encoche si demandée.
+  const notchPath = notch ? cardSilhouetteD(true, W, H) : null;
   return (
     <svg
       viewBox={`0 0 ${W} ${H}`}
@@ -207,7 +213,7 @@ export function CardDesign({
           ))}
         </linearGradient>
         <clipPath id={`${gid}-clip`}>
-          <rect x="0" y="0" width={W} height={H} rx={R} />
+          {notchPath ? <path d={notchPath} /> : <rect x="0" y="0" width={W} height={H} rx={R} />}
         </clipPath>
         <linearGradient id={`${gid}-chip`} x1="0%" y1="0%" x2="100%" y2="100%">
           <stop offset="0%" stopColor="#e8c86e" />
@@ -241,16 +247,20 @@ export function CardDesign({
           />
         </g>
       )}
-      <rect
-        x="1.5"
-        y="1.5"
-        width={W - 3}
-        height={H - 3}
-        rx={R}
-        fill="none"
-        stroke={theme.dark ? "#ffffff26" : "#00000014"}
-        strokeWidth="3"
-      />
+      {notchPath ? (
+        <path d={notchPath} fill="none" stroke={theme.dark ? "#ffffff26" : "#00000014"} strokeWidth="3" />
+      ) : (
+        <rect
+          x="1.5"
+          y="1.5"
+          width={W - 3}
+          height={H - 3}
+          rx={R}
+          fill="none"
+          stroke={theme.dark ? "#ffffff26" : "#00000014"}
+          strokeWidth="3"
+        />
+      )}
     </svg>
   );
 }

@@ -169,7 +169,9 @@ export default async function OrderDetailPage({
                 <p className="truncate text-sm font-semibold text-ivory">{it.name}</p>
                 <p className="text-xs text-ivory-dim">
                   <span className="tabular-nums">{it.qty}×</span>
+                  {it.options?.Couleur ? ` · ${dict.checkout.optionColor} ${it.options.Couleur.toLowerCase()}` : ""}
                   {it.options?.Puce ? ` · ${dict.checkout.optionChip} ${it.options.Puce.toLowerCase()}` : ""}
+                  {it.options?.Encoche ? ` · ${dict.checkout.optionNotch.toLowerCase()}` : ""}
                   {it.qty > 1 ? ` · ${formatPrice(it.price, locale)} ${dict.account.unitEach}` : ""}
                 </p>
               </div>

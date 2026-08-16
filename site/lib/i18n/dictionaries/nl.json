@@ -98,6 +98,22 @@
       }
     }
   },
+  "notch": {
+    "ariaLabel": "Inkeping van de kaart",
+    "hint": "Sommige kaarten hebben een kleine inkeping aan de rand tegenover de chip (tastbare vingergeleiding, insteekrichting). Geef aan of de jouwe er een heeft, zodat we hem precies uitsnijden.",
+    "options": {
+      "none": {
+        "label": "Geen inkeping",
+        "hint": "rechte kaartrand",
+        "tag": "Meest voorkomend"
+      },
+      "notch": {
+        "label": "Met inkeping",
+        "hint": "kleine markering op de rand",
+        "tag": ""
+      }
+    }
+  },
   "checkout": {
     "button": "Afrekenen",
     "buttonBusy": "Doorsturen…",
@@ -107,6 +123,8 @@
     "shippingFree": "Gratis verzending (brief met tracking)",
     "shippingTracked": "Brief met tracking",
     "optionChip": "Chip",
+    "optionNotch": "Inkeping",
+    "optionColor": "Kleur",
     "errEmpty": "Je winkelmand is leeg.",
     "errUnconfigured": "Betalen is nog niet ingeschakeld. Kom zo terug.",
     "errUnreadable": "Winkelmand kon niet worden gelezen.",
@@ -121,7 +139,15 @@
       "titleLine1": "Je pas,",
       "titleLine2": "beter dan ooit.",
       "subtitle": "Op de exacte afmetingen van je pas gesneden, inclusief chipvenster. In 30 seconden erop, spoorloos eraf.",
-      "reviews": "{count} reviews"
+      "reviews": "{count} reviews",
+      "bogo": "1 gekocht = 1 gratis",
+      "cardAlt": "{name}, sticker op een bankpas",
+      "video": {
+        "title": "Het aanbrengen, gefilmd",
+        "duration": "0:30",
+        "teaser": "Binnenkort",
+        "play": "Video afspelen"
+      }
     },
     "sections": {
       "bestsellers": {
@@ -561,6 +587,9 @@
       "other": "waarvan {count} gratis"
     },
     "chipHeading": "De chip van je pas",
+    "notchHeading": "Inkeping van de kaart",
+    "colorHeading": "Kies je kleur",
+    "variantSwatchLabel": "{color} bekijken",
     "includedTitle": "Inbegrepen bij elke bestelling",
     "includedItems": [
       "Aanbrengkit: uitlijnhouder, rakel, doekje",

@@ -98,6 +98,22 @@
       }
     }
   },
+  "notch": {
+    "ariaLabel": "Card notch",
+    "hint": "Some cards have a small notch on the edge opposite the chip (a tactile finger guide / insertion cue). Tell us if yours has one so we cut it just right.",
+    "options": {
+      "none": {
+        "label": "No notch",
+        "hint": "straight card edge",
+        "tag": "Most common"
+      },
+      "notch": {
+        "label": "With notch",
+        "hint": "small cue on the edge",
+        "tag": ""
+      }
+    }
+  },
   "checkout": {
     "button": "Checkout",
     "buttonBusy": "Redirecting…",
@@ -107,6 +123,8 @@
     "shippingFree": "Free shipping (tracked letter)",
     "shippingTracked": "Tracked letter",
     "optionChip": "Chip",
+    "optionNotch": "Notch",
+    "optionColor": "Color",
     "errEmpty": "Your cart is empty.",
     "errUnconfigured": "Payment isn't enabled yet. Come back in a moment.",
     "errUnreadable": "Cart could not be read.",
@@ -118,7 +136,15 @@
       "titleLine1": "Your card,",
       "titleLine2": "upgraded.",
       "subtitle": "Cut to the exact dimensions of your card, chip window included. On in 30 seconds, off without a trace.",
-      "reviews": "{count} reviews"
+      "reviews": "{count} reviews",
+      "bogo": "Buy one, get one free",
+      "cardAlt": "{name}, sticker on a bank card",
+      "video": {
+        "title": "The application, filmed",
+        "duration": "0:30",
+        "teaser": "Coming soon",
+        "play": "Play the video"
+      }
     },
     "sections": {
       "bestsellers": {
@@ -884,6 +910,9 @@
       "other": "including {count} free"
     },
     "chipHeading": "Your card's chip",
+    "notchHeading": "Card notch",
+    "colorHeading": "Choose your color",
+    "variantSwatchLabel": "View {color}",
     "includedTitle": "Included with every order",
     "includedItems": [
       "Application kit: alignment cradle, squeegee, wipe",

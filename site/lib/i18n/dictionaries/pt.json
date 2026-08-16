@@ -98,6 +98,22 @@
       }
     }
   },
+  "notch": {
+    "ariaLabel": "Entalhe do cartão",
+    "hint": "Alguns cartões têm um pequeno entalhe na borda oposta ao chip (guia tátil para o dedo, sentido de inserção). Diz-nos se o teu tem um para recortarmos com precisão.",
+    "options": {
+      "none": {
+        "label": "Sem entalhe",
+        "hint": "borda reta do cartão",
+        "tag": "O mais comum"
+      },
+      "notch": {
+        "label": "Com entalhe",
+        "hint": "pequena marca na borda",
+        "tag": ""
+      }
+    }
+  },
   "checkout": {
     "button": "Finalizar compra",
     "buttonBusy": "A redirecionar…",
@@ -107,6 +123,8 @@
     "shippingFree": "Envio grátis (carta com seguimento)",
     "shippingTracked": "Carta com seguimento",
     "optionChip": "Chip",
+    "optionNotch": "Entalhe",
+    "optionColor": "Cor",
     "errEmpty": "O teu carrinho está vazio.",
     "errUnconfigured": "O pagamento ainda não está ativado. Volta daqui a pouco.",
     "errUnreadable": "Não foi possível ler o carrinho.",
@@ -121,7 +139,15 @@
       "titleLine1": "O teu cartão,",
       "titleLine2": "melhorado.",
       "subtitle": "Cortado às medidas exatas do teu cartão, janela do chip incluída. Aplica-se em 30 segundos, remove-se sem deixar vestígios.",
-      "reviews": "{count} avaliações"
+      "reviews": "{count} avaliações",
+      "bogo": "1 comprado = 1 grátis",
+      "cardAlt": "{name}, sticker sobre cartão bancário",
+      "video": {
+        "title": "A aplicação, filmada",
+        "duration": "0:30",
+        "teaser": "Em breve",
+        "play": "Reproduzir o vídeo"
+      }
     },
     "sections": {
       "bestsellers": {
@@ -884,6 +910,9 @@
       "other": "incluindo {count} grátis"
     },
     "chipHeading": "O chip do teu cartão",
+    "notchHeading": "Entalhe do cartão",
+    "colorHeading": "Escolhe a tua cor",
+    "variantSwatchLabel": "Ver {color}",
     "includedTitle": "Incluído em cada encomenda",
     "includedItems": [
       "Kit de aplicação: berço de alinhamento, espátula, toalhete",

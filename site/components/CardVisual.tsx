@@ -6,7 +6,7 @@
 
 import { CARD, CHIP_PLATES, type ChipSize } from "@/lib/site";
 import type { ImageTransform, Theme } from "@/lib/products";
-import { ART_VIEWBOX, IDENTITY_TRANSFORM, svgArtTransform } from "@/lib/card-art";
+import { ART_VIEWBOX, IDENTITY_TRANSFORM, cardSilhouetteD, svgArtTransform } from "@/lib/card-art";
 import { CardDesign } from "./CardDesign";
 
 const CHIP = {
@@ -34,6 +34,7 @@ export function CardVisual({
   background,
   showChip = true,
   chipSize = "small",
+  notch = false,
   className,
 }: {
   image?: string;
@@ -46,22 +47,40 @@ export function CardVisual({
   showChip?: boolean;
   /** format de la puce dessinée — "none" = aucune puce (par défaut petite) */
   chipSize?: ChipSize;
+  /** découpe l'encoche d'accessibilité sur le bord droit (repère tactile) */
+  notch?: boolean;
   className?: string;
 }) {
   if (!image) {
-    return <CardDesign theme={theme} seed={seed} showChip={showChip} chipSize={chipSize} className={className} />;
+    return <CardDesign theme={theme} seed={seed} showChip={showChip} chipSize={chipSize} notch={notch} className={className} />;
   }
   const t = transform ?? IDENTITY_TRANSFORM;
   const bg = background ?? theme.colors[0];
   const plate = chipSize === "none" ? null : plateInset(chipSize);
+  // Encoche : on découpe toute la silhouette (artwork + puce + liseré) via un
+  // clip-path en coordonnées objectBoundingBox → responsive et demi-cercle rond.
+  // Id dérivé de la graine pour rester unique quand plusieurs cartes coexistent.
+  const clipId = `notch-${seed.replace(/[^a-z0-9]/gi, "")}`;
+  const clip = notch ? `url(#${clipId})` : undefined;
   return (
     <div
       className={`relative overflow-hidden ${className ?? ""}`}
       style={{
         aspectRatio: `${CARD.widthMm} / ${CARD.heightMm}`,
         borderRadius: `${RX.toFixed(2)}% / ${RY.toFixed(2)}%`,
+        clipPath: clip,
+        WebkitClipPath: clip,
       }}
     >
+      {notch && (
+        <svg width="0" height="0" aria-hidden className="absolute">
+          <defs>
+            <clipPath id={clipId} clipPathUnits="objectBoundingBox">
+              <path d={cardSilhouetteD(true)} />
+            </clipPath>
+          </defs>
+        </svg>
+      )}
       {/* Image placée dans le repère carte (dixièmes de mm). `slice` = cover ;
           le <g> applique échelle / position / rotation. Le fond reprend la
           couleur du thème pour ne pas laisser de vide si l'image ne couvre plus

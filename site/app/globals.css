@@ -14,6 +14,9 @@
   --color-ivory-dim: oklch(0.74 0.02 78);
   --color-flame: oklch(0.71 0.185 42);
   --color-flame-deep: oklch(0.62 0.19 40);
+  /* Courbe d'apparition maison (ease-out-expo) : le mouvement est de la lumière,
+     jamais un rebond. → utilitaires `ease-out-expo` / `transition-*`. */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 @theme inline {
@@ -274,6 +277,125 @@
 }
 
 /* ---------------------------------------------------------------- */
+/* Hero — vitrine vivante : parallaxe de profondeur, matérialisation  */
+/* en cascade, flottement, et téléphone-teaser vidéo 9:16            */
+/* ---------------------------------------------------------------- */
+
+/* Couche de profondeur : décalée au pointeur (variables posées en JS). */
+.hero-layer {
+  transform: translate3d(var(--px, 0px), var(--py, 0px), 0);
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+/* Matérialisation à l'entrée, jouée en CSS dès le premier paint (protège le
+   LCP : le hero ne dépend pas de l'hydratation pour apparaître). */
+@keyframes hero-materialize {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.94);
+    filter: blur(7px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+.hero-enter {
+  animation: hero-materialize 0.95s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Flottement lent (réutilise card-float) — cadence variée par carte. */
+.hero-bob {
+  animation: card-float var(--bob-dur, 7s) ease-in-out infinite;
+  animation-delay: var(--bob-delay, 0s);
+}
+
+/* Téléphone-teaser vidéo (format vertical 9:16). */
+.hero-phone {
+  position: relative;
+  aspect-ratio: 9 / 16;
+  border-radius: clamp(1.1rem, 3vw, 1.7rem);
+  padding: 3.5%;
+  background: linear-gradient(150deg, oklch(0.27 0.012 65), oklch(0.14 0.012 60));
+  box-shadow:
+    0 30px 60px -22px rgba(0, 0, 0, 0.75),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.09),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.14);
+  isolation: isolate;
+}
+.hero-phone-screen {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: clamp(0.8rem, 2.3vw, 1.3rem);
+  background: oklch(0.12 0.012 60);
+}
+.hero-phone-card {
+  position: absolute;
+  inset-inline: 9%;
+  top: 50%;
+  transform: translateY(-54%) rotate(-3deg);
+}
+.hero-phone-glow {
+  position: absolute;
+  inset: -14%;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(50% 55% at 50% 42%, var(--g1, transparent), transparent 70%),
+    radial-gradient(58% 60% at 62% 72%, var(--g2, transparent), transparent 72%);
+  filter: blur(32px);
+  opacity: 0.55;
+}
+
+/* Bouton lecture : verre translucide, anneau qui pulse pour attirer l'œil. */
+.hero-play {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: clamp(2.3rem, 7vw, 2.9rem);
+  width: clamp(2.3rem, 7vw, 2.9rem);
+  border-radius: 9999px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(8px);
+  box-shadow:
+    0 8px 26px rgba(0, 0, 0, 0.4),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  transition:
+    transform 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 0.2s ease;
+}
+.hero-play::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  animation: hero-pulse 2.8s ease-out infinite;
+}
+button.hero-play:hover {
+  transform: scale(1.08);
+  background: rgba(255, 255, 255, 0.22);
+}
+button.hero-play:active {
+  transform: scale(0.96);
+}
+@keyframes hero-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.38);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+/* ---------------------------------------------------------------- */
 /* Accessibilité : sans JS ou en mouvement réduit, tout est visible  */
 /* ---------------------------------------------------------------- */
 
@@ -317,6 +439,15 @@
     animation: none;
   }
   .tilt-card {
+    transition: none;
+    transform: none;
+  }
+  .hero-enter,
+  .hero-bob,
+  .hero-play::after {
+    animation: none;
+  }
+  .hero-layer {
     transition: none;
     transform: none;
   }

@@ -241,7 +241,11 @@ export default async function PrintBatchPage(props: PageProps<"/admin/print/batc
                 key={i}
                 style={{ position: "absolute", left: `${pos.x}mm`, top: `${pos.y}mm` }}
               >
-                <PrintSticker unit={u} transform={transformByHandle.get(u.handle)} background={backgroundByHandle.get(u.handle)} />
+                <PrintSticker
+                  unit={u}
+                  transform={u.imageTransform ?? transformByHandle.get(u.handle)}
+                  background={u.imageBackground ?? backgroundByHandle.get(u.handle)}
+                />
               </div>
             );
           })}

@@ -42,6 +42,22 @@ export interface ProductI18n {
   badge?: string;
 }
 
+/** Une couleur sélectionnable d'un produit (variante e-commerce classique).
+ * Chaque couleur a sa PROPRE image ; le cadrage (imageTransform) et la puce
+ * sont partagés avec le produit (couleur principale = variants[0], dont l'image
+ * est aussi `product.image`). Nom en français (v1, non traduit) — sert de
+ * valeur d'option « Couleur » sur la commande. */
+export interface ProductVariant {
+  /** libellé couleur affiché au client (ex. « Rouge ») — clé de la commande */
+  name: string;
+  /** pastille de couleur du sélecteur (#RRGGBB) — absent = rendu neutre */
+  swatch?: string;
+  /** artwork propre à cette couleur (chemin sous /public, ex. /designs/slug.svg) */
+  image: string;
+  /** fond de carte propre à cette couleur — absent = fond du produit */
+  imageBackground?: string;
+}
+
 export interface Product {
   handle: string;
   name: string;
@@ -62,8 +78,18 @@ export interface Product {
   badge?: string;
   kind: "sticker" | "accessory" | "custom";
   description?: string;
+  /** couleurs sélectionnables : si ≥ 2 entrées, le client DOIT choisir une
+   * couleur à l'achat. variants[0] = couleur principale (image === product.image,
+   * cadrage/fond du produit) ; les suivantes ont leur propre image. */
+  variants?: ProductVariant[];
   /** traductions par locale (hors langue de base) — voir lib/i18n/catalog.ts */
   i18n?: Partial<Record<Locale, ProductI18n>>;
+}
+
+/** Un produit propose-t-il un choix de couleur obligatoire à l'achat ?
+ * (≥ 2 variantes : la principale + au moins une autre couleur). */
+export function hasColorVariants(product: Product): boolean {
+  return (product.variants?.length ?? 0) >= 2;
 }
 
 export interface CategoryI18n {
