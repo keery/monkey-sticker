@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540">
+  <defs>
+    <!-- Fond : bordeaux cerise profond, gradient it-color 2026 -->
+    <linearGradient id="cvBg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0%" stop-color="#4a0a17"/>
+      <stop offset="34%" stop-color="#6e0f1f"/>
+      <stop offset="70%" stop-color="#8a1226"/>
+      <stop offset="100%" stop-color="#5c0c1a"/>
+    </linearGradient>
+    <!-- Halo lumineux derriere les cerises -->
+    <radialGradient id="cvHalo" cx="50%" cy="46%" r="60%">
+      <stop offset="0%" stop-color="#c9455a" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#a8152e" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#6e0f1f" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Corps de cerise verni : rond, sombre en bas, saturé au centre -->
+    <radialGradient id="cvCherry" cx="38%" cy="34%" r="72%">
+      <stop offset="0%" stop-color="#e8637a"/>
+      <stop offset="26%" stop-color="#c9455a"/>
+      <stop offset="55%" stop-color="#a8152e"/>
+      <stop offset="82%" stop-color="#6e0f1f"/>
+      <stop offset="100%" stop-color="#4a0912"/>
+    </radialGradient>
+    <!-- Second gradient cerise, légèrement décalé pour la 2e cerise -->
+    <radialGradient id="cvCherry2" cx="42%" cy="30%" r="74%">
+      <stop offset="0%" stop-color="#f07d90"/>
+      <stop offset="24%" stop-color="#d24f63"/>
+      <stop offset="54%" stop-color="#a8152e"/>
+      <stop offset="84%" stop-color="#620d1b"/>
+      <stop offset="100%" stop-color="#420810"/>
+    </radialGradient>
+    <!-- Reflet verni vertical (highlight patent) -->
+    <linearGradient id="cvGloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe6ec" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#ffb9c6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffb9c6" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Tige / pédoncule -->
+    <linearGradient id="cvStem" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8a5a2a"/>
+      <stop offset="100%" stop-color="#4a2c12"/>
+    </linearGradient>
+    <!-- Feuille verte cuir -->
+    <linearGradient id="cvLeaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3f6b32"/>
+      <stop offset="100%" stop-color="#1e3a18"/>
+    </linearGradient>
+    <!-- Sol / plan réfléchissant sous les cerises -->
+    <linearGradient id="cvFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a1226" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#3a0810" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="cvSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="cvShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <!-- FOND gradient -->
+  <rect width="856" height="540" fill="url(#cvBg)"/>
+
+  <!-- Sol réfléchissant bas -->
+  <rect x="0" y="440" width="856" height="100" fill="url(#cvFloor)"/>
+  <rect x="0" y="438" width="856" height="4" fill="#e8637a" opacity="0.35"/>
+
+  <!-- Halo lumineux centré sur la scène -->
+  <ellipse cx="560" cy="250" rx="330" ry="280" fill="url(#cvHalo)"/>
+
+  <!-- Points/paillettes glossy discrètes (hors fenêtre puce) -->
+  <g fill="#ffd6de" opacity="0.5">
+    <circle cx="720" cy="70" r="2.4"/><circle cx="800" cy="140" r="1.8"/>
+    <circle cx="640" cy="52" r="1.6"/><circle cx="560" cy="70" r="1.4"/>
+    <circle cx="470" cy="60" r="1.8"/><circle cx="820" cy="300" r="1.6"/>
+    <circle cx="770" cy="360" r="1.5"/><circle cx="410" cy="90" r="1.4"/>
+  </g>
+  <g fill="#a8152e" opacity="0.6">
+    <circle cx="700" cy="470" r="2"/><circle cx="500" cy="490" r="1.8"/>
+    <circle cx="810" cy="480" r="1.6"/><circle cx="600" cy="500" r="1.5"/>
+  </g>
+
+  <!-- ============ PAIRE DE CERISES (centre-droit, hors fenêtre puce) ============ -->
+  <g transform="translate(548,300)">
+
+    <!-- Ombres portées douces au sol -->
+    <ellipse cx="-58" cy="182" rx="86" ry="24" fill="#2e0710" opacity="0.55" filter="url(#cvShadow)"/>
+    <ellipse cx="78" cy="188" rx="92" ry="26" fill="#2e0710" opacity="0.55" filter="url(#cvShadow)"/>
+
+    <!-- Tiges qui se rejoignent -->
+    <path d="M-52 44 C-46 -30 -20 -96 26 -150" fill="none" stroke="url(#cvStem)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M84 54 C70 -20 46 -92 30 -148" fill="none" stroke="url(#cvStem)" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="28" cy="-150" r="6.5" fill="#5a3418"/>
+
+    <!-- Feuille -->
+    <g transform="translate(28,-150)">
+      <path d="M4 -6 C40 -30 96 -34 138 -12 C104 -6 68 10 44 40 C34 18 20 4 4 -6 Z" fill="url(#cvLeaf)"/>
+      <path d="M12 -2 C48 4 88 12 128 -10" fill="none" stroke="#2a4a20" stroke-width="2" opacity="0.8"/>
+      <path d="M40 6 C58 2 74 -2 92 -10" fill="none" stroke="#2a4a20" stroke-width="1.4" opacity="0.6"/>
+      <path d="M34 22 C50 14 66 6 84 -8" fill="none" stroke="#2a4a20" stroke-width="1.4" opacity="0.6"/>
+    </g>
+
+    <!-- CERISE gauche -->
+    <g>
+      <circle cx="-58" cy="86" r="92" fill="url(#cvCherry)"/>
+      <!-- ombre interne bas droite -->
+      <path d="M-58 178 A92 92 0 0 1 -140 40 A70 92 0 0 0 -58 178 Z" fill="#3a0810" opacity="0.35"/>
+      <!-- reflet verni principal -->
+      <ellipse cx="-84" cy="42" rx="26" ry="46" fill="url(#cvGloss)" transform="rotate(-18 -84 42)"/>
+      <!-- petit point spéculaire net -->
+      <circle cx="-92" cy="30" r="9" fill="#fff4f6" opacity="0.9"/>
+      <!-- reflet secondaire bas (rebond du sol) -->
+      <ellipse cx="-30" cy="150" rx="34" ry="12" fill="#e8637a" opacity="0.28"/>
+    </g>
+
+    <!-- CERISE droite (devant, plus grande) -->
+    <g>
+      <circle cx="80" cy="96" r="102" fill="url(#cvCherry2)"/>
+      <path d="M80 198 A102 102 0 0 1 -12 42 A78 102 0 0 0 80 198 Z" fill="#3a0810" opacity="0.35"/>
+      <ellipse cx="50" cy="46" rx="30" ry="54" fill="url(#cvGloss)" transform="rotate(-16 50 46)"/>
+      <circle cx="40" cy="32" r="11" fill="#fff4f6" opacity="0.92"/>
+      <ellipse cx="118" cy="160" rx="40" ry="14" fill="#f07d90" opacity="0.3"/>
+      <!-- fine bande lumineuse latérale droite -->
+      <path d="M170 70 C182 100 182 132 168 162" fill="none" stroke="#ffb9c6" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+    </g>
+  </g>
+
+  <!-- Grande cerise décorative floue en arrière-plan (profondeur), coin haut droit -->
+  <g opacity="0.5" filter="url(#cvSoft)">
+    <circle cx="770" cy="150" r="70" fill="url(#cvCherry)"/>
+    <ellipse cx="748" cy="120" rx="18" ry="32" fill="url(#cvGloss)" transform="rotate(-18 748 120)"/>
+  </g>
+
+  <!-- Liseré fin cadre (finition premium), plein format, coins droits -->
+  <rect x="7" y="7" width="842" height="526" fill="none" stroke="#e8637a" stroke-width="2" opacity="0.35"/>
+  <rect x="13" y="13" width="830" height="514" fill="none" stroke="#3a0810" stroke-width="1.5" opacity="0.5"/>
+</svg>

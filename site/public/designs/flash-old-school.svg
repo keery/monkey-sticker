@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540">
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#f6efdc"/>
+      <stop offset="55%" stop-color="#f0e6d0"/>
+      <stop offset="100%" stop-color="#e2d1aa"/>
+    </radialGradient>
+    <radialGradient id="heartGrad" cx="38%" cy="28%" r="85%">
+      <stop offset="0%" stop-color="#d0494c"/>
+      <stop offset="55%" stop-color="#b32428"/>
+      <stop offset="100%" stop-color="#8a181d"/>
+    </radialGradient>
+    <radialGradient id="roseGrad" cx="40%" cy="32%" r="85%">
+      <stop offset="0%" stop-color="#c8393d"/>
+      <stop offset="60%" stop-color="#b32428"/>
+      <stop offset="100%" stop-color="#911b20"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f2f1e8"/>
+      <stop offset="45%" stop-color="#cdd6d6"/>
+      <stop offset="100%" stop-color="#93a7b2"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddb45f"/>
+      <stop offset="55%" stop-color="#c9973f"/>
+      <stop offset="100%" stop-color="#9a7026"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <path id="st" d="M0 -14 L3.3 -4.5 L13.3 -4.3 L5.3 1.7 L8.2 11.3 L0 5.6 L-8.2 11.3 L-5.3 1.7 L-13.3 -4.3 L-3.3 -4.5 Z"/>
+    <path id="sp" d="M0 -9 L2 -2 L9 0 L2 2 L0 9 L-2 2 L-9 0 L-2 -2 Z"/>
+    <g id="bl" fill="none" stroke="#1f3d54" stroke-width="2">
+      <circle r="4"/>
+      <ellipse cx="0" cy="-11" rx="4.5" ry="7"/>
+      <ellipse cx="0" cy="-11" rx="4.5" ry="7" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-11" rx="4.5" ry="7" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-11" rx="4.5" ry="7" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-11" rx="4.5" ry="7" transform="rotate(288)"/>
+    </g>
+    <g id="dz">
+      <g fill="#b32428" stroke="#1f3d54" stroke-width="2.5">
+        <ellipse cx="0" cy="-10" rx="4.5" ry="8"/>
+        <ellipse cx="0" cy="-10" rx="4.5" ry="8" transform="rotate(60)"/>
+        <ellipse cx="0" cy="-10" rx="4.5" ry="8" transform="rotate(120)"/>
+        <ellipse cx="0" cy="-10" rx="4.5" ry="8" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-10" rx="4.5" ry="8" transform="rotate(240)"/>
+        <ellipse cx="0" cy="-10" rx="4.5" ry="8" transform="rotate(300)"/>
+      </g>
+      <circle r="4.5" fill="#c9973f" stroke="#1f3d54" stroke-width="2.5"/>
+    </g>
+  </defs>
+
+  <!-- ============ FOND PAPIER VIEILLI ============ -->
+  <rect width="856" height="540" fill="url(#paper)"/>
+  <g filter="url(#soft)">
+    <ellipse cx="640" cy="120" rx="70" ry="42" fill="#c9973f" opacity=".08"/>
+    <ellipse cx="200" cy="484" rx="80" ry="44" fill="#c9973f" opacity=".07"/>
+    <ellipse cx="110" cy="240" rx="55" ry="60" fill="#c9973f" opacity=".06"/>
+    <ellipse cx="440" cy="310" rx="120" ry="70" fill="#f8f2e0" opacity=".35"/>
+  </g>
+
+  <!-- Motif floral d'ambiance (traverse la fenetre puce, tres discret) -->
+  <g opacity=".09">
+    <use href="#bl" transform="translate(150 245) scale(1.3)"/>
+    <use href="#bl" transform="translate(96 168) scale(.9) rotate(20)"/>
+    <use href="#bl" transform="translate(300 350) scale(1.1) rotate(-15)"/>
+    <use href="#bl" transform="translate(388 470) scale(.9)"/>
+    <use href="#bl" transform="translate(820 240) scale(1.2) rotate(30)"/>
+    <use href="#bl" transform="translate(636 60) scale(.8)"/>
+    <use href="#bl" transform="translate(56 420) scale(.8) rotate(45)"/>
+    <path d="M120 300 Q150 280 148 250 Q146 226 170 214" fill="none" stroke="#1f3d54" stroke-width="2"/>
+    <path d="M760 400 Q740 430 756 458 Q770 482 750 506" fill="none" stroke="#1f3d54" stroke-width="2"/>
+  </g>
+
+  <!-- Cadre planche de flash -->
+  <rect x="14" y="14" width="828" height="512" fill="none" stroke="#1f3d54" stroke-width="2" opacity=".35"/>
+  <rect x="26" y="26" width="804" height="488" fill="none" stroke="#1f3d54" stroke-width="1.5" opacity=".18" stroke-dasharray="1 7" stroke-linecap="round"/>
+  <path d="M32 26 L37 32 L32 38 L27 32 Z" fill="#b32428" opacity=".7"/>
+  <path d="M32 502 L37 508 L32 514 L27 508 Z" fill="#b32428" opacity=".7"/>
+  <path d="M824 502 L829 508 L824 514 L819 508 Z" fill="#b32428" opacity=".7"/>
+
+  <!-- ============ BANNIERE TITRE ============ -->
+  <g>
+    <path d="M312 48 L266 56 L284 64 L268 76 L316 80 Z" fill="#e3d5b2" stroke="#1f3d54" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M600 48 L646 56 L628 64 L644 76 L596 80 Z" fill="#e3d5b2" stroke="#1f3d54" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M310 44 C368 35 542 35 600 44 L596 84 C540 75 372 75 314 84 Z" fill="#efe4c8" stroke="#1f3d54" stroke-width="3.5" stroke-linejoin="round"/>
+    <text x="455" y="70" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="bold" letter-spacing="6" fill="#1f3d54">OLD SCHOOL</text>
+    <text x="455" y="112" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="4" fill="#b32428">★ TATTOO FLASH ★</text>
+  </g>
+
+  <!-- Nº 13 porte-bonheur -->
+  <g>
+    <circle cx="806" cy="54" r="21" fill="none" stroke="#1f3d54" stroke-width="3"/>
+    <text x="806" y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="bold" fill="#b32428">13</text>
+  </g>
+
+  <!-- ============ HIRONDELLE (haut gauche, au-dessus de la puce) ============ -->
+  <g transform="translate(0,-6)">
+    <!-- aile arriere -->
+    <path d="M150 70 C128 46 100 36 74 40 C96 50 110 64 118 82 C128 74 140 70 150 70 Z" fill="#33566f" stroke="#1f3d54" stroke-width="3" stroke-linejoin="round"/>
+    <!-- corps + queue fourchue -->
+    <path d="M216 78 C212 66 200 58 186 60 C168 62 148 72 130 86 C114 98 98 110 84 120 L100 124 L74 148 L106 138 C124 132 144 124 160 112 C178 100 196 90 208 86 Z" fill="#1f3d54" stroke="#16303f" stroke-width="2" stroke-linejoin="round"/>
+    <!-- bec -->
+    <path d="M216 76 L234 84 L214 90 Z" fill="#c9973f" stroke="#1f3d54" stroke-width="2" stroke-linejoin="round"/>
+    <!-- poitrail rouge -->
+    <path d="M206 84 C196 92 184 100 172 108 C174 96 184 86 196 80 C200 80 204 82 206 84 Z" fill="#b32428"/>
+    <!-- aile avant -->
+    <path d="M176 66 C168 40 148 22 120 16 C136 32 144 48 146 66 C156 60 166 62 176 66 Z" fill="#16303f" stroke="#1f3d54" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M134 34 C142 46 146 56 147 65" fill="none" stroke="#f0e6d0" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+    <!-- ventre clair -->
+    <path d="M108 136 C130 128 150 118 166 106" fill="none" stroke="#f0e6d0" stroke-width="4" stroke-linecap="round" opacity=".85"/>
+    <!-- oeil -->
+    <circle cx="197" cy="70" r="3.4" fill="#f0e6d0"/>
+    <circle cx="198" cy="70.5" r="1.6" fill="#16303f"/>
+  </g>
+
+  <!-- ============ COEUR « MAMAN » (centre) ============ -->
+  <g>
+    <path d="M461 400 C406 356 368 320 368 272 C368 240 392 220 420 220 C438 220 454 230 461 246 C468 230 484 220 502 220 C530 220 554 240 554 272 C554 320 516 356 461 400 Z" fill="#1f3d54" opacity=".12"/>
+    <path d="M455 392 C400 348 362 312 362 264 C362 232 386 212 414 212 C432 212 448 222 455 238 C462 222 478 212 496 212 C524 212 548 232 548 264 C548 312 510 348 455 392 Z" fill="url(#heartGrad)" stroke="#1f3d54" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M496 220 C520 224 540 240 540 264 C540 296 514 328 470 366 C506 330 528 300 528 268 C528 244 514 228 496 220 Z" fill="#8a181d" opacity=".55"/>
+    <path d="M396 240 C402 228 416 220 428 222 C418 228 408 238 402 252 C398 248 395 244 396 240 Z" fill="#f0e6d0" opacity=".8"/>
+    <circle cx="412" cy="262" r="4" fill="#f0e6d0" opacity=".55"/>
+    <!-- banderole -->
+    <path d="M366 280 L322 268 L340 296 L326 322 L370 320 Z" fill="#e3d5b2" stroke="#1f3d54" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M544 280 L588 268 L572 296 L586 322 L542 320 Z" fill="#e3d5b2" stroke="#1f3d54" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M356 274 C410 264 500 264 554 274 L548 320 C500 310 410 310 362 320 Z" fill="#efe4c8" stroke="#1f3d54" stroke-width="4" stroke-linejoin="round"/>
+    <text x="455" y="308" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="bold" letter-spacing="8" fill="#1f3d54">MAMAN</text>
+  </g>
+
+  <!-- ============ DAGUE (droite) avec ruban « SANS REGRET » ============ -->
+  <g>
+    <!-- ombre portee -->
+    <g transform="translate(7,9)" fill="#1f3d54" opacity=".12">
+      <circle cx="745" cy="78" r="15"/>
+      <rect x="731" y="92" width="28" height="84" rx="9"/>
+      <path d="M690 176 C700 168 790 168 800 176 L800 186 C790 194 700 194 690 186 Z"/>
+      <path d="M727 192 C729 300 736 420 745 468 C754 420 761 300 763 192 Z"/>
+    </g>
+    <!-- lame -->
+    <path d="M727 192 C729 300 736 420 745 468 C754 420 761 300 763 192 Z" fill="url(#steel)" stroke="#1f3d54" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M745 200 L745 452" stroke="#1f3d54" stroke-width="2.5" opacity=".5"/>
+    <path d="M737 212 C736 300 740 400 743 446" fill="none" stroke="#f7f2e4" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+    <!-- garde -->
+    <path d="M690 176 C700 168 790 168 800 176 L800 186 C790 194 700 194 690 186 Z" fill="url(#gold)" stroke="#1f3d54" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="688" cy="181" r="7" fill="url(#gold)" stroke="#1f3d54" stroke-width="3"/>
+    <circle cx="802" cy="181" r="7" fill="url(#gold)" stroke="#1f3d54" stroke-width="3"/>
+    <!-- manche -->
+    <rect x="731" y="92" width="28" height="84" rx="9" fill="#b32428" stroke="#1f3d54" stroke-width="4"/>
+    <path d="M731 112 L759 122 M731 134 L759 144 M731 156 L759 166" stroke="#1f3d54" stroke-width="3" opacity=".8"/>
+    <!-- pommeau -->
+    <circle cx="745" cy="78" r="15" fill="url(#gold)" stroke="#1f3d54" stroke-width="4"/>
+    <circle cx="745" cy="78" r="5" fill="#b32428" stroke="#1f3d54" stroke-width="2"/>
+    <!-- ruban -->
+    <path d="M676 322 L642 330 L656 340 L646 354 L678 346 Z" fill="#e3d5b2" stroke="#1f3d54" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M816 292 L846 284 L836 298 L848 310 L820 316 Z" fill="#e3d5b2" stroke="#1f3d54" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M670 322 C706 308 786 294 820 290 L824 314 C790 318 708 332 674 348 Z" fill="#efe4c8" stroke="#1f3d54" stroke-width="3.5" stroke-linejoin="round"/>
+    <text transform="translate(748 326) rotate(-12.5)" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-weight="bold" letter-spacing="2.2" fill="#1f3d54">SANS REGRET</text>
+    <!-- goutte -->
+    <path d="M745 476 C741 484 740 490 745 494 C750 490 749 484 745 476 Z" fill="#b32428" stroke="#1f3d54" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ============ ROSE (bas gauche, sous la puce) ============ -->
+  <g>
+    <ellipse cx="188" cy="418" rx="68" ry="62" fill="#1f3d54" opacity=".1"/>
+    <!-- feuilles -->
+    <path d="M120 450 C88 452 66 468 56 492 C84 492 110 480 124 462 Z" fill="#3f6b4f" stroke="#1f3d54" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M64 488 C86 480 104 470 118 458" fill="none" stroke="#1f3d54" stroke-width="2" opacity=".7"/>
+    <path d="M240 452 C272 448 296 460 308 484 C280 488 254 478 238 462 Z" fill="#3f6b4f" stroke="#1f3d54" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M300 482 C278 476 260 468 246 458" fill="none" stroke="#1f3d54" stroke-width="2" opacity=".7"/>
+    <!-- petales arriere -->
+    <path d="M150 372 C148 348 164 334 181 334 C198 334 214 348 212 372 C202 358 192 352 181 352 C170 352 160 358 150 372 Z" fill="#8a181d" stroke="#1f3d54" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M122 416 C102 398 100 368 122 352 C116 376 122 398 136 414 Z" fill="#8a181d" stroke="#1f3d54" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M238 416 C258 398 260 368 238 352 C244 376 238 398 224 414 Z" fill="#8a181d" stroke="#1f3d54" stroke-width="4" stroke-linejoin="round"/>
+    <!-- coupe principale -->
+    <ellipse cx="180" cy="408" rx="66" ry="62" fill="url(#roseGrad)" stroke="#1f3d54" stroke-width="4.5"/>
+    <path d="M226 376 C240 396 242 424 230 446 C246 428 248 396 236 374 Z" fill="#8a181d" opacity=".5"/>
+    <!-- spirale interieure -->
+    <path d="M150 430 C140 404 152 378 180 372 C206 366 228 384 228 406 C228 426 210 438 192 434 C176 430 168 416 174 404 C180 394 194 392 200 400 C204 406 200 414 194 414" fill="none" stroke="#1f3d54" stroke-width="4" stroke-linecap="round"/>
+    <!-- petales avant -->
+    <path d="M124 428 C104 440 96 460 104 478 C122 470 140 456 148 440 C138 438 130 434 124 428 Z" fill="#b32428" stroke="#1f3d54" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M236 428 C256 440 264 460 256 478 C238 470 220 456 212 440 C222 438 230 434 236 428 Z" fill="#b32428" stroke="#1f3d54" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M150 462 C156 484 168 496 182 498 C196 496 208 484 214 462 C202 472 190 476 181 476 C172 476 160 472 150 462 Z" fill="#b32428" stroke="#1f3d54" stroke-width="4" stroke-linejoin="round"/>
+    <!-- reflets -->
+    <path d="M144 382 C152 368 166 358 182 356" fill="none" stroke="#f0e6d0" stroke-width="4" stroke-linecap="round" opacity=".85"/>
+    <circle cx="148" cy="394" r="3" fill="#f0e6d0" opacity=".8"/>
+  </g>
+
+  <!-- ============ REMPLISSAGE CLASSIQUE (etoiles, eclats, fleurettes) ============ -->
+  <g>
+    <use href="#st" transform="translate(298 152)" fill="#1f3d54"/>
+    <circle cx="298" cy="152" r="3.5" fill="#f0e6d0" opacity=".9"/>
+    <use href="#st" transform="translate(620 118) scale(.75)" fill="#b32428"/>
+    <circle cx="620" cy="118" r="2.6" fill="#f0e6d0" opacity=".9"/>
+    <use href="#st" transform="translate(318 452) scale(.8)" fill="#b32428"/>
+    <circle cx="318" cy="452" r="2.8" fill="#f0e6d0" opacity=".9"/>
+    <use href="#st" transform="translate(598 455) scale(.9)" fill="#1f3d54"/>
+    <circle cx="598" cy="455" r="3.2" fill="#f0e6d0" opacity=".9"/>
+    <use href="#st" transform="translate(268 120) scale(.55)" fill="#1f3d54"/>
+    <use href="#sp" transform="translate(245 142)" fill="#1f3d54" opacity=".75"/>
+    <use href="#sp" transform="translate(655 238) scale(.85)" fill="#b32428" opacity=".8"/>
+    <use href="#sp" transform="translate(560 185) scale(.7)" fill="#1f3d54" opacity=".6"/>
+    <use href="#dz" transform="translate(300 258)"/>
+    <use href="#dz" transform="translate(628 368) scale(.85) rotate(25)"/>
+    <use href="#dz" transform="translate(540 436) scale(.7) rotate(-15)"/>
+  </g>
+
+  <!-- Devise bas de planche -->
+  <g>
+    <text x="455" y="470" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="15" letter-spacing="3" fill="#1f3d54" opacity=".85">L'ENCRE RESTE</text>
+    <path d="M395 486 L430 486 M480 486 L515 486" stroke="#1f3d54" stroke-width="2" opacity=".55" stroke-linecap="round"/>
+    <circle cx="455" cy="486" r="3" fill="#b32428" opacity=".8"/>
+  </g>
+</svg>

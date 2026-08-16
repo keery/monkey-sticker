@@ -1,0 +1,918 @@
+{
+  "common": {
+    "addToCart": "Añadir al carrito",
+    "viewDesigns": "Ver diseños",
+    "seeAll": "Ver todo",
+    "remove": "Quitar",
+    "decrease": "Disminuir",
+    "increase": "Aumentar",
+    "close": "Cerrar",
+    "menu": "Menú",
+    "loading": "…",
+    "off": "de descuento"
+  },
+  "meta": {
+    "homeTitle": "{site} — Pegatinas para tu tarjeta bancaria",
+    "homeDescription": "Personaliza tu tarjeta bancaria con una pegatina cortada a medida exacta. El chip y el contactless siguen 100 % funcionales. Compra uno y llévate otro gratis."
+  },
+  "announcement": {
+    "text": "A la medida exacta de tu tarjeta, con hueco para el chip",
+    "cta": "Ver diseños"
+  },
+  "nav": {
+    "allStickers": "Todas las pegatinas",
+    "bestsellers": "Más vendidas",
+    "justDropped": "Novedades",
+    "createOwn": "Crea la tuya",
+    "faq": "FAQ",
+    "trackOrder": "Seguir mi pedido"
+  },
+  "header": {
+    "cart": "Carrito"
+  },
+  "footer": {
+    "tagline": "Pegatinas cortadas al tamaño exacto de tu tarjeta bancaria. El chip y el contactless siguen 100 % funcionales.",
+    "newsletterTitle": "Descubre las novedades antes que nadie",
+    "colShop": "Tienda",
+    "colHelp": "Ayuda",
+    "colLegal": "Legal",
+    "poseGuide": "Guía de colocación",
+    "faqContact": "FAQ y contacto",
+    "shipping": "Envío",
+    "returns": "Política de devolución",
+    "legalNotice": "Aviso legal",
+    "privacy": "Privacidad",
+    "terms": "Condiciones de venta",
+    "rights": "Todos los derechos reservados."
+  },
+  "newsletter": {
+    "placeholder": "Tu correo electrónico",
+    "submit": "Suscribirme",
+    "success": "¡Gracias! Recibirás las próximas novedades antes que nadie. ✉️",
+    "error": "Algo salió mal, inténtalo de nuevo en un momento."
+  },
+  "cart": {
+    "title": "Carrito",
+    "empty": "Tu carrito está vacío",
+    "emptyHint": "Compra una pegatina y llévate otra gratis. Aprovecha para llevarte dos.",
+    "viewDesigns": "Ver diseños",
+    "remove": "Quitar",
+    "bogo": {
+      "one": "Compra uno y llévate otro gratis ({count} gratis)",
+      "other": "Compra uno y llévate otro gratis ({count} gratis)"
+    },
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "shippingNote": "El envío se calcula en el siguiente paso. Seguimiento incluido."
+  },
+  "product": {
+    "from": "desde"
+  },
+  "stats": {
+    "items": [
+      "Más de 100 000 tarjetas personalizadas",
+      "Se coloca en 30 segundos",
+      "Se retira sin dejar rastro",
+      "100 % compatible con el contactless",
+      "Enviado desde Francia"
+    ]
+  },
+  "chip": {
+    "ariaLabel": "Tamaño del chip",
+    "compareHint": "Compara con la placa dorada de tu tarjeta: la ventana recortada se adapta a su tamaño.",
+    "sizes": {
+      "small": {
+        "label": "Chip pequeño",
+        "hint": "más ancho que alto, ~11 × 8 mm",
+        "tag": "El más común"
+      },
+      "large": {
+        "label": "Chip grande",
+        "hint": "casi cuadrado, ~13 × 11 mm",
+        "tag": ""
+      },
+      "none": {
+        "label": "Sin chip",
+        "hint": "credencial, tarjeta de transporte",
+        "tag": ""
+      }
+    }
+  },
+  "checkout": {
+    "button": "Pagar",
+    "buttonBusy": "Redirigiendo…",
+    "errorStart": "No se pudo iniciar el pago.",
+    "errorContact": "No se pudo conectar con el pago. Inténtalo de nuevo en un momento.",
+    "couponBogo": "Compra uno y llévate otro gratis",
+    "shippingFree": "Envío gratis (carta con seguimiento)",
+    "shippingTracked": "Carta con seguimiento",
+    "optionChip": "Chip",
+    "errEmpty": "Tu carrito está vacío.",
+    "errUnconfigured": "El pago aún no está activado. Vuelve en un momento.",
+    "errUnreadable": "No se pudo leer el carrito.",
+    "errNoUrl": "Sesión de pago sin URL."
+  },
+  "language": {
+    "label": "Idioma"
+  },
+  "home": {
+    "hero": {
+      "overline": "Pegatinas para tarjeta bancaria",
+      "titleLine1": "Tu tarjeta,",
+      "titleLine2": "a otro nivel.",
+      "subtitle": "Cortada a las medidas exactas de tu tarjeta, ventana del chip incluida. Puesta en 30 segundos, retirada sin dejar rastro.",
+      "reviews": "{count} opiniones"
+    },
+    "sections": {
+      "bestsellers": {
+        "overline": "El escaparate",
+        "title": "Las más colocadas"
+      },
+      "categories": {
+        "overline": "Los pasillos",
+        "title": "Explora por categoría",
+        "linkLabel": "Ver todo"
+      },
+      "justDropped": {
+        "overline": "Recién llegadas"
+      }
+    },
+    "precision": {
+      "overline": "Corte cardcut",
+      "title": "Preciso hasta la décima de milímetro",
+      "body": "Cada pegatina se corta a las medidas ISO de tu tarjeta. La ventana cae justo sobre el chip: pago, contactless y cajeros funcionan como antes.",
+      "features": [
+        {
+          "title": "Chip al descubierto",
+          "desc": "la ventana de 14 × 11 mm deja el contacto libre"
+        },
+        {
+          "title": "Contactless intacto",
+          "desc": "vinilo fino, la antena NFC nunca se bloquea"
+        },
+        {
+          "title": "Se retira sin rastro",
+          "desc": "se despega desde una esquina, cero residuos"
+        }
+      ]
+    },
+    "install": {
+      "overline": "La colocación",
+      "title": "Puesta en 30 segundos",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Limpia",
+          "text": "Una pasada con el paño incluido y tu tarjeta está lista."
+        },
+        {
+          "n": "02",
+          "title": "Alinea",
+          "text": "Borde con borde: el corte es del tamaño exacto, la ventana cae justo sobre el chip."
+        },
+        {
+          "n": "03",
+          "title": "Alisa",
+          "text": "Del centro hacia los bordes. Treinta segundos, cero burbujas con el kit."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Las preguntas que nos hacéis",
+      "moreLead": "¿Otra más?",
+      "moreLink": "La FAQ completa",
+      "moreTail": "lo responde todo.",
+      "items": [
+        {
+          "title": "¿El chip y el contactless siguen funcionando?",
+          "content": "Sí, al 100 %. La ventana recortada deja el chip totalmente al descubierto y la pegatina es lo bastante fina para no interferir con el contactless ni con los cajeros. Tu tarjeta sigue aceptándose en todas partes: datáfonos, cajeros, terminales."
+        },
+        {
+          "title": "¿Lo permite mi banco? ¿Es legal?",
+          "content": "Sí. La pegatina cubre el plástico sin cambiar ningún dato: el chip queda al descubierto, el número y la banda magnética intactos. Tu tarjeta sigue siendo válida y aceptada en todas partes. Es propiedad de tu banco: basta con despegar la pegatina, sin dejar rastro, antes de devolverla."
+        },
+        {
+          "title": "¿Cuánto dura?",
+          "content": "El vinilo está pensado para la vida real: cartera, roces, calor. Cuenta con varios años de uso normal. Y si cambias de idea, cambias de diseño."
+        },
+        {
+          "title": "¿Puedo quitarla sin dañar mi tarjeta?",
+          "content": "Sí. La pegatina se despega desde una esquina, sin dejar residuos de pegamento. Tu tarjeta queda como nueva, muy práctico cuando la renuevas o quieres un diseño nuevo."
+        }
+      ]
+    },
+    "offer": {
+      "titleLine1": "Compra una",
+      "titleLine2": "= otra gratis.",
+      "body": "Cada pegatina que pides esconde una segunda. Para tu tarjeta de repuesto, o para un colega.",
+      "cta": "Elige dos diseños"
+    },
+    "earlyAccess": {
+      "title": "Acceso anticipado",
+      "body": "Los nuevos diseños en primicia, antes de llegar al escaparate."
+    },
+    "schematic": {
+      "ariaLabel": "Esquema acotado de la pegatina: {width} por {height} milímetros, ventana del chip de {chipW} por {chipH} milímetros a {edge} milímetros del borde, esquinas redondeadas a {radius} milímetros",
+      "chipWindow": "Ventana del chip · {w} × {h} mm",
+      "cornerRadius": "R {r} mm"
+    }
+  },
+  "productPage": {
+    "breadcrumbHome": "Inicio",
+    "breadcrumbStickers": "Pegatinas",
+    "viewNoWindow": "Sin ventana del chip",
+    "viewOnCard": "Puesta en la tarjeta",
+    "reviewCount": {
+      "one": "{count} opinión",
+      "other": "{count} opiniones"
+    },
+    "accDescriptionTitle": "Descripción",
+    "accDescriptionFallback": "La pegatina «{name}» viste tu tarjeta bancaria al tamaño exacto ISO (85,6 × 54 mm, esquinas redondeadas). La ventana del chip está precortada: el chip sigue visible y funcional, y el contactless también. Vinilo fino que resiste el desgaste de la cartera, se retira sin residuos.",
+    "accApplicationTitle": "Colocación en 30 segundos",
+    "accApplicationContent": "1. Desengrasa tu tarjeta (paño incluido en el kit). 2. Despega la pegatina y alinea el borde izquierdo con el chip: la ventana te guía. 3. Alisa con la rasqueta del centro hacia los bordes. Consejo: el kit de aplicación consigue una colocación perfecta a la primera.",
+    "accShippingTitle": "Envío y devoluciones",
+    "accShippingContent": "Enviado en 48 h desde Francia, en carta con seguimiento (2-4 días laborables). ¿Un defecto de impresión? Te enviamos una pegatina nueva; solo tienes que escribirnos desde la página de contacto con una foto.",
+    "reviewsEyebrow": "Opiniones verificadas",
+    "reviewsTitle": "Les encanta",
+    "verifiedReviewCount": {
+      "one": "{count} opinión verificada",
+      "other": "{count} opiniones verificadas"
+    },
+    "reviews": [
+      {
+        "name": "Léa M.",
+        "text": "Súper fácil de colocar, la ventana cae justo sobre el chip. Mi tarjeta está irreconocible (para bien).",
+        "rating": 5
+      },
+      {
+        "name": "Thomas R.",
+        "text": "El contactless funciona perfecto, ninguna diferencia al pagar. El acabado mate queda muy limpio.",
+        "rating": 5
+      },
+      {
+        "name": "Sarah K.",
+        "text": "Segundo pedido, lo de compra una y llévate otra gratis es genial para cambiar según el momento.",
+        "rating": 4
+      }
+    ],
+    "reviewByline": "{name} — compra verificada",
+    "recosEyebrow": "El escaparate",
+    "recosTitle": "También te gustará",
+    "recosSeeAll": "Ver todo →",
+    "deliveryEstimate": "Entrega estimada:",
+    "bundleHeading": "Elige tu lote — compra una y llévate otra gratis",
+    "bundleTags": {
+      "popular": "Popular",
+      "bestValue": "Mejor oferta"
+    },
+    "bundleLabel": {
+      "one": "{count} pegatina",
+      "other": "{count} pegatinas"
+    },
+    "bundleFree": {
+      "one": "incluye {count} gratis",
+      "other": "incluye {count} gratis"
+    },
+    "chipHeading": "El chip de tu tarjeta",
+    "includedTitle": "Incluido con cada pedido",
+    "includedItems": [
+      "Kit de aplicación: soporte de alineación, rasqueta, paño",
+      "Una de cada dos pegatinas es gratis: para repetir la colocación o cambiar de estilo"
+    ],
+    "recap": "{count} pegatinas – {free}",
+    "recapFree": {
+      "one": "{count} gratis",
+      "other": "{count} gratis"
+    },
+    "quantity": "Cantidad",
+    "addToCart": "Añadir al carrito — {price}",
+    "featureCradle": "El soporte de colocación hace la alineación por ti —",
+    "featureCradleLink": "colocación en 60 s",
+    "featureFormat": "Tamaño exacto de tarjeta bancaria (85,6 × 54 mm), ventana cortada al tamaño de tu chip",
+    "featureContactless": "100 % compatible con contactless y cajeros",
+    "featureAllowed": "Ningún dato alterado: tu tarjeta sigue siendo válida y aceptada en todas partes",
+    "featureResidue": "Se retira sin residuos",
+    "featureShipping": "Enviado en 48 h desde Francia, seguimiento incluido"
+  },
+  "collection": {
+    "breadcrumbHome": "Inicio",
+    "eyebrow": "El escaparate",
+    "countOne": "{count} diseño — compra uno y llévate otro gratis",
+    "countMany": "{count} diseños — compra uno y llévate otro gratis",
+    "sortLabel": "Ordenar:",
+    "sortSubmit": "OK",
+    "sort": {
+      "featured": "Destacados",
+      "best-selling": "Más vendidos",
+      "az": "Alfabético A-Z",
+      "za": "Alfabético Z-A",
+      "price-asc": "Precio, de menor a mayor",
+      "price-desc": "Precio, de mayor a menor"
+    },
+    "chipAll": "Todos",
+    "empty": "Todavía no hay diseños en esta categoría.",
+    "ctaTitle": "¿No encuentras tu favorito?",
+    "ctaText": "Sube tu propia imagen y crea una pegatina única, cortada a las mismas medidas exactas.",
+    "ctaButton": "Crea la tuya"
+  },
+  "createOwn": {
+    "meta": {
+      "title": "Crea la tuya: tu diseño en tu tarjeta | Monkey Sticker",
+      "description": "Sube tu foto, tu logo o tu ilustración y encuádrala en tu tarjeta bancaria. Corte a las medidas exactas, ventana del chip incluida, contactless intacto."
+    },
+    "hero": {
+      "overline": "El taller",
+      "title": "Crea la tuya",
+      "subtitle": "Tu foto, tu logo, tu rollo: cortada a las medidas exactas de tu tarjeta, ventana del chip incluida.",
+      "reviews": "{count} opiniones",
+      "perSticker": "por pegatina"
+    },
+    "faq": {
+      "title": "Antes de lanzar la impresión",
+      "moreLead": "¿Otra pregunta?",
+      "moreLink": "La FAQ completa",
+      "moreTail": "lo responde todo.",
+      "items": [
+        {
+          "title": "¿Qué imágenes dan el mejor resultado?",
+          "content": "Una foto nítida, un logo o una ilustración de al menos 1000 px de ancho. Si la resolución baja demasiado mientras encuadras, aparece un aviso en directo: aleja un poco el zoom o elige una imagen más grande, y el resultado será impecable."
+        },
+        {
+          "title": "¿Y si hay un problema con mi archivo?",
+          "content": "Una persona revisa cada pedido antes de imprimir. Encuadre dudoso, resolución justa, un elemento cortado: te contactamos antes de empezar el corte."
+        },
+        {
+          "title": "¿Puedo usar cualquier imagen?",
+          "content": "Tus fotos, tus creaciones, tu gato, tu crew: todo lo que sea tuyo. Los logos de marcas y las imágenes protegidas, solo si tienes los derechos."
+        },
+        {
+          "title": "Chip grande o pequeño, ¿cómo lo sé?",
+          "content": "Mira la placa dorada de tu tarjeta. Claramente más ancha que alta (~11 × 8 mm), con un hueco encima de los números: chip pequeño, el más común en las tarjetas recientes. Casi cuadrada (~13 × 11 mm), a menudo pegada a los números: chip grande. Ojo, algunos bancos emiten los dos: fíate de tu tarjeta, no de su modelo. El selector muestra las dos formas a escala, y la ventana recortada se adapta."
+        },
+        {
+          "title": "¿El chip y el contactless siguen funcionando?",
+          "content": "Sí, al 100 %. La ventana del chip está precortada a las medidas exactas de tu tarjeta y el vinilo es lo bastante fino para no molestar nunca al contactless ni a los cajeros."
+        }
+      ]
+    },
+    "showcase": {
+      "overline": "¿No tienes una imagen a mano?",
+      "title": "El escaparate te espera",
+      "allLink": "Todos los diseños →"
+    },
+    "steps": {
+      "image": "Tu imagen",
+      "crop": "El encuadre",
+      "chip": "El chip de tu tarjeta",
+      "finishQty": "Acabado y cantidad"
+    },
+    "upload": {
+      "choose": "Elegir una imagen",
+      "replace": "Reemplazar la imagen",
+      "hint": "Foto, logo, ilustración: todo lo que sea tuyo."
+    },
+    "dropzone": {
+      "title": "Tu diseño aquí",
+      "hint": "Arrastra una imagen, pégala (Ctrl V), o",
+      "formats": "JPG · PNG · WebP · ideal ≥ {min} px de ancho"
+    },
+    "errors": {
+      "type": "Este formato no es compatible. Usa JPG, PNG o WebP.",
+      "tooLarge": "Esta imagen pesa demasiado (máx. {max} MB).",
+      "unreadable": "No se pudo leer esta imagen. Prueba con otro archivo."
+    },
+    "preview": {
+      "ariaLabel": "Encuadre de tu imagen en la tarjeta. Flechas para mover, más y menos para hacer zoom, cero para recentrar.",
+      "imageAlt": "Tu diseño encuadrado en la tarjeta",
+      "dimensions": "85,6 × 53,98 mm · corte cardcut",
+      "sharpnessBadge": "nitidez {dpi} dpi · demasiado baja",
+      "chipHint": "El marco dorado es la ventana recortada: tu chip real seguirá visible justo ahí.",
+      "noChipHint": "Sin ventana del chip: la pegatina cubre toda la superficie de la tarjeta."
+    },
+    "crop": {
+      "zoomLabel": "Zoom",
+      "hintMobile": "Arrastra para mover, pellizca para hacer zoom.",
+      "hintDesktop": "Arrastra para mover, usa la rueda para hacer zoom. Con el teclado: flechas, + y −.",
+      "recenter": "Recentrar",
+      "sharpnessWarning": "A este nivel de zoom, la impresión perderá nitidez: aleja un poco el zoom o elige una imagen más grande."
+    },
+    "finish": {
+      "groupLabel": "Acabado"
+    },
+    "finishes": {
+      "Mat": {
+        "label": "Mate",
+        "hint": "tacto suave, cero reflejos"
+      },
+      "Brillant": {
+        "label": "Brillante",
+        "hint": "colores vivos, efecto glaseado"
+      }
+    },
+    "qty": {
+      "decrease": "Disminuir cantidad",
+      "increase": "Aumentar cantidad"
+    },
+    "bogo": {
+      "upsell": "Llévate 2: la 2.ª es gratis",
+      "freeCount": {
+        "one": "{count} gratis",
+        "other": "{count} gratis"
+      },
+      "freeTail": "con compra una y llévate otra gratis."
+    },
+    "cta": {
+      "addToCart": "Añadir al carrito",
+      "chooseFirst": "Elige una imagen para empezar",
+      "added": "✓ ¡Añadido! Revisaremos tu diseño antes de imprimir."
+    },
+    "guarantees": [
+      {
+        "title": "Revisión humana",
+        "desc": "comprobamos tu archivo antes de imprimir"
+      },
+      {
+        "title": "Enviado en 48 h",
+        "desc": "desde Francia, en carta con seguimiento"
+      },
+      {
+        "title": "Defecto de impresión",
+        "desc": "te la reimprimimos"
+      }
+    ],
+    "mobileBar": {
+      "stickers": {
+        "one": "{count} pegatina",
+        "other": "{count} pegatinas"
+      }
+    }
+  },
+  "pose": {
+    "eyebrow": "Cómo se coloca",
+    "title": "Puesta en 60 segundos",
+    "intro": {
+      "part1": "Cada pedido sale con un ",
+      "cradle": "soporte de alineación",
+      "part2": ", un paño, una minirasqueta y una ",
+      "spare": "segunda pegatina de repuesto",
+      "part3": ". El soporte hace la alineación por ti: solo quedan tres gestos sencillos."
+    },
+    "video": {
+      "label": "La colocación en vídeo (30 s) —",
+      "status": "grabación en curso"
+    },
+    "steps": [
+      {
+        "n": "01",
+        "title": "Prepara",
+        "text": "Limpia la cara de tu tarjeta con el paño incluido (en un solo sentido, sin círculos). Espera 10 segundos y encaja la tarjeta en el fondo del soporte de cartón."
+      },
+      {
+        "n": "02",
+        "title": "Alinea — sin pegar",
+        "text": "La pegatina todavía sobre su papel: desliza las dos lengüetas en las ranuras del soporte. La ventana cae justo sobre el chip. Todavía no se pega nada, así que tómate tu tiempo."
+      },
+      {
+        "n": "03",
+        "title": "Pega",
+        "text": "Dobla la pegatina, despega la mitad inferior del papel y presiona con el pulgar del centro hacia los bordes. Suelta las lengüetas y tira del resto del papel mientras presionas."
+      }
+    ],
+    "panic": {
+      "title": "Que no cunda el pánico",
+      "subtitle": "Las tres cosas que pueden pasar, y por qué ninguna es un problema.",
+      "items": [
+        {
+          "title": "¿Alguna burbujita?",
+          "content": "Totalmente normal: desaparecen solas en 24-48 h. ¿Una burbuja grande? Empújala hacia el borde más cercano con la uña o con la minirasqueta incluida."
+        },
+        {
+          "title": "¿Mal comienzo?",
+          "content": "Tienes unos 60 segundos para despegarla con cuidado y empezar de nuevo, y hay una segunda pegatina en tu paquete pensada justo para esto. Respira."
+        },
+        {
+          "title": "¿Tu tarjeta tiene el nombre en relieve (grabado)?",
+          "content": "Presiona durante más tiempo alrededor de las letras con el pulgar. Pueden quedar ligeras burbujas a lo largo del relieve: es normal y se van difuminando."
+        },
+        {
+          "title": "¿La has liado de verdad?",
+          "content": "Usa la segunda pegatina de tu paquete (compra una y llévate otra gratis) y repasa los pasos uno a uno: el segundo intento casi siempre es el bueno."
+        }
+      ]
+    },
+    "cta": {
+      "text": "¿Todavía sin pegatina?",
+      "included": "El soporte y la 2.ª pegatina van incluidos en cada pedido."
+    },
+    "metaTitle": "Colocación en 60 segundos",
+    "metaDescription": "Coloca tu pegatina de tarjeta bancaria perfectamente a la primera: cuna de alineación incluida, 3 pasos, vídeo de 30 segundos."
+  },
+  "faq": {
+    "eyebrow": "Respondemos a todo",
+    "intro": "Las respuestas a las preguntas que más nos hacéis.",
+    "items": [
+      {
+        "q": "¿La pegatina interfiere con el chip o el contactless?",
+        "a": "No. La ventana del chip está precortada a las medidas exactas, así que el chip queda totalmente al descubierto. El vinilo es lo bastante fino para dejar pasar el contactless (NFC) sin ninguna atenuación perceptible. Cajeros, datáfonos, tornos de transporte: todo funciona con normalidad."
+      },
+      {
+        "q": "¿Lo permite mi banco? ¿Es legal?",
+        "a": "Sí. La pegatina solo cubre el plástico de la cara delantera: no cambia ningún dato, deja el chip totalmente al descubierto y no altera ni el número ni la banda magnética del reverso. Tu tarjeta sigue siendo válida y aceptada en todas partes. Como sigue siendo propiedad de tu banco, basta con despegar la pegatina — se levanta desde una esquina sin dejar rastro — antes de devolver o renovar la tarjeta."
+      },
+      {
+        "q": "¿Puede un cajero rechazar o tragarse mi tarjeta?",
+        "a": "No. El vinilo es ultrafino: tu tarjeta conserva su grosor original y entra en cajeros, datáfonos y lectores exactamente igual que antes. La ventana precortada deja el chip libre, y la banda magnética del reverso nunca queda cubierta."
+      },
+      {
+        "q": "¿Funciona en todas las tarjetas?",
+        "a": "Sí, en cualquier tarjeta con el formato estándar ISO (bancaria, de transporte, credencial). Las tarjetas con números en relieve (grabados) son compatibles: el vinilo se adapta al relieve. Las tarjetas verticales también: el chip sigue en el mismo lugar físico."
+      },
+      {
+        "q": "¿Cuánto dura?",
+        "a": "El vinilo está pensado para la vida real de la cartera: roces, calor, toques repetidos en los datáfonos. Cuenta con varios años de uso normal sin que se levanten los bordes. ¿Te apetece cambiar antes? Solo tienes que colocar un diseño nuevo."
+      },
+      {
+        "q": "¿Cómo coloco la pegatina de forma limpia?",
+        "a": "Desengrasa la tarjeta (con el paño del kit o alcohol de casa), alinea la ventana con el chip y colócala alisando del centro hacia los bordes. Si aparece una burbujita, pínchala con una aguja y alísala. El kit de aplicación (rasqueta + paño + microfibra) garantiza una colocación perfecta."
+      },
+      {
+        "q": "¿Puedo quitar la pegatina? ¿Se dañará mi tarjeta?",
+        "a": "La pegatina se despega tirando suavemente desde una esquina, sin dejar pegamento. Tu tarjeta queda intacta. Una pegatina retirada no se puede volver a colocar: solo tienes que pedir una nueva (bonus: compra una y llévate otra gratis)."
+      },
+      {
+        "q": "¿Cuáles son los plazos de entrega?",
+        "a": "Enviado en 48 horas laborables desde Francia, en carta con seguimiento. Cuenta con 2 a 4 días laborables en la Francia peninsular, 3 a 7 días en Europa. Recibes el número de seguimiento por correo electrónico."
+      },
+      {
+        "q": "¿Y si mi pegatina tiene un defecto?",
+        "a": "¿Un fallo de impresión o un corte imperfecto? Te enviamos una pegatina nueva. Escríbenos con el formulario de abajo adjuntando una foto y te respondemos en 24 horas laborables."
+      }
+    ],
+    "contact": {
+      "heading": "¿Otra pregunta?",
+      "subheading": "Respuesta en 24 horas laborables, prometido.",
+      "success": "¡Mensaje enviado! Te respondemos en 24 horas laborables. 📬",
+      "namePlaceholder": "Tu nombre",
+      "emailPlaceholder": "Tu correo electrónico",
+      "orderPlaceholder": "N.º de pedido (opcional)",
+      "messagePlaceholder": "Tu mensaje",
+      "submit": "Enviar"
+    },
+    "metaDescription": "Preguntas frecuentes sobre las pegatinas para tarjetas bancarias: colocación, chip y contactless, envío, devoluciones. Y un formulario para contactarnos."
+  },
+  "trackOrder": {
+    "intro": "Introduce tu número de pedido (recibido por correo) y el correo que usaste al comprar para ver dónde está tu paquete.",
+    "help": "¿No has recibido el correo de confirmación? Revisa tu carpeta de spam o escríbenos desde la página FAQ y contacto.",
+    "orderNumberPlaceholder": "N.º de pedido (p. ej. MS-10234)",
+    "orderNumberLabel": "Número de pedido",
+    "emailPlaceholder": "Correo del pedido",
+    "emailLabel": "Correo del pedido",
+    "submit": "Seguir",
+    "trackParcel": "Seguir mi paquete",
+    "demoStatus": "Pedido encontrado: enviado ayer, en camino. Entrega estimada en {days} días laborables. (Demo local — conecta aquí la API de seguimiento.)"
+  },
+  "checkoutPage": {
+    "title": "¡Gracias!",
+    "orderIntro": "Tu pedido",
+    "statusConfirmed": "está confirmado",
+    "statusReceived": "se ha recibido",
+    "emailNote": "Te llegará un correo de confirmación de parte de Stripe.",
+    "totalPaidLabel": "Total pagado",
+    "itemCountOne": "{count} artículo",
+    "itemCountPlural": "{count} artículos",
+    "freeCountOne": "{count} gratis",
+    "freeCountPlural": "{count} gratis",
+    "paymentPending": "Confirmando tu pago… puedes cerrar esta página con total seguridad.",
+    "noOrder": "Tu pago se ha recibido. Si no recibes un correo de confirmación, escríbenos desde la página FAQ y contacto.",
+    "shippingNote": "Estamos preparando tu tarjeta, enviada en 48 h desde Francia.",
+    "ctaContinue": "Seguir comprando",
+    "ctaPose": "Colócala en 60 s",
+    "cancelTitle": "Pago cancelado",
+    "cancelBody": "Sin problema, no se ha cobrado nada. Tu carrito te espera, retómalo cuando quieras.",
+    "cancelCtaBack": "Volver a la tienda",
+    "cancelCtaQuestion": "¿Alguna pregunta?"
+  },
+  "legal": {
+    "kicker": "Información legal",
+    "lastUpdated": "Última actualización: 15 de agosto de 2026.",
+    "disclaimer": "Plantilla informativa que debes adaptar a tu actividad. Haz revisar su versión final por un profesional del derecho competente para tus mercados de venta.",
+    "livraison": {
+      "title": "Envío",
+      "introduction": "La información que aparece a continuación debe adaptarse a tus métodos y zonas de envío.",
+      "sections": [
+        {
+          "title": "Envío y seguimiento",
+          "paragraphs": [
+            "Los pedidos se preparan y envían desde Francia, incluidos los clientes situados en el Reino Unido y en el resto de Europa. Según el destino, pueden aplicarse trámites o impuestos de importación (consulta nuestras condiciones generales de venta).",
+            "[POR COMPLETAR: plazos de preparación, transportistas, zonas cubiertas y modalidades de seguimiento.]"
+          ]
+        }
+      ]
+    },
+    "retours": {
+      "title": "Política de devolución",
+      "introduction": "Esta plantilla debe completarse con tu información y tus decisiones operativas antes de publicarla. Está redactada para una empresa establecida en el Reino Unido que vende en línea a consumidores.",
+      "sections": [
+        {
+          "title": "1. Cómo contactarnos",
+          "paragraphs": [
+            "Para cualquier solicitud de devolución, reembolso o sustitución, contacta con Geno Studio Ltd en hello@monkeysticker.fr indicando tu número de pedido, el o los artículos afectados y el motivo de tu solicitud. Te responderemos con los pasos a seguir."
+          ]
+        },
+        {
+          "title": "2. Derecho de desistimiento",
+          "paragraphs": [
+            "Si compras como consumidor y no se aplica ninguna excepción legal, puedes cancelar tu pedido en los 14 días siguientes a la recepción de los bienes, sin tener que justificar tu decisión. Esta información se proporciona en particular en virtud de las Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Para ejercer este derecho, envíanos una declaración clara de tu decisión antes de que venza este plazo. Puedes usar nuestro formulario de desistimiento [POR COMPLETAR: enlace o modalidades]; su uso no es obligatorio."
+          ],
+          "notice": "Plazo a verificar antes de publicar: después de notificarnos tu desistimiento, normalmente dispones de otros 14 días para devolver los bienes. Adapta este texto a tus mercados de venta y a cualquier plazo más favorable que decidas ofrecer."
+        },
+        {
+          "title": "3. Artículos personalizados",
+          "paragraphs": [
+            "El derecho de desistimiento no se aplica a las pegatinas personalizadas — creadas a partir de tu propia imagen (la oferta «Crea la tuya») o de cualquier otra especificación que nos envíes. Fabricadas e impresas bajo demanda, especialmente para ti, están sujetas a la excepción prevista por las Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 para los bienes claramente personalizados.",
+            "En la práctica: mientras la impresión no haya empezado, puedes pedirnos que cancelemos tu pedido; una vez iniciada la impresión, un pedido de producto personalizado ya no puede cancelarse ni devolverse. Esta exclusión no se aplica si el artículo es defectuoso, está dañado o no es conforme — en esos casos, tus derechos permanecen intactos (consulta «Producto defectuoso, dañado o incorrecto»).",
+            "Las pegatinas del catálogo, no personalizadas, sí siguen amparadas por el derecho de desistimiento anterior. Para esos artículos, podemos deducir de tu reembolso cualquier pérdida de valor derivada de una manipulación que vaya más allá de lo necesario para establecer la naturaleza, las características y el buen funcionamiento del producto."
+          ]
+        },
+        {
+          "title": "4. Devolver un artículo",
+          "paragraphs": [
+            "Cuando una devolución está justificada (por ejemplo, un desistimiento de una pegatina no personalizada), te comunicaremos la dirección y las modalidades: 6 rue Voltaire, 93100 Montreuil, France. Como nuestros pedidos se envían desde Francia, la dirección de devolución está en Francia y no es la del domicilio social en el Reino Unido — utiliza únicamente la dirección que te indiquemos y no envíes nada antes de recibir nuestras instrucciones.",
+            "Para un desistimiento relativo a un artículo no personalizado, nos devuelves los bienes en los 14 días siguientes a la notificación de tu desistimiento, corriendo tú con los gastos. Los gastos de devolución solo corren de nuestra cuenta si el artículo es defectuoso, no conforme o enviado por error. Conserva un justificante de envío hasta que se confirme el reembolso."
+          ]
+        },
+        {
+          "title": "5. Reembolsos",
+          "paragraphs": [
+            "En caso de desistimiento, te reembolsamos en un plazo de 14 días. Según permite la ley, podemos retener ese reembolso hasta haber recibido los bienes devueltos o, si es antes, hasta que nos proporciones una prueba de su reenvío — lo que ocurra primero. El reembolso incluye el coste de la entrega estándar inicial cuando la ley así lo exige; los gastos de devolución, en cambio, siguen corriendo por tu cuenta.",
+            "El reembolso se realiza con el mismo medio de pago utilizado al hacer el pedido, salvo acuerdo expreso en contrario, y sin coste alguno para ti."
+          ]
+        },
+        {
+          "title": "6. Producto defectuoso, dañado o incorrecto",
+          "paragraphs": [
+            "Si un producto es defectuoso, llega dañado o no corresponde a tu pedido, contáctanos rápidamente con fotos y tu número de pedido. Nuestra solución por defecto es reimprimir y reenviar el artículo sin coste, sin que tengas que devolvérnoslo; según el caso y tus derechos legales, también es posible un reembolso.",
+            "Esta política no limita tus derechos legales como consumidor, en particular los derechos aplicables a los bienes no conformes o defectuosos."
+          ]
+        }
+      ]
+    },
+    "politique-de-retour": {
+      "title": "Política de devolución",
+      "introduction": "Esta plantilla debe completarse con tu información y tus decisiones operativas antes de publicarla. Está redactada para una empresa establecida en el Reino Unido que vende en línea a consumidores.",
+      "sections": [
+        {
+          "title": "1. Cómo contactarnos",
+          "paragraphs": [
+            "Para cualquier solicitud de devolución, reembolso o sustitución, contacta con Geno Studio Ltd en hello@monkeysticker.fr indicando tu número de pedido, el o los artículos afectados y el motivo de tu solicitud. Te responderemos con los pasos a seguir."
+          ]
+        },
+        {
+          "title": "2. Derecho de desistimiento",
+          "paragraphs": [
+            "Si compras como consumidor y no se aplica ninguna excepción legal, puedes cancelar tu pedido en los 14 días siguientes a la recepción de los bienes, sin tener que justificar tu decisión. Esta información se proporciona en particular en virtud de las Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Para ejercer este derecho, envíanos una declaración clara de tu decisión antes de que venza este plazo. Puedes usar nuestro formulario de desistimiento [POR COMPLETAR: enlace o modalidades]; su uso no es obligatorio."
+          ],
+          "notice": "Plazo a verificar antes de publicar: después de notificarnos tu desistimiento, normalmente dispones de otros 14 días para devolver los bienes. Adapta este texto a tus mercados de venta y a cualquier plazo más favorable que decidas ofrecer."
+        },
+        {
+          "title": "3. Artículos personalizados",
+          "paragraphs": [
+            "El derecho de desistimiento no se aplica a las pegatinas personalizadas — creadas a partir de tu propia imagen (la oferta «Crea la tuya») o de cualquier otra especificación que nos envíes. Fabricadas e impresas bajo demanda, especialmente para ti, están sujetas a la excepción prevista por las Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 para los bienes claramente personalizados.",
+            "En la práctica: mientras la impresión no haya empezado, puedes pedirnos que cancelemos tu pedido; una vez iniciada la impresión, un pedido de producto personalizado ya no puede cancelarse ni devolverse. Esta exclusión no se aplica si el artículo es defectuoso, está dañado o no es conforme — en esos casos, tus derechos permanecen intactos (consulta «Producto defectuoso, dañado o incorrecto»).",
+            "Las pegatinas del catálogo, no personalizadas, sí siguen amparadas por el derecho de desistimiento anterior. Para esos artículos, podemos deducir de tu reembolso cualquier pérdida de valor derivada de una manipulación que vaya más allá de lo necesario para establecer la naturaleza, las características y el buen funcionamiento del producto."
+          ]
+        },
+        {
+          "title": "4. Devolver un artículo",
+          "paragraphs": [
+            "Cuando una devolución está justificada (por ejemplo, un desistimiento de una pegatina no personalizada), te comunicaremos la dirección y las modalidades: 6 rue Voltaire, 93100 Montreuil, France. Como nuestros pedidos se envían desde Francia, la dirección de devolución está en Francia y no es la del domicilio social en el Reino Unido — utiliza únicamente la dirección que te indiquemos y no envíes nada antes de recibir nuestras instrucciones.",
+            "Para un desistimiento relativo a un artículo no personalizado, nos devuelves los bienes en los 14 días siguientes a la notificación de tu desistimiento, corriendo tú con los gastos. Los gastos de devolución solo corren de nuestra cuenta si el artículo es defectuoso, no conforme o enviado por error. Conserva un justificante de envío hasta que se confirme el reembolso."
+          ]
+        },
+        {
+          "title": "5. Reembolsos",
+          "paragraphs": [
+            "En caso de desistimiento, te reembolsamos en un plazo de 14 días. Según permite la ley, podemos retener ese reembolso hasta haber recibido los bienes devueltos o, si es antes, hasta que nos proporciones una prueba de su reenvío — lo que ocurra primero. El reembolso incluye el coste de la entrega estándar inicial cuando la ley así lo exige; los gastos de devolución, en cambio, siguen corriendo por tu cuenta.",
+            "El reembolso se realiza con el mismo medio de pago utilizado al hacer el pedido, salvo acuerdo expreso en contrario, y sin coste alguno para ti."
+          ]
+        },
+        {
+          "title": "6. Producto defectuoso, dañado o incorrecto",
+          "paragraphs": [
+            "Si un producto es defectuoso, llega dañado o no corresponde a tu pedido, contáctanos rápidamente con fotos y tu número de pedido. Nuestra solución por defecto es reimprimir y reenviar el artículo sin coste, sin que tengas que devolvérnoslo; según el caso y tus derechos legales, también es posible un reembolso.",
+            "Esta política no limita tus derechos legales como consumidor, en particular los derechos aplicables a los bienes no conformes o defectuosos."
+          ]
+        }
+      ]
+    },
+    "mentions-legales": {
+      "title": "Aviso legal",
+      "introduction": "Este aviso identifica a la empresa que explota el sitio. Sustituye cada campo entre corchetes por tu información verificada antes de publicarlo.",
+      "sections": [
+        {
+          "title": "1. Editor del sitio",
+          "paragraphs": [
+            "Este sitio está editado por Geno Studio Ltd, private limited company (Ltd), sociedad registrada en Inglaterra y Gales con el número 17113844."
+          ],
+          "bullets": [
+            "Registered office: Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Reino Unido.",
+            "Dirección de correspondencia: 6 rue Voltaire, 93100 Montreuil, France.",
+            "Número de IVA británico: [POR COMPLETAR: UK VAT number, si procede].",
+            "Correo electrónico: hello@monkeysticker.fr.",
+            "Teléfono: [POR COMPLETAR: número de teléfono, si proporcionas uno]."
+          ]
+        },
+        {
+          "title": "2. Responsable de la publicación",
+          "paragraphs": [
+            "Responsable de la publicación: [POR COMPLETAR: nombre y cargo].",
+            "Contacto editorial: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "3. Alojamiento",
+          "paragraphs": [
+            "El sitio (front-end) está alojado por Vercel Inc., 440 N Barranca Ave, PMB 4133, Covina, CA 91723, EE. UU. — https://vercel.com. El servidor de aplicaciones (back-end) está alojado por Fly.io, Inc., 321 North Clark Street, Chicago, IL, EE. UU. — legal@fly.io. La base de datos está alojada por Render Services, Inc., 525 Brannan Street, Ste 300, San Francisco, CA 94107, EE. UU. — https://render.com."
+          ]
+        },
+        {
+          "title": "4. Propiedad intelectual",
+          "paragraphs": [
+            "Salvo indicación en contrario, los elementos del sitio — en particular textos, imágenes, logos, diseños, vídeos y código — están protegidos por derechos de propiedad intelectual. Queda prohibida cualquier reproducción, adaptación o explotación no autorizada, salvo autorización escrita previa de Geno Studio Ltd o disposición legal en contrario."
+          ]
+        },
+        {
+          "title": "5. Datos personales y cookies",
+          "paragraphs": [
+            "Las modalidades de recogida y tratamiento de los datos personales se detallan en nuestra política de privacidad: /pages/confidentialite.",
+            "Si utilizas cookies o tecnologías similares que no sean estrictamente necesarias, indica tus finalidades, tus proveedores y cómo gestionar las opciones en tu política de privacidad y en tu herramienta de consentimiento: [POR COMPLETAR: enlace o descripción]."
+          ]
+        },
+        {
+          "title": "6. Ley aplicable y jurisdicción",
+          "paragraphs": [
+            "Este aviso se rige por el derecho de Inglaterra y Gales, sin perjuicio de las disposiciones imperativas de protección de los consumidores aplicables en el país de residencia del cliente. Los tribunales competentes se determinan según las normas legales aplicables."
+          ]
+        }
+      ]
+    },
+    "confidentialite": {
+      "title": "Política de privacidad",
+      "introduction": "Esta política explica qué datos personales recoge Geno Studio Ltd a través de este sitio, por qué, durante cuánto tiempo se conservan y cuáles son tus derechos. Está elaborada teniendo en cuenta el UK GDPR y el RGPD (UE). Esta plantilla debe ser revisada por un profesional y ajustada a tus tratamientos reales antes de publicarla.",
+      "sections": [
+        {
+          "title": "1. Responsable del tratamiento",
+          "paragraphs": [
+            "El responsable del tratamiento es Geno Studio Ltd, private limited company registrada en Inglaterra y Gales con el número 17113844, cuyo domicilio social se encuentra en Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Reino Unido.",
+            "Para cualquier consulta relativa a tus datos o para ejercer tus derechos: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "2. Datos que recogemos",
+          "bullets": [
+            "Pedido y entrega: nombre, dirección postal, correo electrónico y detalles del pedido.",
+            "Pago: gestionado por Stripe. No almacenamos los números de tarjeta; recibimos de Stripe información limitada (estado del pago, datos de facturación).",
+            "Personalización: la imagen que subes para una pegatina personalizada (la oferta «Crea la tuya»).",
+            "Newsletter: tu dirección de correo electrónico y el origen de la suscripción, si te suscribes.",
+            "Datos técnicos: registros del servidor y datos de conexión necesarios para el funcionamiento y la seguridad del sitio."
+          ]
+        },
+        {
+          "title": "3. Finalidades y bases legales",
+          "bullets": [
+            "Tramitar y entregar tus pedidos, contactarte al respecto y prestar el servicio posventa — ejecución del contrato (art. 6(1)(b)).",
+            "Enviarte la newsletter — tu consentimiento (art. 6(1)(a)), que puedes retirar en cualquier momento.",
+            "Cumplir nuestras obligaciones contables y fiscales — obligación legal (art. 6(1)(c)).",
+            "Proteger el sitio, prevenir el fraude y mejorar nuestros servicios — interés legítimo (art. 6(1)(f))."
+          ]
+        },
+        {
+          "title": "4. Plazos de conservación",
+          "paragraphs": [
+            "Datos de pedido y facturación: durante el tiempo necesario para ejecutar el contrato y, después, durante el plazo legal de conservación contable — [POR COMPLETAR: plazo, p. ej. 6 años].",
+            "Suscripción a la newsletter: hasta que te des de baja y, después, supresión o anonimización.",
+            "Imágenes personalizadas subidas: [POR COMPLETAR: plazo de conservación de los archivos]."
+          ]
+        },
+        {
+          "title": "5. Encargados del tratamiento y destinatarios",
+          "paragraphs": [
+            "No vendemos tus datos. Solo los compartimos con los proveedores estrictamente necesarios para el servicio, obligados por contrato a protegerlos:"
+          ],
+          "bullets": [
+            "Alojamiento del sitio (front-end): Vercel Inc. (EE. UU.). Servidor de aplicaciones: Fly.io, Inc. (EE. UU.). Base de datos: Render Services, Inc. (EE. UU.).",
+            "Pago: Stripe — para un cliente europeo, la parte contratante es Stripe Payments Europe, Limited (Irlanda).",
+            "Envío desde Francia: [POR COMPLETAR: transportista(s), según proceda]."
+          ]
+        },
+        {
+          "title": "6. Transferencias fuera de la Unión Europea",
+          "paragraphs": [
+            "Algunos de nuestros proveedores están situados fuera de la Unión Europea, en particular en los Estados Unidos: Vercel (alojamiento del sitio), Fly.io (servidor de aplicaciones) y Render (base de datos). Por ello, tus datos personales pueden ser transferidos y tratados en los Estados Unidos.",
+            "Estas transferencias están amparadas por garantías apropiadas en el sentido del UK GDPR y del RGPD — cláusulas contractuales tipo (SCC) y/o certificación en el Data Privacy Framework UE–EE. UU., previstas en los acuerdos de tratamiento de datos (DPA) de estos proveedores. Stripe aplica igualmente tales garantías. Puedes solicitar una copia de las garantías establecidas escribiendo a hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "7. Cookies",
+          "paragraphs": [
+            "El sitio utiliza las cookies y tecnologías estrictamente necesarias para su funcionamiento (por ejemplo el carrito y el pago), que no requieren tu consentimiento. [POR COMPLETAR: enumera aquí las posibles cookies no esenciales — analítica, marketing — y cómo obtener y gestionar tu consentimiento.]"
+          ]
+        },
+        {
+          "title": "8. Tus derechos",
+          "paragraphs": [
+            "Dispones de los derechos de acceso, rectificación, supresión, limitación, oposición y portabilidad, así como del derecho a retirar tu consentimiento en cualquier momento (sin afectar a los tratamientos ya realizados). Para ejercerlos, escribe a hello@monkeysticker.fr.",
+            "Si consideras que tus derechos no se respetan, puedes presentar una reclamación ante una autoridad de control: en el Reino Unido, la Information Commissioner's Office (ICO); en la UE, la autoridad de tu país de residencia (en España, la AEPD)."
+          ]
+        }
+      ]
+    },
+    "cgv": {
+      "title": "Condiciones generales de venta",
+      "introduction": "Estas condiciones generales de venta son una plantilla que debes adaptar a tu actividad, a tus países de venta y a tus modalidades comerciales. Sustituye todos los campos entre corchetes antes de publicar.",
+      "sections": [
+        {
+          "title": "1. Identidad del vendedor y ámbito de aplicación",
+          "paragraphs": [
+            "Estas condiciones rigen las ventas realizadas en este sitio entre Geno Studio Ltd, sociedad establecida en el Reino Unido, registrada con el número 17113844, cuyo domicilio social se encuentra en Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Reino Unido, y cualquier cliente que compre los productos ofrecidos en el sitio.",
+            "Se aplican tanto a consumidores como a profesionales. Los derechos que la ley reserva a los consumidores — en particular el derecho de desistimiento de 14 días y las disposiciones de nuestra Política de devolución que de él se derivan — benefician únicamente a los clientes que actúan con fines privados: un cliente profesional no dispone de derecho de desistimiento, sin perjuicio de las garantías legales de conformidad aplicables a los bienes."
+          ]
+        },
+        {
+          "title": "2. Productos",
+          "paragraphs": [
+            "Las características esenciales de cada producto figuran en su ficha antes de confirmar el pedido. Las fotografías e imágenes se facilitan a título ilustrativo; pueden existir ligeras variaciones de color o acabado según las pantallas y los procesos de fabricación.",
+            "[POR COMPLETAR: advertencias sobre los productos, límites de uso e instrucciones de colocación aplicables a tu catálogo.]"
+          ]
+        },
+        {
+          "title": "3. Precios, impuestos y gastos de envío",
+          "paragraphs": [
+            "Los precios mostrados se indican en euros (EUR) y precisan si los impuestos aplicables están incluidos o se añaden en el momento del pago. Los gastos de envío, derechos o impuestos de importación que puedan aplicarse se presentan antes de confirmar el pedido.",
+            "Nuestros productos se envían desde Francia. Según el país de entrega, pueden aplicarse derechos de aduana, un IVA de importación o gastos de despacho: los pedidos con destino al Reino Unido se envían desde la Unión Europea y pueden dar lugar a trámites e impuestos de importación, mientras que los pedidos entregados dentro de la Unión Europea no dan lugar a trámites aduaneros. Indica quién soporta estos gastos: [POR COMPLETAR: reparto de los derechos, IVA de importación y gastos de despacho, Incoterm en su caso (p. ej. DDP o DAP)]."
+          ],
+          "notice": "IVA a verificar: una sociedad británica que envía desde Francia puede tener obligaciones de IVA en la Unión Europea (registro de IVA, ventanilla única OSS/IOSS) y en el Reino Unido. Haz confirmar por un asesor competente tu tratamiento del IVA en la visualización de los precios y en la facturación: [POR COMPLETAR: régimen de IVA aplicado]."
+        },
+        {
+          "title": "4. Pedido y formación del contrato",
+          "paragraphs": [
+            "El cliente selecciona los productos, comprueba el resumen de su pedido, corrige los posibles errores, acepta estas condiciones y procede al pago. La confirmación del pedido enviada por correo electrónico resume el contrato en un soporte duradero.",
+            "Podemos rechazar o cancelar un pedido en caso de falta de disponibilidad, error manifiesto de precio, sospecha de fraude o imposibilidad razonable de ejecutar el pedido. En su caso, los importes cobrados se reembolsan con el medio de pago utilizado."
+          ]
+        },
+        {
+          "title": "5. Pago",
+          "paragraphs": [
+            "El pago es exigible en el momento del pedido, mediante los medios mostrados en el checkout. Los pagos son procesados por Stripe. No conservamos los datos de la tarjeta bancaria más allá de lo necesario para que este proveedor procese el pago."
+          ]
+        },
+        {
+          "title": "6. Entrega",
+          "paragraphs": [
+            "Entregamos en la dirección indicada al hacer el pedido, en los territorios especificados en el sitio. Los pedidos se preparan y envían desde Francia; los plazos pueden variar según el destino y los posibles trámites aduaneros. Los plazos de preparación y de entrega se indican antes de la compra y en la confirmación del pedido. Salvo acuerdo distinto, los bienes se entregan a más tardar en los 30 días siguientes a la celebración del contrato.",
+            "Si la entrega sufre un retraso importante, contáctanos en hello@monkeysticker.fr. Tus derechos en caso de retraso, imposibilidad de entrega o pérdida son los previstos por la ley aplicable."
+          ]
+        },
+        {
+          "title": "7. Derecho de desistimiento",
+          "paragraphs": [
+            "Cuando tienes la condición de consumidor y no se aplica ninguna excepción, puedes cancelar tu pedido en los 14 días siguientes a la recepción de los bienes, de conformidad en particular con las Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Las modalidades de ejercicio, las posibles exclusiones para los bienes personalizados, los gastos de devolución y las modalidades de reembolso se detallan en nuestra Política de devolución: /pages/politique-de-retour."
+          ]
+        },
+        {
+          "title": "8. Productos defectuosos y garantías",
+          "paragraphs": [
+            "Nada en estas condiciones limita los derechos legales del cliente. Los productos deben ser de calidad satisfactoria, adecuados para su uso habitual y corresponder a su descripción, dentro de los límites previstos por la ley aplicable.",
+            "Para señalar un problema, contacta con hello@monkeysticker.fr indicando tu número de pedido y, si es posible, fotos. Evaluaremos la solicitud y propondremos la solución adecuada de conformidad con tus derechos."
+          ]
+        },
+        {
+          "title": "9. Contenidos subidos y propiedad intelectual",
+          "paragraphs": [
+            "Cuando creas una pegatina personalizada, subes un contenido (foto, logo, ilustración, texto). Sigues siendo el único responsable del mismo. Al subirlo, declaras y garantizas que posees todos los derechos necesarios — derechos de autor, derechos de marca y los derechos de imagen y de la personalidad de las personas representadas — o que has obtenido las autorizaciones requeridas para utilizarlo y hacerlo reproducir en tu pedido.",
+            "Te comprometes a no subir ningún contenido que sea ilícito, infractor, difamatorio, que incite al odio o que vulnere los derechos de un tercero. Podemos rechazar o cancelar cualquier pedido cuyo contenido parezca vulnerar derechos o infringir la ley; en ese caso, los importes ya pagados por ese pedido se te reembolsan.",
+            "Nos concedes únicamente la licencia limitada necesaria para reproducir, imprimir, cortar y entregarte tu pedido, y para conservar el archivo durante el tiempo que requiera la tramitación del pedido. No reclamamos ningún derecho de propiedad sobre tu contenido.",
+            "Nos mantendrás indemnes frente a cualquier reclamación, acción o condena de un tercero derivada del contenido que hayas subido, en particular por vulneración de un derecho de propiedad intelectual o de un derecho de imagen o de la personalidad. En la medida permitida por la ley, declinamos toda responsabilidad por los contenidos facilitados por los clientes."
+          ]
+        },
+        {
+          "title": "10. Responsabilidad",
+          "paragraphs": [
+            "No limitamos ni excluimos nuestra responsabilidad cuando tal limitación o exclusión sea ilegal, en particular en caso de fraude, fallecimiento o lesión resultante de nuestra negligencia, o cuando los derechos legales del consumidor se opongan a ello.",
+            "Sin perjuicio de lo anterior, nuestra responsabilidad se limita en la máxima medida permitida por la ley. [POR COMPLETAR: posibles límites adaptados a tu actividad, previo asesoramiento jurídico]."
+          ]
+        },
+        {
+          "title": "11. Ley aplicable y jurisdicción",
+          "paragraphs": [
+            "Estas condiciones de venta se rigen por el derecho de Inglaterra y Gales. Esta cláusula no priva al consumidor de la protección imperativa que le otorgan las normas aplicables de su país de residencia habitual.",
+            "Cualquier litigio corresponde a los tribunales competentes determinados por las normas de procedimiento y de protección de los consumidores aplicables. [POR COMPLETAR: datos de contacto del servicio de reclamaciones y posible procedimiento amistoso]."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540" role="img" aria-label="Pitlane Rosso racing livery">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#181818"/>
+      <stop offset="0.55" stop-color="#111111"/>
+      <stop offset="1" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="rosso" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f0142c"/>
+      <stop offset="0.5" stop-color="#d10a1e"/>
+      <stop offset="1" stop-color="#9a0714"/>
+    </linearGradient>
+    <linearGradient id="rossoBand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e60f22"/>
+      <stop offset="1" stop-color="#b40817"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6f6f6"/>
+      <stop offset="1" stop-color="#c9ccd0"/>
+    </linearGradient>
+    <linearGradient id="asphalt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#242427"/>
+      <stop offset="1" stop-color="#141416"/>
+    </linearGradient>
+    <linearGradient id="carbon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2a2a2e"/>
+      <stop offset="1" stop-color="#1a1a1d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.34" r="0.6">
+      <stop offset="0" stop-color="#d10a1e" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#d10a1e" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="check" width="26" height="26" patternUnits="userSpaceOnUse">
+      <rect width="26" height="26" fill="#f2f2f2"/>
+      <rect width="13" height="13" fill="#111111"/>
+      <rect x="13" y="13" width="13" height="13" fill="#111111"/>
+    </pattern>
+    <pattern id="checkFine" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#f2f2f2"/>
+      <rect width="7" height="7" fill="#111111"/>
+      <rect x="7" y="7" width="7" height="7" fill="#111111"/>
+    </pattern>
+  </defs>
+
+  <!-- base -->
+  <rect width="856" height="540" fill="url(#bg)"/>
+  <rect width="856" height="540" fill="url(#glow)"/>
+
+  <!-- pitlane floor with painted lines (lower band) -->
+  <rect x="0" y="440" width="856" height="100" fill="url(#asphalt)"/>
+  <rect x="0" y="440" width="856" height="4" fill="#f2f2f2" opacity="0.85"/>
+  <g fill="#f2f2f2" opacity="0.5">
+    <rect x="30" y="470" width="44" height="7"/>
+    <rect x="110" y="470" width="44" height="7"/>
+    <rect x="190" y="470" width="44" height="7"/>
+    <rect x="270" y="470" width="44" height="7"/>
+    <rect x="350" y="470" width="44" height="7"/>
+    <rect x="430" y="470" width="44" height="7"/>
+    <rect x="510" y="470" width="44" height="7"/>
+    <rect x="590" y="470" width="44" height="7"/>
+    <rect x="670" y="470" width="44" height="7"/>
+    <rect x="750" y="470" width="44" height="7"/>
+    <rect x="830" y="470" width="44" height="7"/>
+  </g>
+  <text x="632" y="520" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="8" fill="#d10a1e" opacity="0.9">P I T L A N E</text>
+
+  <!-- diagonal team stripes across the top -->
+  <g>
+    <polygon points="360,0 470,0 300,540 190,540" fill="url(#rossoBand)"/>
+    <polygon points="470,0 500,0 330,540 300,540" fill="#f2f2f2"/>
+    <polygon points="500,0 560,0 390,540 330,540" fill="#111111"/>
+    <polygon points="560,0 578,0 408,540 390,540" fill="#d10a1e"/>
+  </g>
+
+  <!-- checkered flag block, top-right, angled -->
+  <g transform="translate(690,66) rotate(-9)">
+    <rect x="-6" y="-6" width="176" height="112" fill="#111111"/>
+    <rect x="0" y="0" width="164" height="100" fill="url(#check)"/>
+    <rect x="0" y="0" width="164" height="100" fill="none" stroke="#f2f2f2" stroke-width="2"/>
+  </g>
+  <!-- flag pole -->
+  <rect x="672" y="60" width="6" height="150" fill="url(#steel)" transform="rotate(-9 675 135)"/>
+
+  <!-- BIG driver number roundel -->
+  <g transform="translate(560,300)">
+    <circle r="128" fill="#f2f2f2"/>
+    <circle r="128" fill="none" stroke="#d10a1e" stroke-width="10"/>
+    <circle r="112" fill="none" stroke="#111111" stroke-width="3"/>
+    <text x="4" y="60" font-family="Arial Black, Arial, sans-serif" font-size="200" font-weight="900" text-anchor="middle" fill="#111111" letter-spacing="-6">27</text>
+    <!-- little checkered underline -->
+    <rect x="-70" y="76" width="140" height="14" fill="url(#checkFine)"/>
+  </g>
+
+  <!-- speed lines sweeping from the number -->
+  <g stroke-linecap="round" opacity="0.9">
+    <line x1="700" y1="252" x2="852" y2="252" stroke="#d10a1e" stroke-width="10"/>
+    <line x1="700" y1="300" x2="852" y2="300" stroke="#f2f2f2" stroke-width="6" opacity="0.5"/>
+    <line x1="700" y1="340" x2="852" y2="340" stroke="#d10a1e" stroke-width="7"/>
+    <line x1="710" y1="378" x2="852" y2="378" stroke="#f2f2f2" stroke-width="4" opacity="0.4"/>
+  </g>
+
+  <!-- telemetry HUD panel (bottom-right) -->
+  <g transform="translate(624,392)">
+    <rect x="0" y="0" width="216" height="46" rx="4" fill="#161616" stroke="#d10a1e" stroke-width="1.5" opacity="0.95"/>
+    <!-- rpm bar -->
+    <g>
+      <rect x="10" y="10" width="10" height="26" fill="#2a2a2e"/>
+      <rect x="24" y="10" width="10" height="26" fill="#2a2a2e"/>
+      <rect x="38" y="10" width="10" height="26" fill="#2a2a2e"/>
+      <rect x="52" y="10" width="10" height="26" fill="#d10a1e"/>
+      <rect x="66" y="10" width="10" height="26" fill="#d10a1e"/>
+      <rect x="80" y="10" width="10" height="26" fill="#f2f2f2"/>
+      <rect x="94" y="10" width="10" height="26" fill="#f2f2f2"/>
+    </g>
+    <text x="118" y="22" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="700" fill="#f2f2f2" letter-spacing="1">312</text>
+    <text x="160" y="22" font-family="Consolas, Menlo, monospace" font-size="9" fill="#d10a1e" letter-spacing="1">KM/H</text>
+    <text x="118" y="38" font-family="Consolas, Menlo, monospace" font-size="10" fill="#8a8a8a" letter-spacing="1">GEAR 7 - LAP 1:27</text>
+  </g>
+
+  <!-- title lockup, top-left safe area (right of the chip window) -->
+  <g transform="translate(300,86)">
+    <rect x="0" y="0" width="14" height="58" fill="#d10a1e"/>
+    <text x="26" y="30" font-family="Arial Black, Arial, sans-serif" font-size="40" font-weight="900" fill="#f2f2f2" letter-spacing="1">PITLANE</text>
+    <text x="26" y="56" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#d10a1e" letter-spacing="9">ROSSO</text>
+  </g>
+
+  <!-- small race classification tags, top-left below title -->
+  <g transform="translate(300,158)" font-family="Consolas, Menlo, monospace">
+    <rect x="0" y="0" width="70" height="22" rx="3" fill="#d10a1e"/>
+    <text x="35" y="16" font-size="12" font-weight="700" fill="#f2f2f2" text-anchor="middle" letter-spacing="1">GP - 01</text>
+    <rect x="80" y="0" width="88" height="22" rx="3" fill="#1c1c1c" stroke="#3a3a3a" stroke-width="1"/>
+    <text x="124" y="16" font-size="12" font-weight="700" fill="#f2f2f2" text-anchor="middle" letter-spacing="1">POLE - P1</text>
+  </g>
+
+  <!-- carbon-fibre wing element, bottom-left -->
+  <g transform="translate(250,376)">
+    <rect x="0" y="0" width="120" height="30" rx="6" fill="url(#carbon)" stroke="#000" stroke-width="1"/>
+    <g stroke="#3a3a3f" stroke-width="1">
+      <line x1="0" y1="10" x2="120" y2="10"/>
+      <line x1="0" y1="20" x2="120" y2="20"/>
+    </g>
+    <rect x="0" y="0" width="120" height="6" rx="3" fill="#d10a1e"/>
+    <rect x="-6" y="-10" width="10" height="50" rx="3" fill="url(#steel)"/>
+    <rect x="116" y="-10" width="10" height="50" rx="3" fill="url(#steel)"/>
+  </g>
+
+  <!-- frame -->
+  <rect x="0" y="0" width="856" height="540" fill="none" stroke="#d10a1e" stroke-width="6"/>
+</svg>

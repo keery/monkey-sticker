@@ -1,0 +1,918 @@
+{
+  "common": {
+    "addToCart": "Adicionar ao carrinho",
+    "viewDesigns": "Ver modelos",
+    "seeAll": "Ver tudo",
+    "remove": "Remover",
+    "decrease": "Diminuir",
+    "increase": "Aumentar",
+    "close": "Fechar",
+    "menu": "Menu",
+    "loading": "…",
+    "off": "de desconto"
+  },
+  "meta": {
+    "homeTitle": "{site} — Stickers para o teu cartão bancário",
+    "homeDescription": "Personaliza o teu cartão bancário com um sticker cortado à medida exata. O chip e o contactless continuam 100% funcionais. Compra um e leva outro grátis."
+  },
+  "announcement": {
+    "text": "À medida exata do teu cartão, com abertura para o chip",
+    "cta": "Ver modelos"
+  },
+  "nav": {
+    "allStickers": "Todos os stickers",
+    "bestsellers": "Mais vendidos",
+    "justDropped": "Novidades",
+    "createOwn": "Cria o teu",
+    "faq": "FAQ",
+    "trackOrder": "Seguir a encomenda"
+  },
+  "header": {
+    "cart": "Carrinho"
+  },
+  "footer": {
+    "tagline": "Stickers cortados ao tamanho exato do teu cartão bancário. O chip e o contactless continuam 100% funcionais.",
+    "newsletterTitle": "Vê as novidades em primeiro",
+    "colShop": "Loja",
+    "colHelp": "Ajuda",
+    "colLegal": "Legal",
+    "poseGuide": "Guia de aplicação",
+    "faqContact": "FAQ e contacto",
+    "shipping": "Envio",
+    "returns": "Política de devolução",
+    "legalNotice": "Aviso legal",
+    "privacy": "Privacidade",
+    "terms": "Termos de venda",
+    "rights": "Todos os direitos reservados."
+  },
+  "newsletter": {
+    "placeholder": "O teu e-mail",
+    "submit": "Subscrever",
+    "success": "Obrigado! Vais receber os próximos lançamentos em primeira mão. ✉️",
+    "error": "Algo correu mal, tenta novamente daqui a instantes."
+  },
+  "cart": {
+    "title": "Carrinho",
+    "empty": "O teu carrinho está vazio",
+    "emptyHint": "Compra um sticker e leva outro grátis. Aproveita para levar dois.",
+    "viewDesigns": "Ver modelos",
+    "remove": "Remover",
+    "bogo": {
+      "one": "Compra um e leva outro grátis ({count} grátis)",
+      "other": "Compra um e leva outro grátis ({count} grátis)"
+    },
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "shippingNote": "O envio é calculado no passo seguinte. Seguimento incluído."
+  },
+  "product": {
+    "from": "desde"
+  },
+  "stats": {
+    "items": [
+      "Mais de 100 000 cartões personalizados",
+      "Aplica-se em 30 segundos",
+      "Remove-se sem deixar vestígios",
+      "100% compatível com contactless",
+      "Enviado de França"
+    ]
+  },
+  "chip": {
+    "ariaLabel": "Tamanho do chip",
+    "compareHint": "Compara com a placa dourada do teu cartão: a janela recortada adapta-se ao seu tamanho.",
+    "sizes": {
+      "small": {
+        "label": "Chip pequeno",
+        "hint": "mais largo do que alto, ~11 × 8 mm",
+        "tag": "O mais comum"
+      },
+      "large": {
+        "label": "Chip grande",
+        "hint": "quase quadrado, ~13 × 11 mm",
+        "tag": ""
+      },
+      "none": {
+        "label": "Sem chip",
+        "hint": "crachá, cartão de transporte",
+        "tag": ""
+      }
+    }
+  },
+  "checkout": {
+    "button": "Finalizar compra",
+    "buttonBusy": "A redirecionar…",
+    "errorStart": "Não foi possível iniciar o pagamento.",
+    "errorContact": "Não foi possível contactar o pagamento. Tenta novamente daqui a pouco.",
+    "couponBogo": "Compra um e leva outro grátis",
+    "shippingFree": "Envio grátis (carta com seguimento)",
+    "shippingTracked": "Carta com seguimento",
+    "optionChip": "Chip",
+    "errEmpty": "O teu carrinho está vazio.",
+    "errUnconfigured": "O pagamento ainda não está ativado. Volta daqui a pouco.",
+    "errUnreadable": "Não foi possível ler o carrinho.",
+    "errNoUrl": "Sessão de pagamento sem URL."
+  },
+  "language": {
+    "label": "Idioma"
+  },
+  "home": {
+    "hero": {
+      "overline": "Stickers para cartão bancário",
+      "titleLine1": "O teu cartão,",
+      "titleLine2": "melhorado.",
+      "subtitle": "Cortado às medidas exatas do teu cartão, janela do chip incluída. Aplica-se em 30 segundos, remove-se sem deixar vestígios.",
+      "reviews": "{count} avaliações"
+    },
+    "sections": {
+      "bestsellers": {
+        "overline": "A montra",
+        "title": "Os mais aplicados"
+      },
+      "categories": {
+        "overline": "Os corredores",
+        "title": "Explora por categoria",
+        "linkLabel": "Explorar tudo"
+      },
+      "justDropped": {
+        "overline": "Acabados de chegar"
+      }
+    },
+    "precision": {
+      "overline": "Corte cardcut",
+      "title": "Preciso ao décimo de milímetro",
+      "body": "Cada sticker é cortado às medidas ISO do teu cartão. A janela fica mesmo em cima do chip: pagamento, contactless e caixas automáticos funcionam como antes.",
+      "features": [
+        {
+          "title": "Chip livre",
+          "desc": "a janela de 14 × 11 mm deixa o contacto desimpedido"
+        },
+        {
+          "title": "Contactless intacto",
+          "desc": "vinil fino, a antena NFC nunca é bloqueada"
+        },
+        {
+          "title": "Remove-se sem vestígios",
+          "desc": "descola-se por um canto, zero resíduo"
+        }
+      ]
+    },
+    "install": {
+      "overline": "A aplicação",
+      "title": "Aplicado em 30 segundos",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Limpa",
+          "text": "Uma passagem com o toalhete fornecido e o teu cartão fica pronto."
+        },
+        {
+          "n": "02",
+          "title": "Alinha",
+          "text": "Rente ao bordo: o corte é à medida exata, a janela fica mesmo em cima do chip."
+        },
+        {
+          "n": "03",
+          "title": "Alisa",
+          "text": "Do centro para os bordos. Trinta segundos, zero bolhas com o kit."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "As perguntas que nos fazem",
+      "moreLead": "Outra?",
+      "moreLink": "A FAQ completa",
+      "moreTail": "responde a tudo.",
+      "items": [
+        {
+          "title": "O chip e o contactless continuam a funcionar?",
+          "content": "Sim, a 100%. A janela recortada deixa o chip totalmente livre e o sticker é fino o suficiente para não interferir com o contactless nem com os caixas automáticos. O teu cartão continua a ser aceite em todo o lado: terminais de pagamento, caixas automáticos, quiosques."
+        },
+        {
+          "title": "É permitido pelo meu banco? É legal?",
+          "content": "Sim. O sticker cobre o plástico sem alterar nenhum dado: o chip fica à vista, o número e a banda magnética intactos. O teu cartão continua válido e aceite em todo o lado. Pertence ao teu banco: basta descolares o sticker, sem resíduos, antes de o devolveres."
+        },
+        {
+          "title": "Quanto tempo dura?",
+          "content": "O vinil foi feito para a vida real: carteira, atrito, calor. Conta com vários anos de utilização normal. E se mudares de ideias, mudas de modelo."
+        },
+        {
+          "title": "Posso removê-lo sem danificar o cartão?",
+          "content": "Sim. O sticker descola-se por um canto, sem deixar resíduos de cola. O teu cartão fica como novo, prático quando o renovas ou queres um novo modelo."
+        }
+      ]
+    },
+    "offer": {
+      "titleLine1": "Compra um",
+      "titleLine2": "= leva outro grátis.",
+      "body": "Cada sticker encomendado esconde um segundo. Para o teu cartão suplente, ou para um amigo.",
+      "cta": "Escolher dois modelos"
+    },
+    "earlyAccess": {
+      "title": "Acesso antecipado",
+      "body": "Novos modelos em pré-estreia, antes de chegarem à montra."
+    },
+    "schematic": {
+      "ariaLabel": "Esquema cotado do sticker: {width} por {height} milímetros, janela do chip de {chipW} por {chipH} milímetros a {edge} milímetros do bordo, cantos arredondados a {radius} milímetros",
+      "chipWindow": "Janela do chip · {w} × {h} mm",
+      "cornerRadius": "R {r} mm"
+    }
+  },
+  "checkoutPage": {
+    "title": "Obrigado!",
+    "orderIntro": "A tua encomenda",
+    "statusConfirmed": "está confirmada",
+    "statusReceived": "foi recebida",
+    "emailNote": "Está a chegar um e-mail de confirmação da parte da Stripe.",
+    "totalPaidLabel": "Total pago",
+    "itemCountOne": "{count} artigo",
+    "itemCountPlural": "{count} artigos",
+    "freeCountOne": "{count} grátis",
+    "freeCountPlural": "{count} grátis",
+    "paymentPending": "A confirmar o teu pagamento… podes fechar esta página em segurança.",
+    "noOrder": "O teu pagamento foi recebido. Se não receberes um e-mail de confirmação, contacta-nos através da página FAQ e contacto.",
+    "shippingNote": "Estamos a preparar o teu cartão, enviado num prazo de 48 h a partir de França.",
+    "ctaContinue": "Continuar a comprar",
+    "ctaPose": "Aplica em 60 s",
+    "cancelTitle": "Pagamento cancelado",
+    "cancelBody": "Sem problemas, não foi cobrado nada. O teu carrinho está à tua espera, retoma quando quiseres.",
+    "cancelCtaBack": "Voltar à loja",
+    "cancelCtaQuestion": "Alguma dúvida?"
+  },
+  "collection": {
+    "breadcrumbHome": "Início",
+    "eyebrow": "O showroom",
+    "countOne": "{count} modelo — compra um e leva outro grátis",
+    "countMany": "{count} modelos — compra um e leva outro grátis",
+    "sortLabel": "Ordenar:",
+    "sortSubmit": "OK",
+    "sort": {
+      "featured": "Em destaque",
+      "best-selling": "Mais vendidos",
+      "az": "Alfabética A-Z",
+      "za": "Alfabética Z-A",
+      "price-asc": "Preço, do mais baixo ao mais alto",
+      "price-desc": "Preço, do mais alto ao mais baixo"
+    },
+    "chipAll": "Todos",
+    "empty": "Ainda não há modelos nesta categoria.",
+    "ctaTitle": "Não encontras o teu preferido?",
+    "ctaText": "Carrega a tua própria imagem e cria um sticker único, cortado exatamente às mesmas medidas.",
+    "ctaButton": "Cria o teu"
+  },
+  "createOwn": {
+    "meta": {
+      "title": "Cria o teu: o teu modelo no teu cartão | Monkey Sticker",
+      "description": "Carrega a tua foto, logótipo ou ilustração e enquadra-a no teu cartão bancário. Cortado às medidas exatas, janela do chip incluída, contactless intacto."
+    },
+    "hero": {
+      "overline": "A oficina",
+      "title": "Cria o teu",
+      "subtitle": "A tua foto, o teu logótipo, a tua cena: cortado às medidas exatas do teu cartão, janela do chip incluída.",
+      "reviews": "{count} avaliações",
+      "perSticker": "por sticker"
+    },
+    "faq": {
+      "title": "Antes de mandar imprimir",
+      "moreLead": "Outra pergunta?",
+      "moreLink": "A FAQ completa",
+      "moreTail": "responde a tudo.",
+      "items": [
+        {
+          "title": "Que imagens dão o melhor resultado?",
+          "content": "Uma foto nítida, um logótipo ou uma ilustração com pelo menos 1000 px de largura. Se a resolução ficar demasiado baixa enquanto enquadras, aparece um alerta em direto: afasta um pouco o zoom ou escolhe uma imagem maior, e o resultado ficará impecável."
+        },
+        {
+          "title": "E se houver um problema com o meu ficheiro?",
+          "content": "Uma pessoa verifica cada encomenda antes de imprimir. Enquadramento duvidoso, resolução no limite, um elemento cortado: entramos em contacto antes de começar o corte."
+        },
+        {
+          "title": "Posso usar qualquer imagem?",
+          "content": "As tuas fotos, as tuas criações, o teu gato, o teu grupo: tudo o que é teu. Logótipos de marcas e imagens protegidas apenas se tiveres os direitos."
+        },
+        {
+          "title": "Chip grande ou pequeno, como saber?",
+          "content": "Olha para a placa dourada do teu cartão. Claramente mais larga do que alta (~11 × 8 mm), com um espaço por cima dos números: chip pequeno, o mais comum nos cartões recentes. Quase quadrada (~13 × 11 mm), muitas vezes junto aos números: chip grande. Atenção, alguns bancos emitem os dois: confia no teu cartão, não no seu modelo. O seletor mostra as duas formas à escala, e a janela recortada adapta-se."
+        },
+        {
+          "title": "O chip e o contactless continuam a funcionar?",
+          "content": "Sim, a 100%. A janela do chip é pré-cortada às medidas exatas do teu cartão e o vinil é fino o suficiente para nunca interferir com o contactless nem com os caixas automáticos."
+        }
+      ]
+    },
+    "showcase": {
+      "overline": "Não tens uma imagem à mão?",
+      "title": "A montra está à tua espera",
+      "allLink": "Todos os modelos →"
+    },
+    "steps": {
+      "image": "A tua imagem",
+      "crop": "O enquadramento",
+      "chip": "O chip do teu cartão",
+      "finishQty": "Acabamento e quantidade"
+    },
+    "upload": {
+      "choose": "Escolher uma imagem",
+      "replace": "Substituir a imagem",
+      "hint": "Foto, logótipo, ilustração: tudo o que é teu."
+    },
+    "dropzone": {
+      "title": "O teu modelo aqui",
+      "hint": "Arrasta uma imagem, cola-a (Ctrl V), ou",
+      "formats": "JPG · PNG · WebP · ideal ≥ {min} px de largura"
+    },
+    "errors": {
+      "type": "Este formato não é suportado. Usa JPG, PNG ou WebP.",
+      "tooLarge": "Esta imagem é demasiado pesada (máx. {max} MB).",
+      "unreadable": "Não foi possível ler esta imagem. Tenta outro ficheiro."
+    },
+    "preview": {
+      "ariaLabel": "Enquadramento da tua imagem no cartão. Setas para mover, mais e menos para o zoom, zero para recentrar.",
+      "imageAlt": "O teu modelo enquadrado no cartão",
+      "dimensions": "85,6 × 53,98 mm · corte cardcut",
+      "sharpnessBadge": "nitidez {dpi} dpi · demasiado baixa",
+      "chipHint": "A moldura dourada é a janela recortada: o teu chip verdadeiro fica visível ali mesmo.",
+      "noChipHint": "Sem janela do chip: o sticker cobre toda a superfície do cartão."
+    },
+    "crop": {
+      "zoomLabel": "Zoom",
+      "hintMobile": "Arrasta para mover, faz pinça para o zoom.",
+      "hintDesktop": "Arrasta para mover, faz scroll para o zoom. Com o teclado: setas, + e −.",
+      "recenter": "Recentrar",
+      "sharpnessWarning": "Com este nível de zoom, a impressão vai perder nitidez: afasta um pouco o zoom ou escolhe uma imagem maior."
+    },
+    "finish": {
+      "groupLabel": "Acabamento"
+    },
+    "finishes": {
+      "Mat": {
+        "label": "Mate",
+        "hint": "toque suave, zero reflexos"
+      },
+      "Brillant": {
+        "label": "Brilhante",
+        "hint": "cores vivas, efeito acetinado"
+      }
+    },
+    "qty": {
+      "decrease": "Diminuir a quantidade",
+      "increase": "Aumentar a quantidade"
+    },
+    "bogo": {
+      "upsell": "Leva 2: o 2.º é grátis",
+      "freeCount": {
+        "one": "{count} grátis",
+        "other": "{count} grátis"
+      },
+      "freeTail": "com compra um e leva outro grátis."
+    },
+    "cta": {
+      "addToCart": "Adicionar ao carrinho",
+      "chooseFirst": "Escolhe uma imagem para começar",
+      "added": "✓ Adicionado! O teu modelo será verificado por nós antes de imprimir."
+    },
+    "guarantees": [
+      {
+        "title": "Verificação humana",
+        "desc": "verificamos o teu ficheiro antes de imprimir"
+      },
+      {
+        "title": "Enviado em 48 h",
+        "desc": "a partir de França, em carta com seguimento"
+      },
+      {
+        "title": "Defeito de impressão",
+        "desc": "reimprimimos para ti"
+      }
+    ],
+    "mobileBar": {
+      "stickers": {
+        "one": "{count} sticker",
+        "other": "{count} stickers"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Respondemos a tudo",
+    "intro": "As respostas às perguntas que nos fazem mais.",
+    "items": [
+      {
+        "q": "O sticker interfere com o chip ou com o contactless?",
+        "a": "Não. A janela do chip é pré-cortada às medidas exatas, por isso o chip fica totalmente livre. O vinil é fino o suficiente para deixar passar o contactless (NFC) sem qualquer enfraquecimento percetível. Caixas automáticos, terminais de pagamento, cancelas de transporte: tudo funciona normalmente."
+      },
+      {
+        "q": "É permitido pelo meu banco? É legal?",
+        "a": "Sim. O sticker cobre apenas o plástico da frente do cartão: não altera nenhum dado, deixa o chip totalmente à vista e não mexe no número nem na banda magnética das costas. O teu cartão continua válido e aceite em todo o lado. Como continua a ser propriedade do teu banco, basta descolares o sticker — levanta-se por um canto, sem deixar resíduos — antes de o devolveres ou renovares."
+      },
+      {
+        "q": "Um caixa automático pode recusar ou engolir o meu cartão?",
+        "a": "Não. O vinil é ultrafino: o teu cartão mantém a espessura original e entra nos caixas automáticos, nos terminais de pagamento e nos leitores exatamente como antes. A janela pré-cortada deixa o chip livre, e a banda magnética das costas nunca fica coberta."
+      },
+      {
+        "q": "Funciona em todos os cartões?",
+        "a": "Sim, em qualquer cartão no formato ISO padrão (bancário, transporte, crachá). Os cartões com números em relevo (embossados) são compatíveis: o vinil adapta-se ao relevo. Os cartões verticais também: o chip fica no mesmo local físico."
+      },
+      {
+        "q": "Quanto tempo dura?",
+        "a": "O vinil foi feito para a vida real da carteira: atrito, calor, toques repetidos nos terminais. Conta com vários anos de utilização normal, sem descolar nos bordos. Apetece-te mudar antes disso? Aplicas simplesmente um novo modelo."
+      },
+      {
+        "q": "Como aplico o sticker de forma limpa?",
+        "a": "Desengordura o cartão (com o toalhete do kit ou álcool doméstico), alinha a janela com o chip e aplica, alisando do centro para os bordos. Se aparecer uma pequena bolha, pica-a com uma agulha e alisa. O kit de aplicação (espátula + toalhete + microfibra) garante um encaixe perfeito."
+      },
+      {
+        "q": "Posso remover o sticker? O meu cartão vai ficar danificado?",
+        "a": "O sticker descola-se puxando suavemente por um canto, sem deixar cola. O teu cartão fica intacto. Um sticker removido não se volta a aplicar: basta encomendar um novo (bónus simpático: compra um e leva outro grátis)."
+      },
+      {
+        "q": "Quais são os prazos de entrega?",
+        "a": "Enviado num prazo de 48 h úteis a partir de França, em carta com seguimento. Conta com 2 a 4 dias úteis em Portugal continental, 3 a 7 dias na Europa. Recebes o número de seguimento por e-mail."
+      },
+      {
+        "q": "E se o meu sticker tiver um defeito?",
+        "a": "Uma falha de impressão ou um corte imperfeito? Enviamos-te um novo sticker. Escreve-nos através do formulário abaixo com uma foto, e respondemos num prazo de 24 h úteis."
+      }
+    ],
+    "contact": {
+      "heading": "Outra pergunta?",
+      "subheading": "Resposta num prazo de 24 h úteis, prometido.",
+      "success": "Mensagem enviada! Respondemos-te num prazo de 24 h úteis. 📬",
+      "namePlaceholder": "O teu nome",
+      "emailPlaceholder": "O teu e-mail",
+      "orderPlaceholder": "N.º de encomenda (opcional)",
+      "messagePlaceholder": "A tua mensagem",
+      "submit": "Enviar"
+    },
+    "metaDescription": "Perguntas frequentes sobre os stickers de cartão bancário: aplicação, chip e contactless, envio, devoluções. E um formulário para nos contactares."
+  },
+  "legal": {
+    "kicker": "Informações legais",
+    "lastUpdated": "Última atualização: 15 de agosto de 2026.",
+    "disclaimer": "Modelo informativo a adaptar à tua atividade. Manda rever a versão final por um profissional do direito competente para os teus mercados de venda.",
+    "livraison": {
+      "title": "Envio",
+      "introduction": "As informações abaixo devem ser adaptadas aos teus métodos e zonas de envio.",
+      "sections": [
+        {
+          "title": "Expedição e seguimento",
+          "paragraphs": [
+            "As encomendas são preparadas e expedidas a partir de França, incluindo para clientes situados no Reino Unido e no resto da Europa. Consoante o destino, podem aplicar-se formalidades ou taxas de importação (ver as nossas condições gerais de venda).",
+            "[A PREENCHER: prazos de preparação, transportadoras, zonas servidas e modalidades de seguimento.]"
+          ]
+        }
+      ]
+    },
+    "retours": {
+      "title": "Política de devolução",
+      "introduction": "Este modelo deve ser completado com as tuas informações e opções operacionais antes da publicação. Está redigido para uma empresa estabelecida no Reino Unido que vende online a consumidores.",
+      "sections": [
+        {
+          "title": "1. Contactar-nos",
+          "paragraphs": [
+            "Para qualquer pedido de devolução, reembolso ou substituição, contacta a Geno Studio Ltd em hello@monkeysticker.fr, indicando o teu número de encomenda, o(s) artigo(s) em causa e o motivo do teu pedido. Responderemos com os passos a seguir."
+          ]
+        },
+        {
+          "title": "2. Direito de livre resolução",
+          "paragraphs": [
+            "Se comprares na qualidade de consumidor e não se aplicar nenhuma exceção legal, podes cancelar a tua encomenda no prazo de 14 dias após a receção dos bens, sem teres de justificar a tua decisão. Esta informação está prevista, em particular, pelas Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Para exercer este direito, envia-nos uma declaração clara da tua decisão antes de expirar este prazo. Podes usar o nosso formulário de resolução [A PREENCHER: ligação ou modalidades]; a sua utilização não é obrigatória."
+          ],
+          "notice": "Prazo a verificar antes da publicação: depois de nos notificares da tua resolução, dispões habitualmente de mais 14 dias para devolver os bens. Adapta este texto aos teus mercados de venda e a qualquer prazo mais favorável que escolhas oferecer."
+        },
+        {
+          "title": "3. Artigos personalizados",
+          "paragraphs": [
+            "O direito de livre resolução não se aplica aos stickers personalizados — criados a partir da tua própria imagem (oferta «Cria o teu») ou de qualquer outra especificação que nos transmitas. Feitos e impressos por encomenda, especialmente para ti, enquadram-se na exceção prevista pelas Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 para bens claramente personalizados.",
+            "Na prática: enquanto a impressão não tiver começado, podes pedir-nos para cancelar a tua encomenda; assim que a impressão começar, uma encomenda de produto personalizado já não pode ser cancelada nem devolvida. Esta exclusão não se aplica se o artigo estiver defeituoso, danificado ou não conforme — nesses casos, os teus direitos mantêm-se por inteiro (ver «Produto defeituoso, danificado ou incorreto»).",
+            "Os stickers do catálogo, que não são personalizados, continuam abrangidos pelo direito de livre resolução acima. Para esses artigos, podemos deduzir do teu reembolso qualquer perda de valor resultante de um manuseamento que vá além do necessário para estabelecer a natureza, as características e o bom funcionamento do produto."
+          ]
+        },
+        {
+          "title": "4. Devolver um artigo",
+          "paragraphs": [
+            "Quando uma devolução é justificada (por exemplo, uma resolução de um sticker não personalizado), comunicamos-te a morada e as modalidades: 6 rue Voltaire, 93100 Montreuil, France. Como as nossas encomendas partem de França, a morada de devolução é em França e não é a da sede social no Reino Unido — usa apenas a morada que te indicarmos e não envies nada antes de receber as nossas instruções.",
+            "Para uma resolução relativa a um artigo não personalizado, devolves-nos os bens no prazo de 14 dias após a notificação da tua resolução, a expensas tuas. Os custos de devolução ficam a nosso cargo apenas se o artigo estiver defeituoso, não conforme ou tiver sido enviado por erro. Guarda o comprovativo de envio até à confirmação do reembolso."
+          ]
+        },
+        {
+          "title": "5. Reembolsos",
+          "paragraphs": [
+            "Em caso de resolução, reembolsamos-te no prazo de 14 dias. Conforme permitido por lei, podemos reter esse reembolso até termos recebido os bens devolvidos ou, se for mais cedo, até nos forneceres a prova de que os reenviaste — o que ocorrer primeiro. O reembolso inclui o custo da entrega padrão inicial quando a lei o exige; os custos de devolução, porém, ficam a teu cargo.",
+            "O reembolso é efetuado através do meio de pagamento utilizado na encomenda, salvo acordo expresso em contrário, e sem custos para ti."
+          ]
+        },
+        {
+          "title": "6. Produto defeituoso, danificado ou incorreto",
+          "paragraphs": [
+            "Se um produto estiver defeituoso, danificado à chegada ou não corresponder à tua encomenda, contacta-nos rapidamente com fotos e o teu número de encomenda. A nossa solução por defeito é reimprimir e reexpedir o artigo gratuitamente, sem teres de no-lo devolver; consoante o caso e os teus direitos legais, um reembolso também é possível.",
+            "Esta política não limita os teus direitos legais de consumidor, em particular os direitos aplicáveis a bens não conformes ou defeituosos."
+          ]
+        }
+      ]
+    },
+    "politique-de-retour": {
+      "title": "Política de devolução",
+      "introduction": "Este modelo deve ser completado com as tuas informações e opções operacionais antes da publicação. Está redigido para uma empresa estabelecida no Reino Unido que vende online a consumidores.",
+      "sections": [
+        {
+          "title": "1. Contactar-nos",
+          "paragraphs": [
+            "Para qualquer pedido de devolução, reembolso ou substituição, contacta a Geno Studio Ltd em hello@monkeysticker.fr, indicando o teu número de encomenda, o(s) artigo(s) em causa e o motivo do teu pedido. Responderemos com os passos a seguir."
+          ]
+        },
+        {
+          "title": "2. Direito de livre resolução",
+          "paragraphs": [
+            "Se comprares na qualidade de consumidor e não se aplicar nenhuma exceção legal, podes cancelar a tua encomenda no prazo de 14 dias após a receção dos bens, sem teres de justificar a tua decisão. Esta informação está prevista, em particular, pelas Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Para exercer este direito, envia-nos uma declaração clara da tua decisão antes de expirar este prazo. Podes usar o nosso formulário de resolução [A PREENCHER: ligação ou modalidades]; a sua utilização não é obrigatória."
+          ],
+          "notice": "Prazo a verificar antes da publicação: depois de nos notificares da tua resolução, dispões habitualmente de mais 14 dias para devolver os bens. Adapta este texto aos teus mercados de venda e a qualquer prazo mais favorável que escolhas oferecer."
+        },
+        {
+          "title": "3. Artigos personalizados",
+          "paragraphs": [
+            "O direito de livre resolução não se aplica aos stickers personalizados — criados a partir da tua própria imagem (oferta «Cria o teu») ou de qualquer outra especificação que nos transmitas. Feitos e impressos por encomenda, especialmente para ti, enquadram-se na exceção prevista pelas Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 para bens claramente personalizados.",
+            "Na prática: enquanto a impressão não tiver começado, podes pedir-nos para cancelar a tua encomenda; assim que a impressão começar, uma encomenda de produto personalizado já não pode ser cancelada nem devolvida. Esta exclusão não se aplica se o artigo estiver defeituoso, danificado ou não conforme — nesses casos, os teus direitos mantêm-se por inteiro (ver «Produto defeituoso, danificado ou incorreto»).",
+            "Os stickers do catálogo, que não são personalizados, continuam abrangidos pelo direito de livre resolução acima. Para esses artigos, podemos deduzir do teu reembolso qualquer perda de valor resultante de um manuseamento que vá além do necessário para estabelecer a natureza, as características e o bom funcionamento do produto."
+          ]
+        },
+        {
+          "title": "4. Devolver um artigo",
+          "paragraphs": [
+            "Quando uma devolução é justificada (por exemplo, uma resolução de um sticker não personalizado), comunicamos-te a morada e as modalidades: 6 rue Voltaire, 93100 Montreuil, France. Como as nossas encomendas partem de França, a morada de devolução é em França e não é a da sede social no Reino Unido — usa apenas a morada que te indicarmos e não envies nada antes de receber as nossas instruções.",
+            "Para uma resolução relativa a um artigo não personalizado, devolves-nos os bens no prazo de 14 dias após a notificação da tua resolução, a expensas tuas. Os custos de devolução ficam a nosso cargo apenas se o artigo estiver defeituoso, não conforme ou tiver sido enviado por erro. Guarda o comprovativo de envio até à confirmação do reembolso."
+          ]
+        },
+        {
+          "title": "5. Reembolsos",
+          "paragraphs": [
+            "Em caso de resolução, reembolsamos-te no prazo de 14 dias. Conforme permitido por lei, podemos reter esse reembolso até termos recebido os bens devolvidos ou, se for mais cedo, até nos forneceres a prova de que os reenviaste — o que ocorrer primeiro. O reembolso inclui o custo da entrega padrão inicial quando a lei o exige; os custos de devolução, porém, ficam a teu cargo.",
+            "O reembolso é efetuado através do meio de pagamento utilizado na encomenda, salvo acordo expresso em contrário, e sem custos para ti."
+          ]
+        },
+        {
+          "title": "6. Produto defeituoso, danificado ou incorreto",
+          "paragraphs": [
+            "Se um produto estiver defeituoso, danificado à chegada ou não corresponder à tua encomenda, contacta-nos rapidamente com fotos e o teu número de encomenda. A nossa solução por defeito é reimprimir e reexpedir o artigo gratuitamente, sem teres de no-lo devolver; consoante o caso e os teus direitos legais, um reembolso também é possível.",
+            "Esta política não limita os teus direitos legais de consumidor, em particular os direitos aplicáveis a bens não conformes ou defeituosos."
+          ]
+        }
+      ]
+    },
+    "mentions-legales": {
+      "title": "Aviso legal",
+      "introduction": "Este aviso identifica a empresa que explora o site. Substitui cada campo entre parênteses retos pelas tuas informações verificadas antes da publicação.",
+      "sections": [
+        {
+          "title": "1. Editor do site",
+          "paragraphs": [
+            "O presente site é editado pela Geno Studio Ltd, private limited company (Ltd), sociedade registada em Inglaterra e no País de Gales sob o número 17113844."
+          ],
+          "bullets": [
+            "Registered office: Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Reino Unido.",
+            "Morada de correspondência: 6 rue Voltaire, 93100 Montreuil, France.",
+            "Número de IVA britânico: [A PREENCHER: UK VAT number, se aplicável].",
+            "E-mail: hello@monkeysticker.fr.",
+            "Telefone: [A PREENCHER: número de telefone, se forneceres um]."
+          ]
+        },
+        {
+          "title": "2. Responsável pela publicação",
+          "paragraphs": [
+            "Responsável pela publicação: [A PREENCHER: nome e função].",
+            "Contacto editorial: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "3. Alojamento",
+          "paragraphs": [
+            "O site (front-end) está alojado pela Vercel Inc., 440 N Barranca Ave, PMB 4133, Covina, CA 91723, EUA — https://vercel.com. O servidor aplicacional (back-end) está alojado pela Fly.io, Inc., 321 North Clark Street, Chicago, IL, EUA — legal@fly.io. A base de dados está alojada pela Render Services, Inc., 525 Brannan Street, Ste 300, San Francisco, CA 94107, EUA — https://render.com."
+          ]
+        },
+        {
+          "title": "4. Propriedade intelectual",
+          "paragraphs": [
+            "Salvo indicação em contrário, os elementos do site — em particular textos, imagens, logótipos, desenhos, vídeos e código — estão protegidos por direitos de propriedade intelectual. Qualquer reprodução, adaptação ou utilização não autorizada é proibida, salvo autorização escrita prévia da Geno Studio Ltd ou salvo permissão legal em contrário."
+          ]
+        },
+        {
+          "title": "5. Dados pessoais e cookies",
+          "paragraphs": [
+            "As modalidades de recolha e tratamento dos dados pessoais estão detalhadas na nossa política de privacidade: /pages/confidentialite.",
+            "Se utilizares cookies ou tecnologias semelhantes que não sejam estritamente necessárias, indica as tuas finalidades, os teus fornecedores e a forma de gerir as escolhas na tua política de privacidade e na tua ferramenta de consentimento: [A PREENCHER: ligação ou descrição]."
+          ]
+        },
+        {
+          "title": "6. Lei aplicável e jurisdição",
+          "paragraphs": [
+            "Este aviso é regido pela lei de Inglaterra e do País de Gales, sem prejuízo das disposições imperativas de proteção dos consumidores aplicáveis no país de residência do cliente. Os tribunais competentes são determinados pelas regras legais aplicáveis."
+          ]
+        }
+      ]
+    },
+    "confidentialite": {
+      "title": "Política de privacidade",
+      "introduction": "Esta política explica que dados pessoais a Geno Studio Ltd recolhe através deste site, porquê, durante quanto tempo são conservados e quais são os teus direitos. Foi elaborada tendo em conta o UK GDPR e o RGPD (UE). Este modelo deve ser revisto por um profissional e ajustado aos teus tratamentos reais antes da publicação.",
+      "sections": [
+        {
+          "title": "1. Responsável pelo tratamento",
+          "paragraphs": [
+            "O responsável pelo tratamento é a Geno Studio Ltd, private limited company registada em Inglaterra e no País de Gales sob o número 17113844, cuja sede social se situa em Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Reino Unido.",
+            "Para qualquer questão relativa aos teus dados ou para exercer os teus direitos: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "2. Dados que recolhemos",
+          "bullets": [
+            "Encomenda e entrega: nome, morada postal, e-mail e detalhes da encomenda.",
+            "Pagamento: tratado pela Stripe. Não armazenamos números de cartão; recebemos da Stripe informações limitadas (estado do pagamento, dados de faturação).",
+            "Personalização: a imagem que carregas para um sticker personalizado (oferta «Cria o teu»).",
+            "Newsletter: o teu endereço de e-mail e a origem da inscrição, se te inscreveres.",
+            "Dados técnicos: registos do servidor e dados de ligação necessários ao funcionamento e à segurança do site."
+          ]
+        },
+        {
+          "title": "3. Finalidades e bases legais",
+          "bullets": [
+            "Processar e entregar as tuas encomendas, contactar-te a esse respeito e prestar o serviço pós-venda — execução do contrato (art. 6.º, n.º 1, al. b)).",
+            "Enviar-te a newsletter — o teu consentimento (art. 6.º, n.º 1, al. a)), que pode ser retirado a qualquer momento.",
+            "Cumprir as nossas obrigações contabilísticas e fiscais — obrigação legal (art. 6.º, n.º 1, al. c)).",
+            "Proteger o site, prevenir a fraude e melhorar os nossos serviços — interesse legítimo (art. 6.º, n.º 1, al. f))."
+          ]
+        },
+        {
+          "title": "4. Prazos de conservação",
+          "paragraphs": [
+            "Dados de encomenda e faturação: durante o tempo necessário à execução do contrato e, em seguida, durante o prazo legal de conservação contabilística — [A PREENCHER: prazo, por exemplo 6 anos].",
+            "Inscrição na newsletter: até te cancelares a subscrição e, depois, eliminação ou anonimização.",
+            "Imagens personalizadas carregadas: [A PREENCHER: prazo de conservação dos ficheiros]."
+          ]
+        },
+        {
+          "title": "5. Subcontratantes e destinatários",
+          "paragraphs": [
+            "Não vendemos os teus dados. Partilhamo-los apenas com os fornecedores estritamente necessários ao serviço, obrigados por contrato a protegê-los:"
+          ],
+          "bullets": [
+            "Alojamento do site (front-end): Vercel Inc. (EUA). Servidor aplicacional: Fly.io, Inc. (EUA). Base de dados: Render Services, Inc. (EUA).",
+            "Pagamento: Stripe — para um cliente europeu, a parte contratante é a Stripe Payments Europe, Limited (Irlanda).",
+            "Envio a partir de França: [A PREENCHER: transportadora(s), se aplicável]."
+          ]
+        },
+        {
+          "title": "6. Transferências para fora da União Europeia",
+          "paragraphs": [
+            "Alguns dos nossos fornecedores estão situados fora da União Europeia, nomeadamente nos Estados Unidos: Vercel (alojamento do site), Fly.io (servidor aplicacional) e Render (base de dados). Os teus dados pessoais podem, por isso, ser transferidos e tratados nos Estados Unidos.",
+            "Estas transferências são enquadradas por garantias adequadas ao abrigo do UK GDPR e do RGPD — cláusulas contratuais-tipo (CCT) e/ou certificação ao abrigo do Data Privacy Framework UE–Estados Unidos, previstas nos acordos de tratamento de dados (DPA) destes fornecedores. A Stripe aplica igualmente tais garantias. Podes solicitar uma cópia das garantias implementadas escrevendo para hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "7. Cookies",
+          "paragraphs": [
+            "O site utiliza cookies e tecnologias estritamente necessárias ao seu funcionamento (por exemplo, o carrinho e o pagamento), que não requerem o teu consentimento. [A PREENCHER: enumera aqui os eventuais cookies não essenciais — medição de audiência, marketing — e a forma de obter e gerir o teu consentimento.]"
+          ]
+        },
+        {
+          "title": "8. Os teus direitos",
+          "paragraphs": [
+            "Tens os direitos de acesso, retificação, apagamento, limitação, oposição e portabilidade, bem como o direito de retirar o teu consentimento a qualquer momento (sem afetar os tratamentos já realizados). Para os exerceres, escreve para hello@monkeysticker.fr.",
+            "Se considerares que os teus direitos não estão a ser respeitados, podes apresentar uma reclamação a uma autoridade de controlo: no Reino Unido, o Information Commissioner's Office (ICO); na UE, a autoridade do teu país de residência (em Portugal, a CNPD)."
+          ]
+        }
+      ]
+    },
+    "cgv": {
+      "title": "Condições gerais de venda",
+      "introduction": "Estas condições gerais de venda são um modelo a adaptar à tua atividade, aos teus países de venda e às tuas modalidades comerciais. Substitui todos os campos entre parênteses retos antes da publicação.",
+      "sections": [
+        {
+          "title": "1. Identidade do vendedor e âmbito de aplicação",
+          "paragraphs": [
+            "As presentes condições regem as vendas celebradas neste site entre a Geno Studio Ltd, sociedade estabelecida no Reino Unido, registada sob o número 17113844, cuja sede social se situa em Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Reino Unido, e qualquer cliente que compre os produtos disponibilizados no site.",
+            "Aplicam-se tanto a consumidores como a clientes profissionais. Os direitos que a lei reserva aos consumidores — em particular o direito de livre resolução de 14 dias e as disposições da nossa Política de devolução que dele decorrem — beneficiam apenas os clientes que atuam para fins privados: um cliente profissional não dispõe de um direito de livre resolução, sem prejuízo das garantias legais de conformidade aplicáveis aos bens."
+          ]
+        },
+        {
+          "title": "2. Produtos",
+          "paragraphs": [
+            "As características essenciais de cada produto constam da respetiva página antes da confirmação da encomenda. As fotografias e imagens são fornecidas a título ilustrativo; podem existir ligeiras variações de cor ou de aspeto consoante os ecrãs e os processos de fabrico.",
+            "[A PREENCHER: avisos de produto, limites de utilização e instruções de aplicação aplicáveis ao teu catálogo.]"
+          ]
+        },
+        {
+          "title": "3. Preços, impostos e custos de envio",
+          "paragraphs": [
+            "Os preços apresentados são indicados em euros (EUR) e especificam se os impostos aplicáveis estão incluídos ou são acrescentados no momento do pagamento. Quaisquer custos de envio, direitos ou impostos de importação aplicáveis são apresentados antes da confirmação da encomenda.",
+            "Os nossos produtos são expedidos a partir de França. Consoante o país de entrega, podem aplicar-se direitos aduaneiros, IVA na importação ou taxas de desalfandegamento: as encomendas com destino ao Reino Unido são expedidas a partir da União Europeia e podem dar origem a formalidades e taxas de importação, ao passo que as encomendas entregues na União Europeia não dão origem a formalidades aduaneiras. Especifica quem suporta estes custos: [A PREENCHER: repartição dos direitos, IVA na importação e taxas de desalfandegamento, eventual Incoterm (por exemplo, DDP ou DAP)]."
+          ],
+          "notice": "IVA a verificar: uma empresa britânica que expede a partir de França pode ter obrigações de IVA na União Europeia (registo de IVA, balcão único OSS/IOSS) e no Reino Unido. Manda confirmar por um consultor competente o teu tratamento do IVA na apresentação dos preços e na faturação: [A PREENCHER: regime de IVA aplicado]."
+        },
+        {
+          "title": "4. Encomenda e formação do contrato",
+          "paragraphs": [
+            "O cliente seleciona os produtos, verifica o resumo da sua encomenda, corrige eventuais erros, aceita as presentes condições e procede ao pagamento. A confirmação de encomenda enviada por e-mail resume o contrato num suporte duradouro.",
+            "Podemos recusar ou cancelar uma encomenda em caso de indisponibilidade, erro manifesto de preço, suspeita de fraude ou impossibilidade razoável de a executar. Se aplicável, as quantias cobradas são reembolsadas através do meio de pagamento utilizado."
+          ]
+        },
+        {
+          "title": "5. Pagamento",
+          "paragraphs": [
+            "O pagamento é exigível no momento da encomenda, através dos meios apresentados no checkout. Os pagamentos são processados pela Stripe. Não conservamos os dados do cartão bancário para além do necessário ao processamento do pagamento por este fornecedor."
+          ]
+        },
+        {
+          "title": "6. Entrega",
+          "paragraphs": [
+            "Entregamos na morada indicada no momento da encomenda, nos territórios especificados no site. As encomendas são preparadas e expedidas a partir de França; os prazos podem variar consoante o destino e eventuais formalidades aduaneiras. Os prazos de preparação e de entrega são indicados antes da compra e na confirmação de encomenda. Salvo acordo em contrário, os bens são entregues no prazo máximo de 30 dias após a celebração do contrato.",
+            "Se a entrega sofrer um atraso significativo, contacta-nos em hello@monkeysticker.fr. Os teus direitos em caso de atraso, impossibilidade de entrega ou perda são os previstos pela lei aplicável."
+          ]
+        },
+        {
+          "title": "7. Direito de livre resolução",
+          "paragraphs": [
+            "Quando tens a qualidade de consumidor e não se aplica nenhuma exceção, podes cancelar a tua encomenda no prazo de 14 dias após a receção dos bens, em conformidade, nomeadamente, com as Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "As modalidades de exercício deste direito, quaisquer exclusões para bens personalizados, os custos de devolução e as modalidades de reembolso estão detalhados na nossa Política de devolução: /pages/politique-de-retour."
+          ]
+        },
+        {
+          "title": "8. Produtos defeituosos e garantias",
+          "paragraphs": [
+            "Nada nas presentes condições limita os direitos legais do cliente. Os produtos devem ser de qualidade satisfatória, adequados ao seu uso habitual e corresponder à sua descrição, dentro dos limites fixados pela lei aplicável.",
+            "Para comunicar um problema, contacta hello@monkeysticker.fr com o teu número de encomenda e, se possível, fotos. Avaliaremos o pedido e proporemos a solução adequada em conformidade com os teus direitos."
+          ]
+        },
+        {
+          "title": "9. Conteúdos carregados e propriedade intelectual",
+          "paragraphs": [
+            "Quando crias um sticker personalizado, carregas um conteúdo (foto, logótipo, ilustração, texto). Continuas a ser o único responsável por ele. Ao carregá-lo, declaras e garantes deter todos os direitos necessários — direitos de autor, direitos de marca e os direitos de imagem e de personalidade das pessoas representadas — ou ter obtido as autorizações exigidas para o utilizar e mandar reproduzir na tua encomenda.",
+            "Comprometes-te a não carregar qualquer conteúdo ilícito, contrafeito, difamatório, de ódio ou que viole os direitos de terceiros. Podemos recusar ou cancelar qualquer encomenda cujo conteúdo pareça violar direitos ou infringir a lei; nesse caso, as quantias já pagas por essa encomenda ser-te-ão reembolsadas.",
+            "Concedes-nos apenas a licença limitada necessária para reproduzir, imprimir, cortar e entregar a tua encomenda, e para conservar o ficheiro durante o tempo que o processamento da encomenda exigir. Não reivindicamos qualquer direito de propriedade sobre o teu conteúdo.",
+            "Garantes-nos contra qualquer reclamação, ação ou condenação de terceiros resultante do conteúdo que carregaste, nomeadamente por violação de um direito de propriedade intelectual ou de um direito de imagem e de personalidade. Na medida do permitido por lei, declinamos qualquer responsabilidade pelos conteúdos fornecidos pelos clientes."
+          ]
+        },
+        {
+          "title": "10. Responsabilidade",
+          "paragraphs": [
+            "Não limitamos nem excluímos a nossa responsabilidade quando tal limitação ou exclusão for ilegal, nomeadamente em caso de fraude, morte ou lesão resultante da nossa negligência, ou quando os direitos legais do consumidor a tal se oponham.",
+            "Sem prejuízo do que precede, a nossa responsabilidade é limitada na medida máxima permitida por lei. [A PREENCHER: eventuais limites adaptados à tua atividade, após aconselhamento jurídico]."
+          ]
+        },
+        {
+          "title": "11. Lei aplicável e jurisdição",
+          "paragraphs": [
+            "As presentes CGV são regidas pela lei de Inglaterra e do País de Gales. Esta cláusula não priva o consumidor da proteção imperativa que lhe é conferida pelas regras aplicáveis do seu país de residência habitual.",
+            "Qualquer litígio é da competência dos tribunais determinados pelas regras processuais e de proteção dos consumidores aplicáveis. [A PREENCHER: dados de contacto do serviço de reclamações e eventual procedimento amigável]."
+          ]
+        }
+      ]
+    }
+  },
+  "pose": {
+    "eyebrow": "Como aplicar",
+    "title": "Aplicado em 60 segundos",
+    "intro": {
+      "part1": "Cada encomenda segue com um ",
+      "cradle": "berço de alinhamento",
+      "part2": ", um toalhete, uma mini espátula e um ",
+      "spare": "sticker suplente de reserva",
+      "part3": ". O berço trata do alinhamento por ti — só faltam três gestos simples."
+    },
+    "video": {
+      "label": "A aplicação em vídeo (30 s) —",
+      "status": "filmagem em curso"
+    },
+    "steps": [
+      {
+        "n": "01",
+        "title": "Prepara",
+        "text": "Limpa a frente do teu cartão com o toalhete fornecido (num só sentido, sem círculos). Espera 10 segundos e depois encaixa o cartão no fundo do berço de cartão."
+      },
+      {
+        "n": "02",
+        "title": "Alinha — sem colar",
+        "text": "Sticker ainda no papel: encaixa as duas linguetas nas ranhuras do berço. A janela fica mesmo em cima do chip. Ainda não cola nada, por isso vai com calma."
+      },
+      {
+        "n": "03",
+        "title": "Cola",
+        "text": "Dobra o sticker por cima, descola a metade de baixo do papel e pressiona com o polegar do centro para os bordos. Solta as linguetas e puxa o resto do papel enquanto pressionas."
+      }
+    ],
+    "panic": {
+      "title": "Não entres em pânico",
+      "subtitle": "As três coisas que podem acontecer, e porque nenhuma delas é um problema.",
+      "items": [
+        {
+          "title": "Umas pequenas bolhas?",
+          "content": "Perfeitamente normal: desaparecem sozinhas em 24-48 h. Uma bolha grande? Empurra-a para o bordo mais próximo com a unha ou com a mini espátula fornecida."
+        },
+        {
+          "title": "Começaste mal?",
+          "content": "Tens cerca de 60 segundos para o descolar com cuidado e recomeçar — e há um segundo sticker na tua encomenda, feito precisamente para isto. Respira."
+        },
+        {
+          "title": "O teu cartão tem um nome em relevo (embossado)?",
+          "content": "Pressiona durante mais tempo à volta das letras com o polegar. Podem ficar ligeiras bolhas ao longo do relevo: é normal e desaparece."
+        },
+        {
+          "title": "Correu mesmo mal?",
+          "content": "Usa o segundo sticker da tua encomenda (compra um e leva outro grátis) e segue os passos um a um: a segunda tentativa é quase sempre a boa."
+        }
+      ]
+    },
+    "cta": {
+      "text": "Ainda não tens sticker?",
+      "included": "O berço e o 2.º sticker estão incluídos em cada encomenda."
+    },
+    "metaTitle": "Aplicação em 60 segundos",
+    "metaDescription": "Aplica o teu sticker de cartão bancário na perfeição à primeira: suporte de alinhamento incluído, 3 passos, vídeo de 30 segundos."
+  },
+  "productPage": {
+    "breadcrumbHome": "Início",
+    "breadcrumbStickers": "Stickers",
+    "viewNoWindow": "Sem janela do chip",
+    "viewOnCard": "No cartão",
+    "reviewCount": {
+      "one": "{count} avaliação",
+      "other": "{count} avaliações"
+    },
+    "accDescriptionTitle": "Descrição",
+    "accDescriptionFallback": "O sticker «{name}» veste o teu cartão bancário no tamanho exato ISO (85,6 × 54 mm, cantos arredondados). A janela do chip é pré-cortada: o chip continua visível e funcional, e o contactless também. Vinil fino que resiste ao desgaste da carteira, remove-se sem resíduos.",
+    "accApplicationTitle": "Aplica em 30 segundos",
+    "accApplicationContent": "1. Desengordura o teu cartão (toalhete incluído no kit). 2. Descola o sticker e alinha o bordo esquerdo com o chip: a janela guia-te. 3. Alisa com a espátula do centro para os bordos. Dica: o kit de aplicação garante um encaixe perfeito à primeira.",
+    "accShippingTitle": "Envio e devoluções",
+    "accShippingContent": "Enviado num prazo de 48 h a partir de França, em carta com seguimento (2-4 dias úteis). Uma falha de impressão? Enviamos-te um novo sticker — basta contactares-nos através da página de contacto com uma foto.",
+    "reviewsEyebrow": "Avaliações verificadas",
+    "reviewsTitle": "Adoraram",
+    "verifiedReviewCount": {
+      "one": "{count} avaliação verificada",
+      "other": "{count} avaliações verificadas"
+    },
+    "reviews": [
+      {
+        "name": "Léa M.",
+        "text": "Super fácil de aplicar, a janela fica mesmo em cima do chip. O meu cartão está irreconhecível (no bom sentido).",
+        "rating": 5
+      },
+      {
+        "name": "Thomas R.",
+        "text": "O contactless funciona na perfeição, nenhuma diferença ao pagar. O acabamento mate está mesmo limpo.",
+        "rating": 5
+      },
+      {
+        "name": "Sarah K.",
+        "text": "Segunda encomenda, o compra um e leva outro grátis é ótimo para variar consoante a disposição.",
+        "rating": 4
+      }
+    ],
+    "reviewByline": "{name} — compra verificada",
+    "recosEyebrow": "O showroom",
+    "recosTitle": "Também vais gostar",
+    "recosSeeAll": "Ver tudo →",
+    "deliveryEstimate": "Entrega estimada:",
+    "bundleHeading": "Escolhe o teu pack — compra um e leva outro grátis",
+    "bundleTags": {
+      "popular": "Popular",
+      "bestValue": "Melhor valor"
+    },
+    "bundleLabel": {
+      "one": "{count} sticker",
+      "other": "{count} stickers"
+    },
+    "bundleFree": {
+      "one": "incluindo {count} grátis",
+      "other": "incluindo {count} grátis"
+    },
+    "chipHeading": "O chip do teu cartão",
+    "includedTitle": "Incluído em cada encomenda",
+    "includedItems": [
+      "Kit de aplicação: berço de alinhamento, espátula, toalhete",
+      "Um sticker em cada dois é grátis — o suficiente para repetir a aplicação ou variar de estilo"
+    ],
+    "recap": "{count} stickers – {free}",
+    "recapFree": {
+      "one": "{count} grátis",
+      "other": "{count} grátis"
+    },
+    "quantity": "Quantidade",
+    "addToCart": "Adicionar ao carrinho — {price}",
+    "featureCradle": "O berço de aplicação faz o alinhamento por ti —",
+    "featureCradleLink": "aplica em 60 s",
+    "featureFormat": "Tamanho exato de cartão bancário (85,6 × 54 mm), janela cortada ao tamanho do teu chip",
+    "featureContactless": "100% compatível com contactless e caixas automáticos",
+    "featureAllowed": "Nenhum dado alterado: o teu cartão continua válido e aceite em todo o lado",
+    "featureResidue": "Remove-se sem resíduos",
+    "featureShipping": "Enviado num prazo de 48 h a partir de França, seguimento incluído"
+  },
+  "trackOrder": {
+    "intro": "Introduz o teu número de encomenda (recebido por e-mail) e o e-mail que usaste na compra para veres onde está a tua encomenda.",
+    "help": "Não recebeste um e-mail de confirmação? Verifica a pasta de spam, ou contacta-nos através da página FAQ e contacto.",
+    "orderNumberPlaceholder": "N.º de encomenda (ex. MS-10234)",
+    "orderNumberLabel": "Número de encomenda",
+    "emailPlaceholder": "E-mail da encomenda",
+    "emailLabel": "E-mail da encomenda",
+    "submit": "Seguir",
+    "trackParcel": "Seguir a minha encomenda",
+    "demoStatus": "Encomenda encontrada: enviada ontem, a caminho. Entrega estimada num prazo de {days} dias úteis. (Demo local — liga aqui a API de seguimento.)"
+  }
+}

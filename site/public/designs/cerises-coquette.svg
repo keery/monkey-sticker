@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540">
+  <defs>
+    <radialGradient id="cream" cx="50%" cy="40%" r="78%">
+      <stop offset="0%" stop-color="#faf3e2"/>
+      <stop offset="58%" stop-color="#f4ead6"/>
+      <stop offset="100%" stop-color="#ecdcbe"/>
+    </radialGradient>
+    <radialGradient id="cherryA" cx="36%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#e34a52"/>
+      <stop offset="46%" stop-color="#c0142a"/>
+      <stop offset="100%" stop-color="#8f0f20"/>
+    </radialGradient>
+    <radialGradient id="cherryB" cx="38%" cy="32%" r="80%">
+      <stop offset="0%" stop-color="#d63a44"/>
+      <stop offset="52%" stop-color="#b31226"/>
+      <stop offset="100%" stop-color="#830d1d"/>
+    </radialGradient>
+    <linearGradient id="bowGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d63a44"/>
+      <stop offset="55%" stop-color="#c0142a"/>
+      <stop offset="100%" stop-color="#8f0f20"/>
+    </linearGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5c7b48"/>
+      <stop offset="100%" stop-color="#3d5730"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+
+    <!-- ===== CERISE (paire sur tige) ===== -->
+    <g id="cherry">
+      <path d="M0 -74 C-2 -50 -20 -34 -34 -22" fill="none" stroke="url(#stem)" stroke-width="6.5" stroke-linecap="round"/>
+      <path d="M0 -74 C2 -50 22 -34 36 -22" fill="none" stroke="url(#stem)" stroke-width="6.5" stroke-linecap="round"/>
+      <!-- petite feuille -->
+      <path d="M0 -74 C14 -84 30 -82 40 -70 C28 -66 12 -68 0 -74 Z" fill="#5c7b48" stroke="#3d5730" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M4 -75 C16 -76 28 -74 38 -70" fill="none" stroke="#3d5730" stroke-width="1.8" opacity=".7"/>
+      <!-- baie gauche -->
+      <circle cx="-34" cy="0" r="24" fill="url(#cherryA)" stroke="#7a0c1a" stroke-width="3.5"/>
+      <path d="M-46 -12 C-52 -4 -52 6 -46 12 C-40 4 -40 -6 -46 -12 Z" fill="#8f0f20" opacity=".55"/>
+      <ellipse cx="-42" cy="-9" rx="6.5" ry="4.5" fill="#faf3e2" opacity=".85" transform="rotate(-32 -42 -9)"/>
+      <circle cx="-27" cy="8" r="2.6" fill="#faf3e2" opacity=".5"/>
+      <!-- baie droite -->
+      <circle cx="36" cy="0" r="26" fill="url(#cherryB)" stroke="#7a0c1a" stroke-width="3.5"/>
+      <path d="M52 -12 C58 -4 58 8 50 15 C46 6 46 -6 52 -12 Z" fill="#830d1d" opacity=".55"/>
+      <ellipse cx="27" cy="-11" rx="7.5" ry="5" fill="#faf3e2" opacity=".85" transform="rotate(-32 27 -11)"/>
+      <circle cx="44" cy="9" r="3" fill="#faf3e2" opacity=".5"/>
+    </g>
+
+    <!-- ===== NŒUD (bow) ===== -->
+    <g id="bow">
+      <path d="M0 0 C-8 -22 -34 -34 -54 -26 C-66 -21 -66 -3 -60 8 C-66 19 -66 33 -54 38 C-34 46 -8 32 0 12 Z" fill="url(#bowGrad)" stroke="#7a0c1a" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M0 0 C8 -22 34 -34 54 -26 C66 -21 66 -3 60 8 C66 19 66 33 54 38 C34 46 8 32 0 12 Z" fill="url(#bowGrad)" stroke="#7a0c1a" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M-52 -22 C-58 -14 -58 26 -50 34" fill="none" stroke="#faf3e2" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+      <path d="M52 -22 C58 -14 58 26 50 34" fill="none" stroke="#830d1d" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+      <!-- nœud central -->
+      <path d="M-11 -14 C-16 -6 -16 12 -11 20 C-4 22 4 22 11 20 C16 12 16 -6 11 -14 C4 -16 -4 -16 -11 -14 Z" fill="#a01023" stroke="#7a0c1a" stroke-width="3.5" stroke-linejoin="round"/>
+      <path d="M-6 -12 C-9 -4 -9 12 -6 18" fill="none" stroke="#faf3e2" stroke-width="2.5" stroke-linecap="round" opacity=".45"/>
+      <!-- pans qui pendent -->
+      <path d="M-8 20 C-16 40 -24 58 -18 74 L-4 66 L2 78 L8 62 C6 46 2 34 8 20 Z" fill="url(#bowGrad)" stroke="#7a0c1a" stroke-width="3.5" stroke-linejoin="round"/>
+    </g>
+
+    <!-- ===== petit nœud d'ambiance (une couleur) ===== -->
+    <g id="bowLite">
+      <path d="M0 0 C-5 -13 -20 -20 -32 -15 C-39 -12 -39 -1 -35 5 C-39 11 -39 19 -32 22 C-20 27 -5 19 0 7 Z"/>
+      <path d="M0 0 C5 -13 20 -20 32 -15 C39 -12 39 -1 35 5 C39 11 39 19 32 22 C20 27 5 19 0 7 Z"/>
+      <ellipse cx="0" cy="3.5" rx="7" ry="9"/>
+    </g>
+
+    <!-- ===== fleurette 5 pétales ===== -->
+    <g id="floret">
+      <g fill="#c0142a">
+        <ellipse cx="0" cy="-9" rx="5" ry="8"/>
+        <ellipse cx="0" cy="-9" rx="5" ry="8" transform="rotate(72)"/>
+        <ellipse cx="0" cy="-9" rx="5" ry="8" transform="rotate(144)"/>
+        <ellipse cx="0" cy="-9" rx="5" ry="8" transform="rotate(216)"/>
+        <ellipse cx="0" cy="-9" rx="5" ry="8" transform="rotate(288)"/>
+      </g>
+      <circle r="4" fill="#f4ead6"/>
+    </g>
+  </defs>
+
+  <!-- ============ FOND CRÈME ============ -->
+  <rect width="856" height="540" fill="url(#cream)"/>
+  <g filter="url(#soft)">
+    <ellipse cx="650" cy="120" rx="90" ry="54" fill="#c0142a" opacity=".05"/>
+    <ellipse cx="180" cy="470" rx="90" ry="52" fill="#c0142a" opacity=".05"/>
+    <ellipse cx="440" cy="290" rx="150" ry="90" fill="#faf3e2" opacity=".4"/>
+  </g>
+
+  <!-- ============ CADRE FIN QUIET LUXURY ============ -->
+  <rect x="16" y="16" width="824" height="508" fill="none" stroke="#8f0f20" stroke-width="1.6" opacity=".4"/>
+  <rect x="27" y="27" width="802" height="486" fill="none" stroke="#c0142a" stroke-width="1.2" opacity=".28" stroke-dasharray="1.5 8" stroke-linecap="round"/>
+
+  <!-- petits nœuds aux coins -->
+  <use href="#bowLite" transform="translate(40 40) scale(.5)" fill="#c0142a" stroke="#8f0f20" stroke-width="4" stroke-linejoin="round"/>
+  <use href="#bowLite" transform="translate(816 40) scale(.5)" fill="#c0142a" stroke="#8f0f20" stroke-width="4" stroke-linejoin="round"/>
+  <use href="#bowLite" transform="translate(40 500) scale(.5)" fill="#c0142a" stroke="#8f0f20" stroke-width="4" stroke-linejoin="round"/>
+  <use href="#bowLite" transform="translate(816 500) scale(.5)" fill="#c0142a" stroke="#8f0f20" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- ============ SEMIS D'AMBIANCE (léger, traverse la fenêtre puce) ============ -->
+  <g opacity=".13">
+    <use href="#bowLite" transform="translate(150 240) scale(.7)" fill="#c0142a"/>
+    <use href="#floret" transform="translate(110 300) scale(1)"/>
+    <use href="#bowLite" transform="translate(190 190) scale(.55) rotate(-12)" fill="#c0142a"/>
+    <use href="#floret" transform="translate(96 175) scale(.8)"/>
+    <use href="#bowLite" transform="translate(210 300) scale(.6) rotate(10)" fill="#c0142a"/>
+    <use href="#floret" transform="translate(160 320) scale(.7)"/>
+  </g>
+
+  <!-- ============ SEMIS DÉCORATIF PLEIN CADRE (fleurettes + points) ============ -->
+  <g opacity=".55">
+    <use href="#floret" transform="translate(330 70) scale(.9)"/>
+    <use href="#floret" transform="translate(560 90) scale(.7)"/>
+    <use href="#floret" transform="translate(700 210) scale(.9)"/>
+    <use href="#floret" transform="translate(760 360) scale(.75)"/>
+    <use href="#floret" transform="translate(620 470) scale(.85)"/>
+    <use href="#floret" transform="translate(400 460) scale(.7)"/>
+    <use href="#floret" transform="translate(300 380) scale(.8)"/>
+    <use href="#floret" transform="translate(505 250) scale(.75)"/>
+  </g>
+  <g fill="#c0142a" opacity=".45">
+    <circle cx="290" cy="140" r="4"/>
+    <circle cx="470" cy="150" r="3.4"/>
+    <circle cx="640" cy="150" r="4"/>
+    <circle cx="770" cy="130" r="3.4"/>
+    <circle cx="360" cy="250" r="3.4"/>
+    <circle cx="650" cy="310" r="4"/>
+    <circle cx="560" cy="380" r="3.4"/>
+    <circle cx="720" cy="440" r="4"/>
+    <circle cx="470" cy="490" r="3.4"/>
+    <circle cx="340" cy="440" r="3.4"/>
+    <circle cx="800" cy="290" r="3.4"/>
+    <circle cx="245" cy="420" r="3.4"/>
+  </g>
+
+  <!-- ============ BANNIÈRE TITRE ============ -->
+  <g>
+    <path d="M338 44 L296 52 L314 60 L298 72 L344 76 Z" fill="#e8d3b5" stroke="#8f0f20" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M598 44 L640 52 L622 60 L638 72 L592 76 Z" fill="#e8d3b5" stroke="#8f0f20" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M336 40 C392 32 544 32 600 40 L596 80 C542 72 394 72 340 80 Z" fill="#f6ecd6" stroke="#8f0f20" stroke-width="3" stroke-linejoin="round"/>
+    <text x="468" y="66" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="27" font-weight="bold" letter-spacing="3" fill="#8f0f20">Cerises Coquette</text>
+    <text x="468" y="104" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="6" fill="#c0142a">· DOUCEUR &amp; RUBANS ·</text>
+  </g>
+
+  <!-- ============ NŒUD HÉRO (haut, à droite de la puce) ============ -->
+  <g transform="translate(468 200)">
+    <use href="#bow" transform="translate(6 8) scale(1.02)" fill="#8f0f20" opacity=".12" stroke="none"/>
+    <use href="#bow" transform="scale(1.02)"/>
+  </g>
+
+  <!-- ============ GRAPPE DE CERISES HÉRO (centre-droit) ============ -->
+  <g transform="translate(600 360)">
+    <ellipse cx="4" cy="8" rx="70" ry="60" fill="#8f0f20" opacity=".1"/>
+    <use href="#cherry" transform="translate(0 46) scale(1.35)"/>
+  </g>
+
+  <!-- ============ CERISES SECONDAIRES (bas gauche, sous la puce) ============ -->
+  <g transform="translate(190 430)">
+    <ellipse cx="4" cy="12" rx="56" ry="44" fill="#8f0f20" opacity=".1"/>
+    <use href="#cherry" transform="translate(0 30) scale(.9)"/>
+  </g>
+
+  <!-- ============ PETIT NŒUD SATELLITE (haut droite) ============ -->
+  <g transform="translate(720 130)">
+    <use href="#bow" transform="scale(.62)"/>
+  </g>
+
+  <!-- ============ CERISE SATELLITE (droite) ============ -->
+  <use href="#cherry" transform="translate(788 300) scale(.6)"/>
+
+  <!-- ============ DEVISE BAS ============ -->
+  <g>
+    <path d="M368 496 L406 496 M530 496 L568 496" stroke="#c0142a" stroke-width="1.6" opacity=".5" stroke-linecap="round"/>
+    <use href="#floret" transform="translate(420 496) scale(.5)"/>
+    <use href="#floret" transform="translate(516 496) scale(.5)"/>
+    <text x="468" y="501" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="14" letter-spacing="3" fill="#8f0f20" opacity=".9">so sweet</text>
+  </g>
+</svg>

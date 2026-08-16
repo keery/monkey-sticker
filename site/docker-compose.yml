@@ -1,0 +1,28 @@
+# Postgres dédié à la boutique Flapy — isolé des autres projets Docker.
+# Port hôte 5434 pour ne pas entrer en conflit avec 5432/5433 déjà pris.
+#   Démarrer :  docker compose up -d
+#   Arrêter  :  docker compose down        (les données restent dans le volume)
+#   Reset    :  docker compose down -v      (⚠ efface les données)
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: flapy-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: flapy
+      POSTGRES_PASSWORD: flapy
+      POSTGRES_DB: flapy
+    ports:
+      - "5434:5432"
+    volumes:
+      - flapy-pgdata:/var/lib/postgresql/data
+      # Schéma initial, joué au premier démarrage (volume vierge).
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U flapy -d flapy"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  flapy-pgdata:

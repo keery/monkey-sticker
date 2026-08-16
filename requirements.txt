@@ -1,0 +1,3 @@
+reportlab>=4.0
+segno>=1.6  # QR code de la notice de pose (dessiné en vecteurs, sans PIL)
+# pillow>=10  # optionnel — requis uniquement pour `compose` (fusion d'un artwork PNG)

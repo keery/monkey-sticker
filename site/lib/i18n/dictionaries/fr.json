@@ -1,0 +1,1018 @@
+{
+  "common": {
+    "addToCart": "Ajouter au panier",
+    "viewDesigns": "Voir les designs",
+    "seeAll": "Tout voir",
+    "remove": "Retirer",
+    "decrease": "Diminuer",
+    "increase": "Augmenter",
+    "close": "Fermer",
+    "menu": "Menu",
+    "loading": "…",
+    "off": "de réduction"
+  },
+  "meta": {
+    "homeTitle": "{site} — Stickers pour carte bancaire",
+    "homeDescription": "Personnalise ta carte bancaire avec un sticker au format exact. Puce et sans-contact 100 % fonctionnels. 1 acheté = 1 offert."
+  },
+  "announcement": {
+    "text": "Aux cotes exactes de ta carte, fenêtre puce comprise",
+    "cta": "Voir les designs"
+  },
+  "nav": {
+    "allStickers": "Tous les stickers",
+    "bestsellers": "Bestsellers",
+    "justDropped": "Nouveautés",
+    "createOwn": "Crée le tien",
+    "faq": "FAQ",
+    "trackOrder": "Suivre ma commande"
+  },
+  "header": {
+    "cart": "Panier"
+  },
+  "footer": {
+    "tagline": "Des stickers au format exact de ta carte bancaire. La puce et le sans-contact restent 100 % fonctionnels.",
+    "newsletterTitle": "Vois les nouveautés en premier",
+    "colShop": "Boutique",
+    "colHelp": "Aide",
+    "colLegal": "Légal",
+    "poseGuide": "Guide de pose",
+    "faqContact": "FAQ & Contact",
+    "shipping": "Livraison",
+    "returns": "Politique de retour",
+    "legalNotice": "Mentions légales",
+    "privacy": "Confidentialité",
+    "terms": "CGV",
+    "rights": "Tous droits réservés."
+  },
+  "newsletter": {
+    "placeholder": "Ton e-mail",
+    "submit": "S'inscrire",
+    "success": "Merci ! Tu recevras les prochains drops en avant-première. ✉️",
+    "error": "Une erreur est survenue, réessaie dans un instant."
+  },
+  "cart": {
+    "title": "Panier",
+    "empty": "Ton panier est vide",
+    "emptyHint": "1 sticker acheté = 1 offert. Profites-en pour en prendre deux.",
+    "viewDesigns": "Voir les designs",
+    "remove": "Retirer",
+    "bogo": {
+      "one": "1 acheté = 1 offert ({count} offert)",
+      "other": "1 acheté = 1 offert ({count} offerts)"
+    },
+    "subtotal": "Sous-total",
+    "total": "Total",
+    "shippingNote": "Livraison calculée à l'étape suivante. Suivi inclus."
+  },
+  "product": {
+    "from": "dès"
+  },
+  "stats": {
+    "items": [
+      "+100 000 cartes personnalisées",
+      "Pose en 30 secondes",
+      "Retrait sans trace",
+      "Sans-contact 100 % compatible",
+      "Expédié depuis la France"
+    ]
+  },
+  "chip": {
+    "ariaLabel": "Taille de puce",
+    "compareHint": "Compare avec la plaque dorée de ta carte : la fenêtre découpée s'adapte à sa taille.",
+    "sizes": {
+      "small": {
+        "label": "Petite puce",
+        "hint": "plus large que haute, ~11 × 8 mm",
+        "tag": "La plus courante"
+      },
+      "large": {
+        "label": "Grande puce",
+        "hint": "presque carrée, ~13 × 11 mm",
+        "tag": ""
+      },
+      "none": {
+        "label": "Sans puce",
+        "hint": "badge, carte de transport",
+        "tag": ""
+      }
+    }
+  },
+  "checkout": {
+    "button": "Commander",
+    "buttonBusy": "Redirection…",
+    "errorStart": "Le paiement n'a pas pu démarrer.",
+    "errorContact": "Impossible de contacter le paiement. Réessaie dans un instant.",
+    "couponBogo": "1 acheté = 1 offert",
+    "shippingFree": "Livraison offerte (lettre suivie)",
+    "shippingTracked": "Lettre suivie",
+    "optionChip": "Puce",
+    "errEmpty": "Ton panier est vide.",
+    "errUnconfigured": "Le paiement n'est pas encore activé. Reviens dans un instant.",
+    "errUnreadable": "Panier illisible.",
+    "errNoUrl": "Session de paiement sans URL."
+  },
+  "language": {
+    "label": "Langue"
+  },
+  "checkoutPage": {
+    "title": "Merci !",
+    "orderIntro": "Ta commande",
+    "statusConfirmed": "est confirmée",
+    "statusReceived": "est bien reçue",
+    "emailNote": "Un e-mail de confirmation arrive de la part de Stripe.",
+    "totalPaidLabel": "Total payé",
+    "itemCountOne": "{count} article",
+    "itemCountPlural": "{count} articles",
+    "freeCountOne": "{count} offert",
+    "freeCountPlural": "{count} offerts",
+    "paymentPending": "Confirmation du paiement en cours… tu peux fermer cette page en toute sécurité.",
+    "noOrder": "Ton paiement est pris en compte. Si tu ne reçois pas d'e-mail de confirmation, écris-nous via la page FAQ & Contact.",
+    "shippingNote": "On prépare ta carte, expédition sous 48 h depuis la France.",
+    "ctaContinue": "Continuer les achats",
+    "ctaPose": "La pose en 60 s",
+    "cancelTitle": "Paiement annulé",
+    "cancelBody": "Pas de souci, rien n'a été débité. Ton panier t'attend, tu peux reprendre quand tu veux.",
+    "cancelCtaBack": "Retour à la vitrine",
+    "cancelCtaQuestion": "Une question ?"
+  },
+  "collection": {
+    "breadcrumbHome": "Accueil",
+    "eyebrow": "La vitrine",
+    "countOne": "{count} design — 1 acheté = 1 offert",
+    "countMany": "{count} designs — 1 acheté = 1 offert",
+    "sortLabel": "Trier :",
+    "sortSubmit": "OK",
+    "sort": {
+      "featured": "En vedette",
+      "best-selling": "Meilleures ventes",
+      "az": "Alphabétique A-Z",
+      "za": "Alphabétique Z-A",
+      "price-asc": "Prix croissant",
+      "price-desc": "Prix décroissant"
+    },
+    "chipAll": "Tous",
+    "empty": "Aucun design dans cette catégorie pour l'instant.",
+    "ctaTitle": "Tu ne trouves pas ton bonheur ?",
+    "ctaText": "Uploade ta propre image et crée un sticker unique, découpé aux mêmes cotes.",
+    "ctaButton": "Crée le tien"
+  },
+  "createOwn": {
+    "meta": {
+      "title": "Crée le tien : ton design sur ta carte | Monkey Sticker",
+      "description": "Uploade ta photo, ton logo ou ton illustration et cadre-la sur ta carte bancaire. Découpe aux cotes exactes, fenêtre puce comprise, sans-contact intact."
+    },
+    "hero": {
+      "overline": "L'atelier",
+      "title": "Crée le tien",
+      "subtitle": "Ta photo, ton logo, ton délire : découpé aux cotes exactes de ta carte, fenêtre puce comprise.",
+      "reviews": "{count} avis",
+      "perSticker": "le sticker"
+    },
+    "faq": {
+      "title": "Avant de lancer l'impression",
+      "moreLead": "Une autre question ?",
+      "moreLink": "La FAQ complète",
+      "moreTail": "répond à tout.",
+      "items": [
+        {
+          "title": "Quelles images donnent le meilleur rendu ?",
+          "content": "Une photo nette, un logo ou une illustration d'au moins 1000 px de large. Si la résolution devient trop basse pendant le cadrage, une alerte s'affiche en direct : dézoome un peu ou choisis une image plus grande, et le résultat sera impeccable."
+        },
+        {
+          "title": "Et si mon fichier pose problème ?",
+          "content": "Un humain vérifie chaque commande avant impression. Cadrage douteux, résolution limite, élément coupé : on te contacte avant de lancer la découpe."
+        },
+        {
+          "title": "Je peux utiliser n'importe quelle image ?",
+          "content": "Tes photos, tes créations, ton chat, ton crew : tout ce qui t'appartient. Les logos de marques et visuels protégés, uniquement si tu en as les droits."
+        },
+        {
+          "title": "Grande ou petite puce, comment savoir ?",
+          "content": "Regarde la plaque dorée de ta carte. Nettement plus large que haute (~11 × 8 mm), avec un espace au-dessus des numéros : petite puce, la plus courante sur les cartes récentes. Presque carrée (~13 × 11 mm), souvent collée aux numéros : grande puce. Attention, certaines banques émettent les deux : fie-toi à ta carte, pas à son modèle. Le sélecteur montre les deux formes à l'échelle, et la fenêtre découpée s'adapte."
+        },
+        {
+          "title": "La puce et le sans-contact fonctionnent toujours ?",
+          "content": "Oui, à 100 %. La fenêtre puce est prédécoupée aux cotes exactes de ta carte et le vinyle est assez fin pour ne jamais gêner le sans-contact ni les distributeurs."
+        }
+      ]
+    },
+    "showcase": {
+      "overline": "Pas d'image sous la main ?",
+      "title": "La vitrine t'attend",
+      "allLink": "Tous les designs →"
+    },
+    "steps": {
+      "image": "Ton image",
+      "crop": "Le cadrage",
+      "chip": "La puce de ta carte",
+      "finishQty": "Finition et quantité"
+    },
+    "upload": {
+      "choose": "Choisir une image",
+      "replace": "Remplacer l'image",
+      "hint": "Photo, logo, illustration : tout ce qui t'appartient."
+    },
+    "dropzone": {
+      "title": "Ton design ici",
+      "hint": "Glisse une image, colle-la (Ctrl V), ou",
+      "formats": "JPG · PNG · WebP · idéal ≥ {min} px de large"
+    },
+    "errors": {
+      "type": "Ce format n'est pas pris en charge. Utilise du JPG, PNG ou WebP.",
+      "tooLarge": "Cette image est trop lourde (max {max} Mo).",
+      "unreadable": "Impossible de lire cette image. Essaie un autre fichier."
+    },
+    "preview": {
+      "ariaLabel": "Cadrage de ton image sur la carte. Flèches pour déplacer, plus et moins pour zoomer, zéro pour recentrer.",
+      "imageAlt": "Ton design cadré sur la carte",
+      "dimensions": "85,6 × 53,98 mm · découpe cardcut",
+      "sharpnessBadge": "netteté {dpi} dpi · trop basse",
+      "chipHint": "Le cadre doré est la fenêtre découpée : ta vraie puce restera visible à cet endroit.",
+      "noChipHint": "Sans fenêtre puce : le sticker couvre toute la surface de la carte."
+    },
+    "crop": {
+      "zoomLabel": "Zoom",
+      "hintMobile": "Glisse pour déplacer, pince pour zoomer.",
+      "hintDesktop": "Glisse pour déplacer, molette pour zoomer. Au clavier : flèches, + et −.",
+      "recenter": "Recentrer",
+      "sharpnessWarning": "À ce niveau de zoom, l'impression manquera de netteté : dézoome un peu ou choisis une image plus grande."
+    },
+    "finish": {
+      "groupLabel": "Finition"
+    },
+    "finishes": {
+      "Mat": {
+        "label": "Mat",
+        "hint": "toucher doux, zéro reflet"
+      },
+      "Brillant": {
+        "label": "Brillant",
+        "hint": "couleurs éclatantes, effet glacé"
+      }
+    },
+    "qty": {
+      "decrease": "Diminuer la quantité",
+      "increase": "Augmenter la quantité"
+    },
+    "bogo": {
+      "upsell": "Passe à 2 : le 2ᵉ est offert",
+      "freeCount": {
+        "one": "{count} offert",
+        "other": "{count} offerts"
+      },
+      "freeTail": "avec 1 acheté = 1 offert."
+    },
+    "cta": {
+      "addToCart": "Ajouter au panier",
+      "chooseFirst": "Choisis une image pour commencer",
+      "added": "✓ Ajouté ! Ton design sera vérifié par nos soins avant impression."
+    },
+    "guarantees": [
+      {
+        "title": "Vérification humaine",
+        "desc": "on contrôle ton fichier avant d'imprimer"
+      },
+      {
+        "title": "Expédié sous 48 h",
+        "desc": "depuis la France, en lettre suivie"
+      },
+      {
+        "title": "Défaut d'impression",
+        "desc": "on te le réimprime"
+      }
+    ],
+    "mobileBar": {
+      "stickers": {
+        "one": "{count} sticker",
+        "other": "{count} stickers"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "On répond à tout",
+    "intro": "Les réponses aux questions qu'on nous pose le plus.",
+    "items": [
+      {
+        "q": "Le sticker gêne-t-il la puce ou le sans-contact ?",
+        "a": "Non. La fenêtre puce est prédécoupée aux cotes exactes : la puce reste entièrement à nu. Le vinyle est assez fin pour laisser passer le sans-contact (NFC) sans aucune atténuation perceptible. DAB, TPE, bornes de transport : tout fonctionne normalement."
+      },
+      {
+        "q": "C'est autorisé par ma banque ? Est-ce légal ?",
+        "a": "Oui. Le sticker recouvre uniquement le plastique de la face avant : il ne modifie aucune donnée, laisse la puce entièrement à nu et n'altère ni le numéro ni la bande magnétique au dos. Ta carte reste valide et acceptée partout. Comme elle demeure la propriété de ta banque, il te suffit de retirer le sticker — il part d'un coin, sans résidu — avant de la rendre ou de la renouveler."
+      },
+      {
+        "q": "Le distributeur (DAB) risque-t-il de refuser ou d'avaler ma carte ?",
+        "a": "Non. Le vinyle est ultra-fin : ta carte conserve son épaisseur d'origine et s'insère dans les distributeurs, TPE et lecteurs exactement comme avant. La fenêtre prédécoupée laisse la puce libre, et la bande magnétique au dos n'est jamais recouverte."
+      },
+      {
+        "q": "Est-ce que ça marche sur toutes les cartes ?",
+        "a": "Oui pour toutes les cartes au format standard ISO (bancaires, transport, badge). Les cartes à numéros embossés (en relief) sont compatibles : le vinyle épouse le relief. Les cartes verticales aussi : la puce reste au même endroit physique."
+      },
+      {
+        "q": "Ça tient combien de temps ?",
+        "a": "Le vinyle est prévu pour la vraie vie du portefeuille : frottements, chaleur, passages répétés en TPE. Compte plusieurs années d'usage normal, sans décollement des bords. Envie de changer de style avant ? Tu poses simplement un nouveau design."
+      },
+      {
+        "q": "Comment poser le sticker proprement ?",
+        "a": "Dégraisse la carte (lingette du kit ou alcool ménager), aligne la fenêtre sur la puce, pose en marouflant du centre vers les bords. En cas de petite bulle, perce-la à l'aiguille et lisse. Le kit d'application (raclette + lingette + microfibre) garantit une pose parfaite."
+      },
+      {
+        "q": "Puis-je retirer le sticker ? Ma carte sera-t-elle abîmée ?",
+        "a": "Le sticker se retire en tirant doucement depuis un coin, sans laisser de colle. Ta carte ressort intacte. Un sticker retiré ne se repose pas : commandes-en un neuf (bon plan : 1 acheté = 1 offert)."
+      },
+      {
+        "q": "Quels sont les délais de livraison ?",
+        "a": "Expédition sous 48 h ouvrées depuis la France, en lettre suivie. Compte 2 à 4 jours ouvrés en France métropolitaine, 3 à 7 jours en Europe. Tu reçois le numéro de suivi par e-mail."
+      },
+      {
+        "q": "Et si mon sticker a un défaut ?",
+        "a": "Défaut d'impression ou découpe imparfaite ? On te renvoie un sticker. Écris-nous via le formulaire ci-dessous avec une photo, on répond sous 24 h ouvrées."
+      }
+    ],
+    "contact": {
+      "heading": "Une autre question ?",
+      "subheading": "Réponse sous 24 h ouvrées, promis.",
+      "success": "Message envoyé ! On te répond sous 24 h ouvrées. 📬",
+      "namePlaceholder": "Ton nom",
+      "emailPlaceholder": "Ton e-mail",
+      "orderPlaceholder": "N° de commande (optionnel)",
+      "messagePlaceholder": "Ton message",
+      "submit": "Envoyer"
+    },
+    "metaDescription": "Questions fréquentes sur les stickers de carte bancaire : pose, puce et sans-contact, livraison, retours. Et un formulaire pour nous contacter."
+  },
+  "home": {
+    "hero": {
+      "overline": "Stickers pour carte bancaire",
+      "titleLine1": "Ta carte,",
+      "titleLine2": "en mieux.",
+      "subtitle": "Découpé aux cotes exactes de ta carte, fenêtre puce comprise. Pose en 30 secondes, retrait sans trace.",
+      "reviews": "{count} avis"
+    },
+    "sections": {
+      "bestsellers": {
+        "overline": "La vitrine",
+        "title": "Les plus posés"
+      },
+      "categories": {
+        "overline": "Les rayons",
+        "title": "Explorez par catégorie",
+        "linkLabel": "Tout parcourir"
+      },
+      "justDropped": {
+        "overline": "Fraîchement arrivés"
+      }
+    },
+    "precision": {
+      "overline": "Découpe cardcut",
+      "title": "Précis au dixième de millimètre",
+      "body": "Chaque sticker est découpé aux cotes ISO de ta carte. La fenêtre tombe pile sur la puce : paiement, sans-contact et distributeurs fonctionnent comme avant.",
+      "features": [
+        {
+          "title": "Puce dégagée",
+          "desc": "la fenêtre 14 × 11 mm laisse le contact libre"
+        },
+        {
+          "title": "Sans-contact intact",
+          "desc": "vinyle fin, l'antenne NFC n'est jamais gênée"
+        },
+        {
+          "title": "Retrait sans trace",
+          "desc": "se décolle d'un coin, zéro résidu"
+        }
+      ]
+    },
+    "install": {
+      "overline": "La pose",
+      "title": "Posé en 30 secondes",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Nettoie",
+          "text": "Un passage de la lingette fournie et ta carte est prête."
+        },
+        {
+          "n": "02",
+          "title": "Aligne",
+          "text": "Bord à bord : la découpe est au format exact, la fenêtre tombe pile sur la puce."
+        },
+        {
+          "n": "03",
+          "title": "Maroufle",
+          "text": "Du centre vers les bords. Trente secondes, zéro bulle avec le kit."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Les questions qu'on nous pose",
+      "moreLead": "Une autre ?",
+      "moreLink": "La FAQ complète",
+      "moreTail": "répond à tout.",
+      "items": [
+        {
+          "title": "La puce et le sans-contact fonctionnent toujours ?",
+          "content": "Oui, à 100 %. La fenêtre découpée laisse la puce entièrement dégagée et le sticker est assez fin pour ne pas gêner le sans-contact ni les distributeurs. Ta carte reste acceptée partout : TPE, DAB, bornes."
+        },
+        {
+          "title": "C'est autorisé par ma banque ? C'est légal ?",
+          "content": "Oui. Le sticker recouvre le plastique sans modifier aucune donnée : la puce reste à nu, le numéro et la bande magnétique intacts. Ta carte reste valide et acceptée partout. Elle appartient à ta banque : retire simplement le sticker, sans résidu, avant de la rendre."
+        },
+        {
+          "title": "Ça tient combien de temps ?",
+          "content": "Le vinyle est prévu pour la vraie vie : portefeuille, frottements, chaleur. Compte plusieurs années d'utilisation normale. Et si tu changes d'avis, tu changes de design."
+        },
+        {
+          "title": "Je peux l'enlever sans abîmer ma carte ?",
+          "content": "Oui. Le sticker se retire d'un coin, sans résidu de colle. Ta carte ressort comme neuve, pratique quand tu la renouvelles ou que tu veux un nouveau design."
+        }
+      ]
+    },
+    "offer": {
+      "titleLine1": "1 acheté",
+      "titleLine2": "= 1 offert.",
+      "body": "Chaque sticker commandé en cache un deuxième. Pour ta carte de secours, ou pour un pote.",
+      "cta": "Choisir deux designs"
+    },
+    "earlyAccess": {
+      "title": "Accès anticipé",
+      "body": "Les nouveaux designs en avant-première, avant leur mise en vitrine."
+    },
+    "schematic": {
+      "ariaLabel": "Schéma coté du sticker : {width} par {height} millimètres, fenêtre puce de {chipW} par {chipH} millimètres à {edge} millimètres du bord, coins arrondis à {radius} millimètres",
+      "chipWindow": "Fenêtre puce · {w} × {h} mm",
+      "cornerRadius": "R {r} mm"
+    }
+  },
+  "legal": {
+    "kicker": "Informations légales",
+    "lastUpdated": "Dernière mise à jour : 15 août 2026.",
+    "disclaimer": "Modèle informatif à adapter à votre activité. Faites vérifier sa version finale par un professionnel du droit compétent pour vos marchés de vente.",
+    "livraison": {
+      "title": "Livraison",
+      "introduction": "Les informations ci-dessous sont à adapter à vos méthodes et zones de livraison.",
+      "sections": [
+        {
+          "title": "Expédition et suivi",
+          "paragraphs": [
+            "Les commandes sont préparées et expédiées depuis la France, y compris pour les clients situés au Royaume-Uni et dans le reste de l’Europe. Selon la destination, des formalités ou taxes d’importation peuvent s’appliquer (voir nos conditions générales de vente).",
+            "[À COMPLÉTER : délais de préparation, transporteurs, zones desservies et modalités de suivi.]"
+          ]
+        }
+      ]
+    },
+    "retours": {
+      "title": "Politique de retour",
+      "introduction": "Ce modèle est à compléter avec vos informations et vos choix opérationnels avant publication. Il est rédigé pour une entreprise établie au Royaume-Uni vendant en ligne à des consommateurs.",
+      "sections": [
+        {
+          "title": "1. Nous contacter",
+          "paragraphs": [
+            "Pour toute demande de retour, de remboursement ou de remplacement, contactez Geno Studio Ltd à hello@monkeysticker.fr en indiquant votre numéro de commande, le ou les articles concernés et le motif de votre demande. Nous vous répondrons avec la marche à suivre."
+          ]
+        },
+        {
+          "title": "2. Droit de rétractation",
+          "paragraphs": [
+            "Si vous achetez en tant que consommateur et qu’aucune exception légale ne s’applique, vous pouvez annuler votre commande dans les 14 jours suivant la réception des biens, sans avoir à justifier votre décision. Cette information est notamment prévue par les Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Pour exercer ce droit, envoyez-nous une déclaration claire de votre décision avant l’expiration de ce délai. Vous pouvez utiliser notre formulaire de rétractation [À COMPLÉTER : lien ou modalités] ; son utilisation n’est pas obligatoire."
+          ],
+          "notice": "Délai à vérifier avant publication : après nous avoir notifié votre rétractation, vous disposez habituellement de 14 jours supplémentaires pour renvoyer les biens. Adaptez ce texte à vos marchés de vente et à tout délai plus favorable que vous choisissez d’offrir."
+        },
+        {
+          "title": "3. Articles personnalisés",
+          "paragraphs": [
+            "Le droit de rétractation ne s’applique pas aux stickers personnalisés — créés à partir de votre propre visuel (offre « Crée le tien ») ou de toute autre spécification que vous nous transmettez. Confectionnés et imprimés à la demande, spécialement pour vous, ils relèvent de l’exception prévue par les Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 pour les biens nettement personnalisés.",
+            "Concrètement : tant que l’impression n’a pas commencé, vous pouvez nous demander d’annuler votre commande ; une fois l’impression lancée, une commande de produit personnalisé ne peut plus être annulée ni retournée. Cette exclusion ne joue pas si l’article est défectueux, endommagé ou non conforme — dans ces cas, vos droits restent entiers (voir « Produit défectueux, endommagé ou incorrect »).",
+            "Les stickers du catalogue, non personnalisés, restent quant à eux concernés par le droit de rétractation ci-dessus. Pour ces articles, nous pouvons déduire de votre remboursement toute perte de valeur résultant de manipulations allant au-delà de ce qui est nécessaire pour établir la nature, les caractéristiques et le bon fonctionnement du produit."
+          ]
+        },
+        {
+          "title": "4. Renvoyer un article",
+          "paragraphs": [
+            "Lorsqu’un retour est justifié (par exemple une rétractation sur un sticker non personnalisé), nous vous communiquons l’adresse et les modalités : 6 rue Voltaire, 93100 Montreuil, France. Nos commandes partant de France, l’adresse de retour est en France et n’est pas celle du siège social au Royaume-Uni — n’utilisez que l’adresse que nous vous indiquons, et n’envoyez rien avant d’avoir reçu nos instructions.",
+            "Pour une rétractation portant sur un article non personnalisé, vous nous renvoyez les biens dans les 14 jours suivant la notification de votre rétractation, à vos propres frais. Les frais de retour ne sont à notre charge que si l’article est défectueux, non conforme ou expédié par erreur. Conservez une preuve d’envoi jusqu’à la confirmation du remboursement."
+          ]
+        },
+        {
+          "title": "5. Remboursements",
+          "paragraphs": [
+            "En cas de rétractation, nous vous remboursons dans les 14 jours. Conformément à la loi, nous pouvons retenir ce remboursement jusqu’à la réception des biens retournés ou, si elle intervient plus tôt, jusqu’à ce que vous nous fournissiez une preuve de leur réexpédition — selon la première de ces deux dates. Le remboursement inclut le coût de la livraison standard initiale lorsque la loi l’exige ; les frais de retour, eux, restent à votre charge.",
+            "Le remboursement est effectué via le moyen de paiement utilisé lors de la commande, sauf accord exprès différent, et sans frais de notre part."
+          ]
+        },
+        {
+          "title": "6. Produit défectueux, endommagé ou incorrect",
+          "paragraphs": [
+            "Si un produit est défectueux, endommagé à l’arrivée ou ne correspond pas à votre commande, contactez-nous rapidement avec des photos et votre numéro de commande. Notre solution par défaut est de réimprimer et réexpédier l’article sans frais, sans que vous ayez à nous le renvoyer ; selon le cas et vos droits légaux, un remboursement reste possible.",
+            "Cette politique ne limite pas vos droits statutaires de consommateur, notamment les droits applicables en matière de biens non conformes ou défectueux."
+          ]
+        }
+      ]
+    },
+    "politique-de-retour": {
+      "title": "Politique de retour",
+      "introduction": "Ce modèle est à compléter avec vos informations et vos choix opérationnels avant publication. Il est rédigé pour une entreprise établie au Royaume-Uni vendant en ligne à des consommateurs.",
+      "sections": [
+        {
+          "title": "1. Nous contacter",
+          "paragraphs": [
+            "Pour toute demande de retour, de remboursement ou de remplacement, contactez Geno Studio Ltd à hello@monkeysticker.fr en indiquant votre numéro de commande, le ou les articles concernés et le motif de votre demande. Nous vous répondrons avec la marche à suivre."
+          ]
+        },
+        {
+          "title": "2. Droit de rétractation",
+          "paragraphs": [
+            "Si vous achetez en tant que consommateur et qu’aucune exception légale ne s’applique, vous pouvez annuler votre commande dans les 14 jours suivant la réception des biens, sans avoir à justifier votre décision. Cette information est notamment prévue par les Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Pour exercer ce droit, envoyez-nous une déclaration claire de votre décision avant l’expiration de ce délai. Vous pouvez utiliser notre formulaire de rétractation [À COMPLÉTER : lien ou modalités] ; son utilisation n’est pas obligatoire."
+          ],
+          "notice": "Délai à vérifier avant publication : après nous avoir notifié votre rétractation, vous disposez habituellement de 14 jours supplémentaires pour renvoyer les biens. Adaptez ce texte à vos marchés de vente et à tout délai plus favorable que vous choisissez d’offrir."
+        },
+        {
+          "title": "3. Articles personnalisés",
+          "paragraphs": [
+            "Le droit de rétractation ne s’applique pas aux stickers personnalisés — créés à partir de votre propre visuel (offre « Crée le tien ») ou de toute autre spécification que vous nous transmettez. Confectionnés et imprimés à la demande, spécialement pour vous, ils relèvent de l’exception prévue par les Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 pour les biens nettement personnalisés.",
+            "Concrètement : tant que l’impression n’a pas commencé, vous pouvez nous demander d’annuler votre commande ; une fois l’impression lancée, une commande de produit personnalisé ne peut plus être annulée ni retournée. Cette exclusion ne joue pas si l’article est défectueux, endommagé ou non conforme — dans ces cas, vos droits restent entiers (voir « Produit défectueux, endommagé ou incorrect »).",
+            "Les stickers du catalogue, non personnalisés, restent quant à eux concernés par le droit de rétractation ci-dessus. Pour ces articles, nous pouvons déduire de votre remboursement toute perte de valeur résultant de manipulations allant au-delà de ce qui est nécessaire pour établir la nature, les caractéristiques et le bon fonctionnement du produit."
+          ]
+        },
+        {
+          "title": "4. Renvoyer un article",
+          "paragraphs": [
+            "Lorsqu’un retour est justifié (par exemple une rétractation sur un sticker non personnalisé), nous vous communiquons l’adresse et les modalités : 6 rue Voltaire, 93100 Montreuil, France. Nos commandes partant de France, l’adresse de retour est en France et n’est pas celle du siège social au Royaume-Uni — n’utilisez que l’adresse que nous vous indiquons, et n’envoyez rien avant d’avoir reçu nos instructions.",
+            "Pour une rétractation portant sur un article non personnalisé, vous nous renvoyez les biens dans les 14 jours suivant la notification de votre rétractation, à vos propres frais. Les frais de retour ne sont à notre charge que si l’article est défectueux, non conforme ou expédié par erreur. Conservez une preuve d’envoi jusqu’à la confirmation du remboursement."
+          ]
+        },
+        {
+          "title": "5. Remboursements",
+          "paragraphs": [
+            "En cas de rétractation, nous vous remboursons dans les 14 jours. Conformément à la loi, nous pouvons retenir ce remboursement jusqu’à la réception des biens retournés ou, si elle intervient plus tôt, jusqu’à ce que vous nous fournissiez une preuve de leur réexpédition — selon la première de ces deux dates. Le remboursement inclut le coût de la livraison standard initiale lorsque la loi l’exige ; les frais de retour, eux, restent à votre charge.",
+            "Le remboursement est effectué via le moyen de paiement utilisé lors de la commande, sauf accord exprès différent, et sans frais de notre part."
+          ]
+        },
+        {
+          "title": "6. Produit défectueux, endommagé ou incorrect",
+          "paragraphs": [
+            "Si un produit est défectueux, endommagé à l’arrivée ou ne correspond pas à votre commande, contactez-nous rapidement avec des photos et votre numéro de commande. Notre solution par défaut est de réimprimer et réexpédier l’article sans frais, sans que vous ayez à nous le renvoyer ; selon le cas et vos droits légaux, un remboursement reste possible.",
+            "Cette politique ne limite pas vos droits statutaires de consommateur, notamment les droits applicables en matière de biens non conformes ou défectueux."
+          ]
+        }
+      ]
+    },
+    "mentions-legales": {
+      "title": "Mentions légales",
+      "introduction": "Ces mentions identifient l’entreprise qui exploite le site. Remplacez chaque champ entre crochets par vos informations vérifiées avant publication.",
+      "sections": [
+        {
+          "title": "1. Éditeur du site",
+          "paragraphs": [
+            "Le présent site est édité par Geno Studio Ltd, private limited company (Ltd), société enregistrée en Angleterre et au Pays de Galles sous le numéro 17113844."
+          ],
+          "bullets": [
+            "Registered office : Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Royaume-Uni.",
+            "Adresse de correspondance : 6 rue Voltaire, 93100 Montreuil, France.",
+            "Numéro de TVA britannique : [À COMPLÉTER : UK VAT number, si applicable].",
+            "E-mail : hello@monkeysticker.fr.",
+            "Téléphone : [À COMPLÉTER : numéro de téléphone, si vous en fournissez un]."
+          ]
+        },
+        {
+          "title": "2. Responsable de la publication",
+          "paragraphs": [
+            "Responsable de la publication : [À COMPLÉTER : nom et fonction].",
+            "Contact éditorial : hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "3. Hébergement",
+          "paragraphs": [
+            "Le site (front) est hébergé par Vercel Inc., 440 N Barranca Ave, PMB 4133, Covina, CA 91723, États-Unis — https://vercel.com. Le serveur applicatif (back-end) est hébergé par Fly.io, Inc., 321 North Clark Street, Chicago, IL, États-Unis — legal@fly.io. La base de données est hébergée par Render Services, Inc., 525 Brannan Street, Ste 300, San Francisco, CA 94107, États-Unis — https://render.com."
+          ]
+        },
+        {
+          "title": "4. Propriété intellectuelle",
+          "paragraphs": [
+            "Sauf mention contraire, les éléments du site — notamment textes, images, logos, dessins, vidéos et code — sont protégés par des droits de propriété intellectuelle. Toute reproduction, adaptation ou exploitation non autorisée est interdite, sauf autorisation écrite préalable de Geno Studio Ltd ou disposition légale contraire."
+          ]
+        },
+        {
+          "title": "5. Données personnelles et cookies",
+          "paragraphs": [
+            "Les modalités de collecte et de traitement des données personnelles sont détaillées dans notre politique de confidentialité : /pages/confidentialite.",
+            "Si vous utilisez des cookies ou technologies similaires non strictement nécessaires, indiquez vos finalités, vos prestataires et le moyen de gérer les choix dans votre politique de confidentialité et votre outil de consentement : [À COMPLÉTER : lien ou description]."
+          ]
+        },
+        {
+          "title": "6. Droit applicable et juridiction",
+          "paragraphs": [
+            "Les présentes mentions sont régies par le droit d’Angleterre et du Pays de Galles, sous réserve des dispositions impératives de protection des consommateurs applicables dans le pays de résidence du client. Les juridictions compétentes sont déterminées par les règles légales applicables."
+          ]
+        }
+      ]
+    },
+    "confidentialite": {
+      "title": "Politique de confidentialité",
+      "introduction": "Cette politique explique quelles données personnelles Geno Studio Ltd collecte via ce site, pourquoi, combien de temps elles sont conservées et quels sont vos droits. Elle est établie au regard du UK GDPR et du RGPD (UE). Modèle à faire relire par un professionnel et à ajuster à vos traitements réels avant publication.",
+      "sections": [
+        {
+          "title": "1. Responsable du traitement",
+          "paragraphs": [
+            "Le responsable du traitement est Geno Studio Ltd, private limited company enregistrée en Angleterre et au Pays de Galles sous le numéro 17113844, dont le siège social est situé Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Royaume-Uni.",
+            "Pour toute question relative à vos données ou pour exercer vos droits : hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "2. Données que nous collectons",
+          "bullets": [
+            "Commande et livraison : nom, adresse postale, e-mail et détail de la commande.",
+            "Paiement : traité par Stripe. Nous ne stockons pas les numéros de carte ; nous recevons de Stripe des informations limitées (statut du paiement, éléments de facturation).",
+            "Personnalisation : le visuel que vous téléversez pour un sticker personnalisé (offre « Crée le tien »).",
+            "Newsletter : votre adresse e-mail et l’origine de l’inscription, si vous vous inscrivez.",
+            "Données techniques : journaux serveur et données de connexion nécessaires au fonctionnement et à la sécurité du site."
+          ]
+        },
+        {
+          "title": "3. Finalités et bases légales",
+          "bullets": [
+            "Traiter et livrer vos commandes, vous contacter à leur sujet et assurer le service après-vente — exécution du contrat (art. 6(1)(b)).",
+            "Vous envoyer la newsletter — votre consentement (art. 6(1)(a)), retirable à tout moment.",
+            "Respecter nos obligations comptables et fiscales — obligation légale (art. 6(1)(c)).",
+            "Sécuriser le site, prévenir la fraude et améliorer nos services — intérêt légitime (art. 6(1)(f))."
+          ]
+        },
+        {
+          "title": "4. Durées de conservation",
+          "paragraphs": [
+            "Données de commande et de facturation : le temps nécessaire à l’exécution, puis pendant la durée légale de conservation comptable — [À COMPLÉTER : durée, par ex. 6 ans].",
+            "Inscription à la newsletter : jusqu’à votre désinscription, puis suppression ou anonymisation.",
+            "Visuels personnalisés téléversés : [À COMPLÉTER : durée de conservation des fichiers]."
+          ]
+        },
+        {
+          "title": "5. Sous-traitants et destinataires",
+          "paragraphs": [
+            "Nous ne vendons pas vos données. Nous les partageons uniquement avec les prestataires strictement nécessaires au service, tenus par contrat de les protéger :"
+          ],
+          "bullets": [
+            "Hébergement du site (front) : Vercel Inc. (États-Unis). Serveur applicatif : Fly.io, Inc. (États-Unis). Base de données : Render Services, Inc. (États-Unis).",
+            "Paiement : Stripe — pour un client européen, le contractant est Stripe Payments Europe, Limited (Irlande).",
+            "Expédition depuis la France : [À COMPLÉTER : transporteur(s), le cas échéant]."
+          ]
+        },
+        {
+          "title": "6. Transferts hors de l’Union européenne",
+          "paragraphs": [
+            "Certains de nos prestataires sont situés en dehors de l’Union européenne, notamment aux États-Unis : Vercel (hébergement du site), Fly.io (serveur applicatif) et Render (base de données). Vos données personnelles peuvent donc être transférées et traitées aux États-Unis.",
+            "Ces transferts sont encadrés par des garanties appropriées au sens du UK GDPR et du RGPD — clauses contractuelles types (SCC) et/ou certification au Data Privacy Framework UE–États-Unis, prévues dans les accords de traitement (DPA) de ces prestataires. Stripe applique également de telles garanties. Vous pouvez demander une copie des garanties mises en place en écrivant à hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "7. Cookies",
+          "paragraphs": [
+            "Le site utilise les cookies et technologies strictement nécessaires à son fonctionnement (par exemple le panier et le paiement), qui ne requièrent pas votre consentement. [À COMPLÉTER : listez ici les éventuels cookies non essentiels — mesure d’audience, marketing — et le moyen de recueillir et gérer votre consentement.]"
+          ]
+        },
+        {
+          "title": "8. Vos droits",
+          "paragraphs": [
+            "Vous disposez des droits d’accès, de rectification, d’effacement, de limitation, d’opposition et de portabilité, ainsi que du droit de retirer votre consentement à tout moment (sans effet sur les traitements déjà réalisés). Pour les exercer, écrivez à hello@monkeysticker.fr.",
+            "Si vous estimez que vos droits ne sont pas respectés, vous pouvez saisir une autorité de contrôle : au Royaume-Uni, l’Information Commissioner’s Office (ICO) ; dans l’UE, l’autorité de votre pays de résidence (en France, la CNIL)."
+          ]
+        }
+      ]
+    },
+    "cgv": {
+      "title": "Conditions générales de vente",
+      "introduction": "Ces conditions générales de vente sont un modèle à adapter à votre activité, à vos pays de vente et à vos modalités commerciales. Remplacez tous les champs entre crochets avant publication.",
+      "sections": [
+        {
+          "title": "1. Identité du vendeur et champ d’application",
+          "paragraphs": [
+            "Les présentes conditions régissent les ventes conclues sur ce site entre Geno Studio Ltd, société établie au Royaume-Uni, enregistrée sous le numéro 17113844, dont le siège social est situé Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Royaume-Uni, et tout client achetant les produits proposés sur le site.",
+            "Elles s’appliquent aux consommateurs comme aux professionnels. Les droits que la loi réserve aux consommateurs — en particulier le droit de rétractation de 14 jours et les dispositions de notre Politique de retour qui en découlent — ne bénéficient qu’aux clients agissant à des fins privées : un client professionnel ne dispose pas d’un droit de rétractation, sans préjudice des garanties légales de conformité applicables aux biens."
+          ]
+        },
+        {
+          "title": "2. Produits",
+          "paragraphs": [
+            "Les caractéristiques essentielles de chaque produit figurent sur sa fiche avant la validation de la commande. Les photographies et visuels sont fournis à titre illustratif ; de légères variations de couleur ou de rendu peuvent exister selon les écrans et procédés de fabrication.",
+            "[À COMPLÉTER : avertissements produits, limites d’utilisation et consignes de pose applicables à votre catalogue.]"
+          ]
+        },
+        {
+          "title": "3. Prix, taxes et frais de livraison",
+          "paragraphs": [
+            "Les prix affichés sont indiqués en euros (EUR) et précisent si les taxes applicables sont incluses ou ajoutées au moment du paiement. Les frais de livraison, droits ou taxes d’importation éventuellement applicables sont présentés avant la confirmation de la commande.",
+            "Nos produits sont expédiés depuis la France. Selon le pays de livraison, des droits de douane, une TVA à l’importation ou des frais de dédouanement peuvent s’appliquer : les commandes à destination du Royaume-Uni sont expédiées depuis l’Union européenne et peuvent donner lieu à des formalités et taxes d’importation, tandis que les commandes livrées au sein de l’Union européenne ne donnent pas lieu à formalité douanière. Précisez qui supporte ces frais : [À COMPLÉTER : répartition des droits, TVA à l’importation et frais de dédouanement, Incoterm éventuel (par ex. DDP ou DAP)]."
+          ],
+          "notice": "TVA à faire vérifier : une société britannique qui expédie depuis la France peut avoir des obligations de TVA dans l’Union européenne (immatriculation TVA, guichet OSS/IOSS) et au Royaume-Uni. Faites confirmer par un conseil compétent votre traitement de la TVA à l’affichage des prix et à la facturation : [À COMPLÉTER : régime de TVA appliqué]."
+        },
+        {
+          "title": "4. Commande et formation du contrat",
+          "paragraphs": [
+            "Le client sélectionne les produits, vérifie le récapitulatif de sa commande, corrige les éventuelles erreurs, accepte les présentes conditions puis procède au paiement. La confirmation de commande envoyée par e-mail récapitule le contrat sur un support durable.",
+            "Nous pouvons refuser ou annuler une commande en cas d’indisponibilité, d’erreur manifeste de prix, de suspicion de fraude ou d’impossibilité raisonnable d’exécuter la commande. Le cas échéant, les sommes encaissées sont remboursées selon le moyen de paiement utilisé."
+          ]
+        },
+        {
+          "title": "5. Paiement",
+          "paragraphs": [
+            "Le paiement est exigible au moment de la commande, via les moyens affichés au checkout. Les paiements sont traités par Stripe. Nous ne conservons pas les données de carte bancaire au-delà de ce qui est nécessaire au traitement du paiement par ce prestataire."
+          ]
+        },
+        {
+          "title": "6. Livraison",
+          "paragraphs": [
+            "Nous livrons à l’adresse indiquée lors de la commande, dans les territoires précisés sur le site. Les commandes sont préparées et expédiées depuis la France ; les délais peuvent varier selon la destination et les éventuelles formalités douanières. Les délais de préparation et de livraison sont indiqués avant l’achat et dans la confirmation de commande. Sauf accord différent, les biens sont livrés au plus tard dans les 30 jours suivant la conclusion du contrat.",
+            "Si la livraison connaît un retard important, contactez-nous à hello@monkeysticker.fr. Vos droits en cas de retard, d’impossibilité de livraison ou de perte sont ceux prévus par la loi applicable."
+          ]
+        },
+        {
+          "title": "7. Droit de rétractation",
+          "paragraphs": [
+            "Lorsque vous avez la qualité de consommateur et qu’aucune exception ne s’applique, vous pouvez annuler votre commande dans les 14 jours suivant la réception des biens, conformément notamment aux Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Les modalités d’exercice, les éventuelles exclusions pour les biens personnalisés, les frais de retour et les modalités de remboursement sont détaillés dans notre Politique de retour : /pages/politique-de-retour."
+          ]
+        },
+        {
+          "title": "8. Produits défectueux et garanties",
+          "paragraphs": [
+            "Rien dans les présentes conditions ne limite les droits statutaires du client. Les produits doivent être de qualité satisfaisante, adaptés à leur usage habituel et correspondre à leur description, dans les limites prévues par la loi applicable.",
+            "Pour signaler un problème, contactez hello@monkeysticker.fr avec votre numéro de commande et, si possible, des photos. Nous évaluerons la demande et proposerons la solution appropriée conformément à vos droits."
+          ]
+        },
+        {
+          "title": "9. Contenus téléversés et propriété intellectuelle",
+          "paragraphs": [
+            "Lorsque vous créez un sticker personnalisé, vous téléversez un contenu (photo, logo, illustration, texte). Vous en restez seul responsable. En le téléversant, vous déclarez et garantissez détenir tous les droits nécessaires — droit d’auteur, droit des marques, droit à l’image des personnes représentées — ou disposer des autorisations requises pour l’utiliser et le faire reproduire sur votre commande.",
+            "Vous vous engagez à ne pas téléverser de contenu illégal, contrefaisant, diffamatoire, haineux ou portant atteinte aux droits d’un tiers. Nous pouvons refuser ou annuler toute commande dont le contenu paraît porter atteinte à des droits ou enfreindre la loi ; dans ce cas, les sommes déjà versées pour cette commande vous sont remboursées.",
+            "Vous nous accordez uniquement la licence limitée nécessaire pour reproduire, imprimer, découper et vous livrer votre commande, et pour conserver le fichier le temps requis par son traitement. Nous ne revendiquons aucun droit de propriété sur votre contenu.",
+            "Vous nous garantissez contre toute réclamation, action ou condamnation d’un tiers résultant du contenu que vous avez téléversé, notamment pour atteinte à un droit de propriété intellectuelle ou à un droit à l’image. Dans les limites permises par la loi, nous déclinons toute responsabilité au titre des contenus fournis par les clients."
+          ]
+        },
+        {
+          "title": "10. Responsabilité",
+          "paragraphs": [
+            "Nous ne limitons ni n’excluons notre responsabilité lorsqu’une telle limitation ou exclusion serait illégale, notamment en cas de fraude, de décès ou de blessure résultant de notre négligence, ou lorsque les droits statutaires du consommateur s’y opposent.",
+            "Sous réserve de ce qui précède, notre responsabilité est limitée dans toute la mesure permise par la loi. [À COMPLÉTER : éventuelles limites adaptées à votre activité, après avis juridique]."
+          ]
+        },
+        {
+          "title": "11. Droit applicable et juridiction",
+          "paragraphs": [
+            "Les présentes CGV sont régies par le droit d’Angleterre et du Pays de Galles. Cette clause ne prive pas le consommateur de la protection impérative que lui accordent les règles applicables de son pays de résidence habituelle.",
+            "Tout litige relève des juridictions compétentes déterminées par les règles de procédure et de protection des consommateurs applicables. [À COMPLÉTER : coordonnées du service réclamations et procédure amiable éventuelle]."
+          ]
+        }
+      ]
+    }
+  },
+  "pose": {
+    "eyebrow": "Mode d'emploi",
+    "title": "La pose en 60 secondes",
+    "intro": {
+      "part1": "Chaque commande part avec un ",
+      "cradle": "berceau d'alignement",
+      "part2": ", une lingette, une mini-raclette et un ",
+      "spare": "deuxième sticker de secours",
+      "part3": ". Le berceau fait l'alignement pour toi — il ne reste que trois gestes."
+    },
+    "video": {
+      "label": "La pose en vidéo (30 s) —",
+      "status": "tournage en cours"
+    },
+    "steps": [
+      {
+        "n": "01",
+        "title": "Prépare",
+        "text": "Nettoie la face de ta carte avec la lingette fournie (un seul sens, pas de cercles). Attends 10 secondes, puis cale la carte au fond du berceau carton."
+      },
+      {
+        "n": "02",
+        "title": "Aligne — sans coller",
+        "text": "Sticker encore sur son papier : glisse les deux languettes dans les fentes du berceau. La fenêtre tombe pile sur la puce. Rien ne colle encore, prends ton temps."
+      },
+      {
+        "n": "03",
+        "title": "Colle",
+        "text": "Rabats le sticker, décolle la moitié basse du papier, presse au pouce du centre vers les bords. Détache les languettes, tire le reste du papier en pressant."
+      }
+    ],
+    "panic": {
+      "title": "Pas de panique",
+      "subtitle": "Les trois situations qui arrivent, et pourquoi aucune n'est grave.",
+      "items": [
+        {
+          "title": "Des petites bulles ?",
+          "content": "Normales : elles disparaissent seules en 24-48 h. Une grosse bulle ? Pousse-la vers le bord le plus proche avec l'ongle ou la mini-raclette fournie."
+        },
+        {
+          "title": "Mal parti ?",
+          "content": "Tu as environ 60 secondes pour décoller doucement et recommencer — et il y a un deuxième sticker dans ton colis, exprès pour ça. Respire."
+        },
+        {
+          "title": "Ta carte a un nom en relief (embossé) ?",
+          "content": "Presse plus longuement autour des lettres avec le pouce. De légères bulles peuvent rester le long du relief : c'est normal et ça s'estompe."
+        },
+        {
+          "title": "Vraiment raté ?",
+          "content": "Utilise le deuxième sticker de ton colis (1 acheté = 1 offert) en reprenant les étapes une à une : la deuxième pose est presque toujours la bonne."
+        }
+      ]
+    },
+    "cta": {
+      "text": "Pas encore de sticker ?",
+      "included": "Le berceau et le 2ᵉ sticker sont inclus dans chaque commande."
+    },
+    "metaTitle": "La pose en 60 secondes",
+    "metaDescription": "Pose ton sticker de carte bancaire parfaitement du premier coup : berceau d'alignement fourni, 3 gestes, vidéo de 30 secondes."
+  },
+  "productPage": {
+    "breadcrumbHome": "Accueil",
+    "breadcrumbStickers": "Stickers",
+    "viewNoWindow": "Sans fenêtre puce",
+    "viewOnCard": "Posé sur carte",
+    "reviewCount": {
+      "one": "{count} avis",
+      "other": "{count} avis"
+    },
+    "accDescriptionTitle": "Description",
+    "accDescriptionFallback": "Le sticker « {name} » habille ta carte bancaire au format exact ISO (85,6 × 54 mm, coins arrondis). La fenêtre puce est prédécoupée : la puce reste apparente et fonctionnelle, le sans-contact aussi. Vinyle fin résistant à l'usure du portefeuille, retrait sans résidu.",
+    "accApplicationTitle": "Pose en 30 secondes",
+    "accApplicationContent": "1. Dégraisse ta carte (lingette fournie dans le kit). 2. Décolle le sticker et aligne le bord gauche sur la puce : la fenêtre te guide. 3. Maroufle du centre vers les bords. Astuce : le kit d'application rend la pose parfaite du premier coup.",
+    "accShippingTitle": "Livraison & retours",
+    "accShippingContent": "Expédition sous 48 h depuis la France, en lettre suivie (2-4 jours ouvrés). Un défaut d'impression ? On te renvoie un sticker — écris-nous simplement via la page contact avec une photo.",
+    "reviewsEyebrow": "Avis vérifiés",
+    "reviewsTitle": "Ils l'ont adopté",
+    "verifiedReviewCount": {
+      "one": "{count} avis vérifié",
+      "other": "{count} avis vérifiés"
+    },
+    "reviews": [
+      {
+        "name": "Léa M.",
+        "text": "Pose super simple, la fenêtre tombe pile sur la puce. Ma carte est méconnaissable (en bien).",
+        "rating": 5
+      },
+      {
+        "name": "Thomas R.",
+        "text": "Sans-contact nickel, aucune différence au paiement. Le rendu mat est très propre.",
+        "rating": 5
+      },
+      {
+        "name": "Sarah K.",
+        "text": "Deuxième commande, le 1 acheté 1 offert est top pour changer selon l'humeur.",
+        "rating": 4
+      }
+    ],
+    "reviewByline": "{name} — achat vérifié",
+    "recosEyebrow": "La vitrine",
+    "recosTitle": "Tu aimeras aussi",
+    "recosSeeAll": "Tout voir →",
+    "deliveryEstimate": "Livraison estimée :",
+    "bundleHeading": "Choisis ton lot — 1 acheté = 1 offert",
+    "bundleTags": {
+      "popular": "Populaire",
+      "bestValue": "Meilleure offre"
+    },
+    "bundleLabel": {
+      "one": "{count} sticker",
+      "other": "{count} stickers"
+    },
+    "bundleFree": {
+      "one": "dont {count} offert",
+      "other": "dont {count} offerts"
+    },
+    "chipHeading": "La puce de ta carte",
+    "includedTitle": "Offert avec chaque commande",
+    "includedItems": [
+      "Kit d'application : berceau de pose, raclette, lingette",
+      "1 sticker sur 2 offert dans chaque lot — de quoi retenter la pose ou changer de style"
+    ],
+    "recap": "{count} stickers – {free}",
+    "recapFree": {
+      "one": "{count} offert",
+      "other": "{count} offerts"
+    },
+    "quantity": "Quantité",
+    "addToCart": "Ajouter au panier — {price}",
+    "featureCradle": "Le berceau de pose fait l'alignement pour toi —",
+    "featureCradleLink": "la pose en 60 s",
+    "featureFormat": "Format exact carte bancaire (85,6 × 54 mm), fenêtre découpée à la taille de ta puce",
+    "featureContactless": "Sans-contact et distributeurs 100 % compatibles",
+    "featureAllowed": "Aucune donnée modifiée : ta carte reste valide et acceptée partout",
+    "featureResidue": "Retrait sans résidu",
+    "featureShipping": "Expédié sous 48 h depuis la France, suivi inclus"
+  },
+  "trackOrder": {
+    "intro": "Entre ton numéro de commande (reçu par e-mail) et l'e-mail utilisé à l'achat pour voir où en est ton colis.",
+    "help": "Pas reçu d'e-mail de confirmation ? Vérifie tes spams, ou contacte-nous via la page FAQ & Contact.",
+    "orderNumberPlaceholder": "N° de commande (ex. MS-10234)",
+    "orderNumberLabel": "Numéro de commande",
+    "emailPlaceholder": "E-mail de commande",
+    "emailLabel": "E-mail de commande",
+    "submit": "Suivre",
+    "trackParcel": "Suivre mon colis",
+    "demoStatus": "Commande trouvée : expédiée hier, en cours d'acheminement. Livraison estimée sous {days} jours ouvrés. (Démo locale — brancher l'API de suivi ici.)"
+  },
+  "account": {
+    "loginTitle": "Connexion",
+    "loginSubtitle": "Retrouve tes commandes et va plus vite au paiement.",
+    "resetOk": "Mot de passe mis à jour. Tu peux te connecter.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "toi@exemple.com",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "••••••••",
+    "signIn": "Se connecter",
+    "forgotPassword": "Mot de passe oublié ?",
+    "createAccount": "Créer un compte",
+    "loginError": "Connexion impossible.",
+    "registerTitle": "Créer un compte",
+    "registerSubtitle": "Suis tes commandes et gagne du temps au prochain achat.",
+    "nameLabel": "Prénom (facultatif)",
+    "namePlaceholder": "Alex",
+    "passwordMinPlaceholder": "8 caractères minimum",
+    "createMyAccount": "Créer mon compte",
+    "registerError": "Inscription impossible.",
+    "haveAccount": "Déjà un compte ?",
+    "forgotTitle": "Mot de passe oublié",
+    "forgotSubtitle": "Indique ton e-mail : on t'envoie un lien pour en choisir un nouveau.",
+    "sendLink": "Envoyer le lien",
+    "forgotSent": "Si un compte existe pour {email}, un lien de réinitialisation vient d'être envoyé. Pense à vérifier tes spams.",
+    "backToLogin": "← Retour à la connexion",
+    "resetTitle": "Nouveau mot de passe",
+    "newPasswordLabel": "Nouveau mot de passe",
+    "confirmPasswordLabel": "Confirme le mot de passe",
+    "updatePassword": "Mettre à jour",
+    "resetInvalid": "Ce lien est expiré ou invalide. Les liens de réinitialisation ne servent qu'une fois et expirent au bout d'une heure.",
+    "requestNewLink": "Demander un nouveau lien",
+    "accountTitle": "Mon compte",
+    "connectedAs": "Connecté en tant que",
+    "logout": "Déconnexion",
+    "adminLink": "Administration",
+    "tabDashboard": "Tableau de bord",
+    "tabOrders": "Mes commandes",
+    "tabProfile": "Profil",
+    "greeting": "Salut {name}",
+    "greetingFallback": "Salut 👋",
+    "ordersCount": {
+      "one": "Tu as {count} commande sur ton compte.",
+      "other": "Tu as {count} commandes sur ton compte."
+    },
+    "noOrdersYet": "Tes futures commandes apparaîtront ici.",
+    "recentOrders": "Dernières commandes",
+    "seeAll": "Tout voir →",
+    "noOrders": "Aucune commande pour l'instant.",
+    "discoverStickers": "Découvrir les stickers",
+    "ordersTitle": "Mes commandes",
+    "ordersEmpty": "Tu n'as pas encore de commande liée à cette adresse.",
+    "profileTitle": "Profil",
+    "profileNameLabel": "Prénom",
+    "save": "Enregistrer",
+    "saved": "Enregistré ✓",
+    "profileEmailLabel": "E-mail",
+    "lastAddress": "Dernière adresse de livraison",
+    "addressNote": "Utilisée pour pré-remplir ton prochain paiement.",
+    "profileError": "Enregistrement impossible.",
+    "statusNew": "En préparation",
+    "statusPrinted": "Imprimée",
+    "statusShipped": "Expédiée",
+    "trackParcel": "Suivre mon colis",
+    "paid": "Payée",
+    "paymentPending": "Paiement en attente",
+    "items": {
+      "one": "{count} article",
+      "other": "{count} articles"
+    },
+    "orderedOn": "Commandé le {date}",
+    "viewDetail": "Voir le détail",
+    "orderDetail": "Détail de la commande",
+    "backToOrders": "Retour à mes commandes",
+    "orderItems": "Articles",
+    "orderSummary": "Récapitulatif",
+    "subtotal": "Sous-total",
+    "bogoDiscount": "1 acheté = 1 offert",
+    "total": "Total",
+    "shippingLabel": "Livraison",
+    "shippingValue": "Lettre suivie · suivi inclus",
+    "shippingAddress": "Adresse de livraison",
+    "stepConfirmed": "Confirmée",
+    "reorder": "Commander à nouveau",
+    "reorderAdded": "Ajouté au panier ✓",
+    "unitEach": "l'unité",
+    "refunded": "Remboursée",
+    "orderProblem": "Un problème avec cette commande ?",
+    "contactSupport": "Nous contacter",
+    "errInvalidEmail": "Adresse e-mail invalide.",
+    "errMinPassword": "Mot de passe : 8 caractères minimum.",
+    "errTaken": "Un compte existe déjà avec cet e-mail.",
+    "errCredentials": "E-mail ou mot de passe incorrect.",
+    "errThrottled": "Trop de tentatives. Réessaie dans quelques minutes.",
+    "errServer": "Une erreur est survenue, réessaie.",
+    "errPasswordMismatch": "Les deux mots de passe ne correspondent pas.",
+    "nudgeCreate": "Crée ton compte pour suivre cette commande et les prochaines.",
+    "nudgeCreateWithEmail": "Crée ton compte avec {email} pour suivre cette commande et les prochaines.",
+    "nudgeCta": "Créer mon compte",
+    "seeMyOrders": "Voir mes commandes →"
+  }
+}

@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540">
+  <defs>
+    <!-- Trames screentone -->
+    <pattern id="dotFine" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#ffffff"/>
+      <circle cx="3" cy="3" r="1.7" fill="#111111"/>
+      <circle cx="8" cy="8" r="1.7" fill="#111111"/>
+    </pattern>
+    <pattern id="dotMid" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#ffffff"/>
+      <circle cx="4" cy="4" r="2.7" fill="#111111"/>
+      <circle cx="10" cy="10" r="2.7" fill="#111111"/>
+    </pattern>
+    <pattern id="dotDark" width="9" height="9" patternUnits="userSpaceOnUse">
+      <rect width="9" height="9" fill="#111111"/>
+      <circle cx="3" cy="3" r="1.7" fill="#ffffff"/>
+      <circle cx="7.5" cy="7.5" r="1.7" fill="#ffffff"/>
+    </pattern>
+    <pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="8" height="8" fill="#ffffff"/>
+      <rect width="3" height="8" fill="#111111"/>
+    </pattern>
+    <!-- Explosion "rayons" pour la case d'action -->
+    <radialGradient id="burstFade" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f2f2f2"/>
+    </radialGradient>
+    <!-- Faisceau de rayons (rising sun) -->
+    <g id="rays">
+      <path d="M0 0 L520 -30 L520 30 Z" fill="#111111"/>
+    </g>
+    <!-- Bulle d'action explosive (jagged) -->
+    <path id="boom" d="M0 -46 L11 -26 L34 -33 L26 -12 L48 -3 L27 6 L36 27 L14 20 L6 44 L-6 22 L-27 33 L-22 10 L-45 4 L-25 -8 L-36 -30 L-13 -22 Z"/>
+    <clipPath id="pageClip"><rect x="18" y="18" width="820" height="504"/></clipPath>
+    <!-- Confine le faisceau rising-sun à la Case 3 (empêche le bleed dans la fenêtre puce) -->
+    <clipPath id="case3Clip"><rect x="364" y="30" width="474" height="286"/></clipPath>
+  </defs>
+
+  <!-- ============ FOND PAGE ============ -->
+  <rect width="856" height="540" fill="#111111"/>
+  <rect x="18" y="18" width="820" height="504" fill="#ffffff"/>
+
+  <g clip-path="url(#pageClip)">
+
+    <!-- ============ CASE 1 : bas-gauche — la fenêtre puce vit ici (fond neutre) ============ -->
+    <g>
+      <rect x="30" y="132" width="250" height="252" fill="#ffffff"/>
+      <!-- coin de trame en haut, loin de la fenêtre puce -->
+      <rect x="30" y="132" width="250" height="26" fill="url(#dotFine)"/>
+      <!-- vignette de coin discrète, hors fenêtre -->
+      <path d="M30 350 L30 384 L74 384 Z" fill="url(#dotMid)"/>
+      <path d="M256 132 L280 132 L280 168 Z" fill="#111111"/>
+    </g>
+
+    <!-- ============ CASE 2 : haut-gauche — ONOMATOPÉE ドン (fond trame sombre) ============ -->
+    <g>
+      <rect x="30" y="30" width="330" height="96" fill="url(#dotDark)"/>
+      <!-- lignes de vitesse horizontales -->
+      <g stroke="#ffffff" stroke-width="2" opacity=".85">
+        <path d="M40 44 L210 44"/>
+        <path d="M40 54 L180 54"/>
+        <path d="M40 112 L200 112"/>
+        <path d="M40 102 L160 102"/>
+      </g>
+      <!-- Katakana stylisé ドン (DON) au trait -->
+      <g fill="#ffffff" stroke="#111111" stroke-width="4" stroke-linejoin="round">
+        <path d="M120 44 L214 44 L214 60 L150 60 L150 116 L120 116 Z"/>
+        <path d="M226 44 L246 44 L246 116 L226 116 Z M226 44 L300 44 L300 62 L294 74 L272 74 L286 60 L246 60 Z"/>
+      </g>
+      <text x="192" y="120" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="6" fill="#111111">DON!!</text>
+    </g>
+
+    <!-- ============ CASE 3 : GRANDE case d'action haut-droite ============ -->
+    <g>
+      <rect x="364" y="30" width="474" height="286" fill="url(#burstFade)"/>
+      <!-- Rising sun : faisceau de rayons partant du personnage (clippé à la Case 3) -->
+      <g clip-path="url(#case3Clip)"><g transform="translate(560 176)">
+        <use href="#rays" transform="rotate(0)"/>
+        <use href="#rays" transform="rotate(18)"/>
+        <use href="#rays" transform="rotate(36)"/>
+        <use href="#rays" transform="rotate(54)"/>
+        <use href="#rays" transform="rotate(72)"/>
+        <use href="#rays" transform="rotate(90)"/>
+        <use href="#rays" transform="rotate(108)"/>
+        <use href="#rays" transform="rotate(126)"/>
+        <use href="#rays" transform="rotate(144)"/>
+        <use href="#rays" transform="rotate(162)"/>
+        <use href="#rays" transform="rotate(180)"/>
+        <use href="#rays" transform="rotate(198)"/>
+        <use href="#rays" transform="rotate(216)"/>
+        <use href="#rays" transform="rotate(234)"/>
+        <use href="#rays" transform="rotate(252)"/>
+        <use href="#rays" transform="rotate(270)"/>
+        <use href="#rays" transform="rotate(288)"/>
+        <use href="#rays" transform="rotate(306)"/>
+        <use href="#rays" transform="rotate(324)"/>
+        <use href="#rays" transform="rotate(342)"/>
+      </g></g>
+      <!-- halo blanc central -->
+      <circle cx="560" cy="176" r="132" fill="#ffffff"/>
+      <circle cx="560" cy="176" r="132" fill="url(#dotFine)" opacity=".35"/>
+      <circle cx="560" cy="176" r="118" fill="#ffffff"/>
+
+      <!-- ŒIL DE MANGA dramatique (focal) -->
+      <g transform="translate(560 176)">
+        <!-- cils / paupière haute -->
+        <path d="M-96 -6 C-60 -54 -8 -70 44 -58 C82 -49 100 -30 106 -14 C82 -30 46 -40 6 -38 C-40 -35 -74 -20 -96 -6 Z" fill="#111111"/>
+        <path d="M-96 -6 C-108 -12 -118 -22 -124 -34 M-90 -12 C-104 -22 -114 -34 -120 -48 M-78 -22 C-90 -34 -98 -46 -102 -60" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+        <!-- globe -->
+        <path d="M-92 -2 C-58 30 -6 40 44 32 C80 26 100 6 104 -12 C80 -26 44 -34 4 -32 C-38 -30 -72 -16 -92 -2 Z" fill="#ffffff" stroke="#111111" stroke-width="5"/>
+        <!-- iris trame -->
+        <circle cx="4" cy="-2" r="34" fill="url(#dotMid)" stroke="#111111" stroke-width="5"/>
+        <!-- pupille + reflets -->
+        <circle cx="4" cy="-2" r="16" fill="#111111"/>
+        <circle cx="-6" cy="-12" r="7" fill="#ffffff"/>
+        <circle cx="12" cy="6" r="3.4" fill="#ffffff"/>
+        <!-- lignes de brillance rayonnantes autour de l'iris -->
+        <g stroke="#111111" stroke-width="2.5" opacity=".8" stroke-linecap="round">
+          <path d="M4 -40 L4 -52"/>
+          <path d="M40 -2 L54 -2"/>
+          <path d="M-32 -2 L-46 -2"/>
+          <path d="M30 26 L40 36"/>
+          <path d="M-22 26 L-32 36"/>
+        </g>
+        <!-- larme brillante -->
+        <path d="M92 22 C89 34 88 42 93 48 C99 42 98 34 92 22 Z" fill="#ffffff" stroke="#111111" stroke-width="3.5" stroke-linejoin="round"/>
+      </g>
+      <text x="560" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="15" letter-spacing="2" fill="#111111">…!?</text>
+    </g>
+
+    <!-- ============ CASE 4 : bande de lignes de vitesse verticales, centre-bas ============ -->
+    <g>
+      <rect x="284" y="132" width="248" height="252" fill="#ffffff"/>
+      <!-- convergence lignes de vitesse -->
+      <g stroke="#111111" stroke-width="2" opacity=".9">
+        <path d="M408 132 L300 158 M408 132 L288 210 M408 132 L288 300 M408 132 L300 372 M408 132 L360 384 M408 132 L440 384 M408 132 L512 372 M408 132 L528 300 M408 132 L528 210 M408 132 L512 158"/>
+      </g>
+      <g stroke="#111111" stroke-width="1.4" opacity=".55">
+        <path d="M408 132 L294 250 M408 132 L294 340 M408 132 L330 384 M408 132 L486 384 M408 132 L522 340 M408 132 L522 250"/>
+      </g>
+      <!-- Bulle d'action explosive (onomatopée ズ / ZUM) -->
+      <g transform="translate(408 262)">
+        <use href="#boom" transform="scale(2.05)" fill="#111111"/>
+        <use href="#boom" transform="scale(1.72)" fill="#ffffff"/>
+        <text x="0" y="-2" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="30" font-weight="900" fill="#111111">ZA</text>
+        <text x="0" y="26" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="1" fill="#111111">SHH!</text>
+      </g>
+    </g>
+
+    <!-- ============ CASE 5 : colonne droite-bas, bulle de dialogue ============ -->
+    <g>
+      <rect x="536" y="320" width="302" height="202" fill="url(#hatch)" opacity=".9"/>
+      <rect x="536" y="320" width="302" height="202" fill="none"/>
+      <!-- bulle de dialogue -->
+      <g>
+        <ellipse cx="690" cy="404" rx="118" ry="66" fill="#ffffff" stroke="#111111" stroke-width="5"/>
+        <path d="M642 458 L604 512 L676 456 Z" fill="#ffffff" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+        <text x="690" y="398" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="bold" letter-spacing="2" fill="#111111">PAGE DE</text>
+        <text x="690" y="432" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="bold" letter-spacing="4" fill="#111111">MANGA</text>
+      </g>
+    </g>
+
+    <!-- ============ CASE 6 : bande sombre bas-gauche avec chibi étoiles ============ -->
+    <g>
+      <rect x="30" y="388" width="474" height="134" fill="url(#dotDark)"/>
+      <!-- étoiles manga -->
+      <g fill="#ffffff" stroke="#111111" stroke-width="3" stroke-linejoin="round">
+        <path d="M92 420 L100 446 L128 446 L105 462 L114 490 L92 472 L70 490 L79 462 L56 446 L84 446 Z"/>
+        <path d="M232 430 L237 448 L256 448 L241 459 L246 478 L232 466 L218 478 L223 459 L208 448 L227 448 Z"/>
+      </g>
+      <!-- sparkle marks -->
+      <g stroke="#ffffff" stroke-width="3" stroke-linecap="round">
+        <path d="M160 410 L160 430 M150 420 L170 420"/>
+        <path d="M300 470 L300 488 M291 479 L309 479"/>
+        <path d="M356 420 L356 436 M348 428 L364 428"/>
+      </g>
+      <!-- flash blanc onomatopée -->
+      <g transform="translate(430 456)">
+        <use href="#boom" transform="scale(1.35)" fill="#ffffff"/>
+        <text x="0" y="7" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="20" font-weight="900" fill="#111111">KIRA</text>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- ============ GOUTTIÈRES (gutters) — la grille de la planche ============ -->
+  <g stroke="#111111" fill="none" stroke-width="9">
+    <!-- cadre extérieur épais -->
+    <rect x="22.5" y="22.5" width="811" height="495"/>
+  </g>
+  <g stroke="#111111" fill="#ffffff" stroke-width="0">
+    <!-- gouttières blanches entre cases -->
+    <rect x="280" y="22" width="8" height="500"/>
+    <rect x="360" y="22" width="8" height="200"/>
+    <rect x="530" y="316" width="8" height="206"/>
+    <rect x="22" y="126" width="816" height="8"/>
+    <rect x="22" y="312" width="516" height="8"/>
+    <rect x="360" y="126" width="478" height="8"/>
+    <rect x="22" y="384" width="484" height="8"/>
+  </g>
+  <!-- traits de contour des cases par-dessus les gouttières -->
+  <g stroke="#111111" fill="none" stroke-width="5">
+    <line x1="284" y1="26" x2="284" y2="518"/>
+    <line x1="364" y1="26" x2="364" y2="130"/>
+    <line x1="534" y1="316" x2="534" y2="518"/>
+    <line x1="26" y1="130" x2="830" y2="130"/>
+    <line x1="26" y1="316" x2="534" y2="316"/>
+    <line x1="364" y1="130" x2="830" y2="130"/>
+    <line x1="26" y1="388" x2="506" y2="388"/>
+  </g>
+
+  <!-- ============ Numéro de page / marque éditoriale ============ -->
+  <g>
+    <circle cx="806" cy="502" r="0" fill="none"/>
+    <text x="828" y="514" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3" fill="#111111" opacity=".7">— 07 —</text>
+  </g>
+  <text x="30" y="14" font-family="Arial, sans-serif" font-size="11" letter-spacing="5" font-weight="700" fill="#f2f2f2">週刊 · WEEKLY EDITION</text>
+</svg>

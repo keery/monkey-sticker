@@ -1,0 +1,918 @@
+{
+  "common": {
+    "addToCart": "In winkelmand",
+    "viewDesigns": "Bekijk ontwerpen",
+    "seeAll": "Alles bekijken",
+    "remove": "Verwijderen",
+    "decrease": "Verlagen",
+    "increase": "Verhogen",
+    "close": "Sluiten",
+    "menu": "Menu",
+    "loading": "…",
+    "off": "korting"
+  },
+  "meta": {
+    "homeTitle": "{site} — Stickers voor je bankpas",
+    "homeDescription": "Personaliseer je bankpas met een sticker op exact formaat. Chip en contactloos betalen blijven 100% functioneel. Koop er één, krijg er één gratis."
+  },
+  "announcement": {
+    "text": "Op de exacte maat van je kaart, met chip-uitsparing",
+    "cta": "Bekijk ontwerpen"
+  },
+  "nav": {
+    "allStickers": "Alle stickers",
+    "bestsellers": "Bestsellers",
+    "justDropped": "Nieuw",
+    "createOwn": "Maak je eigen",
+    "faq": "FAQ",
+    "trackOrder": "Bestelling volgen"
+  },
+  "header": {
+    "cart": "Winkelmand"
+  },
+  "footer": {
+    "tagline": "Stickers op het exacte formaat van je bankpas. Chip en contactloos betalen blijven 100% functioneel.",
+    "newsletterTitle": "Zie nieuwe drops als eerste",
+    "colShop": "Shop",
+    "colHelp": "Hulp",
+    "colLegal": "Juridisch",
+    "poseGuide": "Plaatsingsgids",
+    "faqContact": "FAQ & contact",
+    "shipping": "Verzending",
+    "returns": "Retourbeleid",
+    "legalNotice": "Juridische kennisgeving",
+    "privacy": "Privacy",
+    "terms": "Verkoopvoorwaarden",
+    "rights": "Alle rechten voorbehouden."
+  },
+  "newsletter": {
+    "placeholder": "Je e-mail",
+    "submit": "Aanmelden",
+    "success": "Bedankt! Je ontvangt de volgende drops als eerste. ✉️",
+    "error": "Er ging iets mis, probeer het zo meteen opnieuw."
+  },
+  "cart": {
+    "title": "Winkelmand",
+    "empty": "Je winkelmand is leeg",
+    "emptyHint": "Koop één sticker, krijg er één gratis. Neem er meteen twee.",
+    "viewDesigns": "Bekijk ontwerpen",
+    "remove": "Verwijderen",
+    "bogo": {
+      "one": "Koop er één, krijg er één gratis ({count} gratis)",
+      "other": "Koop er één, krijg er één gratis ({count} gratis)"
+    },
+    "subtotal": "Subtotaal",
+    "total": "Totaal",
+    "shippingNote": "Verzending wordt bij de volgende stap berekend. Tracking inbegrepen."
+  },
+  "product": {
+    "from": "vanaf"
+  },
+  "stats": {
+    "items": [
+      "Meer dan 100.000 gepersonaliseerde kaarten",
+      "In 30 seconden aangebracht",
+      "Verwijdert zonder sporen",
+      "100% contactloos-compatibel",
+      "Verzonden vanuit Frankrijk"
+    ]
+  },
+  "chip": {
+    "ariaLabel": "Chipformaat",
+    "compareHint": "Vergelijk met de gouden plaat op je kaart: het uitgesneden venster past zich aan de grootte aan.",
+    "sizes": {
+      "small": {
+        "label": "Kleine chip",
+        "hint": "breder dan hoog, ~11 × 8 mm",
+        "tag": "Meest voorkomend"
+      },
+      "large": {
+        "label": "Grote chip",
+        "hint": "bijna vierkant, ~13 × 11 mm",
+        "tag": ""
+      },
+      "none": {
+        "label": "Geen chip",
+        "hint": "badge, ov-kaart",
+        "tag": ""
+      }
+    }
+  },
+  "checkout": {
+    "button": "Afrekenen",
+    "buttonBusy": "Doorsturen…",
+    "errorStart": "Betaling kon niet starten.",
+    "errorContact": "Betaling niet bereikbaar. Probeer het zo opnieuw.",
+    "couponBogo": "Koop er één, krijg er één gratis",
+    "shippingFree": "Gratis verzending (brief met tracking)",
+    "shippingTracked": "Brief met tracking",
+    "optionChip": "Chip",
+    "errEmpty": "Je winkelmand is leeg.",
+    "errUnconfigured": "Betalen is nog niet ingeschakeld. Kom zo terug.",
+    "errUnreadable": "Winkelmand kon niet worden gelezen.",
+    "errNoUrl": "Betaalsessie zonder URL."
+  },
+  "language": {
+    "label": "Taal"
+  },
+  "home": {
+    "hero": {
+      "overline": "Stickers voor je bankpas",
+      "titleLine1": "Je pas,",
+      "titleLine2": "beter dan ooit.",
+      "subtitle": "Op de exacte afmetingen van je pas gesneden, inclusief chipvenster. In 30 seconden erop, spoorloos eraf.",
+      "reviews": "{count} reviews"
+    },
+    "sections": {
+      "bestsellers": {
+        "overline": "De etalage",
+        "title": "Meest geplaatst"
+      },
+      "categories": {
+        "overline": "De schappen",
+        "title": "Blader per categorie",
+        "linkLabel": "Alles bekijken"
+      },
+      "justDropped": {
+        "overline": "Vers binnen"
+      }
+    },
+    "precision": {
+      "overline": "cardcut-precisie",
+      "title": "Nauwkeurig tot op een tiende millimeter",
+      "body": "Elke sticker wordt op de ISO-afmetingen van je pas gesneden. Het venster valt precies op de chip: betalen, contactloos en pinautomaten werken gewoon zoals vroeger.",
+      "features": [
+        {
+          "title": "Chip vrij",
+          "desc": "het venster van 14 × 11 mm laat het contact vrij"
+        },
+        {
+          "title": "Contactloos intact",
+          "desc": "dun vinyl, de NFC-antenne wordt nooit geblokkeerd"
+        },
+        {
+          "title": "Verwijdert zonder sporen",
+          "desc": "trek los vanaf een hoek, nul restjes"
+        }
+      ]
+    },
+    "install": {
+      "overline": "Aanbrengen",
+      "title": "In 30 seconden erop",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Reinig",
+          "text": "Eén veeg met het meegeleverde doekje en je pas is klaar."
+        },
+        {
+          "n": "02",
+          "title": "Uitlijnen",
+          "text": "Rand aan rand: de snede is op exact formaat, het venster valt precies op de chip."
+        },
+        {
+          "n": "03",
+          "title": "Aandrukken",
+          "text": "Vanuit het midden naar buiten. Dertig seconden, nul bubbels met de kit."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "De vragen die we vaak krijgen",
+      "moreLead": "Nog eentje?",
+      "moreLink": "De volledige FAQ",
+      "moreTail": "beantwoordt alles.",
+      "items": [
+        {
+          "title": "Werken de chip en contactloos betalen nog?",
+          "content": "Ja, 100%. Het uitgesneden venster laat de chip volledig vrij en de sticker is dun genoeg om contactloos betalen of pinautomaten niet te storen. Je pas blijft overal geaccepteerd: pinautomaten, geldautomaten, kiosken."
+        },
+        {
+          "title": "Mag het van mijn bank? Is het legaal?",
+          "content": "Ja. De sticker bedekt het plastic zonder ook maar één gegeven te veranderen: de chip blijft vrij, het nummer en de magneetstrip onaangeroerd. Je pas blijft geldig en overal geaccepteerd. Hij is eigendom van je bank: trek de sticker gewoon los, zonder restjes, voordat je hem terugstuurt."
+        },
+        {
+          "title": "Hoelang gaat het mee?",
+          "content": "Het vinyl is gemaakt voor het echte leven: portemonnee, wrijving, warmte. Reken op meerdere jaren normaal gebruik. En als je van gedachten verandert, verander je gewoon van ontwerp."
+        },
+        {
+          "title": "Kan ik hem verwijderen zonder mijn pas te beschadigen?",
+          "content": "Ja. De sticker trekt los vanaf een hoek, zonder lijmresten. Je pas komt er als nieuw uit, handig als je hem vervangt of een nieuw ontwerp wilt."
+        }
+      ]
+    },
+    "offer": {
+      "titleLine1": "Koop er één",
+      "titleLine2": "= één gratis.",
+      "body": "Elke bestelde sticker verbergt een tweede. Voor je reservepas, of voor een vriend.",
+      "cta": "Kies twee ontwerpen"
+    },
+    "earlyAccess": {
+      "title": "Vervroegde toegang",
+      "body": "Nieuwe ontwerpen als voorproefje, voordat ze in de etalage komen."
+    },
+    "schematic": {
+      "ariaLabel": "Gemaatvoerd schema van de sticker: {width} bij {height} millimeter, chipvenster van {chipW} bij {chipH} millimeter op {edge} millimeter van de rand, hoeken afgerond op {radius} millimeter",
+      "chipWindow": "Chipvenster · {w} × {h} mm",
+      "cornerRadius": "R {r} mm"
+    }
+  },
+  "checkoutPage": {
+    "title": "Bedankt!",
+    "orderIntro": "Je bestelling",
+    "statusConfirmed": "is bevestigd",
+    "statusReceived": "is goed ontvangen",
+    "emailNote": "Er komt een bevestigingsmail aan van Stripe.",
+    "totalPaidLabel": "Totaal betaald",
+    "itemCountOne": "{count} artikel",
+    "itemCountPlural": "{count} artikelen",
+    "freeCountOne": "{count} gratis",
+    "freeCountPlural": "{count} gratis",
+    "paymentPending": "Je betaling wordt bevestigd… je kunt deze pagina veilig sluiten.",
+    "noOrder": "Je betaling is ontvangen. Als je geen bevestigingsmail krijgt, neem dan contact op via de pagina FAQ & contact.",
+    "shippingNote": "We maken je kaart klaar, binnen 48 u verzonden vanuit Frankrijk.",
+    "ctaContinue": "Verder winkelen",
+    "ctaPose": "Aanbrengen in 60 s",
+    "cancelTitle": "Betaling geannuleerd",
+    "cancelBody": "Geen zorgen, er is niets afgeschreven. Je winkelmand wacht op je, ga verder wanneer je maar wilt.",
+    "cancelCtaBack": "Terug naar de shop",
+    "cancelCtaQuestion": "Een vraag?"
+  },
+  "collection": {
+    "breadcrumbHome": "Home",
+    "eyebrow": "De showroom",
+    "countOne": "{count} ontwerp — koop er één, krijg er één gratis",
+    "countMany": "{count} ontwerpen — koop er één, krijg er één gratis",
+    "sortLabel": "Sorteren:",
+    "sortSubmit": "OK",
+    "sort": {
+      "featured": "Uitgelicht",
+      "best-selling": "Best verkocht",
+      "az": "Alfabetisch A-Z",
+      "za": "Alfabetisch Z-A",
+      "price-asc": "Prijs, laag naar hoog",
+      "price-desc": "Prijs, hoog naar laag"
+    },
+    "chipAll": "Alle",
+    "empty": "Nog geen ontwerpen in deze categorie.",
+    "ctaTitle": "Vind je je favoriet niet?",
+    "ctaText": "Upload je eigen afbeelding en maak een unieke sticker, op exact dezelfde afmetingen gesneden.",
+    "ctaButton": "Maak je eigen"
+  },
+  "createOwn": {
+    "meta": {
+      "title": "Maak je eigen: jouw ontwerp op je pas | Monkey Sticker",
+      "description": "Upload je foto, logo of illustratie en kader hem op je bankpas. Op exacte afmetingen gesneden, inclusief chipvenster, contactloos intact."
+    },
+    "hero": {
+      "overline": "Het atelier",
+      "title": "Maak je eigen",
+      "subtitle": "Jouw foto, jouw logo, jouw ding: op de exacte afmetingen van je pas gesneden, inclusief chipvenster.",
+      "reviews": "{count} reviews",
+      "perSticker": "per sticker"
+    },
+    "faq": {
+      "title": "Voor je op printen drukt",
+      "moreLead": "Nog een vraag?",
+      "moreLink": "De volledige FAQ",
+      "moreTail": "beantwoordt alles.",
+      "items": [
+        {
+          "title": "Welke afbeeldingen geven het beste resultaat?",
+          "content": "Een scherpe foto, een logo of een illustratie van minstens 1000 px breed. Als de resolutie tijdens het kaderen te laag wordt, verschijnt er meteen een melding: zoom een beetje uit of kies een grotere afbeelding, en het resultaat wordt vlekkeloos."
+        },
+        {
+          "title": "En als er iets mis is met mijn bestand?",
+          "content": "Een mens controleert elke bestelling vóór het printen. Twijfelachtige kadering, resolutie op het randje, een afgeknipt element: we nemen contact op voordat we beginnen te snijden."
+        },
+        {
+          "title": "Mag ik elke afbeelding gebruiken?",
+          "content": "Je foto's, je creaties, je kat, je crew: alles wat van jou is. Merklogo's en beschermde beelden alleen als je de rechten hebt."
+        },
+        {
+          "title": "Grote of kleine chip, hoe weet ik dat?",
+          "content": "Kijk naar de gouden plaat op je pas. Duidelijk breder dan hoog (~11 × 8 mm), met ruimte boven de nummers: kleine chip, de meest voorkomende op recente passen. Bijna vierkant (~13 × 11 mm), vaak tegen de nummers aan: grote chip. Let op, sommige banken geven beide uit: vertrouw op je pas, niet op het model. De selector toont beide vormen op schaal, en het uitgesneden venster past zich aan."
+        },
+        {
+          "title": "Werken de chip en contactloos betalen nog?",
+          "content": "Ja, 100%. Het chipvenster is voorgesneden op de exacte afmetingen van je pas en het vinyl is dun genoeg om contactloos betalen of geldautomaten nooit te storen."
+        }
+      ]
+    },
+    "showcase": {
+      "overline": "Geen afbeelding bij de hand?",
+      "title": "De etalage wacht op je",
+      "allLink": "Alle ontwerpen →"
+    },
+    "steps": {
+      "image": "Je afbeelding",
+      "crop": "De kadering",
+      "chip": "De chip van je pas",
+      "finishQty": "Afwerking en aantal"
+    },
+    "upload": {
+      "choose": "Kies een afbeelding",
+      "replace": "Afbeelding vervangen",
+      "hint": "Foto, logo, illustratie: alles wat van jou is."
+    },
+    "dropzone": {
+      "title": "Jouw ontwerp hier",
+      "hint": "Sleep een afbeelding, plak hem (Ctrl V), of",
+      "formats": "JPG · PNG · WebP · ideaal ≥ {min} px breed"
+    },
+    "errors": {
+      "type": "Dit formaat wordt niet ondersteund. Gebruik JPG, PNG of WebP.",
+      "tooLarge": "Deze afbeelding is te zwaar (max {max} MB).",
+      "unreadable": "Deze afbeelding kon niet worden gelezen. Probeer een ander bestand."
+    },
+    "preview": {
+      "ariaLabel": "Je afbeelding op de kaart kaderen. Pijltjes om te verplaatsen, plus en min om te zoomen, nul om te centreren.",
+      "imageAlt": "Jouw ontwerp gekaderd op de kaart",
+      "dimensions": "85,6 × 53,98 mm · cardcut-snede",
+      "sharpnessBadge": "scherpte {dpi} dpi · te laag",
+      "chipHint": "Het gouden kader is het uitgesneden venster: je echte chip blijft daar zichtbaar.",
+      "noChipHint": "Geen chipvenster: de sticker bedekt het hele oppervlak van de kaart."
+    },
+    "crop": {
+      "zoomLabel": "Zoom",
+      "hintMobile": "Sleep om te verplaatsen, knijp om te zoomen.",
+      "hintDesktop": "Sleep om te verplaatsen, scroll om te zoomen. Met het toetsenbord: pijltjes, + en −.",
+      "recenter": "Centreren",
+      "sharpnessWarning": "Op dit zoomniveau mist de print scherpte: zoom een beetje uit of kies een grotere afbeelding."
+    },
+    "finish": {
+      "groupLabel": "Afwerking"
+    },
+    "finishes": {
+      "Mat": {
+        "label": "Mat",
+        "hint": "zachte touch, nul weerspiegeling"
+      },
+      "Brillant": {
+        "label": "Glanzend",
+        "hint": "levendige kleuren, geglazuurd effect"
+      }
+    },
+    "qty": {
+      "decrease": "Aantal verlagen",
+      "increase": "Aantal verhogen"
+    },
+    "bogo": {
+      "upsell": "Ga voor 2: de 2e is gratis",
+      "freeCount": {
+        "one": "{count} gratis",
+        "other": "{count} gratis"
+      },
+      "freeTail": "met koop er één, krijg er één gratis."
+    },
+    "cta": {
+      "addToCart": "In winkelmand",
+      "chooseFirst": "Kies een afbeelding om te beginnen",
+      "added": "✓ Toegevoegd! Je ontwerp wordt door ons gecontroleerd vóór het printen."
+    },
+    "guarantees": [
+      {
+        "title": "Menselijke controle",
+        "desc": "we controleren je bestand vóór het printen"
+      },
+      {
+        "title": "Binnen 48 u verzonden",
+        "desc": "vanuit Frankrijk, met brief met tracking"
+      },
+      {
+        "title": "Printfout",
+        "desc": "we printen hem opnieuw voor je"
+      }
+    ],
+    "mobileBar": {
+      "stickers": {
+        "one": "{count} sticker",
+        "other": "{count} stickers"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "We beantwoorden alles",
+    "intro": "De antwoorden op de vragen die we het vaakst krijgen.",
+    "items": [
+      {
+        "q": "Stoort de sticker de chip of contactloos betalen?",
+        "a": "Nee. Het chipvenster is voorgesneden op de exacte afmetingen, dus de chip blijft volledig vrij. Het vinyl is dun genoeg om contactloos (NFC) door te laten zonder merkbare verzwakking. Geldautomaten, pinautomaten, ov-poortjes: alles werkt gewoon zoals normaal."
+      },
+      {
+        "q": "Mag het van mijn bank? Is het legaal?",
+        "a": "Ja. De sticker bedekt alleen het plastic aan de voorkant: hij verandert geen enkel gegeven, laat de chip volledig vrij en raakt noch het nummer noch de magneetstrip op de achterkant aan. Je pas blijft geldig en overal geaccepteerd. Omdat hij eigendom van je bank blijft, trek je de sticker gewoon los — hij komt los vanaf een hoek, zonder restjes — voordat je de pas terugstuurt of vernieuwt."
+      },
+      {
+        "q": "Kan een geldautomaat mijn pas weigeren of inslikken?",
+        "a": "Nee. Het vinyl is ultradun: je pas houdt zijn oorspronkelijke dikte en glijdt precies zoals vroeger in geldautomaten, betaalterminals en lezers. Het voorgesneden venster houdt de chip vrij, en de magneetstrip op de achterkant wordt nooit bedekt."
+      },
+      {
+        "q": "Werkt het op elke pas?",
+        "a": "Ja, op elke pas in het standaard ISO-formaat (bank, ov, ID-badge). Passen met reliëf (verhoogde) nummers zijn compatibel: het vinyl volgt het reliëf. Verticale passen ook: de chip zit op dezelfde fysieke plek."
+      },
+      {
+        "q": "Hoelang gaat het mee?",
+        "a": "Het vinyl is gemaakt voor het echte portemonneeleven: wrijving, warmte, herhaald tikken op terminals. Reken op meerdere jaren normaal gebruik zonder dat de randen loskomen. Toch zin in iets nieuws? Breng gewoon een nieuw ontwerp aan."
+      },
+      {
+        "q": "Hoe breng ik de sticker netjes aan?",
+        "a": "Ontvet de pas (met het doekje uit de kit of met huishoudalcohol), lijn het venster uit op de chip en breng hem dan aan, van het midden naar buiten drukkend. Als er een klein bubbeltje ontstaat, prik het met een naald en strijk het glad. De aanbrengkit (rakel + doekje + microvezel) garandeert een vlekkeloze plaatsing."
+      },
+      {
+        "q": "Kan ik de sticker verwijderen? Raakt mijn pas beschadigd?",
+        "a": "De sticker trek je los door voorzichtig aan een hoek te trekken, zonder lijmresten. Je pas komt er intact uit. Een verwijderde sticker kun je niet opnieuw plakken: bestel gewoon een nieuwe (mooie bonus: koop er één, krijg er één gratis)."
+      },
+      {
+        "q": "Wat zijn de levertijden?",
+        "a": "Binnen 48 werkuren verzonden vanuit Frankrijk, met brief met tracking. Reken op 2 tot 4 werkdagen binnen Frankrijk, 3 tot 7 dagen in Europa. Je krijgt het trackingnummer per e-mail."
+      },
+      {
+        "q": "En als mijn sticker een defect heeft?",
+        "a": "Een printfout of een onvolmaakte snede? We sturen je een nieuwe sticker. Schrijf ons via het formulier hieronder met een foto, en we antwoorden binnen 24 werkuren."
+      }
+    ],
+    "contact": {
+      "heading": "Nog een vraag?",
+      "subheading": "Een antwoord binnen 24 werkuren, beloofd.",
+      "success": "Bericht verzonden! We reageren binnen 24 werkuren. 📬",
+      "namePlaceholder": "Je naam",
+      "emailPlaceholder": "Je e-mail",
+      "orderPlaceholder": "Bestelnr. (optioneel)",
+      "messagePlaceholder": "Je bericht",
+      "submit": "Verzenden"
+    },
+    "metaDescription": "Veelgestelde vragen over bankpasstickers: aanbrengen, chip en contactloos, verzending, retourneren. Plus een contactformulier."
+  },
+  "pose": {
+    "eyebrow": "Handleiding",
+    "title": "Aangebracht in 60 seconden",
+    "intro": {
+      "part1": "Elke bestelling gaat mee met een ",
+      "cradle": "uitlijnhouder",
+      "part2": ", een doekje, een minirakel en een ",
+      "spare": "reservesticker",
+      "part3": ". De houder doet de uitlijning voor je — er blijven maar drie eenvoudige handelingen over."
+    },
+    "video": {
+      "label": "Het aanbrengen op video (30 s) —",
+      "status": "opname in uitvoering"
+    },
+    "steps": [
+      {
+        "n": "01",
+        "title": "Voorbereiden",
+        "text": "Reinig de voorkant van je pas met het meegeleverde doekje (één richting, geen cirkels). Wacht 10 seconden en leg de pas dan onderin de kartonnen houder."
+      },
+      {
+        "n": "02",
+        "title": "Uitlijnen — zonder plakken",
+        "text": "Sticker nog op zijn drager: schuif de twee lipjes in de gleuven van de houder. Het venster valt precies op de chip. Er plakt nog niets, dus neem je tijd."
+      },
+      {
+        "n": "03",
+        "title": "Plakken",
+        "text": "Klap de sticker om, trek de onderste helft van de drager los en druk met je duim van het midden naar buiten. Maak de lipjes los, trek de rest van de drager weg terwijl je aandrukt."
+      }
+    ],
+    "panic": {
+      "title": "Geen paniek",
+      "subtitle": "De drie dingen die kunnen gebeuren, en waarom geen ervan een probleem is.",
+      "items": [
+        {
+          "title": "Een paar kleine bubbels?",
+          "content": "Volkomen normaal: ze verdwijnen vanzelf binnen 24-48 u. Een grote bubbel? Duw hem naar de dichtstbijzijnde rand met je nagel of de meegeleverde minirakel."
+        },
+        {
+          "title": "Slecht begonnen?",
+          "content": "Je hebt ongeveer 60 seconden om hem voorzichtig los te trekken en opnieuw te beginnen — en er zit een tweede sticker in je pakket, precies daarvoor gemaakt. Adem in."
+        },
+        {
+          "title": "Heeft je pas een naam in reliëf (geëmbosseerd)?",
+          "content": "Druk langer rond de letters met je duim. Er kunnen lichte bubbels blijven langs de verhogingen: dat is normaal en verdwijnt vanzelf."
+        },
+        {
+          "title": "Echt verprutst?",
+          "content": "Gebruik de tweede sticker uit je pakket (koop er één, krijg er één gratis) en doorloop de stappen één voor één: de tweede poging is bijna altijd de goede."
+        }
+      ]
+    },
+    "cta": {
+      "text": "Nog geen sticker?",
+      "included": "De houder en de 2e sticker zitten bij elke bestelling inbegrepen."
+    },
+    "metaTitle": "Aanbrengen in 60 seconden",
+    "metaDescription": "Breng je bankpassticker meteen de eerste keer perfect aan: uitlijnhouder inbegrepen, 3 stappen, video van 30 seconden."
+  },
+  "productPage": {
+    "breadcrumbHome": "Home",
+    "breadcrumbStickers": "Stickers",
+    "viewNoWindow": "Zonder chipvenster",
+    "viewOnCard": "Op de kaart",
+    "reviewCount": {
+      "one": "{count} review",
+      "other": "{count} reviews"
+    },
+    "accDescriptionTitle": "Beschrijving",
+    "accDescriptionFallback": "De sticker « {name} » kleedt je bankpas aan op exact ISO-formaat (85,6 × 54 mm, afgeronde hoeken). Het chipvenster is voorgesneden: de chip blijft zichtbaar en functioneel, en contactloos ook. Dun vinyl dat bestand is tegen portemonneeslijtage, verwijdert zonder restjes.",
+    "accApplicationTitle": "Aanbrengen in 30 seconden",
+    "accApplicationContent": "1. Ontvet je pas (doekje inbegrepen in de kit). 2. Trek de sticker los en lijn de linkerrand uit op de chip: het venster leidt je. 3. Rakel van het midden naar de randen. Tip: met de aanbrengkit lukt de plaatsing perfect in één keer.",
+    "accShippingTitle": "Verzending & retour",
+    "accShippingContent": "Binnen 48 u verzonden vanuit Frankrijk, met brief met tracking (2-4 werkdagen). Een printfout? We sturen je een nieuwe sticker — neem gewoon contact op via de contactpagina met een foto.",
+    "reviewsEyebrow": "Geverifieerde reviews",
+    "reviewsTitle": "Ze zijn er dol op",
+    "verifiedReviewCount": {
+      "one": "{count} geverifieerde review",
+      "other": "{count} geverifieerde reviews"
+    },
+    "reviews": [
+      {
+        "name": "Léa M.",
+        "text": "Supergemakkelijk aan te brengen, het venster valt precies op de chip. Mijn pas is onherkenbaar (in de goede zin).",
+        "rating": 5
+      },
+      {
+        "name": "Thomas R.",
+        "text": "Contactloos werkt perfect, geen verschil bij het betalen. De matte afwerking is echt netjes.",
+        "rating": 5
+      },
+      {
+        "name": "Sarah K.",
+        "text": "Tweede bestelling, koop er één krijg er één gratis is top om af te wisselen naar mijn stemming.",
+        "rating": 4
+      }
+    ],
+    "reviewByline": "{name} — geverifieerde aankoop",
+    "recosEyebrow": "De showroom",
+    "recosTitle": "Dit vind je ook leuk",
+    "recosSeeAll": "Alles bekijken →",
+    "deliveryEstimate": "Geschatte levering:",
+    "bundleHeading": "Kies je pakket — koop er één, krijg er één gratis",
+    "bundleTags": {
+      "popular": "Populair",
+      "bestValue": "Beste deal"
+    },
+    "bundleLabel": {
+      "one": "{count} sticker",
+      "other": "{count} stickers"
+    },
+    "bundleFree": {
+      "one": "waarvan {count} gratis",
+      "other": "waarvan {count} gratis"
+    },
+    "chipHeading": "De chip van je pas",
+    "includedTitle": "Inbegrepen bij elke bestelling",
+    "includedItems": [
+      "Aanbrengkit: uitlijnhouder, rakel, doekje",
+      "Eén sticker op elke twee is gratis — genoeg om het aanbrengen over te doen of je stijl te wisselen"
+    ],
+    "recap": "{count} stickers – {free}",
+    "recapFree": {
+      "one": "{count} gratis",
+      "other": "{count} gratis"
+    },
+    "quantity": "Aantal",
+    "addToCart": "In winkelmand — {price}",
+    "featureCradle": "De aanbrenghouder doet de uitlijning voor je —",
+    "featureCradleLink": "aanbrengen in 60 s",
+    "featureFormat": "Exact bankpasformaat (85,6 × 54 mm), venster gesneden op de grootte van je chip",
+    "featureContactless": "100% compatibel met contactloos betalen en pinautomaten",
+    "featureAllowed": "Geen gegevens gewijzigd: je pas blijft geldig en overal geaccepteerd",
+    "featureResidue": "Verwijdert zonder restjes",
+    "featureShipping": "Binnen 48 u verzonden vanuit Frankrijk, tracking inbegrepen"
+  },
+  "trackOrder": {
+    "intro": "Voer je bestelnummer in (per e-mail ontvangen) en het e-mailadres dat je bij het afrekenen gebruikte om te zien waar je pakket is.",
+    "help": "Geen bevestigingsmail ontvangen? Controleer je spammap, of neem contact op via de pagina FAQ & contact.",
+    "orderNumberPlaceholder": "Bestelnr. (bijv. MS-10234)",
+    "orderNumberLabel": "Bestelnummer",
+    "emailPlaceholder": "Bestel-e-mail",
+    "emailLabel": "Bestel-e-mail",
+    "submit": "Volgen",
+    "trackParcel": "Mijn pakket volgen",
+    "demoStatus": "Bestelling gevonden: gisteren verzonden, onderweg. Geschatte levering binnen {days} werkdagen. (Lokale demo — koppel hier de tracking-API.)"
+  },
+  "legal": {
+    "kicker": "Juridische informatie",
+    "lastUpdated": "Laatst bijgewerkt: 15 augustus 2026.",
+    "disclaimer": "Informatief sjabloon om aan je bedrijf aan te passen. Laat de definitieve versie controleren door een juridisch professional die bevoegd is voor je verkoopmarkten.",
+    "livraison": {
+      "title": "Verzending",
+      "introduction": "De onderstaande informatie moet worden aangepast aan je verzendmethoden en bestemmingen.",
+      "sections": [
+        {
+          "title": "Verzending en tracking",
+          "paragraphs": [
+            "Bestellingen worden vanuit Frankrijk voorbereid en verzonden, ook voor klanten in het Verenigd Koninkrijk en de rest van Europa. Afhankelijk van de bestemming kunnen invoerformaliteiten of -belastingen van toepassing zijn (zie onze algemene verkoopvoorwaarden).",
+            "[IN TE VULLEN: voorbereidingstijden, vervoerders, bediende gebieden en trackingmodaliteiten.]"
+          ]
+        }
+      ]
+    },
+    "retours": {
+      "title": "Retourbeleid",
+      "introduction": "Dit sjabloon moet vóór publicatie worden aangevuld met je informatie en operationele keuzes. Het is opgesteld voor een in het Verenigd Koninkrijk gevestigd bedrijf dat online aan consumenten verkoopt.",
+      "sections": [
+        {
+          "title": "1. Contact met ons opnemen",
+          "paragraphs": [
+            "Voor elk verzoek tot retour, terugbetaling of vervanging neem je contact op met Geno Studio Ltd via hello@monkeysticker.fr, met vermelding van je bestelnummer, het/de betrokken artikel(en) en de reden van je verzoek. We antwoorden je met de te volgen stappen."
+          ]
+        },
+        {
+          "title": "2. Herroepingsrecht",
+          "paragraphs": [
+            "Als je als consument koopt en er geen wettelijke uitzondering van toepassing is, kun je je bestelling binnen 14 dagen na ontvangst van de goederen annuleren, zonder dat je je beslissing hoeft te motiveren. Deze informatie wordt met name verstrekt op grond van de Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Om dit recht uit te oefenen, stuur je ons vóór het verstrijken van deze termijn een duidelijke verklaring van je beslissing. Je kunt ons herroepingsformulier gebruiken [IN TE VULLEN: link of modaliteiten]; het gebruik ervan is niet verplicht."
+          ],
+          "notice": "Vóór publicatie te controleren termijn: nadat je ons je herroeping hebt gemeld, heb je gewoonlijk nog 14 dagen om de goederen terug te sturen. Pas deze tekst aan je verkoopmarkten aan en aan elke gunstigere termijn die je verkiest aan te bieden."
+        },
+        {
+          "title": "3. Gepersonaliseerde artikelen",
+          "paragraphs": [
+            "Het herroepingsrecht geldt niet voor gepersonaliseerde stickers — gemaakt op basis van je eigen beeld (het aanbod « Maak je eigen ») of van elke andere specificatie die je ons doorgeeft. Op bestelling gemaakt en gedrukt, speciaal voor jou, vallen ze onder de uitzondering waarin de Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 voorziet voor duidelijk gepersonaliseerde goederen.",
+            "In de praktijk: zolang het printen niet is begonnen, kun je ons vragen je bestelling te annuleren; zodra het printen is gestart, kan een bestelling van een gepersonaliseerd product niet meer worden geannuleerd of geretourneerd. Deze uitsluiting geldt niet als het artikel defect, beschadigd of niet-conform is — in die gevallen blijven je rechten volledig behouden (zie « Defect, beschadigd of onjuist product »).",
+            "Catalogusstickers, die niet gepersonaliseerd zijn, blijven onder het bovenstaande herroepingsrecht vallen. Voor die artikelen mogen we van je terugbetaling elk waardeverlies aftrekken dat voortvloeit uit een behandeling die verder gaat dan nodig is om de aard, de kenmerken en de goede werking van het product vast te stellen."
+          ]
+        },
+        {
+          "title": "4. Een artikel terugsturen",
+          "paragraphs": [
+            "Wanneer een retour gerechtvaardigd is (bijvoorbeeld een herroeping van een niet-gepersonaliseerde sticker), geven we je het adres en de modaliteiten door: 6 rue Voltaire, 93100 Montreuil, France. Aangezien onze bestellingen vanuit Frankrijk worden verzonden, ligt het retouradres in Frankrijk en is het niet dat van de maatschappelijke zetel in het Verenigd Koninkrijk — gebruik alleen het adres dat we je opgeven, en stuur niets voordat je onze instructies hebt ontvangen.",
+            "Voor een herroeping betreffende een niet-gepersonaliseerd artikel stuur je ons de goederen binnen 14 dagen na de melding van je herroeping terug, op eigen kosten. De retourkosten zijn alleen voor onze rekening als het artikel defect, niet-conform of per vergissing verzonden is. Bewaar een verzendbewijs tot de terugbetaling is bevestigd."
+          ]
+        },
+        {
+          "title": "5. Terugbetalingen",
+          "paragraphs": [
+            "In geval van herroeping betalen we je binnen 14 dagen terug. Zoals de wet toestaat, mogen we die terugbetaling inhouden tot we de geretourneerde goederen hebben ontvangen of, indien dat eerder is, tot je ons een bewijs van terugzending bezorgt — al naargelang welke datum het eerst valt. De terugbetaling omvat de kosten van de oorspronkelijke standaardlevering wanneer de wet dat vereist; de retourkosten blijven echter voor jouw rekening.",
+            "De terugbetaling gebeurt via de betaalmethode die bij de bestelling is gebruikt, tenzij uitdrukkelijk anders overeengekomen, en zonder kosten van onze kant."
+          ]
+        },
+        {
+          "title": "6. Defect, beschadigd of onjuist product",
+          "paragraphs": [
+            "Als een product defect is, bij aankomst beschadigd is of niet overeenkomt met je bestelling, neem dan snel contact met ons op met foto's en je bestelnummer. Onze standaardoplossing is het artikel gratis opnieuw te printen en opnieuw te verzenden, zonder dat je het aan ons hoeft terug te sturen; afhankelijk van het geval en je wettelijke rechten is een terugbetaling ook mogelijk.",
+            "Dit beleid beperkt je wettelijke consumentenrechten niet, in het bijzonder de rechten die van toepassing zijn op goederen die niet-conform of defect zijn."
+          ]
+        }
+      ]
+    },
+    "politique-de-retour": {
+      "title": "Retourbeleid",
+      "introduction": "Dit sjabloon moet vóór publicatie worden aangevuld met je informatie en operationele keuzes. Het is opgesteld voor een in het Verenigd Koninkrijk gevestigd bedrijf dat online aan consumenten verkoopt.",
+      "sections": [
+        {
+          "title": "1. Contact met ons opnemen",
+          "paragraphs": [
+            "Voor elk verzoek tot retour, terugbetaling of vervanging neem je contact op met Geno Studio Ltd via hello@monkeysticker.fr, met vermelding van je bestelnummer, het/de betrokken artikel(en) en de reden van je verzoek. We antwoorden je met de te volgen stappen."
+          ]
+        },
+        {
+          "title": "2. Herroepingsrecht",
+          "paragraphs": [
+            "Als je als consument koopt en er geen wettelijke uitzondering van toepassing is, kun je je bestelling binnen 14 dagen na ontvangst van de goederen annuleren, zonder dat je je beslissing hoeft te motiveren. Deze informatie wordt met name verstrekt op grond van de Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Om dit recht uit te oefenen, stuur je ons vóór het verstrijken van deze termijn een duidelijke verklaring van je beslissing. Je kunt ons herroepingsformulier gebruiken [IN TE VULLEN: link of modaliteiten]; het gebruik ervan is niet verplicht."
+          ],
+          "notice": "Vóór publicatie te controleren termijn: nadat je ons je herroeping hebt gemeld, heb je gewoonlijk nog 14 dagen om de goederen terug te sturen. Pas deze tekst aan je verkoopmarkten aan en aan elke gunstigere termijn die je verkiest aan te bieden."
+        },
+        {
+          "title": "3. Gepersonaliseerde artikelen",
+          "paragraphs": [
+            "Het herroepingsrecht geldt niet voor gepersonaliseerde stickers — gemaakt op basis van je eigen beeld (het aanbod « Maak je eigen ») of van elke andere specificatie die je ons doorgeeft. Op bestelling gemaakt en gedrukt, speciaal voor jou, vallen ze onder de uitzondering waarin de Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 voorziet voor duidelijk gepersonaliseerde goederen.",
+            "In de praktijk: zolang het printen niet is begonnen, kun je ons vragen je bestelling te annuleren; zodra het printen is gestart, kan een bestelling van een gepersonaliseerd product niet meer worden geannuleerd of geretourneerd. Deze uitsluiting geldt niet als het artikel defect, beschadigd of niet-conform is — in die gevallen blijven je rechten volledig behouden (zie « Defect, beschadigd of onjuist product »).",
+            "Catalogusstickers, die niet gepersonaliseerd zijn, blijven onder het bovenstaande herroepingsrecht vallen. Voor die artikelen mogen we van je terugbetaling elk waardeverlies aftrekken dat voortvloeit uit een behandeling die verder gaat dan nodig is om de aard, de kenmerken en de goede werking van het product vast te stellen."
+          ]
+        },
+        {
+          "title": "4. Een artikel terugsturen",
+          "paragraphs": [
+            "Wanneer een retour gerechtvaardigd is (bijvoorbeeld een herroeping van een niet-gepersonaliseerde sticker), geven we je het adres en de modaliteiten door: 6 rue Voltaire, 93100 Montreuil, France. Aangezien onze bestellingen vanuit Frankrijk worden verzonden, ligt het retouradres in Frankrijk en is het niet dat van de maatschappelijke zetel in het Verenigd Koninkrijk — gebruik alleen het adres dat we je opgeven, en stuur niets voordat je onze instructies hebt ontvangen.",
+            "Voor een herroeping betreffende een niet-gepersonaliseerd artikel stuur je ons de goederen binnen 14 dagen na de melding van je herroeping terug, op eigen kosten. De retourkosten zijn alleen voor onze rekening als het artikel defect, niet-conform of per vergissing verzonden is. Bewaar een verzendbewijs tot de terugbetaling is bevestigd."
+          ]
+        },
+        {
+          "title": "5. Terugbetalingen",
+          "paragraphs": [
+            "In geval van herroeping betalen we je binnen 14 dagen terug. Zoals de wet toestaat, mogen we die terugbetaling inhouden tot we de geretourneerde goederen hebben ontvangen of, indien dat eerder is, tot je ons een bewijs van terugzending bezorgt — al naargelang welke datum het eerst valt. De terugbetaling omvat de kosten van de oorspronkelijke standaardlevering wanneer de wet dat vereist; de retourkosten blijven echter voor jouw rekening.",
+            "De terugbetaling gebeurt via de betaalmethode die bij de bestelling is gebruikt, tenzij uitdrukkelijk anders overeengekomen, en zonder kosten van onze kant."
+          ]
+        },
+        {
+          "title": "6. Defect, beschadigd of onjuist product",
+          "paragraphs": [
+            "Als een product defect is, bij aankomst beschadigd is of niet overeenkomt met je bestelling, neem dan snel contact met ons op met foto's en je bestelnummer. Onze standaardoplossing is het artikel gratis opnieuw te printen en opnieuw te verzenden, zonder dat je het aan ons hoeft terug te sturen; afhankelijk van het geval en je wettelijke rechten is een terugbetaling ook mogelijk.",
+            "Dit beleid beperkt je wettelijke consumentenrechten niet, in het bijzonder de rechten die van toepassing zijn op goederen die niet-conform of defect zijn."
+          ]
+        }
+      ]
+    },
+    "mentions-legales": {
+      "title": "Juridische kennisgeving",
+      "introduction": "Deze kennisgeving identificeert het bedrijf dat de site exploiteert. Vervang vóór publicatie elk veld tussen haakjes door je geverifieerde informatie.",
+      "sections": [
+        {
+          "title": "1. Uitgever van de site",
+          "paragraphs": [
+            "Deze site wordt uitgegeven door Geno Studio Ltd, een private limited company (Ltd), geregistreerd in Engeland en Wales onder nummer 17113844."
+          ],
+          "bullets": [
+            "Registered office: Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Verenigd Koninkrijk.",
+            "Correspondentieadres: 6 rue Voltaire, 93100 Montreuil, France.",
+            "Brits btw-nummer: [IN TE VULLEN: UK VAT number, indien van toepassing].",
+            "E-mail: hello@monkeysticker.fr.",
+            "Telefoon: [IN TE VULLEN: telefoonnummer, als je er een opgeeft]."
+          ]
+        },
+        {
+          "title": "2. Verantwoordelijke voor de publicatie",
+          "paragraphs": [
+            "Verantwoordelijke voor de publicatie: [IN TE VULLEN: naam en functie].",
+            "Redactioneel contact: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "3. Hosting",
+          "paragraphs": [
+            "De site (front-end) wordt gehost door Vercel Inc., 440 N Barranca Ave, PMB 4133, Covina, CA 91723, Verenigde Staten — https://vercel.com. De applicatieserver (back-end) wordt gehost door Fly.io, Inc., 321 North Clark Street, Chicago, IL, Verenigde Staten — legal@fly.io. De database wordt gehost door Render Services, Inc., 525 Brannan Street, Ste 300, San Francisco, CA 94107, Verenigde Staten — https://render.com."
+          ]
+        },
+        {
+          "title": "4. Intellectuele eigendom",
+          "paragraphs": [
+            "Tenzij anders vermeld, zijn de elementen van de site — met name teksten, afbeeldingen, logo's, ontwerpen, video's en code — beschermd door intellectuele-eigendomsrechten. Elke ongeoorloofde reproductie, aanpassing of exploitatie is verboden, behoudens voorafgaande schriftelijke toestemming van Geno Studio Ltd of tenzij de wet dit anders toestaat."
+          ]
+        },
+        {
+          "title": "5. Persoonsgegevens en cookies",
+          "paragraphs": [
+            "De modaliteiten voor het verzamelen en verwerken van persoonsgegevens worden uiteengezet in ons privacybeleid: /pages/confidentialite.",
+            "Als je cookies of soortgelijke technologieën gebruikt die niet strikt noodzakelijk zijn, vermeld dan je doeleinden, je aanbieders en de manier om keuzes te beheren in je privacybeleid en je toestemmingstool: [IN TE VULLEN: link of beschrijving]."
+          ]
+        },
+        {
+          "title": "6. Toepasselijk recht en bevoegde rechter",
+          "paragraphs": [
+            "Deze kennisgeving wordt beheerst door het recht van Engeland en Wales, onder voorbehoud van de dwingende bepalingen inzake consumentenbescherming die van toepassing zijn in het land van verblijf van de klant. De bevoegde rechtbanken worden bepaald door de toepasselijke wettelijke regels."
+          ]
+        }
+      ]
+    },
+    "confidentialite": {
+      "title": "Privacybeleid",
+      "introduction": "Dit beleid legt uit welke persoonsgegevens Geno Studio Ltd via deze site verzamelt, waarom, hoelang ze worden bewaard en wat je rechten zijn. Het is opgesteld met het oog op de UK GDPR en de AVG (EU). Dit sjabloon moet door een professional worden nagelezen en vóór publicatie op je werkelijke verwerkingen worden afgestemd.",
+      "sections": [
+        {
+          "title": "1. Verwerkingsverantwoordelijke",
+          "paragraphs": [
+            "De verwerkingsverantwoordelijke is Geno Studio Ltd, een private limited company geregistreerd in Engeland en Wales onder nummer 17113844, met maatschappelijke zetel te Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Verenigd Koninkrijk.",
+            "Voor elke vraag over je gegevens of om je rechten uit te oefenen: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "2. Gegevens die we verzamelen",
+          "bullets": [
+            "Bestelling en levering: naam, postadres, e-mail en bestelgegevens.",
+            "Betaling: verwerkt door Stripe. We slaan geen kaartnummers op; we ontvangen van Stripe beperkte informatie (betaalstatus, factuurgegevens).",
+            "Personalisatie: het beeld dat je uploadt voor een gepersonaliseerde sticker (het aanbod « Maak je eigen »).",
+            "Nieuwsbrief: je e-mailadres en de bron van de inschrijving, als je je aanmeldt.",
+            "Technische gegevens: serverlogs en verbindingsgegevens die nodig zijn voor de werking en de beveiliging van de site."
+          ]
+        },
+        {
+          "title": "3. Doeleinden en rechtsgronden",
+          "bullets": [
+            "Je bestellingen verwerken en leveren, je erover contacteren en de klantenservice verzorgen — uitvoering van de overeenkomst (art. 6(1)(b)).",
+            "Je de nieuwsbrief sturen — je toestemming (art. 6(1)(a)), die op elk moment kan worden ingetrokken.",
+            "Onze boekhoudkundige en fiscale verplichtingen naleven — wettelijke verplichting (art. 6(1)(c)).",
+            "De site beveiligen, fraude voorkomen en onze diensten verbeteren — gerechtvaardigd belang (art. 6(1)(f))."
+          ]
+        },
+        {
+          "title": "4. Bewaartermijnen",
+          "paragraphs": [
+            "Bestel- en factuurgegevens: zolang nodig voor de uitvoering, daarna gedurende de wettelijke boekhoudkundige bewaartermijn — [IN TE VULLEN: termijn, bijv. 6 jaar].",
+            "Inschrijving op de nieuwsbrief: tot je je uitschrijft, daarna verwijdering of anonimisering.",
+            "Geüploade gepersonaliseerde beelden: [IN TE VULLEN: bewaartermijn van de bestanden]."
+          ]
+        },
+        {
+          "title": "5. Verwerkers en ontvangers",
+          "paragraphs": [
+            "We verkopen je gegevens niet. We delen ze alleen met de aanbieders die strikt noodzakelijk zijn voor de dienst, contractueel gehouden om ze te beschermen:"
+          ],
+          "bullets": [
+            "Hosting van de site (front-end): Vercel Inc. (Verenigde Staten). Applicatieserver: Fly.io, Inc. (Verenigde Staten). Database: Render Services, Inc. (Verenigde Staten).",
+            "Betaling: Stripe — voor een Europese klant is de contractpartij Stripe Payments Europe, Limited (Ierland).",
+            "Verzending vanuit Frankrijk: [IN TE VULLEN: vervoerder(s), indien van toepassing]."
+          ]
+        },
+        {
+          "title": "6. Doorgifte buiten de Europese Unie",
+          "paragraphs": [
+            "Sommige van onze aanbieders zijn gevestigd buiten de Europese Unie, met name in de Verenigde Staten: Vercel (hosting van de site), Fly.io (applicatieserver) en Render (database). Je persoonsgegevens kunnen dan ook naar de Verenigde Staten worden doorgegeven en daar worden verwerkt.",
+            "Deze doorgiften worden omkaderd door passende waarborgen in de zin van de UK GDPR en de AVG — modelcontractbepalingen (SCC's) en/of certificering onder het EU–VS Data Privacy Framework, vastgelegd in de verwerkersovereenkomsten (DPA's) van deze aanbieders. Stripe past eveneens zulke waarborgen toe. Je kunt een kopie van de getroffen waarborgen opvragen door te schrijven naar hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "7. Cookies",
+          "paragraphs": [
+            "De site gebruikt cookies en technologieën die strikt noodzakelijk zijn voor de werking ervan (bijvoorbeeld de winkelmand en de betaling), waarvoor je toestemming niet vereist is. [IN TE VULLEN: som hier eventuele niet-essentiële cookies op — bezoekmeting, marketing — en de manier om je toestemming te verkrijgen en te beheren.]"
+          ]
+        },
+        {
+          "title": "8. Je rechten",
+          "paragraphs": [
+            "Je beschikt over de rechten op inzage, rectificatie, wissing, beperking, bezwaar en overdraagbaarheid, evenals over het recht om je toestemming op elk moment in te trekken (zonder gevolgen voor reeds uitgevoerde verwerkingen). Om ze uit te oefenen, schrijf je naar hello@monkeysticker.fr.",
+            "Als je van mening bent dat je rechten niet worden gerespecteerd, kun je een klacht indienen bij een toezichthoudende autoriteit: in het Verenigd Koninkrijk het Information Commissioner's Office (ICO); in de EU de autoriteit van je land van verblijf (in Frankrijk de CNIL)."
+          ]
+        }
+      ]
+    },
+    "cgv": {
+      "title": "Algemene verkoopvoorwaarden",
+      "introduction": "Deze algemene verkoopvoorwaarden zijn een sjabloon om aan te passen aan je bedrijf, je verkooplanden en je commerciële modaliteiten. Vervang alle velden tussen haakjes vóór publicatie.",
+      "sections": [
+        {
+          "title": "1. Identiteit van de verkoper en toepassingsgebied",
+          "paragraphs": [
+            "Deze voorwaarden beheersen de verkopen die op deze site tot stand komen tussen Geno Studio Ltd, een in het Verenigd Koninkrijk gevestigd bedrijf, geregistreerd onder nummer 17113844, met maatschappelijke zetel te Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Verenigd Koninkrijk, en elke klant die de op de site aangeboden producten koopt.",
+            "Ze zijn van toepassing op zowel consumenten als zakelijke klanten. De rechten die de wet aan consumenten voorbehoudt — in het bijzonder het herroepingsrecht van 14 dagen en de bepalingen van ons Retourbeleid die daaruit voortvloeien — komen alleen ten goede aan klanten die voor privédoeleinden handelen: een zakelijke klant beschikt niet over een herroepingsrecht, onverminderd de wettelijke conformiteitsgaranties die op goederen van toepassing zijn."
+          ]
+        },
+        {
+          "title": "2. Producten",
+          "paragraphs": [
+            "De essentiële kenmerken van elk product staan op de productpagina vóór de bevestiging van de bestelling. Foto's en beelden worden ter illustratie verstrekt; lichte kleur- of weergaveverschillen kunnen bestaan afhankelijk van de schermen en productieprocessen.",
+            "[IN TE VULLEN: productwaarschuwingen, gebruiksbeperkingen en aanbrenginstructies die op je catalogus van toepassing zijn.]"
+          ]
+        },
+        {
+          "title": "3. Prijzen, belastingen en verzendkosten",
+          "paragraphs": [
+            "De weergegeven prijzen zijn in euro's (EUR) vermeld en geven aan of de toepasselijke belastingen zijn inbegrepen of op het moment van betaling worden toegevoegd. Eventuele toepasselijke verzendkosten, rechten of invoerbelastingen worden vóór de bevestiging van de bestelling getoond.",
+            "Onze producten worden vanuit Frankrijk verzonden. Afhankelijk van het leverland kunnen douanerechten, invoer-btw of inklaringskosten van toepassing zijn: bestellingen bestemd voor het Verenigd Koninkrijk worden vanuit de Europese Unie verzonden en kunnen aanleiding geven tot invoerformaliteiten en -belastingen, terwijl bestellingen die binnen de Europese Unie worden geleverd geen aanleiding geven tot douaneformaliteiten. Vermeld wie deze kosten draagt: [IN TE VULLEN: verdeling van rechten, invoer-btw en inklaringskosten, eventuele Incoterm (bijv. DDP of DAP)]."
+          ],
+          "notice": "Te controleren btw: een Brits bedrijf dat vanuit Frankrijk verzendt, kan btw-verplichtingen hebben in de Europese Unie (btw-registratie, OSS/IOSS-loket) en in het Verenigd Koninkrijk. Laat je btw-behandeling voor de prijsweergave en de facturatie bevestigen door een bevoegd adviseur: [IN TE VULLEN: toegepast btw-regime]."
+        },
+        {
+          "title": "4. Bestelling en totstandkoming van de overeenkomst",
+          "paragraphs": [
+            "De klant selecteert de producten, controleert het overzicht van zijn bestelling, corrigeert eventuele fouten, aanvaardt deze voorwaarden en gaat vervolgens over tot de betaling. De per e-mail verzonden bestelbevestiging vat de overeenkomst samen op een duurzame drager.",
+            "We kunnen een bestelling weigeren of annuleren in geval van onbeschikbaarheid, een kennelijke prijsfout, een vermoeden van fraude of een redelijke onmogelijkheid om de bestelling uit te voeren. In voorkomend geval worden de geïnde bedragen terugbetaald via de gebruikte betaalmethode."
+          ]
+        },
+        {
+          "title": "5. Betaling",
+          "paragraphs": [
+            "De betaling is verschuldigd op het moment van de bestelling, via de middelen die bij het afrekenen worden weergegeven. De betalingen worden verwerkt door Stripe. We bewaren geen bankkaartgegevens langer dan nodig is voor de verwerking van de betaling door deze aanbieder."
+          ]
+        },
+        {
+          "title": "6. Levering",
+          "paragraphs": [
+            "We leveren op het adres dat bij de bestelling is opgegeven, in de op de site vermelde gebieden. Bestellingen worden vanuit Frankrijk voorbereid en verzonden; de termijnen kunnen variëren afhankelijk van de bestemming en eventuele douaneformaliteiten. De voorbereidings- en levertijden worden vóór de aankoop en in de bestelbevestiging vermeld. Tenzij anders overeengekomen, worden de goederen uiterlijk binnen 30 dagen na het sluiten van de overeenkomst geleverd.",
+            "Als de levering een aanzienlijke vertraging oploopt, neem dan contact met ons op via hello@monkeysticker.fr. Je rechten in geval van vertraging, onmogelijkheid tot levering of verlies zijn die welke door het toepasselijke recht zijn voorzien."
+          ]
+        },
+        {
+          "title": "7. Herroepingsrecht",
+          "paragraphs": [
+            "Wanneer je de hoedanigheid van consument hebt en er geen uitzondering van toepassing is, kun je je bestelling binnen 14 dagen na ontvangst van de goederen annuleren, met name overeenkomstig de Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "De modaliteiten voor de uitoefening, de eventuele uitsluitingen voor gepersonaliseerde goederen, de retourkosten en de terugbetalingsmodaliteiten worden uiteengezet in ons Retourbeleid: /pages/politique-de-retour."
+          ]
+        },
+        {
+          "title": "8. Defecte producten en garanties",
+          "paragraphs": [
+            "Niets in deze voorwaarden beperkt de wettelijke rechten van de klant. De producten moeten van bevredigende kwaliteit zijn, geschikt voor hun gebruikelijke doel en overeenstemmen met hun beschrijving, binnen de grenzen die door het toepasselijke recht zijn gesteld.",
+            "Om een probleem te melden, neem contact op via hello@monkeysticker.fr met je bestelnummer en, indien mogelijk, foto's. We beoordelen het verzoek en stellen de passende oplossing voor overeenkomstig je rechten."
+          ]
+        },
+        {
+          "title": "9. Geüploade content en intellectuele eigendom",
+          "paragraphs": [
+            "Wanneer je een gepersonaliseerde sticker maakt, upload je content (foto, logo, illustratie, tekst). Je blijft daar als enige verantwoordelijk voor. Door deze te uploaden, verklaar en garandeer je dat je alle nodige rechten bezit — auteursrecht, merkrechten en de portret-/persoonlijkheidsrechten van eventueel afgebeelde personen — of dat je de vereiste toestemmingen hebt verkregen om deze te gebruiken en op je bestelling te laten reproduceren.",
+            "Je verbindt je ertoe geen content te uploaden die onwettig, inbreukmakend, lasterlijk of hatelijk is, of die de rechten van een derde schendt. We mogen elke bestelling weigeren of annuleren waarvan de content rechten lijkt te schenden of in strijd lijkt met de wet; in dat geval worden de reeds voor die bestelling betaalde bedragen aan je terugbetaald.",
+            "Je verleent ons enkel de beperkte licentie die nodig is om je bestelling te reproduceren, te printen, te snijden en te leveren, en om het bestand te bewaren zolang de verwerking van de bestelling dat vereist. We maken geen enkele aanspraak op de eigendom van je content.",
+            "Je vrijwaart ons tegen elke vordering, actie of veroordeling van een derde die voortvloeit uit de content die je hebt geüpload, in het bijzonder wegens inbreuk op een intellectuele-eigendomsrecht of een portret-/persoonlijkheidsrecht. Voor zover de wet dit toestaat, aanvaarden we geen enkele aansprakelijkheid voor content die door klanten wordt aangeleverd."
+          ]
+        },
+        {
+          "title": "10. Aansprakelijkheid",
+          "paragraphs": [
+            "We beperken noch sluiten onze aansprakelijkheid uit wanneer een dergelijke beperking of uitsluiting onwettig zou zijn, met name in geval van fraude, overlijden of letsel als gevolg van onze nalatigheid, of wanneer de wettelijke rechten van de consument zich daartegen verzetten.",
+            "Onder voorbehoud van het voorgaande is onze aansprakelijkheid beperkt voor zover de wet dit toestaat. [IN TE VULLEN: eventuele beperkingen aangepast aan je bedrijf, na juridisch advies]."
+          ]
+        },
+        {
+          "title": "11. Toepasselijk recht en bevoegde rechter",
+          "paragraphs": [
+            "Deze verkoopvoorwaarden worden beheerst door het recht van Engeland en Wales. Deze clausule ontneemt de consument niet de dwingende bescherming die de toepasselijke regels van zijn land van gewone verblijfplaats hem verlenen.",
+            "Elk geschil valt onder de bevoegde rechtbanken die worden bepaald door de toepasselijke procedure- en consumentenbeschermingsregels. [IN TE VULLEN: contactgegevens van de klachtendienst en eventuele minnelijke procedure]."
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <!-- Deep Y2K background: near-black chrome void with a faint holo glow -->
+    <linearGradient id="bgVoid" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#12161C"/>
+      <stop offset="0.45" stop-color="#1A2028"/>
+      <stop offset="0.75" stop-color="#0E1116"/>
+      <stop offset="1" stop-color="#05070A"/>
+    </linearGradient>
+
+    <!-- Holographic bloom behind the object (cyan->magenta light accent) -->
+    <radialGradient id="holoBloom" cx="0.5" cy="0.46" r="0.62">
+      <stop offset="0" stop-color="#7FE9FF" stop-opacity="0.55"/>
+      <stop offset="0.35" stop-color="#4DB8FF" stop-opacity="0.28"/>
+      <stop offset="0.62" stop-color="#B06BFF" stop-opacity="0.20"/>
+      <stop offset="0.85" stop-color="#FF5FA8" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Main liquid-chrome body: violent black->white mirror ramp, top-lit -->
+    <linearGradient id="chromeBody" x1="0.2" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.10" stop-color="#EAF2F8"/>
+      <stop offset="0.20" stop-color="#AFC0CE"/>
+      <stop offset="0.30" stop-color="#5C6A7A"/>
+      <stop offset="0.40" stop-color="#1A2028"/>
+      <stop offset="0.50" stop-color="#2E3A47"/>
+      <stop offset="0.58" stop-color="#8FA0B0"/>
+      <stop offset="0.66" stop-color="#F2F4F7"/>
+      <stop offset="0.72" stop-color="#D9DDE3"/>
+      <stop offset="0.80" stop-color="#4A5765"/>
+      <stop offset="0.90" stop-color="#12181F"/>
+      <stop offset="1" stop-color="#242C36"/>
+    </linearGradient>
+
+    <!-- Secondary droplet chrome (same ramp, shifted) -->
+    <linearGradient id="chromeDrop" x1="0.3" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.18" stop-color="#C6D2DC"/>
+      <stop offset="0.36" stop-color="#3A4552"/>
+      <stop offset="0.5" stop-color="#141A21"/>
+      <stop offset="0.64" stop-color="#7E8D9C"/>
+      <stop offset="0.82" stop-color="#EEF1F5"/>
+      <stop offset="1" stop-color="#2A333E"/>
+    </linearGradient>
+
+    <!-- Chrome drip ramp: bright molten head, dark tail -->
+    <linearGradient id="chromeDrip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.16" stop-color="#DCE4EC"/>
+      <stop offset="0.34" stop-color="#7C8B9A"/>
+      <stop offset="0.55" stop-color="#28313C"/>
+      <stop offset="0.78" stop-color="#4E5C6B"/>
+      <stop offset="1" stop-color="#0E1319"/>
+    </linearGradient>
+
+    <!-- Holographic edge sheen for rim light (cyan->magenta) -->
+    <linearGradient id="holoRim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8AF6FF"/>
+      <stop offset="0.4" stop-color="#59B7FF"/>
+      <stop offset="0.7" stop-color="#C57BFF"/>
+      <stop offset="1" stop-color="#FF6FB0"/>
+    </linearGradient>
+
+    <!-- Floor reflection ramp (mirror below) -->
+    <linearGradient id="floorMirror" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2C3844" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#151B22" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#05070A" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Soft radial for specular hotspots -->
+    <radialGradient id="glint" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="0.4" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== BACKGROUND ===== -->
+  <rect x="0" y="0" width="856" height="540" fill="#05070A"/>
+  <rect x="0" y="0" width="856" height="540" fill="url(#bgVoid)"/>
+
+  <!-- Holo glow bloom, centered on the object (kept out of chip window x70-230/y160-320) -->
+  <ellipse cx="560" cy="250" rx="360" ry="300" fill="url(#holoBloom)"/>
+
+  <!-- Faint horizon mirror line for premium reflective floor feel -->
+  <rect x="0" y="392" width="856" height="148" fill="url(#floorMirror)"/>
+  <line x1="0" y1="392" x2="856" y2="392" stroke="#5C6A7A" stroke-opacity="0.35" stroke-width="1"/>
+
+  <!-- ===== FLOOR REFLECTION of the main blob (mirrored, faded) ===== -->
+  <g opacity="0.28" transform="translate(0,784) scale(1,-1)">
+    <path d="M560 250
+             C 470 250 402 300 398 358
+             C 396 396 428 420 470 424
+             C 452 448 470 476 508 474
+             C 500 500 534 520 566 508
+             C 584 528 626 528 646 506
+             C 682 520 716 500 708 470
+             C 748 470 772 440 758 408
+             C 792 396 800 352 766 330
+             C 782 296 754 258 714 262
+             C 700 236 654 232 632 254
+             C 610 240 574 240 560 250 Z"
+          fill="url(#chromeBody)"/>
+  </g>
+
+  <!-- ===== CHROME DRIPS falling from the object (wide, molten, white-headed) ===== -->
+  <!-- drip 1 -->
+  <path d="M470 430
+           C 462 470 460 520 472 560
+           C 480 588 500 592 508 562
+           C 516 522 512 470 502 432 Z"
+        fill="url(#chromeDrip)"/>
+  <ellipse cx="486" cy="446" rx="12" ry="20" fill="url(#glint)" opacity="0.9"/>
+  <ellipse cx="482" cy="540" rx="8" ry="16" fill="#FFFFFF" opacity="0.55"/>
+
+  <!-- drip 2 (long central molten strand) -->
+  <path d="M584 500
+           C 574 540 572 588 586 624
+           C 596 648 616 646 622 618
+           C 630 578 624 536 614 502 Z"
+        fill="url(#chromeDrip)"/>
+  <ellipse cx="600" cy="518" rx="13" ry="22" fill="url(#glint)" opacity="0.95"/>
+  <ellipse cx="596" cy="608" rx="8" ry="15" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- drip 3 -->
+  <path d="M690 468
+           C 684 500 684 540 696 566
+           C 704 584 720 582 724 560
+           C 730 528 724 494 716 468 Z"
+        fill="url(#chromeDrip)"/>
+  <ellipse cx="704" cy="482" rx="11" ry="18" fill="url(#glint)" opacity="0.9"/>
+
+  <!-- ===== MAIN LIQUID CHROME BLOB (figurative molten-metal droplet, 3D) ===== -->
+  <!-- holographic rim behind body for cyan/magenta light catch -->
+  <path d="M560 246
+           C 466 246 396 298 392 358
+           C 390 398 424 424 468 428
+           C 449 454 468 484 508 482
+           C 500 510 536 532 570 518
+           C 589 540 634 540 655 516
+           C 693 532 730 510 720 478
+           C 762 478 788 446 772 412
+           C 808 398 816 352 780 328
+           C 797 292 768 252 726 256
+           C 711 228 662 224 639 248
+           C 616 232 576 234 560 246 Z"
+        fill="url(#holoRim)" opacity="0.85"/>
+
+  <!-- main chrome body (slightly inset from rim) -->
+  <path d="M560 252
+           C 470 252 402 302 398 358
+           C 396 396 428 420 470 424
+           C 452 448 470 476 508 474
+           C 500 500 534 520 566 508
+           C 584 528 626 528 646 506
+           C 682 520 716 500 708 470
+           C 748 470 772 440 758 408
+           C 792 396 800 352 766 330
+           C 782 296 754 258 714 262
+           C 700 236 654 232 632 254
+           C 610 240 574 240 560 252 Z"
+        fill="url(#chromeBody)"/>
+
+  <!-- reflected sky band across the body (bright horizon reflection) -->
+  <path d="M410 350
+           C 500 322 640 320 754 344
+           C 700 366 560 372 430 366 Z"
+        fill="#F2F4F7" opacity="0.55"/>
+  <!-- dark floor reflection band inside body -->
+  <path d="M416 384
+           C 520 402 650 402 748 380
+           C 700 424 540 430 432 412 Z"
+        fill="#12181F" opacity="0.75"/>
+
+  <!-- specular hotspots (sharp glints that sell the chrome) -->
+  <ellipse cx="470" cy="300" rx="30" ry="16" fill="url(#glint)"/>
+  <circle cx="662" cy="292" r="10" fill="#FFFFFF"/>
+  <ellipse cx="702" cy="316" rx="16" ry="7" fill="#FFFFFF" opacity="0.85"/>
+  <ellipse cx="540" cy="466" rx="20" ry="9" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="600" cy="486" r="7" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- holo edge glints (cyan / magenta catch-lights) -->
+  <ellipse cx="416" cy="372" rx="10" ry="18" fill="#8AF6FF" opacity="0.8"/>
+  <ellipse cx="752" cy="388" rx="9" ry="16" fill="#FF6FB0" opacity="0.75"/>
+  <ellipse cx="640" cy="510" rx="12" ry="6" fill="#C57BFF" opacity="0.7"/>
+
+  <!-- ===== FLOATING MERCURY DROPLETS (upper-right, reinforce "liquid metal") ===== -->
+  <g>
+    <circle cx="782" cy="150" r="26" fill="url(#chromeDrop)"/>
+    <ellipse cx="774" cy="140" rx="9" ry="5" fill="#FFFFFF"/>
+    <circle cx="782" cy="164" r="6" fill="#0E1319" opacity="0.7"/>
+  </g>
+  <g>
+    <circle cx="718" cy="120" r="15" fill="url(#chromeDrop)"/>
+    <ellipse cx="713" cy="114" rx="5" ry="3" fill="#FFFFFF"/>
+  </g>
+  <g>
+    <circle cx="812" cy="206" r="10" fill="url(#chromeDrop)"/>
+    <circle cx="808" cy="202" r="3" fill="#FFFFFF"/>
+  </g>
+
+  <!-- small mercury bead near lower-right for balance -->
+  <g>
+    <circle cx="780" cy="454" r="18" fill="url(#chromeDrop)"/>
+    <ellipse cx="774" cy="447" rx="6" ry="4" fill="#FFFFFF"/>
+    <circle cx="783" cy="463" r="4" fill="#0E1319" opacity="0.7"/>
+  </g>
+
+  <!-- crisp catch-line across the top of the blob for that "wet chrome" edge -->
+  <path d="M436 296 C 540 262 660 262 748 296"
+        fill="none" stroke="#FFFFFF" stroke-width="3" stroke-opacity="0.7" stroke-linecap="round"/>
+  <path d="M452 300 C 548 274 652 274 730 300"
+        fill="none" stroke="#7FE9FF" stroke-width="1.4" stroke-opacity="0.6" stroke-linecap="round"/>
+</svg>

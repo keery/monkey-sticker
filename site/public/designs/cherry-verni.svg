@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <!-- fond bordeaux verni : gradient riche, profond, avec reflet cuir -->
+    <radialGradient id="lacquer" cx="34%" cy="30%" r="95%">
+      <stop offset="0" stop-color="#B31A28"/>
+      <stop offset="0.28" stop-color="#A31621"/>
+      <stop offset="0.58" stop-color="#7E0F19"/>
+      <stop offset="0.82" stop-color="#6E0B14"/>
+      <stop offset="1" stop-color="#3D0A0F"/>
+    </radialGradient>
+
+    <!-- reflet doux "faux cuir verni" : bande lumineuse diagonale -->
+    <linearGradient id="gloss" x1="0" y1="0" x2="856" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.16" stop-color="#ffd9dd" stop-opacity="0.10"/>
+      <stop offset="0.30" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0.40" stop-color="#ffd9dd" stop-opacity="0.05"/>
+      <stop offset="0.52" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- halo lumineux haut-gauche pour l'effet "laque humide" -->
+    <radialGradient id="wetlight" cx="30%" cy="22%" r="42%">
+      <stop offset="0" stop-color="#ffe3e6" stop-opacity="0.26"/>
+      <stop offset="0.45" stop-color="#ffb0b8" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- vignettage pour donner de la profondeur au vernis -->
+    <radialGradient id="vig" cx="50%" cy="44%" r="78%">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.6" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2a0509" stop-opacity="0.55"/>
+    </radialGradient>
+
+    <!-- corps de la cerise : rouge vernis bombe -->
+    <radialGradient id="cherryBody" cx="38%" cy="34%" r="70%">
+      <stop offset="0" stop-color="#FF5563"/>
+      <stop offset="0.4" stop-color="#E01E2C"/>
+      <stop offset="0.78" stop-color="#B3121F"/>
+      <stop offset="1" stop-color="#7E0E17"/>
+    </radialGradient>
+    <radialGradient id="cherryBody2" cx="40%" cy="36%" r="70%">
+      <stop offset="0" stop-color="#FF6B77"/>
+      <stop offset="0.42" stop-color="#E8202F"/>
+      <stop offset="0.8" stop-color="#BC1420"/>
+      <stop offset="1" stop-color="#84101A"/>
+    </radialGradient>
+
+    <!-- feuille verte glacee -->
+    <linearGradient id="leaf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7FBE4C"/>
+      <stop offset="0.55" stop-color="#4E9A31"/>
+      <stop offset="1" stop-color="#2F6B1E"/>
+    </linearGradient>
+
+    <!-- or fin pour les lisereseaux / typographie premium -->
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6E4A8"/>
+      <stop offset="0.5" stop-color="#D8B25E"/>
+      <stop offset="1" stop-color="#A9822F"/>
+    </linearGradient>
+
+    <!-- crème pour le semis discret -->
+    <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBEFE0"/>
+      <stop offset="1" stop-color="#F2DEC6"/>
+    </linearGradient>
+
+    <!-- cerise graphique réutilisable (crème, pour semis de fond) -->
+    <g id="cherryGhost">
+      <path d="M0,-46 C10,-32 16,-20 12,-8" fill="none" stroke="#FBEFE0" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M0,-46 C-9,-33 -14,-22 -11,-9" fill="none" stroke="#FBEFE0" stroke-width="3.4" stroke-linecap="round"/>
+      <path d="M0,-46 C7,-52 20,-53 27,-47 C19,-45 11,-49 4,-44 Z" fill="#FBEFE0"/>
+      <circle cx="13" cy="6" r="15" fill="#FBEFE0"/>
+      <circle cx="-12" cy="8" r="15" fill="#FBEFE0"/>
+    </g>
+
+    <!-- cerise pleine réutilisable (figurative) -->
+    <g id="cherryFull">
+      <!-- tiges -->
+      <path d="M0,-58 C14,-40 22,-24 15,-6" fill="none" stroke="#3F7A22" stroke-width="5" stroke-linecap="round"/>
+      <path d="M0,-58 C-12,-42 -18,-27 -13,-8" fill="none" stroke="#3F7A22" stroke-width="5" stroke-linecap="round"/>
+      <!-- feuille -->
+      <path d="M0,-58 C10,-70 30,-70 40,-60 C28,-57 14,-62 3,-53 Z" fill="url(#leaf)"/>
+      <path d="M2,-59 C14,-63 26,-63 34,-60" fill="none" stroke="#2F6B1E" stroke-width="1.6" opacity="0.7"/>
+      <!-- cerises -->
+      <circle cx="16" cy="10" r="20" fill="url(#cherryBody)"/>
+      <circle cx="-15" cy="12" r="20" fill="url(#cherryBody2)"/>
+      <!-- reflets vernis -->
+      <ellipse cx="9" cy="1" rx="6.5" ry="8.5" fill="#ffffff" opacity="0.55"/>
+      <ellipse cx="-22" cy="4" rx="5.5" ry="7.5" fill="#ffffff" opacity="0.5"/>
+      <ellipse cx="22" cy="18" rx="3.2" ry="2" fill="#ffffff" opacity="0.3"/>
+    </g>
+  </defs>
+
+  <!-- ===================== fond bordeaux verni ===================== -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#lacquer)"/>
+
+  <!-- ===================== semis de cerises graphiques (fond) ===================== -->
+  <g opacity="0.12">
+    <!-- moitie droite -->
+    <use href="#cherryGhost" transform="translate(430,70) scale(0.85) rotate(-8)"/>
+    <use href="#cherryGhost" transform="translate(600,150) scale(0.7) rotate(12)"/>
+    <use href="#cherryGhost" transform="translate(760,72) scale(0.9) rotate(-14)"/>
+    <use href="#cherryGhost" transform="translate(690,300) scale(0.78) rotate(6)"/>
+    <use href="#cherryGhost" transform="translate(500,270) scale(0.62) rotate(-18)"/>
+    <use href="#cherryGhost" transform="translate(800,240) scale(0.66) rotate(16)"/>
+    <use href="#cherryGhost" transform="translate(560,430) scale(0.82) rotate(-6)"/>
+    <use href="#cherryGhost" transform="translate(740,440) scale(0.7) rotate(14)"/>
+    <use href="#cherryGhost" transform="translate(370,420) scale(0.6) rotate(10)"/>
+    <use href="#cherryGhost" transform="translate(300,90) scale(0.6) rotate(-12)"/>
+    <!-- moitie gauche densifiee (hors fenetre puce 70-230/160-320, hors blocs texte) -->
+    <use href="#cherryGhost" transform="translate(120,72) scale(0.66) rotate(10)"/>
+    <use href="#cherryGhost" transform="translate(210,110) scale(0.58) rotate(-14)"/>
+    <use href="#cherryGhost" transform="translate(40,120) scale(0.6) rotate(16)"/>
+    <use href="#cherryGhost" transform="translate(295,190) scale(0.72) rotate(-9)"/>
+    <use href="#cherryGhost" transform="translate(300,300) scale(0.6) rotate(13)"/>
+    <use href="#cherryGhost" transform="translate(250,250) scale(0.5) rotate(-6)"/>
+    <use href="#cherryGhost" transform="translate(150,345) scale(0.6) rotate(8)"/>
+    <use href="#cherryGhost" transform="translate(240,360) scale(0.54) rotate(-16)"/>
+    <use href="#cherryGhost" transform="translate(60,300) scale(0.52) rotate(12)"/>
+    <use href="#cherryGhost" transform="translate(340,120) scale(0.6) rotate(-11)"/>
+  </g>
+
+  <!-- ===================== effet laque : reflet humide + gloss diagonal ===================== -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#wetlight)"/>
+  <rect x="0" y="0" width="856" height="540" fill="url(#gloss)"/>
+
+  <!-- bandes de reflet vernis larges et douces -->
+  <path d="M0,0 L340,0 L200,540 L0,540 Z" fill="#ffffff" opacity="0.04"/>
+  <path d="M470,0 L560,0 L430,540 L340,540 Z" fill="#ffffff" opacity="0.03"/>
+
+  <!-- ===================== liseret or premium (cadre carte) ===================== -->
+  <rect x="14" y="14" width="828" height="512" rx="4" fill="none" stroke="url(#gold)" stroke-width="1.6" opacity="0.7"/>
+  <rect x="20" y="20" width="816" height="500" rx="2" fill="none" stroke="url(#gold)" stroke-width="0.8" opacity="0.35"/>
+
+  <!-- ===================== bloc titre (haut, hors fenetre puce) ===================== -->
+  <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="543" y="122" font-size="58" font-style="italic" font-weight="700" letter-spacing="1" fill="url(#gold)">Cherry</text>
+    <text x="543" y="176" font-size="34" font-weight="400" letter-spacing="14" fill="#FBEFE0" opacity="0.92">VERNI</text>
+  </g>
+  <!-- petite cerise ornement sous le titre -->
+  <use href="#cherryFull" transform="translate(543,214) scale(0.42)"/>
+  <g font-family="Georgia, serif" text-anchor="middle">
+    <text x="543" y="258" font-size="14" letter-spacing="6" fill="#F0C9A0" opacity="0.75">&#201;DITION COQUETTE &#8226; 2026</text>
+  </g>
+
+  <!-- ===================== grosse cerise vedette (bas droite) ===================== -->
+  <g transform="translate(690,405) scale(1.55)">
+    <!-- ombre portee douce -->
+    <ellipse cx="2" cy="34" rx="42" ry="9" fill="#2a0509" opacity="0.35"/>
+    <use href="#cherryFull"/>
+  </g>
+
+  <!-- cerise secondaire (milieu droit) -->
+  <use href="#cherryFull" transform="translate(478,398) scale(0.92) rotate(-8)"/>
+
+  <!-- petite cerise accent (posee sur le liseret sous le nombre grave, hors blocs texte) -->
+  <use href="#cherryFull" transform="translate(300,360) scale(0.42) rotate(6)"/>
+
+  <!-- ===================== fenetre puce : cadre precieux (zone 70-230 / 160-320 libre) ===================== -->
+  <g fill="none">
+    <rect x="58" y="148" width="184" height="184" rx="16" stroke="url(#gold)" stroke-width="2.4" opacity="0.85"/>
+    <rect x="64" y="154" width="172" height="172" rx="12" stroke="#FBEFE0" stroke-width="1" opacity="0.28"/>
+  </g>
+  <!-- petites cerises aux coins de la lunette (hors zone de decoupe) -->
+  <use href="#cherryFull" transform="translate(46,140) scale(0.3)"/>
+  <use href="#cherryFull" transform="translate(252,140) scale(0.3)"/>
+  <use href="#cherryFull" transform="translate(46,342) scale(0.3)"/>
+  <use href="#cherryFull" transform="translate(252,342) scale(0.3)"/>
+
+  <!-- ===================== numero grave (bas gauche, hors fenetre) ===================== -->
+  <g font-family="'Courier New', Courier, monospace" font-size="26" font-weight="700" letter-spacing="4">
+    <text x="70" y="398" fill="#2a0509" opacity="0.35">2026 0805 1699 0001</text>
+    <text x="70" y="396" fill="url(#gold)" opacity="0.9">2026 0805 1699 0001</text>
+  </g>
+
+  <!-- ===================== bloc titulaire (bas gauche) ===================== -->
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="72" y="452" font-size="12" letter-spacing="4" fill="#F0C9A0" opacity="0.7">TITULAIRE</text>
+    <text x="70" y="486" font-size="22" font-weight="700" letter-spacing="1.5" fill="#FBEFE0">CHERRY CODED</text>
+  </g>
+
+  <!-- ===================== expiration (bas, decalee : marge nette > 24px apres le nom) ===================== -->
+  <g font-family="Georgia, serif" text-anchor="start">
+    <text x="392" y="452" font-size="12" letter-spacing="3" fill="#F0C9A0" opacity="0.7">JUSQU'&#192;</text>
+    <text x="392" y="486" font-size="22" font-weight="700" letter-spacing="2.5" fill="#FBEFE0">12/34</text>
+  </g>
+
+  <!-- ===================== micro-signature (bas droite, discret) ===================== -->
+  <g font-family="Georgia, serif" text-anchor="end">
+    <text x="792" y="512" font-size="11" letter-spacing="3" fill="#F0C9A0" opacity="0.6">QUIET LUXURY &#8226; ROUGE RICHE &#8226; N&#186; 007/500</text>
+  </g>
+
+  <!-- ===================== vignettage final ===================== -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#vig)"/>
+
+  <!-- biseau lumineux du bord (finition vernis) -->
+  <rect x="0" y="0" width="856" height="2" fill="#ffd9dd" opacity="0.18"/>
+  <rect x="0" y="538" width="856" height="2" fill="#1c0407" opacity="0.5"/>
+</svg>

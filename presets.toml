@@ -1,0 +1,69 @@
+# Cotes validées le 2026-08-06 (recherche contre-vérifiée dans les normes).
+# NE PAS MODIFIER sans re-sourcer — voir README.md § Cotes.
+
+[card.id1]
+# ISO/IEC 7810:2019 §3.5 — format ID-1 nominal
+width = 85.60
+height = 53.98
+corner_radius = 3.18
+
+[card.id1_inset]
+# Retrait 0,30 mm par dimension (0,15 mm par côté) — RÉDUIT le risque de débord
+# sur carte sous-cote (min réel 85,37 × 53,82), ne le garantit pas : la marge
+# restante est inférieure aux tolérances de coupe (±0,5 à ±1 mm).
+width = 85.30
+height = 53.68
+corner_radius = 3.0
+
+[window.nominal]
+# Fenêtre puce par défaut — couvre les modules dual-interface (~11,8 × 13,0 mm)
+# avec ≥ 1,5 mm de garde + tolérance de coupe ±1 mm.
+# (x, y) = coin haut-gauche de la fenêtre depuis le coin haut-gauche de la carte,
+# carte en paysage, puce à gauche. Centre des contacts ISO 7816-2 : (15,06 ; 23,89).
+width = 16.0
+height = 16.0
+x = 7.0
+y = 16.0
+corner_radius = 1.8
+
+[window.compact]
+# Uniquement si la précision de coupe est validée <= ±0,5 mm (après calibration)
+width = 15.0
+height = 15.0
+x = 7.5
+y = 16.5
+corner_radius = 1.8
+
+[sheet.a4_silhouette]
+# Planche A4 pour Silhouette Cameo — sortie SVG.
+# Les coins TL/TR/BL(/BR pour le repérage 4 points de la 5α) sont réservés
+# aux repères print & cut que Silhouette Studio générera LUI-MÊME.
+kind = "silhouette"
+width = 210.0
+height = 297.0
+margin = 5.0
+gap = 5.0
+cols = 2
+rows = 3
+keepout_size = 25.0
+keepout_corners = ["TL", "TR", "BL", "BR"]
+
+[sheet.sra3]
+# Planche SRA3 — voie imprimeur uniquement (laize max Cameo 5 : 304,8 mm).
+# Sortie PDF avec tracés de coupe en ton direct CutContour.
+kind = "printer"
+width = 320.0
+height = 450.0
+margin = 10.0
+gap = 5.0
+cols = 3
+rows = 6
+keepout_size = 0.0
+keepout_corners = []
+
+[defaults]
+bleed = 3.0            # fond perdu par pose, mm
+cut_stroke_pt = 0.5    # filet du tracé de coupe PDF (le RIP coupe sur l'axe)
+spot_name = "CutContour"
+witness_mm = 50.0      # largeur du rectangle témoin
+pose_url = "https://monkeysticker.fr/pose"  # cible du QR de la notice (à ajuster au vrai domaine)

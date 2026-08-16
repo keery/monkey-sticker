@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <linearGradient id="gBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1f5fa"/>
+      <stop offset="0.40" stop-color="#c3cfe0"/>
+      <stop offset="0.48" stop-color="#7e90ac"/>
+      <stop offset="0.505" stop-color="#3d4a63"/>
+      <stop offset="0.56" stop-color="#e0a9d6"/>
+      <stop offset="0.72" stop-color="#ecd3e8"/>
+      <stop offset="0.88" stop-color="#cdd8e6"/>
+      <stop offset="1" stop-color="#dfe6f0"/>
+    </linearGradient>
+    <linearGradient id="gChrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.30" stop-color="#cfdae8"/>
+      <stop offset="0.48" stop-color="#64748e"/>
+      <stop offset="0.52" stop-color="#2f3a52"/>
+      <stop offset="0.58" stop-color="#e0a9d6"/>
+      <stop offset="0.75" stop-color="#f6e8f4"/>
+      <stop offset="1" stop-color="#93a4bd"/>
+    </linearGradient>
+    <linearGradient id="gDrip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef3fa"/>
+      <stop offset="0.35" stop-color="#c3cfe0"/>
+      <stop offset="0.60" stop-color="#97a8c0"/>
+      <stop offset="0.82" stop-color="#7c8cab"/>
+      <stop offset="1" stop-color="#cfa3c8"/>
+    </linearGradient>
+    <linearGradient id="gPool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2f6fb"/>
+      <stop offset="0.45" stop-color="#c6d2e2"/>
+      <stop offset="1" stop-color="#8fa0b8"/>
+    </linearGradient>
+    <linearGradient id="gIri" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0a9d6"/>
+      <stop offset="0.5" stop-color="#f2f6fb"/>
+      <stop offset="1" stop-color="#9fc4e8"/>
+    </linearGradient>
+    <radialGradient id="gBlob" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.25" stop-color="#dfe6f0"/>
+      <stop offset="0.55" stop-color="#9fb0c8"/>
+      <stop offset="0.72" stop-color="#c39ec2"/>
+      <stop offset="1" stop-color="#55658a"/>
+    </radialGradient>
+    <path id="drip" d="M0,-30 C7,-6 8,24 0,34 C-8,24 -7,-6 0,-30 Z"/>
+    <path id="spark" d="M0,-18 C2.5,-5 5,-2.5 18,0 C5,2.5 2.5,5 0,18 C-2.5,5 -5,2.5 -18,0 C-5,-2.5 -2.5,-5 0,-18 Z"/>
+  </defs>
+
+  <!-- fond chrome horizon -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#gBg)"/>
+
+  <!-- vagues d'ambiance (traversent la fenetre puce, decoratives) -->
+  <path d="M0,148 C120,118 250,176 428,148 C606,120 736,176 856,148 L856,176 C736,204 606,148 428,176 C250,204 120,148 0,176 Z" fill="#ffffff" opacity="0.38"/>
+  <path d="M0,218 C140,196 300,238 456,216 C612,194 740,236 856,214 L856,238 C740,260 612,218 456,240 C300,262 140,220 0,242 Z" fill="#8fa0b8" opacity="0.30"/>
+  <path d="M0,300 C150,282 320,318 470,300 C620,282 740,316 856,298 L856,318 C740,336 620,302 470,320 C320,338 150,302 0,320 Z" fill="#ffffff" opacity="0.28"/>
+
+  <!-- flaque de metal fondu -->
+  <path d="M0,432 C90,418 180,442 300,430 C420,418 540,444 660,430 C760,418 820,436 856,426 L856,540 L0,540 Z" fill="url(#gPool)"/>
+  <path d="M0,432 C90,418 180,442 300,430 C420,418 540,444 660,430 C760,418 820,436 856,426" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+  <path d="M0,470 C140,458 280,482 428,470 C576,458 716,482 856,470 L856,486 C716,498 576,474 428,486 C280,498 140,474 0,486 Z" fill="#e0a9d6" opacity="0.45"/>
+  <path d="M60,505 C220,496 380,512 540,504 C680,497 780,510 856,503 L856,514 C780,521 680,508 540,515 C380,523 220,507 60,516 Z" fill="#ffffff" opacity="0.3"/>
+
+  <!-- CD irise a demi fondu dans la flaque (sous la fenetre puce) -->
+  <g>
+    <ellipse cx="150" cy="522" rx="94" ry="11" fill="#5b6a86" opacity="0.35"/>
+    <ellipse cx="150" cy="524" rx="112" ry="10" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.45"/>
+    <circle cx="150" cy="445" r="78" fill="#dfe6f0" stroke="#5b6a86" stroke-width="2.5"/>
+    <path d="M150,445 L150,367 A78,78 0 0 1 205,390 Z" fill="#e0a9d6" opacity="0.55"/>
+    <path d="M150,445 L205,390 A78,78 0 0 1 228,445 Z" fill="#9fc4e8" opacity="0.5"/>
+    <path d="M150,445 L95,390 A78,78 0 0 1 150,367 Z" fill="#c9b3e0" opacity="0.35"/>
+    <path d="M150,445 L72,445 A78,78 0 0 1 95,500 Z" fill="#c9b3e0" opacity="0.5"/>
+    <path d="M150,445 L150,523 A78,78 0 0 1 205,500 Z" fill="#e0a9d6" opacity="0.35"/>
+    <path d="M150,445 L95,500 A78,78 0 0 1 150,523 Z" fill="#9fc4e8" opacity="0.3"/>
+    <circle cx="150" cy="445" r="72" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+    <circle cx="150" cy="445" r="44" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="150" cy="445" r="30" fill="#eef3fa" stroke="#8fa0b8" stroke-width="2"/>
+    <circle cx="150" cy="445" r="13" fill="#a9b8cd" stroke="#6b7c98" stroke-width="2"/>
+    <path d="M96,410 A66,66 0 0 1 128,384" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- gouttes et spheres de chrome sur la flaque -->
+  <g>
+    <ellipse cx="352" cy="494" rx="52" ry="9" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.55"/>
+    <ellipse cx="352" cy="494" rx="30" ry="5.5" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.35"/>
+    <circle cx="352" cy="464" r="24" fill="url(#gBlob)" stroke="#5b6a86" stroke-width="1.5"/>
+    <ellipse cx="344" cy="454" rx="7" ry="4" fill="#ffffff" transform="rotate(-20 344 454)"/>
+    <circle cx="336" cy="430" r="5" fill="url(#gBlob)"/>
+    <circle cx="345" cy="415" r="3.5" fill="url(#gBlob)"/>
+    <ellipse cx="676" cy="472" rx="34" ry="6" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+    <circle cx="676" cy="452" r="15" fill="url(#gBlob)" stroke="#5b6a86" stroke-width="1.5"/>
+    <ellipse cx="671" cy="446" rx="4.5" ry="2.5" fill="#ffffff"/>
+    <ellipse cx="788" cy="474" rx="42" ry="7" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+    <path d="M776,470 C768,438 772,410 788,402 C804,410 808,438 800,470 Z" fill="url(#gDrip)" stroke="#5b6a86" stroke-width="1.5"/>
+    <circle cx="788" cy="396" r="12" fill="url(#gBlob)" stroke="#5b6a86" stroke-width="1.5"/>
+    <ellipse cx="784" cy="391" rx="3.5" ry="2" fill="#ffffff"/>
+    <circle cx="808" cy="380" r="4" fill="url(#gBlob)"/>
+  </g>
+
+  <!-- rideau de chrome fondu en haut, avec coulures -->
+  <g>
+    <path d="M0,0 H856 V50 C800,86 744,34 660,58 C580,80 520,26 440,52 C360,78 300,30 210,56 C140,76 60,30 0,54 Z" fill="url(#gDrip)"/>
+    <path d="M0,54 C60,30 140,76 210,56 C300,30 360,78 440,52 C520,26 580,80 660,58 C744,34 800,86 856,50" fill="none" stroke="#5b6a86" stroke-width="2" opacity="0.45"/>
+    <use href="#drip" transform="translate(46,84)" fill="url(#gDrip)"/>
+    <use href="#drip" transform="translate(300,80)" fill="url(#gDrip)"/>
+    <use href="#drip" transform="translate(468,66)" fill="url(#gDrip)"/>
+    <use href="#drip" transform="translate(620,96) scale(1.2,1.3)" fill="url(#gDrip)"/>
+    <use href="#drip" transform="translate(795,72)" fill="url(#gDrip)"/>
+    <path d="M20,14 C140,34 260,6 380,22 C520,40 640,8 836,26" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+    <ellipse cx="617" cy="112" rx="3" ry="7" fill="#ffffff" opacity="0.7"/>
+    <circle cx="300" cy="146" r="5" fill="url(#gBlob)"/>
+    <circle cx="795" cy="140" r="4" fill="url(#gBlob)"/>
+    <circle cx="46" cy="146" r="4.5" fill="url(#gBlob)"/>
+  </g>
+
+  <!-- typographie chrome bombee -->
+  <g font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" text-anchor="middle">
+    <text x="549" y="274" font-size="112" letter-spacing="4" fill="#232a3a" opacity="0.85">CHROME</text>
+    <text x="542" y="264" font-size="112" letter-spacing="4" fill="#ffffff">CHROME</text>
+    <text x="545" y="268" font-size="112" letter-spacing="4" fill="url(#gChrome)" stroke="#2b3450" stroke-width="3" paint-order="stroke">CHROME</text>
+    <text x="548" y="348" font-size="44" letter-spacing="24" fill="#232a3a" opacity="0.8">LIQUIDE</text>
+    <text x="543" y="341" font-size="44" letter-spacing="24" fill="#ffffff">LIQUIDE</text>
+    <text x="545" y="344" font-size="44" letter-spacing="24" fill="url(#gChrome)" stroke="#2b3450" stroke-width="2" paint-order="stroke">LIQUIDE</text>
+  </g>
+
+  <!-- papillon chrome Y2K -->
+  <g transform="translate(742,92)">
+    <path d="M-4,-26 C-10,-42 -22,-48 -30,-46" fill="none" stroke="#46536b" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M4,-26 C10,-42 22,-48 30,-46" fill="none" stroke="#46536b" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="-30" cy="-46" r="3" fill="#46536b"/>
+    <circle cx="30" cy="-46" r="3" fill="#46536b"/>
+    <path d="M-3,-10 C-30,-46 -74,-52 -80,-24 C-84,2 -40,14 -3,2 Z" fill="url(#gIri)" stroke="#46536b" stroke-width="2.5"/>
+    <path d="M3,-10 C30,-46 74,-52 80,-24 C84,2 40,14 3,2 Z" fill="url(#gIri)" stroke="#46536b" stroke-width="2.5"/>
+    <path d="M-3,6 C-34,8 -58,34 -44,50 C-30,62 -8,40 -2,16 Z" fill="url(#gIri)" stroke="#46536b" stroke-width="2.5"/>
+    <path d="M3,6 C34,8 58,34 44,50 C30,62 8,40 2,16 Z" fill="url(#gIri)" stroke="#46536b" stroke-width="2.5"/>
+    <ellipse cx="-46" cy="-24" rx="16" ry="7" fill="#ffffff" opacity="0.6" transform="rotate(-25 -46 -24)"/>
+    <ellipse cx="46" cy="-24" rx="16" ry="7" fill="#ffffff" opacity="0.6" transform="rotate(25 46 -24)"/>
+    <circle cx="-34" cy="36" r="3" fill="#ffffff" opacity="0.7"/>
+    <circle cx="34" cy="36" r="3" fill="#ffffff" opacity="0.7"/>
+    <ellipse cx="0" cy="-2" rx="5" ry="16" fill="#8fa0b8" stroke="#46536b" stroke-width="2"/>
+    <circle cx="0" cy="-20" r="5.5" fill="#aebcd0" stroke="#46536b" stroke-width="2"/>
+    <path d="M-1.5,-12 L-1.5,10" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>
+  </g>
+
+  <!-- rayon de lumiere diagonal -->
+  <path d="M520,0 L640,0 L360,540 L240,540 Z" fill="#ffffff" opacity="0.10"/>
+
+  <!-- etincelles Y2K -->
+  <use href="#spark" transform="translate(272,118)" fill="#ffffff" opacity="0.95"/>
+  <use href="#spark" transform="translate(838,150) scale(0.6)" fill="#ffffff" opacity="0.85"/>
+  <use href="#spark" transform="translate(320,388) scale(0.7)" fill="#ffffff" opacity="0.9"/>
+  <use href="#spark" transform="translate(600,462) scale(0.5)" fill="#ffffff" opacity="0.9"/>
+  <use href="#spark" transform="translate(208,352) scale(0.5)" fill="#f6dff0" opacity="0.95"/>
+  <use href="#spark" transform="translate(60,120) scale(0.55)" fill="#ffffff" opacity="0.8"/>
+  <use href="#spark" transform="translate(188,406) scale(0.5)" fill="#ffffff" opacity="0.95"/>
+  <use href="#spark" transform="translate(700,30) scale(0.45)" fill="#ffffff" opacity="0.8"/>
+
+  <!-- slogan -->
+  <text x="545" y="522" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="18" letter-spacing="4" text-anchor="middle" fill="#3d4a63">• 100% LIQUID METAL • EST. Y2K •</text>
+</svg>

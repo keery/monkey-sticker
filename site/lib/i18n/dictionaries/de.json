@@ -1,0 +1,918 @@
+{
+  "common": {
+    "addToCart": "In den Warenkorb",
+    "viewDesigns": "Designs ansehen",
+    "seeAll": "Alle ansehen",
+    "remove": "Entfernen",
+    "decrease": "Verringern",
+    "increase": "Erhöhen",
+    "close": "Schließen",
+    "menu": "Menü",
+    "loading": "…",
+    "off": "Rabatt"
+  },
+  "meta": {
+    "homeTitle": "{site} — Sticker für deine Bankkarte",
+    "homeDescription": "Gestalte deine Bankkarte mit einem passgenau zugeschnittenen Sticker. Chip und kontaktloses Bezahlen bleiben zu 100 % funktionsfähig. Kaufe einen, erhalte einen gratis."
+  },
+  "announcement": {
+    "text": "Exakt auf dein Kartenmaß, mit Chip-Aussparung",
+    "cta": "Designs ansehen"
+  },
+  "nav": {
+    "allStickers": "Alle Sticker",
+    "bestsellers": "Bestseller",
+    "justDropped": "Neuheiten",
+    "createOwn": "Selbst gestalten",
+    "faq": "FAQ",
+    "trackOrder": "Bestellung verfolgen"
+  },
+  "header": {
+    "cart": "Warenkorb"
+  },
+  "footer": {
+    "tagline": "Sticker, passgenau auf die Größe deiner Bankkarte zugeschnitten. Chip und kontaktloses Bezahlen bleiben zu 100 % funktionsfähig.",
+    "newsletterTitle": "Neue Drops zuerst sehen",
+    "colShop": "Shop",
+    "colHelp": "Hilfe",
+    "colLegal": "Rechtliches",
+    "poseGuide": "Anbringungsanleitung",
+    "faqContact": "FAQ & Kontakt",
+    "shipping": "Versand",
+    "returns": "Rückgaberecht",
+    "legalNotice": "Impressum",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "newsletter": {
+    "placeholder": "Deine E-Mail",
+    "submit": "Abonnieren",
+    "success": "Danke! Du erhältst die nächsten Drops als Erste:r. ✉️",
+    "error": "Etwas ist schiefgelaufen, bitte versuche es gleich noch einmal."
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "empty": "Dein Warenkorb ist leer",
+    "emptyHint": "Kaufe einen Sticker, erhalte einen gratis. Nimm doch gleich zwei.",
+    "viewDesigns": "Designs ansehen",
+    "remove": "Entfernen",
+    "bogo": {
+      "one": "Kaufe einen, erhalte einen gratis ({count} gratis)",
+      "other": "Kaufe einen, erhalte einen gratis ({count} gratis)"
+    },
+    "subtotal": "Zwischensumme",
+    "total": "Gesamt",
+    "shippingNote": "Versand wird im nächsten Schritt berechnet. Sendungsverfolgung inklusive."
+  },
+  "product": {
+    "from": "ab"
+  },
+  "stats": {
+    "items": [
+      "Über 100.000 personalisierte Karten",
+      "In 30 Sekunden aufgebracht",
+      "Rückstandslos entfernbar",
+      "100 % kontaktlos-kompatibel",
+      "Versand aus Frankreich"
+    ]
+  },
+  "chip": {
+    "ariaLabel": "Chip-Größe",
+    "compareHint": "Vergleiche mit der goldenen Platte auf deiner Karte: das ausgeschnittene Fenster passt sich ihrer Größe an.",
+    "sizes": {
+      "small": {
+        "label": "Kleiner Chip",
+        "hint": "breiter als hoch, ~11 × 8 mm",
+        "tag": "Am häufigsten"
+      },
+      "large": {
+        "label": "Großer Chip",
+        "hint": "fast quadratisch, ~13 × 11 mm",
+        "tag": ""
+      },
+      "none": {
+        "label": "Ohne Chip",
+        "hint": "Ausweis, Fahrkarte",
+        "tag": ""
+      }
+    }
+  },
+  "checkout": {
+    "button": "Zur Kasse",
+    "buttonBusy": "Weiterleitung…",
+    "errorStart": "Zahlung konnte nicht gestartet werden.",
+    "errorContact": "Zahlung nicht erreichbar. Versuche es gleich noch einmal.",
+    "couponBogo": "Kaufe einen, erhalte einen gratis",
+    "shippingFree": "Kostenloser Versand (verfolgbarer Brief)",
+    "shippingTracked": "Verfolgbarer Brief",
+    "optionChip": "Chip",
+    "errEmpty": "Dein Warenkorb ist leer.",
+    "errUnconfigured": "Die Zahlung ist noch nicht aktiviert. Komm gleich wieder.",
+    "errUnreadable": "Warenkorb konnte nicht gelesen werden.",
+    "errNoUrl": "Zahlungssitzung ohne URL."
+  },
+  "language": {
+    "label": "Sprache"
+  },
+  "home": {
+    "hero": {
+      "overline": "Bankkarten-Sticker",
+      "titleLine1": "Deine Karte,",
+      "titleLine2": "aufgewertet.",
+      "subtitle": "Passgenau auf die Maße deiner Karte zugeschnitten, Chip-Fenster inklusive. In 30 Sekunden drauf, rückstandslos wieder ab.",
+      "reviews": "{count} Bewertungen"
+    },
+    "sections": {
+      "bestsellers": {
+        "overline": "Das Schaufenster",
+        "title": "Am häufigsten aufgebracht"
+      },
+      "categories": {
+        "overline": "Die Abteilungen",
+        "title": "Nach Kategorie stöbern",
+        "linkLabel": "Alle ansehen"
+      },
+      "justDropped": {
+        "overline": "Frisch eingetroffen"
+      }
+    },
+    "precision": {
+      "overline": "cardcut-Präzision",
+      "title": "Auf den Zehntelmillimeter genau",
+      "body": "Jeder Sticker wird auf die ISO-Maße deiner Karte zugeschnitten. Das Fenster sitzt genau auf dem Chip: Bezahlen, kontaktloses Bezahlen und Geldautomaten funktionieren wie vorher.",
+      "features": [
+        {
+          "title": "Chip freigelegt",
+          "desc": "das 14 × 11 mm große Fenster lässt den Kontakt frei"
+        },
+        {
+          "title": "Kontaktlos intakt",
+          "desc": "dünnes Vinyl, die NFC-Antenne wird nie blockiert"
+        },
+        {
+          "title": "Rückstandslos entfernbar",
+          "desc": "löst sich an einer Ecke ab, null Rückstände"
+        }
+      ]
+    },
+    "install": {
+      "overline": "Das Anbringen",
+      "title": "In 30 Sekunden drauf",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Reinigen",
+          "text": "Ein Wisch mit dem beiliegenden Tuch und deine Karte ist bereit."
+        },
+        {
+          "n": "02",
+          "title": "Ausrichten",
+          "text": "Kante an Kante: der Zuschnitt ist passgenau, das Fenster sitzt genau auf dem Chip."
+        },
+        {
+          "n": "03",
+          "title": "Glattstreichen",
+          "text": "Von der Mitte nach außen. Dreißig Sekunden, null Bläschen mit dem Kit."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Die Fragen, die uns gestellt werden",
+      "moreLead": "Noch eine?",
+      "moreLink": "Die komplette FAQ",
+      "moreTail": "beantwortet alles.",
+      "items": [
+        {
+          "title": "Funktionieren Chip und kontaktloses Bezahlen weiterhin?",
+          "content": "Ja, zu 100 %. Das ausgeschnittene Fenster lässt den Chip vollständig frei, und der Sticker ist dünn genug, um kontaktloses Bezahlen oder Geldautomaten nicht zu stören. Deine Karte wird überall akzeptiert: Kartenlesegeräte, Geldautomaten, Terminals."
+        },
+        {
+          "title": "Ist das von meiner Bank erlaubt? Ist das legal?",
+          "content": "Ja. Der Sticker bedeckt den Kunststoff, ohne Daten zu verändern: der Chip bleibt frei, Nummer und Magnetstreifen bleiben unangetastet. Deine Karte bleibt gültig und wird überall akzeptiert. Sie gehört deiner Bank: ziehe den Sticker vor der Rückgabe einfach ab, ganz ohne Rückstände."
+        },
+        {
+          "title": "Wie lange hält er?",
+          "content": "Das Vinyl ist für den echten Alltag gemacht: Geldbeutel, Reibung, Hitze. Rechne mit mehreren Jahren normaler Nutzung. Und wenn du deine Meinung änderst, wechselst du einfach das Design."
+        },
+        {
+          "title": "Kann ich ihn entfernen, ohne meine Karte zu beschädigen?",
+          "content": "Ja. Der Sticker löst sich an einer Ecke ab, ohne Kleberückstände. Deine Karte kommt wie neu heraus – praktisch, wenn du sie erneuerst oder ein neues Design möchtest."
+        }
+      ]
+    },
+    "offer": {
+      "titleLine1": "Einen kaufen",
+      "titleLine2": "= einen gratis.",
+      "body": "Hinter jedem bestellten Sticker steckt ein zweiter. Für deine Ersatzkarte oder für einen Kumpel.",
+      "cta": "Zwei Designs auswählen"
+    },
+    "earlyAccess": {
+      "title": "Vorabzugang",
+      "body": "Neue Designs als Vorschau, bevor sie ins Schaufenster kommen."
+    },
+    "schematic": {
+      "ariaLabel": "Bemaßte Zeichnung des Stickers: {width} mal {height} Millimeter, Chip-Fenster von {chipW} mal {chipH} Millimetern in {edge} Millimetern vom Rand, Ecken abgerundet auf {radius} Millimeter",
+      "chipWindow": "Chip-Fenster · {w} × {h} mm",
+      "cornerRadius": "R {r} mm"
+    }
+  },
+  "checkoutPage": {
+    "title": "Danke!",
+    "orderIntro": "Deine Bestellung",
+    "statusConfirmed": "ist bestätigt",
+    "statusReceived": "ist bei uns eingegangen",
+    "emailNote": "Eine Bestätigungs-E-Mail ist von Stripe unterwegs.",
+    "totalPaidLabel": "Bezahlter Gesamtbetrag",
+    "itemCountOne": "{count} Artikel",
+    "itemCountPlural": "{count} Artikel",
+    "freeCountOne": "{count} gratis",
+    "freeCountPlural": "{count} gratis",
+    "paymentPending": "Deine Zahlung wird bestätigt… du kannst diese Seite bedenkenlos schließen.",
+    "noOrder": "Deine Zahlung ist eingegangen. Solltest du keine Bestätigungs-E-Mail erhalten, melde dich über die Seite FAQ & Kontakt.",
+    "shippingNote": "Wir bereiten deine Karte vor, Versand innerhalb von 48 h aus Frankreich.",
+    "ctaContinue": "Weiter shoppen",
+    "ctaPose": "In 60 s anbringen",
+    "cancelTitle": "Zahlung abgebrochen",
+    "cancelBody": "Kein Problem, es wurde nichts abgebucht. Dein Warenkorb wartet auf dich, mach weiter, wann immer du möchtest.",
+    "cancelCtaBack": "Zurück zum Shop",
+    "cancelCtaQuestion": "Eine Frage?"
+  },
+  "collection": {
+    "breadcrumbHome": "Startseite",
+    "eyebrow": "Der Showroom",
+    "countOne": "{count} Design — kaufe einen, erhalte einen gratis",
+    "countMany": "{count} Designs — kaufe einen, erhalte einen gratis",
+    "sortLabel": "Sortieren:",
+    "sortSubmit": "OK",
+    "sort": {
+      "featured": "Empfohlen",
+      "best-selling": "Meistverkauft",
+      "az": "Alphabetisch A-Z",
+      "za": "Alphabetisch Z-A",
+      "price-asc": "Preis, aufsteigend",
+      "price-desc": "Preis, absteigend"
+    },
+    "chipAll": "Alle",
+    "empty": "In dieser Kategorie gibt es noch keine Designs.",
+    "ctaTitle": "Du findest dein Lieblingsdesign nicht?",
+    "ctaText": "Lade dein eigenes Bild hoch und gestalte einen einzigartigen Sticker, passgenau auf dieselben Maße zugeschnitten.",
+    "ctaButton": "Selbst gestalten"
+  },
+  "createOwn": {
+    "meta": {
+      "title": "Selbst gestalten: dein Design auf deiner Karte | Monkey Sticker",
+      "description": "Lade dein Foto, Logo oder deine Illustration hoch und rahme sie auf deiner Bankkarte ein. Passgenau zugeschnitten, Chip-Fenster inklusive, kontaktloses Bezahlen intakt."
+    },
+    "hero": {
+      "overline": "Die Werkstatt",
+      "title": "Selbst gestalten",
+      "subtitle": "Dein Foto, dein Logo, dein Ding: passgenau auf die Maße deiner Karte zugeschnitten, Chip-Fenster inklusive.",
+      "reviews": "{count} Bewertungen",
+      "perSticker": "pro Sticker"
+    },
+    "faq": {
+      "title": "Bevor du auf Drucken gehst",
+      "moreLead": "Noch eine Frage?",
+      "moreLink": "Die komplette FAQ",
+      "moreTail": "beantwortet alles.",
+      "items": [
+        {
+          "title": "Welche Bilder liefern das beste Ergebnis?",
+          "content": "Ein scharfes Foto, ein Logo oder eine Illustration mit mindestens 1000 px Breite. Wird die Auflösung beim Einrahmen zu niedrig, erscheint ein Hinweis in Echtzeit: zoome ein wenig heraus oder wähle ein größeres Bild, dann wird das Ergebnis makellos."
+        },
+        {
+          "title": "Und wenn es ein Problem mit meiner Datei gibt?",
+          "content": "Ein Mensch prüft jede Bestellung vor dem Druck. Fragwürdiger Bildausschnitt, grenzwertige Auflösung, ein abgeschnittenes Element: wir melden uns bei dir, bevor wir den Zuschnitt starten."
+        },
+        {
+          "title": "Kann ich jedes beliebige Bild verwenden?",
+          "content": "Deine Fotos, deine Kreationen, deine Katze, deine Crew: alles, was dir gehört. Markenlogos und geschützte Motive nur, wenn du die Rechte daran hast."
+        },
+        {
+          "title": "Großer oder kleiner Chip, woran erkenne ich das?",
+          "content": "Schau dir die goldene Platte auf deiner Karte an. Deutlich breiter als hoch (~11 × 8 mm), mit einem Abstand über den Nummern: kleiner Chip, der häufigste auf neueren Karten. Fast quadratisch (~13 × 11 mm), oft direkt neben den Nummern: großer Chip. Achtung, manche Banken geben beide aus: verlass dich auf deine Karte, nicht auf ihr Modell. Der Wähler zeigt beide Formen maßstabsgetreu, und das ausgeschnittene Fenster passt sich an."
+        },
+        {
+          "title": "Funktionieren Chip und kontaktloses Bezahlen weiterhin?",
+          "content": "Ja, zu 100 %. Das Chip-Fenster ist passgenau auf die Maße deiner Karte vorgeschnitten, und das Vinyl ist dünn genug, um kontaktloses Bezahlen oder Geldautomaten nie zu stören."
+        }
+      ]
+    },
+    "showcase": {
+      "overline": "Kein Bild zur Hand?",
+      "title": "Das Schaufenster wartet",
+      "allLink": "Alle Designs →"
+    },
+    "steps": {
+      "image": "Dein Bild",
+      "crop": "Der Bildausschnitt",
+      "chip": "Der Chip deiner Karte",
+      "finishQty": "Finish und Menge"
+    },
+    "upload": {
+      "choose": "Bild auswählen",
+      "replace": "Bild ersetzen",
+      "hint": "Foto, Logo, Illustration: alles, was dir gehört."
+    },
+    "dropzone": {
+      "title": "Dein Design hierher",
+      "hint": "Bild hierher ziehen, einfügen (Strg V) oder",
+      "formats": "JPG · PNG · WebP · ideal ≥ {min} px breit"
+    },
+    "errors": {
+      "type": "Dieses Format wird nicht unterstützt. Verwende JPG, PNG oder WebP.",
+      "tooLarge": "Dieses Bild ist zu groß (max. {max} MB).",
+      "unreadable": "Dieses Bild konnte nicht gelesen werden. Versuche eine andere Datei."
+    },
+    "preview": {
+      "ariaLabel": "Einrahmen deines Bildes auf der Karte. Pfeile zum Verschieben, Plus und Minus zum Zoomen, Null zum Zentrieren.",
+      "imageAlt": "Dein Design auf der Karte eingerahmt",
+      "dimensions": "85,6 × 53,98 mm · cardcut-Zuschnitt",
+      "sharpnessBadge": "Schärfe {dpi} dpi · zu niedrig",
+      "chipHint": "Der goldene Rahmen ist das ausgeschnittene Fenster: dein echter Chip bleibt genau dort sichtbar.",
+      "noChipHint": "Ohne Chip-Fenster: der Sticker bedeckt die gesamte Fläche der Karte."
+    },
+    "crop": {
+      "zoomLabel": "Zoom",
+      "hintMobile": "Ziehen zum Verschieben, mit den Fingern zusammenziehen zum Zoomen.",
+      "hintDesktop": "Ziehen zum Verschieben, scrollen zum Zoomen. Mit der Tastatur: Pfeile, + und −.",
+      "recenter": "Zentrieren",
+      "sharpnessWarning": "Bei dieser Zoomstufe fehlt es dem Druck an Schärfe: zoome ein wenig heraus oder wähle ein größeres Bild."
+    },
+    "finish": {
+      "groupLabel": "Finish"
+    },
+    "finishes": {
+      "Mat": {
+        "label": "Matt",
+        "hint": "weicher Griff, null Blendung"
+      },
+      "Brillant": {
+        "label": "Glänzend",
+        "hint": "leuchtende Farben, glasierter Effekt"
+      }
+    },
+    "qty": {
+      "decrease": "Menge verringern",
+      "increase": "Menge erhöhen"
+    },
+    "bogo": {
+      "upsell": "Nimm 2: der 2. ist gratis",
+      "freeCount": {
+        "one": "{count} gratis",
+        "other": "{count} gratis"
+      },
+      "freeTail": "mit kaufe einen, erhalte einen gratis."
+    },
+    "cta": {
+      "addToCart": "In den Warenkorb",
+      "chooseFirst": "Wähle ein Bild, um loszulegen",
+      "added": "✓ Hinzugefügt! Dein Design wird von uns vor dem Druck geprüft."
+    },
+    "guarantees": [
+      {
+        "title": "Menschliche Prüfung",
+        "desc": "wir kontrollieren deine Datei vor dem Druck"
+      },
+      {
+        "title": "Versand innerhalb von 48 h",
+        "desc": "aus Frankreich, als verfolgbarer Brief"
+      },
+      {
+        "title": "Druckfehler",
+        "desc": "wir drucken ihn dir neu"
+      }
+    ],
+    "mobileBar": {
+      "stickers": {
+        "one": "{count} Sticker",
+        "other": "{count} Sticker"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "Wir beantworten alles",
+    "intro": "Die Antworten auf die Fragen, die uns am häufigsten gestellt werden.",
+    "items": [
+      {
+        "q": "Stört der Sticker den Chip oder das kontaktlose Bezahlen?",
+        "a": "Nein. Das Chip-Fenster ist passgenau vorgeschnitten, sodass der Chip vollständig frei bleibt. Das Vinyl ist dünn genug, um kontaktloses Bezahlen (NFC) ohne spürbare Abschwächung durchzulassen. Geldautomaten, Kartenterminals, Zugangsschranken: alles funktioniert wie gewohnt."
+      },
+      {
+        "q": "Ist das von meiner Bank erlaubt? Ist das legal?",
+        "a": "Ja. Der Sticker bedeckt nur den Kunststoff auf der Vorderseite: er verändert keine Daten, lässt den Chip vollständig frei und tastet weder die Nummer noch den Magnetstreifen auf der Rückseite an. Deine Karte bleibt gültig und wird überall akzeptiert. Da sie Eigentum deiner Bank bleibt, ziehst du den Sticker vor der Rückgabe oder Erneuerung der Karte einfach ab – er löst sich an einer Ecke ab, ganz ohne Rückstände."
+      },
+      {
+        "q": "Kann ein Geldautomat meine Karte ablehnen oder einbehalten?",
+        "a": "Nein. Das Vinyl ist ultradünn: deine Karte behält ihre ursprüngliche Dicke und gleitet genau wie zuvor in Geldautomaten, Kartenterminals und Lesegeräte. Das vorgeschnittene Fenster lässt den Chip frei, und der Magnetstreifen auf der Rückseite wird nie bedeckt."
+      },
+      {
+        "q": "Funktioniert das auf jeder Karte?",
+        "a": "Ja, auf jeder Karte im Standard-ISO-Format (Bank, Verkehr, Ausweis). Karten mit geprägten (erhabenen) Nummern sind kompatibel: das Vinyl schmiegt sich an das Relief. Vertikale Karten ebenfalls: der Chip bleibt an derselben physischen Stelle."
+      },
+      {
+        "q": "Wie lange hält er?",
+        "a": "Das Vinyl ist für den echten Geldbeutel-Alltag gemacht: Reibung, Hitze, wiederholtes Auflegen auf Terminals. Rechne mit mehreren Jahren normaler Nutzung, ohne dass sich die Ränder ablösen. Lust auf einen Wechsel schon vorher? Bring einfach ein neues Design an."
+      },
+      {
+        "q": "Wie bringe ich den Sticker sauber an?",
+        "a": "Entfette die Karte (mit dem Tuch aus dem Kit oder mit Haushaltsalkohol), richte das Fenster am Chip aus und bringe ihn dann an, indem du von der Mitte nach außen glattstreichst. Falls ein kleines Bläschen auftaucht, stich es mit einer Nadel an und streiche es glatt. Das Anbringungs-Kit (Rakel + Tuch + Mikrofasertuch) garantiert einen makellosen Sitz."
+      },
+      {
+        "q": "Kann ich den Sticker entfernen? Wird meine Karte beschädigt?",
+        "a": "Der Sticker löst sich ab, indem du ihn vorsichtig an einer Ecke abziehst, ohne Kleber zu hinterlassen. Deine Karte bleibt intakt. Ein entfernter Sticker lässt sich nicht wieder anbringen: bestelle einfach einen neuen (schöner Bonus: kaufe einen, erhalte einen gratis)."
+      },
+      {
+        "q": "Wie lange dauert die Lieferung?",
+        "a": "Versand innerhalb von 48 Arbeitsstunden aus Frankreich, als verfolgbarer Brief. Rechne mit 2 bis 4 Werktagen innerhalb des französischen Festlands, 3 bis 7 Tagen in ganz Europa. Die Sendungsnummer erhältst du per E-Mail."
+      },
+      {
+        "q": "Und wenn mein Sticker einen Fehler hat?",
+        "a": "Ein Druckfehler oder ein unsauberer Zuschnitt? Wir schicken dir einen neuen Sticker. Schreib uns über das untenstehende Formular mit einem Foto, und wir antworten innerhalb von 24 Arbeitsstunden."
+      }
+    ],
+    "contact": {
+      "heading": "Noch eine Frage?",
+      "subheading": "Eine Antwort innerhalb von 24 Arbeitsstunden, versprochen.",
+      "success": "Nachricht gesendet! Wir melden uns innerhalb von 24 Arbeitsstunden. 📬",
+      "namePlaceholder": "Dein Name",
+      "emailPlaceholder": "Deine E-Mail",
+      "orderPlaceholder": "Bestellnr. (optional)",
+      "messagePlaceholder": "Deine Nachricht",
+      "submit": "Senden"
+    },
+    "metaDescription": "Häufige Fragen zu Bankkarten-Stickern: Anbringen, Chip und kontaktloses Bezahlen, Versand, Rückgabe. Plus ein Kontaktformular."
+  },
+  "legal": {
+    "kicker": "Rechtliche Informationen",
+    "lastUpdated": "Zuletzt aktualisiert: 15. August 2026.",
+    "disclaimer": "Informative Vorlage, die an dein Unternehmen anzupassen ist. Lass die endgültige Fassung von einer für deine Absatzmärkte qualifizierten Rechtsfachperson prüfen.",
+    "livraison": {
+      "title": "Versand",
+      "introduction": "Die folgenden Informationen sind an deine Versandmethoden und -zonen anzupassen.",
+      "sections": [
+        {
+          "title": "Versand und Sendungsverfolgung",
+          "paragraphs": [
+            "Bestellungen werden aus Frankreich vorbereitet und versendet, auch für Kundinnen und Kunden im Vereinigten Königreich und im übrigen Europa. Je nach Zielland können Einfuhrformalitäten oder -steuern anfallen (siehe unsere Allgemeinen Geschäftsbedingungen).",
+            "[AUSZUFÜLLEN: Vorbereitungszeiten, Versanddienstleister, belieferte Zonen und Modalitäten der Sendungsverfolgung.]"
+          ]
+        }
+      ]
+    },
+    "retours": {
+      "title": "Rückgaberecht",
+      "introduction": "Diese Vorlage ist vor der Veröffentlichung mit deinen Informationen und operativen Entscheidungen zu vervollständigen. Sie ist für ein im Vereinigten Königreich niedergelassenes Unternehmen verfasst, das online an Verbraucherinnen und Verbraucher verkauft.",
+      "sections": [
+        {
+          "title": "1. Kontakt zu uns",
+          "paragraphs": [
+            "Für jede Anfrage zu Rückgabe, Rückerstattung oder Ersatz kontaktiere Geno Studio Ltd unter hello@monkeysticker.fr und gib deine Bestellnummer, den oder die betroffenen Artikel und den Grund deiner Anfrage an. Wir antworten dir mit dem weiteren Vorgehen."
+          ]
+        },
+        {
+          "title": "2. Widerrufsrecht",
+          "paragraphs": [
+            "Wenn du als Verbraucher:in kaufst und keine gesetzliche Ausnahme greift, kannst du deine Bestellung innerhalb von 14 Tagen nach Erhalt der Ware widerrufen, ohne deine Entscheidung begründen zu müssen. Diese Information beruht insbesondere auf den Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Um dieses Recht auszuüben, sende uns vor Ablauf dieser Frist eine klare Erklärung deiner Entscheidung. Du kannst unser Widerrufsformular verwenden [AUSZUFÜLLEN: Link oder Modalitäten]; seine Verwendung ist nicht verpflichtend."
+          ],
+          "notice": "Vor der Veröffentlichung zu prüfende Frist: Nachdem du uns deinen Widerruf mitgeteilt hast, hast du in der Regel weitere 14 Tage Zeit, die Ware zurückzusenden. Passe diesen Text an deine Absatzmärkte und an jede günstigere Frist an, die du gegebenenfalls anbietest."
+        },
+        {
+          "title": "3. Personalisierte Artikel",
+          "paragraphs": [
+            "Das Widerrufsrecht gilt nicht für personalisierte Sticker – erstellt aus deinem eigenen Motiv (Angebot „Selbst gestalten“) oder aus jeder anderen Spezifikation, die du uns übermittelst. Auf Bestellung und speziell für dich angefertigt und gedruckt, fallen sie unter die Ausnahme, die die Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 für eindeutig personalisierte Waren vorsehen.",
+            "Konkret: Solange der Druck noch nicht begonnen hat, kannst du uns bitten, deine Bestellung zu stornieren; sobald der Druck begonnen hat, kann eine Bestellung eines personalisierten Produkts nicht mehr storniert oder zurückgegeben werden. Dieser Ausschluss gilt nicht, wenn der Artikel mangelhaft, beschädigt oder nicht wie beschrieben ist – in diesen Fällen bleiben deine Rechte vollständig bestehen (siehe „Mangelhaftes, beschädigtes oder falsches Produkt“).",
+            "Katalog-Sticker, die nicht personalisiert sind, bleiben weiterhin vom oben genannten Widerrufsrecht erfasst. Bei diesen Artikeln können wir von deiner Rückerstattung jeden Wertverlust abziehen, der aus einem Umgang resultiert, der über das hinausgeht, was zur Feststellung der Art, der Eigenschaften und der Funktionsfähigkeit des Produkts notwendig ist."
+          ]
+        },
+        {
+          "title": "4. Einen Artikel zurücksenden",
+          "paragraphs": [
+            "Wenn eine Rücksendung gerechtfertigt ist (zum Beispiel ein Widerruf für einen nicht personalisierten Sticker), teilen wir dir die Adresse und die Modalitäten mit: 6 rue Voltaire, 93100 Montreuil, France. Da unsere Bestellungen aus Frankreich versendet werden, befindet sich die Rücksendeadresse in Frankreich und ist nicht die des eingetragenen Sitzes im Vereinigten Königreich – verwende nur die Adresse, die wir dir angeben, und sende nichts, bevor du unsere Anweisungen erhalten hast.",
+            "Für einen Widerruf, der einen nicht personalisierten Artikel betrifft, sendest du uns die Ware innerhalb von 14 Tagen nach Mitteilung deines Widerrufs auf eigene Kosten zurück. Die Rücksendekosten übernehmen wir nur, wenn der Artikel mangelhaft, nicht wie beschrieben oder irrtümlich versendet wurde. Bewahre einen Versandnachweis auf, bis die Rückerstattung bestätigt ist."
+          ]
+        },
+        {
+          "title": "5. Rückerstattungen",
+          "paragraphs": [
+            "Im Falle eines Widerrufs erstatten wir dir den Betrag innerhalb von 14 Tagen. Wie gesetzlich zulässig, können wir diese Rückerstattung zurückhalten, bis wir die zurückgesandte Ware erhalten haben oder, falls früher, bis du uns einen Nachweis über die Rücksendung erbringst – je nachdem, was zuerst eintritt. Die Rückerstattung umfasst die Kosten der ursprünglichen Standardlieferung, sofern das Gesetz dies verlangt; die Rücksendekosten hingegen bleiben zu deinen Lasten.",
+            "Die Rückerstattung erfolgt über das bei der Bestellung verwendete Zahlungsmittel, sofern nicht ausdrücklich etwas anderes vereinbart wurde, und ohne Kosten unsererseits."
+          ]
+        },
+        {
+          "title": "6. Mangelhaftes, beschädigtes oder falsches Produkt",
+          "paragraphs": [
+            "Wenn ein Produkt mangelhaft ist, bei der Ankunft beschädigt ist oder nicht deiner Bestellung entspricht, kontaktiere uns umgehend mit Fotos und deiner Bestellnummer. Unsere Standardlösung ist, den Artikel kostenlos neu zu drucken und erneut zu versenden, ohne dass du ihn an uns zurücksenden musst; je nach Fall und deinen gesetzlichen Rechten ist auch eine Rückerstattung möglich.",
+            "Diese Richtlinie schränkt deine gesetzlichen Verbraucherrechte nicht ein, insbesondere die Rechte, die für nicht wie beschrieben oder mangelhaft gelieferte Waren gelten."
+          ]
+        }
+      ]
+    },
+    "politique-de-retour": {
+      "title": "Rückgaberecht",
+      "introduction": "Diese Vorlage ist vor der Veröffentlichung mit deinen Informationen und operativen Entscheidungen zu vervollständigen. Sie ist für ein im Vereinigten Königreich niedergelassenes Unternehmen verfasst, das online an Verbraucherinnen und Verbraucher verkauft.",
+      "sections": [
+        {
+          "title": "1. Kontakt zu uns",
+          "paragraphs": [
+            "Für jede Anfrage zu Rückgabe, Rückerstattung oder Ersatz kontaktiere Geno Studio Ltd unter hello@monkeysticker.fr und gib deine Bestellnummer, den oder die betroffenen Artikel und den Grund deiner Anfrage an. Wir antworten dir mit dem weiteren Vorgehen."
+          ]
+        },
+        {
+          "title": "2. Widerrufsrecht",
+          "paragraphs": [
+            "Wenn du als Verbraucher:in kaufst und keine gesetzliche Ausnahme greift, kannst du deine Bestellung innerhalb von 14 Tagen nach Erhalt der Ware widerrufen, ohne deine Entscheidung begründen zu müssen. Diese Information beruht insbesondere auf den Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Um dieses Recht auszuüben, sende uns vor Ablauf dieser Frist eine klare Erklärung deiner Entscheidung. Du kannst unser Widerrufsformular verwenden [AUSZUFÜLLEN: Link oder Modalitäten]; seine Verwendung ist nicht verpflichtend."
+          ],
+          "notice": "Vor der Veröffentlichung zu prüfende Frist: Nachdem du uns deinen Widerruf mitgeteilt hast, hast du in der Regel weitere 14 Tage Zeit, die Ware zurückzusenden. Passe diesen Text an deine Absatzmärkte und an jede günstigere Frist an, die du gegebenenfalls anbietest."
+        },
+        {
+          "title": "3. Personalisierte Artikel",
+          "paragraphs": [
+            "Das Widerrufsrecht gilt nicht für personalisierte Sticker – erstellt aus deinem eigenen Motiv (Angebot „Selbst gestalten“) oder aus jeder anderen Spezifikation, die du uns übermittelst. Auf Bestellung und speziell für dich angefertigt und gedruckt, fallen sie unter die Ausnahme, die die Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 für eindeutig personalisierte Waren vorsehen.",
+            "Konkret: Solange der Druck noch nicht begonnen hat, kannst du uns bitten, deine Bestellung zu stornieren; sobald der Druck begonnen hat, kann eine Bestellung eines personalisierten Produkts nicht mehr storniert oder zurückgegeben werden. Dieser Ausschluss gilt nicht, wenn der Artikel mangelhaft, beschädigt oder nicht wie beschrieben ist – in diesen Fällen bleiben deine Rechte vollständig bestehen (siehe „Mangelhaftes, beschädigtes oder falsches Produkt“).",
+            "Katalog-Sticker, die nicht personalisiert sind, bleiben weiterhin vom oben genannten Widerrufsrecht erfasst. Bei diesen Artikeln können wir von deiner Rückerstattung jeden Wertverlust abziehen, der aus einem Umgang resultiert, der über das hinausgeht, was zur Feststellung der Art, der Eigenschaften und der Funktionsfähigkeit des Produkts notwendig ist."
+          ]
+        },
+        {
+          "title": "4. Einen Artikel zurücksenden",
+          "paragraphs": [
+            "Wenn eine Rücksendung gerechtfertigt ist (zum Beispiel ein Widerruf für einen nicht personalisierten Sticker), teilen wir dir die Adresse und die Modalitäten mit: 6 rue Voltaire, 93100 Montreuil, France. Da unsere Bestellungen aus Frankreich versendet werden, befindet sich die Rücksendeadresse in Frankreich und ist nicht die des eingetragenen Sitzes im Vereinigten Königreich – verwende nur die Adresse, die wir dir angeben, und sende nichts, bevor du unsere Anweisungen erhalten hast.",
+            "Für einen Widerruf, der einen nicht personalisierten Artikel betrifft, sendest du uns die Ware innerhalb von 14 Tagen nach Mitteilung deines Widerrufs auf eigene Kosten zurück. Die Rücksendekosten übernehmen wir nur, wenn der Artikel mangelhaft, nicht wie beschrieben oder irrtümlich versendet wurde. Bewahre einen Versandnachweis auf, bis die Rückerstattung bestätigt ist."
+          ]
+        },
+        {
+          "title": "5. Rückerstattungen",
+          "paragraphs": [
+            "Im Falle eines Widerrufs erstatten wir dir den Betrag innerhalb von 14 Tagen. Wie gesetzlich zulässig, können wir diese Rückerstattung zurückhalten, bis wir die zurückgesandte Ware erhalten haben oder, falls früher, bis du uns einen Nachweis über die Rücksendung erbringst – je nachdem, was zuerst eintritt. Die Rückerstattung umfasst die Kosten der ursprünglichen Standardlieferung, sofern das Gesetz dies verlangt; die Rücksendekosten hingegen bleiben zu deinen Lasten.",
+            "Die Rückerstattung erfolgt über das bei der Bestellung verwendete Zahlungsmittel, sofern nicht ausdrücklich etwas anderes vereinbart wurde, und ohne Kosten unsererseits."
+          ]
+        },
+        {
+          "title": "6. Mangelhaftes, beschädigtes oder falsches Produkt",
+          "paragraphs": [
+            "Wenn ein Produkt mangelhaft ist, bei der Ankunft beschädigt ist oder nicht deiner Bestellung entspricht, kontaktiere uns umgehend mit Fotos und deiner Bestellnummer. Unsere Standardlösung ist, den Artikel kostenlos neu zu drucken und erneut zu versenden, ohne dass du ihn an uns zurücksenden musst; je nach Fall und deinen gesetzlichen Rechten ist auch eine Rückerstattung möglich.",
+            "Diese Richtlinie schränkt deine gesetzlichen Verbraucherrechte nicht ein, insbesondere die Rechte, die für nicht wie beschrieben oder mangelhaft gelieferte Waren gelten."
+          ]
+        }
+      ]
+    },
+    "mentions-legales": {
+      "title": "Impressum",
+      "introduction": "Dieses Impressum identifiziert das Unternehmen, das die Website betreibt. Ersetze vor der Veröffentlichung jedes eingeklammerte Feld durch deine geprüften Informationen.",
+      "sections": [
+        {
+          "title": "1. Herausgeber der Website",
+          "paragraphs": [
+            "Diese Website wird herausgegeben von Geno Studio Ltd, einer private limited company (Ltd), die in England und Wales unter der Nummer 17113844 eingetragen ist."
+          ],
+          "bullets": [
+            "Registered office: Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Vereinigtes Königreich.",
+            "Korrespondenzadresse: 6 rue Voltaire, 93100 Montreuil, France.",
+            "Britische USt-IdNr.: [AUSZUFÜLLEN: UK VAT number, falls zutreffend].",
+            "E-Mail: hello@monkeysticker.fr.",
+            "Telefon: [AUSZUFÜLLEN: Telefonnummer, falls du eine angibst]."
+          ]
+        },
+        {
+          "title": "2. Verantwortlich für die Veröffentlichung",
+          "paragraphs": [
+            "Verantwortlich für die Veröffentlichung: [AUSZUFÜLLEN: Name und Funktion].",
+            "Redaktioneller Kontakt: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "3. Hosting",
+          "paragraphs": [
+            "Die Website (Front-End) wird gehostet von Vercel Inc., 440 N Barranca Ave, PMB 4133, Covina, CA 91723, USA — https://vercel.com. Der Anwendungsserver (Back-End) wird gehostet von Fly.io, Inc., 321 North Clark Street, Chicago, IL, USA — legal@fly.io. Die Datenbank wird gehostet von Render Services, Inc., 525 Brannan Street, Ste 300, San Francisco, CA 94107, USA — https://render.com."
+          ]
+        },
+        {
+          "title": "4. Geistiges Eigentum",
+          "paragraphs": [
+            "Sofern nicht anders angegeben, sind die Elemente der Website – insbesondere Texte, Bilder, Logos, Zeichnungen, Videos und Code – durch Rechte des geistigen Eigentums geschützt. Jede nicht genehmigte Vervielfältigung, Bearbeitung oder Nutzung ist untersagt, außer mit vorheriger schriftlicher Genehmigung von Geno Studio Ltd oder sofern gesetzlich anderweitig erlaubt."
+          ]
+        },
+        {
+          "title": "5. Personenbezogene Daten und Cookies",
+          "paragraphs": [
+            "Die Modalitäten der Erhebung und Verarbeitung personenbezogener Daten sind in unserer Datenschutzerklärung ausführlich dargelegt: /pages/confidentialite.",
+            "Wenn du Cookies oder ähnliche Technologien verwendest, die nicht unbedingt erforderlich sind, gib deine Zwecke, deine Anbieter und die Möglichkeit zur Verwaltung der Auswahl in deiner Datenschutzerklärung und deinem Einwilligungstool an: [AUSZUFÜLLEN: Link oder Beschreibung]."
+          ]
+        },
+        {
+          "title": "6. Anwendbares Recht und Gerichtsstand",
+          "paragraphs": [
+            "Dieses Impressum unterliegt dem Recht von England und Wales, vorbehaltlich der zwingenden Verbraucherschutzbestimmungen, die im Wohnsitzland der Kundin oder des Kunden gelten. Die zuständigen Gerichte werden durch die anwendbaren gesetzlichen Regeln bestimmt."
+          ]
+        }
+      ]
+    },
+    "confidentialite": {
+      "title": "Datenschutzerklärung",
+      "introduction": "Diese Erklärung legt dar, welche personenbezogenen Daten Geno Studio Ltd über diese Website erhebt, warum, wie lange sie aufbewahrt werden und welche Rechte du hast. Sie ist im Hinblick auf die UK GDPR und die DSGVO (EU) erstellt. Diese Vorlage sollte vor der Veröffentlichung von einer Fachperson geprüft und an deine tatsächlichen Verarbeitungen angepasst werden.",
+      "sections": [
+        {
+          "title": "1. Verantwortlicher für die Verarbeitung",
+          "paragraphs": [
+            "Verantwortlicher für die Verarbeitung ist Geno Studio Ltd, eine in England und Wales unter der Nummer 17113844 eingetragene private limited company mit eingetragenem Sitz in Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Vereinigtes Königreich.",
+            "Für jede Frage zu deinen Daten oder zur Ausübung deiner Rechte: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "2. Daten, die wir erheben",
+          "bullets": [
+            "Bestellung und Lieferung: Name, Postanschrift, E-Mail und Bestelldetails.",
+            "Zahlung: von Stripe abgewickelt. Wir speichern keine Kartennummern; wir erhalten von Stripe begrenzte Informationen (Zahlungsstatus, Rechnungsdaten).",
+            "Personalisierung: das Motiv, das du für einen personalisierten Sticker hochlädst (Angebot „Selbst gestalten“).",
+            "Newsletter: deine E-Mail-Adresse und die Quelle der Anmeldung, falls du dich anmeldest.",
+            "Technische Daten: Serverprotokolle und Verbindungsdaten, die für den Betrieb und die Sicherheit der Website erforderlich sind."
+          ]
+        },
+        {
+          "title": "3. Zwecke und Rechtsgrundlagen",
+          "bullets": [
+            "Verarbeitung und Lieferung deiner Bestellungen, Kontaktaufnahme dazu und Kundendienst — Vertragserfüllung (Art. 6 Abs. 1 lit. b).",
+            "Versand des Newsletters an dich — deine Einwilligung (Art. 6 Abs. 1 lit. a), jederzeit widerrufbar.",
+            "Erfüllung unserer buchhalterischen und steuerlichen Pflichten — rechtliche Verpflichtung (Art. 6 Abs. 1 lit. c).",
+            "Sicherung der Website, Betrugsprävention und Verbesserung unserer Dienste — berechtigtes Interesse (Art. 6 Abs. 1 lit. f)."
+          ]
+        },
+        {
+          "title": "4. Aufbewahrungsfristen",
+          "paragraphs": [
+            "Bestell- und Rechnungsdaten: solange es zur Vertragserfüllung erforderlich ist, danach für die gesetzliche buchhalterische Aufbewahrungsfrist — [AUSZUFÜLLEN: Frist, z. B. 6 Jahre].",
+            "Newsletter-Anmeldung: bis zu deiner Abmeldung, danach Löschung oder Anonymisierung.",
+            "Hochgeladene personalisierte Motive: [AUSZUFÜLLEN: Aufbewahrungsfrist der Dateien]."
+          ]
+        },
+        {
+          "title": "5. Auftragsverarbeiter und Empfänger",
+          "paragraphs": [
+            "Wir verkaufen deine Daten nicht. Wir geben sie nur an die für den Dienst unbedingt erforderlichen Anbieter weiter, die vertraglich zu ihrem Schutz verpflichtet sind:"
+          ],
+          "bullets": [
+            "Hosting der Website (Front-End): Vercel Inc. (USA). Anwendungsserver: Fly.io, Inc. (USA). Datenbank: Render Services, Inc. (USA).",
+            "Zahlung: Stripe — für eine europäische Kundin oder einen europäischen Kunden ist der Vertragspartner Stripe Payments Europe, Limited (Irland).",
+            "Versand aus Frankreich: [AUSZUFÜLLEN: Versanddienstleister, gegebenenfalls]."
+          ]
+        },
+        {
+          "title": "6. Übermittlungen außerhalb der Europäischen Union",
+          "paragraphs": [
+            "Einige unserer Anbieter befinden sich außerhalb der Europäischen Union, insbesondere in den Vereinigten Staaten: Vercel (Hosting der Website), Fly.io (Anwendungsserver) und Render (Datenbank). Deine personenbezogenen Daten können daher in die Vereinigten Staaten übermittelt und dort verarbeitet werden.",
+            "Diese Übermittlungen sind durch geeignete Garantien im Sinne der UK GDPR und der DSGVO abgesichert — Standardvertragsklauseln (SCC) und/oder eine Zertifizierung nach dem EU–US Data Privacy Framework, die in den Auftragsverarbeitungsverträgen (DPA) dieser Anbieter festgelegt sind. Auch Stripe wendet solche Garantien an. Du kannst eine Kopie der bestehenden Garantien anfordern, indem du an hello@monkeysticker.fr schreibst."
+          ]
+        },
+        {
+          "title": "7. Cookies",
+          "paragraphs": [
+            "Die Website verwendet Cookies und Technologien, die für ihren Betrieb unbedingt erforderlich sind (zum Beispiel Warenkorb und Zahlung), die deine Einwilligung nicht erfordern. [AUSZUFÜLLEN: liste hier die etwaigen nicht wesentlichen Cookies auf — Reichweitenmessung, Marketing — sowie die Möglichkeit, deine Einwilligung einzuholen und zu verwalten.]"
+          ]
+        },
+        {
+          "title": "8. Deine Rechte",
+          "paragraphs": [
+            "Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch und Datenübertragbarkeit sowie das Recht, deine Einwilligung jederzeit zu widerrufen (ohne Auswirkung auf bereits erfolgte Verarbeitungen). Um sie auszuüben, schreibe an hello@monkeysticker.fr.",
+            "Wenn du der Ansicht bist, dass deine Rechte nicht gewahrt werden, kannst du dich an eine Aufsichtsbehörde wenden: im Vereinigten Königreich an das Information Commissioner's Office (ICO); in der EU an die Behörde deines Wohnsitzlandes (in Frankreich die CNIL)."
+          ]
+        }
+      ]
+    },
+    "cgv": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "introduction": "Diese Allgemeinen Geschäftsbedingungen sind eine Vorlage, die an dein Unternehmen, deine Verkaufsländer und deine geschäftlichen Modalitäten anzupassen ist. Ersetze vor der Veröffentlichung alle eingeklammerten Felder.",
+      "sections": [
+        {
+          "title": "1. Identität des Verkäufers und Anwendungsbereich",
+          "paragraphs": [
+            "Diese Bedingungen regeln die auf dieser Website abgeschlossenen Verkäufe zwischen Geno Studio Ltd, einem im Vereinigten Königreich niedergelassenen Unternehmen, eingetragen unter der Nummer 17113844, mit eingetragenem Sitz in Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, Vereinigtes Königreich, und jeder Kundin oder jedem Kunden, die oder der die auf der Website angebotenen Produkte kauft.",
+            "Sie gelten sowohl für Verbraucherinnen und Verbraucher als auch für gewerbliche Kundinnen und Kunden. Die Rechte, die das Gesetz Verbraucherinnen und Verbrauchern vorbehält — insbesondere das 14-tägige Widerrufsrecht und die daraus folgenden Bestimmungen unseres Rückgaberechts — kommen nur Kundinnen und Kunden zugute, die zu privaten Zwecken handeln: eine gewerbliche Kundin oder ein gewerblicher Kunde hat kein Widerrufsrecht, unbeschadet der auf Waren anwendbaren gesetzlichen Gewährleistungen."
+          ]
+        },
+        {
+          "title": "2. Produkte",
+          "paragraphs": [
+            "Die wesentlichen Eigenschaften jedes Produkts sind vor der Bestätigung der Bestellung auf seiner Seite aufgeführt. Fotografien und Abbildungen dienen zur Veranschaulichung; leichte Abweichungen in Farbe oder Darstellung können je nach Bildschirm und Herstellungsverfahren bestehen.",
+            "[AUSZUFÜLLEN: Produkthinweise, Nutzungsgrenzen und Anbringungshinweise, die für deinen Katalog gelten.]"
+          ]
+        },
+        {
+          "title": "3. Preise, Steuern und Versandkosten",
+          "paragraphs": [
+            "Die angezeigten Preise sind in Euro (EUR) angegeben und weisen aus, ob die anwendbaren Steuern inbegriffen sind oder zum Zeitpunkt der Zahlung hinzukommen. Etwaige anwendbare Versandkosten, Zölle oder Einfuhrsteuern werden vor der Bestätigung der Bestellung ausgewiesen.",
+            "Unsere Produkte werden aus Frankreich versendet. Je nach Lieferland können Zölle, Einfuhrumsatzsteuer oder Verzollungsgebühren anfallen: Bestellungen mit Ziel Vereinigtes Königreich werden aus der Europäischen Union versendet und können Einfuhrformalitäten und -steuern auslösen, während Bestellungen mit Lieferung innerhalb der Europäischen Union keine Zollformalitäten auslösen. Gib an, wer diese Kosten trägt: [AUSZUFÜLLEN: Aufteilung von Zöllen, Einfuhrumsatzsteuer und Verzollungsgebühren, etwaiger Incoterm (z. B. DDP oder DAP)]."
+          ],
+          "notice": "USt. zu prüfen: Ein britisches Unternehmen, das aus Frankreich versendet, kann USt-Pflichten in der Europäischen Union (USt-Registrierung, OSS/IOSS-Anlaufstelle) und im Vereinigten Königreich haben. Lass deine USt-Behandlung für die Preisanzeige und die Rechnungsstellung von einer kompetenten Beraterin oder einem kompetenten Berater bestätigen: [AUSZUFÜLLEN: angewandtes USt-Regime]."
+        },
+        {
+          "title": "4. Bestellung und Zustandekommen des Vertrags",
+          "paragraphs": [
+            "Die Kundin oder der Kunde wählt die Produkte aus, prüft die Zusammenfassung der Bestellung, korrigiert etwaige Fehler, akzeptiert diese Bedingungen und geht dann zur Zahlung über. Die per E-Mail versendete Bestellbestätigung fasst den Vertrag auf einem dauerhaften Datenträger zusammen.",
+            "Wir können eine Bestellung im Falle von Nichtverfügbarkeit, einem offensichtlichen Preisfehler, Betrugsverdacht oder einer angemessenen Unmöglichkeit, die Bestellung auszuführen, ablehnen oder stornieren. Gegebenenfalls werden die eingezogenen Beträge über das verwendete Zahlungsmittel erstattet."
+          ]
+        },
+        {
+          "title": "5. Zahlung",
+          "paragraphs": [
+            "Die Zahlung ist zum Zeitpunkt der Bestellung fällig, über die an der Kasse angezeigten Mittel. Zahlungen werden von Stripe abgewickelt. Wir bewahren keine Bankkartendaten über das hinaus auf, was für die Abwicklung der Zahlung durch diesen Anbieter erforderlich ist."
+          ]
+        },
+        {
+          "title": "6. Lieferung",
+          "paragraphs": [
+            "Wir liefern an die bei der Bestellung angegebene Adresse, in den auf der Website angegebenen Gebieten. Bestellungen werden aus Frankreich vorbereitet und versendet; die Fristen können je nach Zielort und etwaigen Zollformalitäten variieren. Die Vorbereitungs- und Lieferfristen werden vor dem Kauf und in der Bestellbestätigung angegeben. Sofern nicht anders vereinbart, wird die Ware spätestens innerhalb von 30 Tagen nach Vertragsschluss geliefert.",
+            "Wenn sich die Lieferung erheblich verzögert, kontaktiere uns unter hello@monkeysticker.fr. Deine Rechte im Falle von Verzögerung, Unmöglichkeit der Lieferung oder Verlust sind die vom anwendbaren Recht vorgesehenen."
+          ]
+        },
+        {
+          "title": "7. Widerrufsrecht",
+          "paragraphs": [
+            "Wenn du die Eigenschaft einer Verbraucherin oder eines Verbrauchers hast und keine Ausnahme greift, kannst du deine Bestellung innerhalb von 14 Tagen nach Erhalt der Ware widerrufen, insbesondere in Übereinstimmung mit den Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "Die Modalitäten der Ausübung, etwaige Ausschlüsse für personalisierte Waren, die Rücksendekosten und die Modalitäten der Rückerstattung sind in unserem Rückgaberecht ausführlich dargelegt: /pages/politique-de-retour."
+          ]
+        },
+        {
+          "title": "8. Mangelhafte Produkte und Gewährleistungen",
+          "paragraphs": [
+            "Nichts in diesen Bedingungen schränkt die gesetzlichen Rechte der Kundin oder des Kunden ein. Produkte müssen von zufriedenstellender Qualität sein, für ihren üblichen Zweck geeignet sein und ihrer Beschreibung entsprechen, innerhalb der vom anwendbaren Recht gesetzten Grenzen.",
+            "Um ein Problem zu melden, kontaktiere hello@monkeysticker.fr mit deiner Bestellnummer und, wenn möglich, Fotos. Wir prüfen die Anfrage und schlagen die angemessene Lösung im Einklang mit deinen Rechten vor."
+          ]
+        },
+        {
+          "title": "9. Hochgeladene Inhalte und geistiges Eigentum",
+          "paragraphs": [
+            "Wenn du einen personalisierten Sticker gestaltest, lädst du Inhalte hoch (Foto, Logo, Illustration, Text). Du bleibst allein dafür verantwortlich. Mit dem Hochladen erklärst und garantierst du, dass du alle erforderlichen Rechte innehast — Urheberrecht, Markenrechte sowie das Recht am eigenen Bild und die Persönlichkeitsrechte der dargestellten Personen — oder dass du die erforderlichen Genehmigungen eingeholt hast, um sie zu verwenden und auf deiner Bestellung reproduzieren zu lassen.",
+            "Du verpflichtest dich, keine Inhalte hochzuladen, die rechtswidrig, rechtsverletzend, verleumderisch oder hetzerisch sind oder die Rechte Dritter verletzen. Wir können jede Bestellung ablehnen oder stornieren, deren Inhalt Rechte zu verletzen oder gegen das Gesetz zu verstoßen scheint; in diesem Fall werden dir bereits für diese Bestellung gezahlte Beträge erstattet.",
+            "Du gewährst uns ausschließlich die begrenzte Lizenz, die erforderlich ist, um deine Bestellung zu reproduzieren, zu drucken, zuzuschneiden und dir zu liefern, sowie die Datei so lange aufzubewahren, wie es die Bearbeitung der Bestellung erfordert. Wir erheben keinen Eigentumsanspruch auf deine Inhalte.",
+            "Du stellst uns von jeder Forderung, Klage oder Verurteilung eines Dritten frei, die sich aus den von dir hochgeladenen Inhalten ergibt, insbesondere wegen Verletzung eines Rechts des geistigen Eigentums oder eines Rechts am eigenen Bild bzw. eines Persönlichkeitsrechts. Im gesetzlich zulässigen Umfang übernehmen wir keine Haftung für von Kundinnen und Kunden bereitgestellte Inhalte."
+          ]
+        },
+        {
+          "title": "10. Haftung",
+          "paragraphs": [
+            "Wir beschränken oder schließen unsere Haftung nicht aus, wenn eine solche Beschränkung oder ein solcher Ausschluss rechtswidrig wäre, insbesondere im Falle von Betrug, Tod oder Körperverletzung infolge unserer Fahrlässigkeit oder wenn die gesetzlichen Rechte der Verbraucherin oder des Verbrauchers dem entgegenstehen.",
+            "Vorbehaltlich des Vorstehenden ist unsere Haftung im größtmöglichen gesetzlich zulässigen Umfang beschränkt. [AUSZUFÜLLEN: etwaige an dein Unternehmen angepasste Grenzen, nach juristischer Beratung]."
+          ]
+        },
+        {
+          "title": "11. Anwendbares Recht und Gerichtsstand",
+          "paragraphs": [
+            "Diese AGB unterliegen dem Recht von England und Wales. Diese Klausel entzieht der Verbraucherin oder dem Verbraucher nicht den zwingenden Schutz, den ihr oder ihm die anwendbaren Regeln des Landes ihres oder seines gewöhnlichen Wohnsitzes gewähren.",
+            "Jeder Streitfall fällt in die Zuständigkeit der zuständigen Gerichte, die durch die anwendbaren Verfahrens- und Verbraucherschutzregeln bestimmt werden. [AUSZUFÜLLEN: Kontaktdaten der Beschwerdestelle und etwaiges Schlichtungsverfahren]."
+          ]
+        }
+      ]
+    }
+  },
+  "pose": {
+    "eyebrow": "Anleitung",
+    "title": "In 60 Sekunden angebracht",
+    "intro": {
+      "part1": "Jede Bestellung kommt mit einer ",
+      "cradle": "Ausrichthilfe",
+      "part2": ", einem Tuch, einer Mini-Rakel und einem ",
+      "spare": "zweiten Ersatz-Sticker",
+      "part3": ". Die Ausrichthilfe übernimmt das Ausrichten für dich — es bleiben nur drei einfache Handgriffe."
+    },
+    "video": {
+      "label": "Das Anbringen im Video (30 s) —",
+      "status": "Dreh läuft"
+    },
+    "steps": [
+      {
+        "n": "01",
+        "title": "Vorbereiten",
+        "text": "Reinige die Vorderseite deiner Karte mit dem beiliegenden Tuch (in eine Richtung, keine Kreise). Warte 10 Sekunden, dann setze die Karte in den Boden der Karton-Ausrichthilfe."
+      },
+      {
+        "n": "02",
+        "title": "Ausrichten — ohne Kleben",
+        "text": "Sticker noch auf seinem Trägerpapier: schiebe die beiden Laschen in die Schlitze der Ausrichthilfe. Das Fenster sitzt genau auf dem Chip. Noch klebt nichts, also lass dir Zeit."
+      },
+      {
+        "n": "03",
+        "title": "Kleben",
+        "text": "Klappe den Sticker um, ziehe die untere Hälfte des Trägerpapiers ab und drücke mit dem Daumen von der Mitte nach außen. Löse die Laschen, ziehe den Rest des Trägerpapiers ab und drücke dabei an."
+      }
+    ],
+    "panic": {
+      "title": "Keine Panik",
+      "subtitle": "Die drei Dinge, die passieren können, und warum keines davon ein Problem ist.",
+      "items": [
+        {
+          "title": "Ein paar kleine Bläschen?",
+          "content": "Völlig normal: sie verschwinden von selbst innerhalb von 24-48 h. Eine große Blase? Schiebe sie mit dem Fingernagel oder der beiliegenden Mini-Rakel zur nächsten Kante."
+        },
+        {
+          "title": "Schlecht angefangen?",
+          "content": "Du hast etwa 60 Sekunden Zeit, ihn vorsichtig abzuziehen und neu zu beginnen — und in deinem Paket liegt ein zweiter Sticker, genau dafür gemacht. Atme durch."
+        },
+        {
+          "title": "Hat deine Karte einen erhabenen (geprägten) Namen?",
+          "content": "Drücke rund um die Buchstaben länger mit dem Daumen an. Entlang der erhabenen Stellen können leichte Bläschen bleiben: das ist normal und verschwindet mit der Zeit."
+        },
+        {
+          "title": "Wirklich verhauen?",
+          "content": "Nimm den zweiten Sticker aus deinem Paket (kaufe einen, erhalte einen gratis) und gehe die Schritte einen nach dem anderen durch: der zweite Versuch ist fast immer der richtige."
+        }
+      ]
+    },
+    "cta": {
+      "text": "Noch keinen Sticker?",
+      "included": "Die Ausrichthilfe und der 2. Sticker sind bei jeder Bestellung inklusive."
+    },
+    "metaTitle": "Anbringen in 60 Sekunden",
+    "metaDescription": "Bring deinen Bankkarten-Sticker gleich beim ersten Mal perfekt an: Ausrichtungsschale inklusive, 3 Schritte, 30-Sekunden-Video."
+  },
+  "productPage": {
+    "breadcrumbHome": "Startseite",
+    "breadcrumbStickers": "Sticker",
+    "viewNoWindow": "Ohne Chip-Fenster",
+    "viewOnCard": "Auf der Karte",
+    "reviewCount": {
+      "one": "{count} Bewertung",
+      "other": "{count} Bewertungen"
+    },
+    "accDescriptionTitle": "Beschreibung",
+    "accDescriptionFallback": "Der Sticker „{name}“ verschönert deine Bankkarte im exakten ISO-Format (85,6 × 54 mm, abgerundete Ecken). Das Chip-Fenster ist vorgeschnitten: der Chip bleibt sichtbar und funktionsfähig, das kontaktlose Bezahlen ebenfalls. Dünnes Vinyl, das der Abnutzung im Geldbeutel standhält und sich rückstandslos entfernen lässt.",
+    "accApplicationTitle": "In 30 Sekunden anbringen",
+    "accApplicationContent": "1. Entfette deine Karte (Tuch im Kit enthalten). 2. Ziehe den Sticker ab und richte die linke Kante am Chip aus: das Fenster führt dich. 3. Rakle von der Mitte nach außen zu den Kanten. Tipp: das Anbringungs-Kit sorgt für einen perfekten Sitz beim ersten Versuch.",
+    "accShippingTitle": "Versand & Rückgabe",
+    "accShippingContent": "Versand innerhalb von 48 h aus Frankreich, als verfolgbarer Brief (2-4 Werktage). Ein Druckfehler? Wir schicken dir einen neuen Sticker — melde dich einfach über die Kontaktseite mit einem Foto.",
+    "reviewsEyebrow": "Verifizierte Bewertungen",
+    "reviewsTitle": "Sie lieben ihn",
+    "verifiedReviewCount": {
+      "one": "{count} verifizierte Bewertung",
+      "other": "{count} verifizierte Bewertungen"
+    },
+    "reviews": [
+      {
+        "name": "Léa M.",
+        "text": "Super einfach anzubringen, das Fenster sitzt genau auf dem Chip. Meine Karte ist nicht wiederzuerkennen (im positiven Sinne).",
+        "rating": 5
+      },
+      {
+        "name": "Thomas R.",
+        "text": "Kontaktloses Bezahlen funktioniert einwandfrei, kein Unterschied beim Bezahlen. Das matte Finish ist richtig sauber.",
+        "rating": 5
+      },
+      {
+        "name": "Sarah K.",
+        "text": "Zweite Bestellung, kaufe einen, erhalte einen gratis ist super, um je nach Laune zu wechseln.",
+        "rating": 4
+      }
+    ],
+    "reviewByline": "{name} — verifizierter Kauf",
+    "recosEyebrow": "Der Showroom",
+    "recosTitle": "Das gefällt dir auch",
+    "recosSeeAll": "Alle ansehen →",
+    "deliveryEstimate": "Voraussichtliche Lieferung:",
+    "bundleHeading": "Wähle dein Paket — kaufe einen, erhalte einen gratis",
+    "bundleTags": {
+      "popular": "Beliebt",
+      "bestValue": "Bestes Angebot"
+    },
+    "bundleLabel": {
+      "one": "{count} Sticker",
+      "other": "{count} Sticker"
+    },
+    "bundleFree": {
+      "one": "davon {count} gratis",
+      "other": "davon {count} gratis"
+    },
+    "chipHeading": "Der Chip deiner Karte",
+    "includedTitle": "Bei jeder Bestellung inklusive",
+    "includedItems": [
+      "Anbringungs-Kit: Ausrichthilfe, Rakel, Tuch",
+      "Jeder zweite Sticker ist gratis — genug, um das Anbringen zu wiederholen oder deinen Stil zu wechseln"
+    ],
+    "recap": "{count} Sticker – {free}",
+    "recapFree": {
+      "one": "{count} gratis",
+      "other": "{count} gratis"
+    },
+    "quantity": "Menge",
+    "addToCart": "In den Warenkorb — {price}",
+    "featureCradle": "Die Ausrichthilfe übernimmt das Ausrichten für dich —",
+    "featureCradleLink": "in 60 s anbringen",
+    "featureFormat": "Exaktes Bankkartenformat (85,6 × 54 mm), Fenster auf die Größe deines Chips zugeschnitten",
+    "featureContactless": "100 % kompatibel mit kontaktlosem Bezahlen und Geldautomaten",
+    "featureAllowed": "Keine Daten verändert: deine Karte bleibt gültig und wird überall akzeptiert",
+    "featureResidue": "Rückstandslos entfernbar",
+    "featureShipping": "Versand innerhalb von 48 h aus Frankreich, Sendungsverfolgung inklusive"
+  },
+  "trackOrder": {
+    "intro": "Gib deine Bestellnummer (per E-Mail erhalten) und die beim Kauf verwendete E-Mail-Adresse ein, um zu sehen, wo dein Paket gerade ist.",
+    "help": "Keine Bestätigungs-E-Mail erhalten? Prüfe deinen Spam-Ordner oder melde dich über die Seite FAQ & Kontakt.",
+    "orderNumberPlaceholder": "Bestellnr. (z. B. MS-10234)",
+    "orderNumberLabel": "Bestellnummer",
+    "emailPlaceholder": "Bestell-E-Mail",
+    "emailLabel": "Bestell-E-Mail",
+    "submit": "Verfolgen",
+    "trackParcel": "Paket verfolgen",
+    "demoStatus": "Bestellung gefunden: gestern versendet, unterwegs. Voraussichtliche Lieferung innerhalb von {days} Werktagen. (Lokale Demo — hier die Tracking-API anbinden.)"
+  }
+}

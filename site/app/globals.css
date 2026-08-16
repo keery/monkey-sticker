@@ -1,0 +1,331 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Palette « nuit showroom » : charbon teinté chaud, ivoire, accent flamme.
+   Le noir est une vitrine — jamais un néon froid. */
+@theme {
+  --color-night: oklch(0.15 0.012 60);
+  --color-night-2: oklch(0.195 0.014 65);
+  --color-ivory: oklch(0.955 0.012 85);
+  --color-ivory-dim: oklch(0.74 0.02 78);
+  --color-flame: oklch(0.71 0.185 42);
+  --color-flame-deep: oklch(0.62 0.19 40);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-archivo);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Base body dans @layer base : les utilitaires Tailwind (bg-night / bg-white /
+   text-ivory…) posés sur le <body> par chaque layout doivent pouvoir écraser ce
+   défaut. Hors layer, cette règle l'emportait sur les utilitaires (couches
+   Tailwind) → le <body> de l'atelier (bg-night) restait blanc, texte illisible. */
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-archivo), Arial, Helvetica, sans-serif;
+  }
+}
+
+::selection {
+  background: oklch(0.71 0.185 42);
+  color: oklch(0.15 0.012 60);
+}
+
+/* Coupe display : Archivo étendu, très gras, pour les titres. */
+.font-display {
+  font-stretch: 125%;
+  font-weight: 850;
+  letter-spacing: -0.01em;
+}
+
+/* ---------------------------------------------------------------- */
+/* Révélations au scroll et au chargement (composant Reveal)         */
+/* ---------------------------------------------------------------- */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  filter: blur(6px);
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0s);
+}
+[data-reveal].in-view {
+  opacity: 1;
+  transform: none;
+  filter: none;
+}
+
+/* Révélation ligne par ligne (titres) : le parent Reveal porte .in-view */
+.line-reveal-inner {
+  display: block;
+  transform: translateY(115%);
+  transition: transform 1.05s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0s);
+}
+.in-view .line-reveal-inner {
+  transform: none;
+}
+
+/* Above-the-fold (mode `load` du composant Reveal) : la révélation est jouée
+   au chargement, en CSS pur. Le hero est visible dès le premier paint et
+   n'attend plus l'IntersectionObserver (donc plus le JS) — même sur mobile
+   lent, ce qui protège le FCP/LCP. */
+@keyframes reveal-rise {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+}
+.reveal-load {
+  animation: reveal-rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--reveal-delay, 0s);
+}
+@keyframes line-rise {
+  from {
+    transform: translateY(115%);
+  }
+  to {
+    transform: none;
+  }
+}
+.reveal-load-lines .line-reveal-inner {
+  animation: line-rise 1.05s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--reveal-delay, 0s);
+}
+
+/* Anneau de focus clavier cohérent (accessibilité). Bas niveau de spécificité
+   via :where — chaque élément qui pose sa propre couleur de focus l'emporte
+   (ex. le CTA de la section offre, sombre sur fond flamme). */
+:where(a, button, [role="button"]):focus-visible {
+  outline: 2px solid var(--color-flame);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Halo coloré derrière une carte — les couleurs viennent du design  */
+/* (variables --g1 / --g2 posées inline par le composant)            */
+/* ---------------------------------------------------------------- */
+
+.glow-tile {
+  position: relative;
+  isolation: isolate;
+}
+.glow-tile::before {
+  content: "";
+  position: absolute;
+  inset: -14%;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(50% 55% at 30% 35%, var(--g1, transparent), transparent 70%),
+    radial-gradient(55% 60% at 72% 70%, var(--g2, transparent), transparent 70%);
+  filter: blur(26px);
+  opacity: var(--glow, 0);
+  transition: opacity 0.5s ease;
+}
+.glow-on {
+  --glow: 0.4;
+}
+.glow-tile:hover::before,
+.group:hover .glow-tile::before {
+  opacity: 0.85;
+}
+
+/* ---------------------------------------------------------------- */
+/* Carte 3D du hero (composant Tilt3DCard)                           */
+/* ---------------------------------------------------------------- */
+
+.tilt-scene {
+  perspective: 1200px;
+  position: relative;
+  isolation: isolate;
+}
+.tilt-float {
+  animation: card-float 7s ease-in-out infinite;
+}
+.tilt-card {
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  /* Suivi serré par défaut (quasi 1:1) ; le composant Tilt3DCard rallonge la
+     durée au relâchement pour un retour au repos plus souple. */
+  transition: transform 0.14s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+.tilt-glare {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: var(--glare, 0);
+  transition: opacity 0.4s ease;
+  background: radial-gradient(
+    45% 60% at var(--gx, 50%) var(--gy, 40%),
+    rgba(255, 255, 255, 0.32),
+    transparent 65%
+  );
+  mix-blend-mode: screen;
+}
+.tilt-sheen-wrap {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.tilt-sheen {
+  position: absolute;
+  top: -20%;
+  bottom: -20%;
+  left: 0;
+  width: 34%;
+  background: linear-gradient(105deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  mix-blend-mode: screen;
+  transform: translateX(-150%) skewX(-16deg);
+  animation: sheen 1.7s 1.1s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.tilt-glow {
+  position: absolute;
+  inset: -16%;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(45% 50% at 30% 40%, var(--g1, transparent), transparent 70%),
+    radial-gradient(50% 55% at 72% 68%, var(--g2, transparent), transparent 70%);
+  filter: blur(36px);
+  opacity: 0.65;
+}
+
+@keyframes sheen {
+  from {
+    transform: translateX(-150%) skewX(-16deg);
+  }
+  to {
+    transform: translateX(460%) skewX(-16deg);
+  }
+}
+
+@keyframes card-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-9px);
+  }
+}
+
+/* ---------------------------------------------------------------- */
+/* Marquees (vitrine de designs + bandeau stats)                     */
+/* ---------------------------------------------------------------- */
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee var(--marquee-duration, 22s) linear infinite;
+}
+.marquee-pause:hover .animate-marquee {
+  animation-play-state: paused;
+}
+.fade-x-mask {
+  mask-image: linear-gradient(to right, transparent, black 7%, black 93%, transparent);
+}
+
+/* ---------------------------------------------------------------- */
+/* Schéma technique (section précision) : tracés qui se dessinent     */
+/* ---------------------------------------------------------------- */
+
+.draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.in-view .draw {
+  stroke-dashoffset: 0;
+}
+.schem-label {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+.in-view .schem-label {
+  opacity: 1;
+}
+
+/* ---------------------------------------------------------------- */
+/* Accessibilité : sans JS ou en mouvement réduit, tout est visible  */
+/* ---------------------------------------------------------------- */
+
+@media (scripting: none) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    filter: none;
+  }
+  .line-reveal-inner {
+    transform: none;
+  }
+  .draw {
+    stroke-dashoffset: 0;
+  }
+  .schem-label {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    transition: none;
+  }
+  .line-reveal-inner {
+    transform: none;
+    transition: none;
+  }
+  /* Le mode `load` n'a pas d'opacité de base à 0 : couper l'animation suffit
+     à laisser le hero pleinement visible. */
+  .reveal-load,
+  .reveal-load-lines .line-reveal-inner {
+    animation: none;
+  }
+  .animate-marquee,
+  .tilt-sheen,
+  .tilt-float {
+    animation: none;
+  }
+  .tilt-card {
+    transition: none;
+    transform: none;
+  }
+  .draw {
+    stroke-dashoffset: 0;
+    transition: none;
+  }
+  .schem-label {
+    opacity: 1;
+    transition: none;
+  }
+}

@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540">
+  <defs>
+    <!-- Ciel synthwave rose -> violet -> cyan -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b0a4a"/>
+      <stop offset="0.18" stop-color="#5a1580"/>
+      <stop offset="0.40" stop-color="#a01f9c"/>
+      <stop offset="0.60" stop-color="#FF2E9A"/>
+      <stop offset="0.78" stop-color="#ff6fb0"/>
+      <stop offset="1" stop-color="#00E0FF"/>
+    </linearGradient>
+    <!-- Soleil rétro à bandes -->
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2b0"/>
+      <stop offset="0.30" stop-color="#ffd24d"/>
+      <stop offset="0.62" stop-color="#ff7a3c"/>
+      <stop offset="1" stop-color="#FF2E9A"/>
+    </linearGradient>
+    <!-- Mer réfléchissante -->
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7A2FF0"/>
+      <stop offset="0.45" stop-color="#4a12a0"/>
+      <stop offset="1" stop-color="#12043a"/>
+    </linearGradient>
+    <!-- Grille perspective -->
+    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00E0FF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00E0FF" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="flam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd0e6"/>
+      <stop offset="0.5" stop-color="#ff7ac0"/>
+      <stop offset="1" stop-color="#FF2E9A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff9ad4" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#FF2E9A" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FF2E9A" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neon" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    <!-- bandes du soleil : masque de fentes horizontales -->
+    <clipPath id="sunClip">
+      <circle cx="560" cy="248" r="126"/>
+    </clipPath>
+  </defs>
+
+  <!-- ============ CIEL ============ -->
+  <rect width="856" height="540" fill="url(#sky)"/>
+
+  <!-- étoiles hautes -->
+  <g fill="#ffffff">
+    <circle cx="120" cy="46" r="1.7" opacity=".9"/>
+    <circle cx="210" cy="30" r="1.2" opacity=".7"/>
+    <circle cx="330" cy="58" r="1.5" opacity=".85"/>
+    <circle cx="470" cy="34" r="1.1" opacity=".6"/>
+    <circle cx="640" cy="52" r="1.6" opacity=".85"/>
+    <circle cx="740" cy="28" r="1.3" opacity=".7"/>
+    <circle cx="806" cy="64" r="1.5" opacity=".8"/>
+    <circle cx="560" cy="24" r="1.2" opacity=".6"/>
+    <circle cx="40" cy="72" r="1.3" opacity=".7"/>
+  </g>
+
+  <!-- halo derrière le soleil -->
+  <circle cx="560" cy="250" r="210" fill="url(#glow)"/>
+
+  <!-- ============ SOLEIL RÉTRO À BANDES ============ -->
+  <g clip-path="url(#sunClip)">
+    <circle cx="560" cy="248" r="126" fill="url(#sun)"/>
+    <!-- fentes (bandes) qui s'espacent vers le bas -->
+    <g fill="#5a1580" opacity=".92">
+      <rect x="420" y="286" width="280" height="6"/>
+      <rect x="420" y="300" width="280" height="8"/>
+      <rect x="420" y="317" width="280" height="10"/>
+      <rect x="420" y="337" width="280" height="12"/>
+      <rect x="420" y="360" width="280" height="16"/>
+    </g>
+  </g>
+  <circle cx="560" cy="248" r="126" fill="none" stroke="#fff2b0" stroke-width="2.5" opacity=".5"/>
+
+  <!-- ============ PALMIERS NÉON (silhouettes) ============ -->
+  <!-- grand palmier droite -->
+  <g stroke="#00E0FF" stroke-width="7" stroke-linecap="round" fill="none" filter="url(#neon)" opacity=".95">
+    <path d="M712 372 C716 300 720 240 726 176"/>
+  </g>
+  <g stroke="#7cf3ff" stroke-width="3.4" stroke-linecap="round" fill="none">
+    <path d="M712 372 C716 300 720 240 726 176"/>
+    <path d="M726 178 C700 150 666 138 628 142"/>
+    <path d="M726 176 C742 146 772 132 806 134"/>
+    <path d="M726 178 C704 158 682 152 660 156"/>
+    <path d="M726 176 C748 158 772 152 796 158"/>
+    <path d="M726 174 C712 148 700 128 692 106"/>
+    <path d="M726 174 C740 150 754 132 766 112"/>
+  </g>
+  <!-- petit palmier gauche : couronne sous y=320, entièrement hors fenêtre puce -->
+  <g stroke="#00E0FF" stroke-width="5" stroke-linecap="round" fill="none" filter="url(#neon)" opacity=".9">
+    <path d="M40 372 C40 356 40 348 40 336"/>
+  </g>
+  <g stroke="#7cf3ff" stroke-width="2.6" stroke-linecap="round" fill="none">
+    <path d="M40 372 C40 356 40 348 40 336"/>
+    <path d="M40 338 C26 328 16 326 4 330"/>
+    <path d="M40 336 C52 326 66 324 82 330"/>
+    <path d="M40 336 C30 324 24 314 22 302"/>
+    <path d="M40 336 C50 324 62 320 76 320"/>
+  </g>
+
+  <!-- ============ HORIZON / MER ============ -->
+  <rect x="0" y="374" width="856" height="166" fill="url(#sea)"/>
+  <!-- ligne néon d'horizon -->
+  <rect x="0" y="371" width="856" height="5" fill="#00E0FF" filter="url(#neon)"/>
+  <rect x="0" y="372" width="856" height="2.4" fill="#d6fbff"/>
+
+  <!-- reflet du soleil sur la mer -->
+  <g fill="#ff8fc4" opacity=".55">
+    <rect x="516" y="382" width="88" height="5"/>
+    <rect x="512" y="394" width="96" height="6"/>
+    <rect x="506" y="408" width="108" height="7"/>
+    <rect x="500" y="424" width="120" height="7"/>
+    <rect x="494" y="442" width="132" height="8"/>
+  </g>
+
+  <!-- grille perspective synthwave -->
+  <g stroke="url(#gridFade)" stroke-width="2" fill="none" opacity=".85">
+    <!-- horizontales -->
+    <path d="M0 388 H856"/>
+    <path d="M0 402 H856"/>
+    <path d="M0 420 H856"/>
+    <path d="M0 442 H856"/>
+    <path d="M0 470 H856"/>
+    <path d="M0 504 H856"/>
+    <!-- fuyantes vers point central -->
+    <path d="M428 374 L-140 540"/>
+    <path d="M428 374 L60 540"/>
+    <path d="M428 374 L228 540"/>
+    <path d="M428 374 L360 540"/>
+    <path d="M428 374 L428 540"/>
+    <path d="M428 374 L496 540"/>
+    <path d="M428 374 L628 540"/>
+    <path d="M428 374 L796 540"/>
+    <path d="M428 374 L996 540"/>
+  </g>
+
+  <!-- ============ FLAMANT ROSE (avant-plan gauche) ============ -->
+  <g>
+    <!-- reflet flou -->
+    <ellipse cx="252" cy="500" rx="70" ry="16" fill="#FF2E9A" opacity=".25" filter="url(#soft)"/>
+    <!-- pattes -->
+    <g stroke="#ff5aa8" stroke-width="6" stroke-linecap="round" fill="none">
+      <path d="M236 452 L232 512 L214 528"/>
+      <path d="M236 452 L232 512 L252 528"/>
+      <path d="M262 452 L272 508 L258 528"/>
+      <path d="M262 452 L272 508 L290 528"/>
+    </g>
+    <!-- corps -->
+    <path d="M196 452 C182 414 200 380 244 372 C296 362 336 388 340 428 C342 456 322 478 288 480 C258 482 232 476 214 470 C204 466 198 460 196 452 Z"
+          fill="url(#flam)" stroke="#c9146f" stroke-width="4" stroke-linejoin="round"/>
+    <!-- aile -->
+    <path d="M240 396 C280 386 316 398 330 424 C314 420 296 420 280 426 C266 412 252 402 240 396 Z"
+          fill="#ff9ad0" stroke="#c9146f" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M282 428 C298 424 314 426 326 434" fill="none" stroke="#c9146f" stroke-width="2.5" opacity=".6"/>
+    <!-- queue -->
+    <path d="M338 430 C360 424 380 420 398 424 C382 434 366 446 344 452 C342 444 340 436 338 430 Z"
+          fill="#ff7ac0" stroke="#c9146f" stroke-width="3" stroke-linejoin="round"/>
+    <!-- cou en S -->
+    <path d="M212 456 C176 446 152 418 156 384 C160 350 186 330 214 336 C196 344 184 360 184 382 C184 406 200 424 226 434 C222 442 216 450 212 456 Z"
+          fill="url(#flam)" stroke="#c9146f" stroke-width="4" stroke-linejoin="round"/>
+    <!-- tête -->
+    <circle cx="196" cy="332" r="20" fill="#ff8ac8" stroke="#c9146f" stroke-width="4"/>
+    <!-- bec courbé noir/pointe -->
+    <path d="M180 330 C160 328 150 336 152 350 C158 344 168 342 178 344 C176 338 178 334 180 330 Z"
+          fill="#12043a" stroke="#12043a" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M156 348 L150 356 L160 354 Z" fill="#ffb35a"/>
+    <!-- oeil -->
+    <circle cx="200" cy="328" r="3.6" fill="#12043a"/>
+    <circle cx="201" cy="327" r="1.3" fill="#ffffff"/>
+    <!-- reflet plume -->
+    <path d="M222 388 C238 378 262 376 284 384" fill="none" stroke="#ffd9ec" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  </g>
+
+  <!-- ============ CADRE NÉON ============ -->
+  <rect x="10" y="10" width="836" height="520" fill="none" stroke="#00E0FF" stroke-width="2.5" opacity=".55" filter="url(#neon)"/>
+  <rect x="10" y="10" width="836" height="520" fill="none" stroke="#d6fbff" stroke-width="1.2" opacity=".6"/>
+
+  <!-- ============ TYPO ============ -->
+  <g font-family="Arial, 'Helvetica Neue', sans-serif" text-anchor="middle">
+    <text x="560" y="112" font-size="52" font-weight="900" letter-spacing="4" fill="#00E0FF" filter="url(#neon)" opacity=".9">MIAMI</text>
+    <text x="560" y="112" font-size="52" font-weight="900" letter-spacing="4" fill="#eafcff">MIAMI</text>
+    <text x="560" y="150" font-size="19" font-weight="700" letter-spacing="11" fill="#ffd9ec">S U N S E T</text>
+  </g>
+
+  <!-- éclats étoiles néon -->
+  <g fill="#eafcff" opacity=".9">
+    <path d="M690 90 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3 z"/>
+    <path d="M470 176 l2.4 7 7 2.4 -7 2.4 -2.4 7 -2.4 -7 -7 -2.4 7 -2.4 z"/>
+    <path d="M812 200 l2 6 6 2 -6 2 -2 6 -2 -6 -6 -2 6 -2 z"/>
+  </g>
+</svg>

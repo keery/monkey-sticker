@@ -1,0 +1,1018 @@
+{
+  "common": {
+    "addToCart": "Add to cart",
+    "viewDesigns": "Browse designs",
+    "seeAll": "See all",
+    "remove": "Remove",
+    "decrease": "Decrease",
+    "increase": "Increase",
+    "close": "Close",
+    "menu": "Menu",
+    "loading": "…",
+    "off": "off"
+  },
+  "meta": {
+    "homeTitle": "{site} — Stickers for your bank card",
+    "homeDescription": "Personalise your bank card with a sticker cut to the exact size. Chip and contactless stay 100% functional. Buy one, get one free."
+  },
+  "announcement": {
+    "text": "Cut to your card's exact size, with a chip cutout",
+    "cta": "Browse designs"
+  },
+  "nav": {
+    "allStickers": "All stickers",
+    "bestsellers": "Bestsellers",
+    "justDropped": "Just dropped",
+    "createOwn": "Make your own",
+    "faq": "FAQ",
+    "trackOrder": "Track my order"
+  },
+  "header": {
+    "cart": "Cart"
+  },
+  "footer": {
+    "tagline": "Stickers cut to the exact size of your bank card. Chip and contactless stay 100% functional.",
+    "newsletterTitle": "See new drops first",
+    "colShop": "Shop",
+    "colHelp": "Help",
+    "colLegal": "Legal",
+    "poseGuide": "Application guide",
+    "faqContact": "FAQ & Contact",
+    "shipping": "Shipping",
+    "returns": "Return policy",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy",
+    "terms": "Terms of sale",
+    "rights": "All rights reserved."
+  },
+  "newsletter": {
+    "placeholder": "Your email",
+    "submit": "Subscribe",
+    "success": "Thanks! You'll get the next drops before anyone else. ✉️",
+    "error": "Something went wrong, please try again in a moment."
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "emptyHint": "Buy one sticker, get one free. Might as well grab two.",
+    "viewDesigns": "Browse designs",
+    "remove": "Remove",
+    "bogo": {
+      "one": "Buy one, get one free ({count} free)",
+      "other": "Buy one, get one free ({count} free)"
+    },
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "shippingNote": "Shipping calculated at the next step. Tracking included."
+  },
+  "product": {
+    "from": "from"
+  },
+  "stats": {
+    "items": [
+      "100,000+ personalised cards",
+      "Apply in 30 seconds",
+      "Removes without a trace",
+      "100% contactless compatible",
+      "Shipped from France"
+    ]
+  },
+  "chip": {
+    "ariaLabel": "Chip size",
+    "compareHint": "Compare with the gold plate on your card: the cut-out window adapts to its size.",
+    "sizes": {
+      "small": {
+        "label": "Small chip",
+        "hint": "wider than tall, ~11 × 8 mm",
+        "tag": "Most common"
+      },
+      "large": {
+        "label": "Large chip",
+        "hint": "almost square, ~13 × 11 mm",
+        "tag": ""
+      },
+      "none": {
+        "label": "No chip",
+        "hint": "badge, transport card",
+        "tag": ""
+      }
+    }
+  },
+  "checkout": {
+    "button": "Checkout",
+    "buttonBusy": "Redirecting…",
+    "errorStart": "Payment couldn't start.",
+    "errorContact": "Couldn't reach payment. Try again in a moment.",
+    "couponBogo": "Buy one, get one free",
+    "shippingFree": "Free shipping (tracked letter)",
+    "shippingTracked": "Tracked letter",
+    "optionChip": "Chip",
+    "errEmpty": "Your cart is empty.",
+    "errUnconfigured": "Payment isn't enabled yet. Come back in a moment.",
+    "errUnreadable": "Cart could not be read.",
+    "errNoUrl": "Payment session without URL."
+  },
+  "home": {
+    "hero": {
+      "overline": "Bank card stickers",
+      "titleLine1": "Your card,",
+      "titleLine2": "upgraded.",
+      "subtitle": "Cut to the exact dimensions of your card, chip window included. On in 30 seconds, off without a trace.",
+      "reviews": "{count} reviews"
+    },
+    "sections": {
+      "bestsellers": {
+        "overline": "The showcase",
+        "title": "Most applied"
+      },
+      "categories": {
+        "overline": "The aisles",
+        "title": "Browse by category",
+        "linkLabel": "Browse all"
+      },
+      "justDropped": {
+        "overline": "Freshly arrived"
+      }
+    },
+    "precision": {
+      "overline": "cardcut precision",
+      "title": "Accurate to a tenth of a millimetre",
+      "body": "Every sticker is cut to the ISO dimensions of your card. The window lands right on the chip: payment, contactless and cash machines all work like before.",
+      "features": [
+        {
+          "title": "Chip exposed",
+          "desc": "the 14 × 11 mm window leaves the contact free"
+        },
+        {
+          "title": "Contactless intact",
+          "desc": "thin vinyl, the NFC antenna is never blocked"
+        },
+        {
+          "title": "Removes without a trace",
+          "desc": "peels off from a corner, zero residue"
+        }
+      ]
+    },
+    "install": {
+      "overline": "Applying it",
+      "title": "On in 30 seconds",
+      "steps": [
+        {
+          "n": "01",
+          "title": "Clean",
+          "text": "One wipe with the cloth provided and your card is ready."
+        },
+        {
+          "n": "02",
+          "title": "Align",
+          "text": "Edge to edge: the cut is the exact size, the window lands right on the chip."
+        },
+        {
+          "n": "03",
+          "title": "Smooth down",
+          "text": "From the centre outwards. Thirty seconds, zero bubbles with the kit."
+        }
+      ]
+    },
+    "faq": {
+      "heading": "The questions we get asked",
+      "moreLead": "Another one?",
+      "moreLink": "The full FAQ",
+      "moreTail": "answers everything.",
+      "items": [
+        {
+          "title": "Do the chip and contactless still work?",
+          "content": "Yes, 100%. The cut-out window leaves the chip fully exposed and the sticker is thin enough not to interfere with contactless or cash machines. Your card stays accepted everywhere: card readers, ATMs, kiosks."
+        },
+        {
+          "title": "Is it allowed by my bank? Is it legal?",
+          "content": "Yes. The sticker covers the plastic without changing any data: the chip stays exposed, the number and magnetic stripe untouched. Your card stays valid and accepted everywhere. It belongs to your bank: just peel the sticker off, residue-free, before returning it."
+        },
+        {
+          "title": "How long does it last?",
+          "content": "The vinyl is built for real life: wallet, rubbing, heat. Count on several years of normal use. And if you change your mind, you change the design."
+        },
+        {
+          "title": "Can I remove it without damaging my card?",
+          "content": "Yes. The sticker peels off from a corner, with no glue residue. Your card comes out like new, handy when you renew it or want a new design."
+        }
+      ]
+    },
+    "offer": {
+      "titleLine1": "Buy one",
+      "titleLine2": "= one free.",
+      "body": "Every sticker ordered hides a second one. For your backup card, or for a mate.",
+      "cta": "Pick two designs"
+    },
+    "earlyAccess": {
+      "title": "Early access",
+      "body": "New designs as a preview, before they hit the showcase."
+    },
+    "schematic": {
+      "ariaLabel": "Dimensioned diagram of the sticker: {width} by {height} millimetres, chip window of {chipW} by {chipH} millimetres at {edge} millimetres from the edge, corners rounded to {radius} millimetres",
+      "chipWindow": "Chip window · {w} × {h} mm",
+      "cornerRadius": "R {r} mm"
+    }
+  },
+  "language": {
+    "label": "Language"
+  },
+  "checkoutPage": {
+    "title": "Thank you!",
+    "orderIntro": "Your order",
+    "statusConfirmed": "is confirmed",
+    "statusReceived": "has been received",
+    "emailNote": "A confirmation email is on its way from Stripe.",
+    "totalPaidLabel": "Total paid",
+    "itemCountOne": "{count} item",
+    "itemCountPlural": "{count} items",
+    "freeCountOne": "{count} free",
+    "freeCountPlural": "{count} free",
+    "paymentPending": "Confirming your payment… you can safely close this page.",
+    "noOrder": "Your payment has been received. If you don't get a confirmation email, reach out via the FAQ & Contact page.",
+    "shippingNote": "We're preparing your card, shipped within 48 h from France.",
+    "ctaContinue": "Keep shopping",
+    "ctaPose": "Apply in 60 s",
+    "cancelTitle": "Payment cancelled",
+    "cancelBody": "No worries, nothing was charged. Your cart is waiting for you, pick up whenever you like.",
+    "cancelCtaBack": "Back to the store",
+    "cancelCtaQuestion": "A question?"
+  },
+  "collection": {
+    "breadcrumbHome": "Home",
+    "eyebrow": "The showroom",
+    "countOne": "{count} design — buy one, get one free",
+    "countMany": "{count} designs — buy one, get one free",
+    "sortLabel": "Sort:",
+    "sortSubmit": "OK",
+    "sort": {
+      "featured": "Featured",
+      "best-selling": "Best selling",
+      "az": "Alphabetical A-Z",
+      "za": "Alphabetical Z-A",
+      "price-asc": "Price, low to high",
+      "price-desc": "Price, high to low"
+    },
+    "chipAll": "All",
+    "empty": "No designs in this category just yet.",
+    "ctaTitle": "Can't find your favourite?",
+    "ctaText": "Upload your own image and create a one-of-a-kind sticker, cut to the exact same dimensions.",
+    "ctaButton": "Make your own"
+  },
+  "createOwn": {
+    "meta": {
+      "title": "Make your own: your design on your card | Monkey Sticker",
+      "description": "Upload your photo, logo or illustration and frame it on your bank card. Cut to the exact dimensions, chip window included, contactless intact."
+    },
+    "hero": {
+      "overline": "The workshop",
+      "title": "Make your own",
+      "subtitle": "Your photo, your logo, your thing: cut to the exact dimensions of your card, chip window included.",
+      "reviews": "{count} reviews",
+      "perSticker": "per sticker"
+    },
+    "faq": {
+      "title": "Before you hit print",
+      "moreLead": "Another question?",
+      "moreLink": "The full FAQ",
+      "moreTail": "answers everything.",
+      "items": [
+        {
+          "title": "Which images give the best result?",
+          "content": "A sharp photo, a logo or an illustration at least 1000 px wide. If the resolution gets too low while you frame it, an alert shows up live: zoom out a little or pick a bigger image, and the result will be flawless."
+        },
+        {
+          "title": "What if there's a problem with my file?",
+          "content": "A human checks every order before printing. Iffy framing, borderline resolution, a clipped element: we get in touch before starting the cut."
+        },
+        {
+          "title": "Can I use any image?",
+          "content": "Your photos, your creations, your cat, your crew: anything that's yours. Brand logos and protected visuals only if you hold the rights."
+        },
+        {
+          "title": "Big or small chip, how do I know?",
+          "content": "Look at the gold plate on your card. Clearly wider than it is tall (~11 × 8 mm), with a gap above the numbers: small chip, the most common on recent cards. Almost square (~13 × 11 mm), often right next to the numbers: big chip. Careful, some banks issue both: trust your card, not its model. The selector shows both shapes to scale, and the cut-out window adapts."
+        },
+        {
+          "title": "Do the chip and contactless still work?",
+          "content": "Yes, 100 %. The chip window is pre-cut to the exact dimensions of your card and the vinyl is thin enough never to get in the way of contactless or of ATMs."
+        }
+      ]
+    },
+    "showcase": {
+      "overline": "No image handy?",
+      "title": "The showcase is waiting",
+      "allLink": "All the designs →"
+    },
+    "steps": {
+      "image": "Your image",
+      "crop": "The framing",
+      "chip": "Your card's chip",
+      "finishQty": "Finish and quantity"
+    },
+    "upload": {
+      "choose": "Choose an image",
+      "replace": "Replace the image",
+      "hint": "Photo, logo, illustration: anything that's yours."
+    },
+    "dropzone": {
+      "title": "Your design here",
+      "hint": "Drop an image, paste it (Ctrl V), or",
+      "formats": "JPG · PNG · WebP · ideal ≥ {min} px wide"
+    },
+    "errors": {
+      "type": "This format isn't supported. Use JPG, PNG or WebP.",
+      "tooLarge": "This image is too heavy (max {max} MB).",
+      "unreadable": "Couldn't read this image. Try another file."
+    },
+    "preview": {
+      "ariaLabel": "Framing your image on the card. Arrows to move, plus and minus to zoom, zero to recentre.",
+      "imageAlt": "Your design framed on the card",
+      "dimensions": "85.6 × 53.98 mm · cardcut cut",
+      "sharpnessBadge": "sharpness {dpi} dpi · too low",
+      "chipHint": "The gold frame is the cut-out window: your real chip stays visible right there.",
+      "noChipHint": "No chip window: the sticker covers the whole surface of the card."
+    },
+    "crop": {
+      "zoomLabel": "Zoom",
+      "hintMobile": "Drag to move, pinch to zoom.",
+      "hintDesktop": "Drag to move, scroll to zoom. With the keyboard: arrows, + and −.",
+      "recenter": "Recentre",
+      "sharpnessWarning": "At this zoom level, the print will lack sharpness: zoom out a little or pick a bigger image."
+    },
+    "finish": {
+      "groupLabel": "Finish"
+    },
+    "finishes": {
+      "Mat": {
+        "label": "Matte",
+        "hint": "soft touch, zero glare"
+      },
+      "Brillant": {
+        "label": "Glossy",
+        "hint": "vivid colours, glazed effect"
+      }
+    },
+    "qty": {
+      "decrease": "Decrease quantity",
+      "increase": "Increase quantity"
+    },
+    "bogo": {
+      "upsell": "Go for 2: the 2nd is free",
+      "freeCount": {
+        "one": "{count} free",
+        "other": "{count} free"
+      },
+      "freeTail": "with buy one, get one free."
+    },
+    "cta": {
+      "addToCart": "Add to cart",
+      "chooseFirst": "Choose an image to get started",
+      "added": "✓ Added! Your design will be reviewed by us before printing."
+    },
+    "guarantees": [
+      {
+        "title": "Human review",
+        "desc": "we check your file before printing"
+      },
+      {
+        "title": "Shipped within 48 h",
+        "desc": "from France, by tracked letter"
+      },
+      {
+        "title": "Print defect",
+        "desc": "we reprint it for you"
+      }
+    ],
+    "mobileBar": {
+      "stickers": {
+        "one": "{count} sticker",
+        "other": "{count} stickers"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "We answer everything",
+    "intro": "The answers to the questions we get asked the most.",
+    "items": [
+      {
+        "q": "Does the sticker interfere with the chip or contactless?",
+        "a": "No. The chip window is pre-cut to the exact dimensions, so the chip stays fully exposed. The vinyl is thin enough to let contactless (NFC) through with no noticeable weakening. ATMs, card terminals, transit gates: everything works as normal."
+      },
+      {
+        "q": "Is it allowed by my bank? Is it legal?",
+        "a": "Yes. The sticker only covers the plastic on the front face: it changes no data, leaves the chip fully exposed and alters neither the number nor the magnetic stripe on the back. Your card stays valid and accepted everywhere. Since it remains your bank's property, simply peel the sticker off — it lifts from a corner with no residue — before returning or renewing the card."
+      },
+      {
+        "q": "Could an ATM refuse or swallow my card?",
+        "a": "No. The vinyl is ultra-thin: your card keeps its original thickness and slots into ATMs, card terminals and readers exactly as before. The pre-cut window keeps the chip clear, and the magnetic stripe on the back is never covered."
+      },
+      {
+        "q": "Does it work on every card?",
+        "a": "Yes, on any card in the standard ISO format (bank, transit, ID badge). Cards with embossed (raised) numbers are compatible: the vinyl hugs the relief. Vertical cards too: the chip stays in the same physical spot."
+      },
+      {
+        "q": "How long does it last?",
+        "a": "The vinyl is built for real wallet life: rubbing, heat, repeated taps on terminals. Count on several years of normal use with no lifting at the edges. Fancy a change before then? Just apply a new design."
+      },
+      {
+        "q": "How do I apply the sticker cleanly?",
+        "a": "Degrease the card (with the wipe from the kit or household alcohol), line the window up with the chip, then apply, smoothing from the centre outwards. If a small bubble appears, prick it with a needle and smooth it flat. The application kit (squeegee + wipe + microfibre) guarantees a flawless fit."
+      },
+      {
+        "q": "Can I remove the sticker? Will my card be damaged?",
+        "a": "The sticker peels off by gently pulling from a corner, leaving no glue behind. Your card comes out intact. A removed sticker can't be reapplied: just order a fresh one (nice bonus: buy one, get one free)."
+      },
+      {
+        "q": "What are the delivery times?",
+        "a": "Shipped within 48 working hours from France, as a tracked letter. Allow 2 to 4 working days within mainland France, 3 to 7 days across Europe. You get the tracking number by email."
+      },
+      {
+        "q": "What if my sticker has a defect?",
+        "a": "A printing flaw or an imperfect cut? We'll send you a new sticker. Write to us using the form below with a photo, and we'll reply within 24 working hours."
+      }
+    ],
+    "contact": {
+      "heading": "Another question?",
+      "subheading": "A reply within 24 working hours, promise.",
+      "success": "Message sent! We'll get back to you within 24 working hours. 📬",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "orderPlaceholder": "Order no. (optional)",
+      "messagePlaceholder": "Your message",
+      "submit": "Send"
+    },
+    "metaDescription": "Frequently asked questions about bank card stickers: application, chip and contactless, shipping, returns. Plus a form to contact us."
+  },
+  "legal": {
+    "kicker": "Legal information",
+    "lastUpdated": "Last updated: 15 August 2026.",
+    "disclaimer": "Informative template to adapt to your business. Have the final version reviewed by a legal professional qualified for your sales markets.",
+    "livraison": {
+      "title": "Shipping",
+      "introduction": "The information below is to be adapted to your shipping methods and destinations.",
+      "sections": [
+        {
+          "title": "Shipping and tracking",
+          "paragraphs": [
+            "Orders are prepared and shipped from France, including for customers located in the United Kingdom and the rest of Europe. Depending on the destination, import formalities or taxes may apply (see our terms and conditions of sale).",
+            "[TO COMPLETE: preparation times, carriers, areas served and tracking arrangements.]"
+          ]
+        }
+      ]
+    },
+    "retours": {
+      "title": "Return policy",
+      "introduction": "This template is to be completed with your information and operational choices before publication. It is drafted for a business established in the United Kingdom selling online to consumers.",
+      "sections": [
+        {
+          "title": "1. Contacting us",
+          "paragraphs": [
+            "For any return, refund or replacement request, contact Geno Studio Ltd at hello@monkeysticker.fr, stating your order number, the item(s) concerned and the reason for your request. We will reply with the steps to follow."
+          ]
+        },
+        {
+          "title": "2. Right to cancel",
+          "paragraphs": [
+            "If you are buying as a consumer and no legal exception applies, you may cancel your order within 14 days of receiving the goods, without having to give a reason for your decision. This information is provided in particular under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "To exercise this right, send us a clear statement of your decision before this period expires. You may use our cancellation form [TO COMPLETE: link or arrangements]; using it is not mandatory."
+          ],
+          "notice": "Period to verify before publication: after notifying us of your cancellation, you usually have a further 14 days to return the goods. Adapt this text to your sales markets and to any more favourable period you choose to offer."
+        },
+        {
+          "title": "3. Personalised items",
+          "paragraphs": [
+            "The right to cancel does not apply to personalised stickers — created from your own artwork (the “Make your own” offer) or from any other specification you send us. Made and printed on demand, especially for you, they fall under the exception provided by the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 for clearly personalised goods.",
+            "In practice: as long as printing has not started, you may ask us to cancel your order; once printing has begun, an order for a personalised product can no longer be cancelled or returned. This exclusion does not apply if the item is defective, damaged or not as described — in those cases, your rights remain in full (see “Defective, damaged or incorrect product”).",
+            "Catalogue stickers, which are not personalised, remain covered by the right to cancel above. For those items, we may deduct from your refund any loss in value resulting from handling beyond what is necessary to establish the nature, characteristics and proper functioning of the product."
+          ]
+        },
+        {
+          "title": "4. Returning an item",
+          "paragraphs": [
+            "When a return is justified (for example a cancellation of a non-personalised sticker), we will give you the address and arrangements: 6 rue Voltaire, 93100 Montreuil, France. As our orders ship from France, the return address is in France and is not that of the registered office in the United Kingdom — only use the address we give you, and do not send anything before receiving our instructions.",
+            "For a cancellation concerning a non-personalised item, you return the goods to us within 14 days of notifying your cancellation, at your own expense. Return costs are borne by us only if the item is defective, not as described or shipped in error. Keep proof of postage until the refund is confirmed."
+          ]
+        },
+        {
+          "title": "5. Refunds",
+          "paragraphs": [
+            "In the event of cancellation, we refund you within 14 days. As permitted by law, we may withhold that refund until we have received the returned goods or, if earlier, until you provide proof that you have sent them back — whichever comes first. The refund includes the cost of the initial standard delivery where the law requires it; return costs, however, remain your responsibility.",
+            "The refund is made using the payment method used when placing the order, unless expressly agreed otherwise, and at no cost to you."
+          ]
+        },
+        {
+          "title": "6. Defective, damaged or incorrect product",
+          "paragraphs": [
+            "If a product is defective, damaged on arrival or does not match your order, contact us promptly with photos and your order number. Our default solution is to reprint and re-ship the item free of charge, without you having to return it to us; depending on the case and your legal rights, a refund is also possible.",
+            "This policy does not limit your statutory consumer rights, in particular the rights applicable to goods that are not as described or defective."
+          ]
+        }
+      ]
+    },
+    "politique-de-retour": {
+      "title": "Return policy",
+      "introduction": "This template is to be completed with your information and operational choices before publication. It is drafted for a business established in the United Kingdom selling online to consumers.",
+      "sections": [
+        {
+          "title": "1. Contacting us",
+          "paragraphs": [
+            "For any return, refund or replacement request, contact Geno Studio Ltd at hello@monkeysticker.fr, stating your order number, the item(s) concerned and the reason for your request. We will reply with the steps to follow."
+          ]
+        },
+        {
+          "title": "2. Right to cancel",
+          "paragraphs": [
+            "If you are buying as a consumer and no legal exception applies, you may cancel your order within 14 days of receiving the goods, without having to give a reason for your decision. This information is provided in particular under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "To exercise this right, send us a clear statement of your decision before this period expires. You may use our cancellation form [TO COMPLETE: link or arrangements]; using it is not mandatory."
+          ],
+          "notice": "Period to verify before publication: after notifying us of your cancellation, you usually have a further 14 days to return the goods. Adapt this text to your sales markets and to any more favourable period you choose to offer."
+        },
+        {
+          "title": "3. Personalised items",
+          "paragraphs": [
+            "The right to cancel does not apply to personalised stickers — created from your own artwork (the “Make your own” offer) or from any other specification you send us. Made and printed on demand, especially for you, they fall under the exception provided by the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 for clearly personalised goods.",
+            "In practice: as long as printing has not started, you may ask us to cancel your order; once printing has begun, an order for a personalised product can no longer be cancelled or returned. This exclusion does not apply if the item is defective, damaged or not as described — in those cases, your rights remain in full (see “Defective, damaged or incorrect product”).",
+            "Catalogue stickers, which are not personalised, remain covered by the right to cancel above. For those items, we may deduct from your refund any loss in value resulting from handling beyond what is necessary to establish the nature, characteristics and proper functioning of the product."
+          ]
+        },
+        {
+          "title": "4. Returning an item",
+          "paragraphs": [
+            "When a return is justified (for example a cancellation of a non-personalised sticker), we will give you the address and arrangements: 6 rue Voltaire, 93100 Montreuil, France. As our orders ship from France, the return address is in France and is not that of the registered office in the United Kingdom — only use the address we give you, and do not send anything before receiving our instructions.",
+            "For a cancellation concerning a non-personalised item, you return the goods to us within 14 days of notifying your cancellation, at your own expense. Return costs are borne by us only if the item is defective, not as described or shipped in error. Keep proof of postage until the refund is confirmed."
+          ]
+        },
+        {
+          "title": "5. Refunds",
+          "paragraphs": [
+            "In the event of cancellation, we refund you within 14 days. As permitted by law, we may withhold that refund until we have received the returned goods or, if earlier, until you provide proof that you have sent them back — whichever comes first. The refund includes the cost of the initial standard delivery where the law requires it; return costs, however, remain your responsibility.",
+            "The refund is made using the payment method used when placing the order, unless expressly agreed otherwise, and at no cost to you."
+          ]
+        },
+        {
+          "title": "6. Defective, damaged or incorrect product",
+          "paragraphs": [
+            "If a product is defective, damaged on arrival or does not match your order, contact us promptly with photos and your order number. Our default solution is to reprint and re-ship the item free of charge, without you having to return it to us; depending on the case and your legal rights, a refund is also possible.",
+            "This policy does not limit your statutory consumer rights, in particular the rights applicable to goods that are not as described or defective."
+          ]
+        }
+      ]
+    },
+    "mentions-legales": {
+      "title": "Legal notice",
+      "introduction": "This notice identifies the company operating the site. Replace each bracketed field with your verified information before publication.",
+      "sections": [
+        {
+          "title": "1. Site publisher",
+          "paragraphs": [
+            "This site is published by Geno Studio Ltd, a private limited company (Ltd) registered in England and Wales under number 17113844."
+          ],
+          "bullets": [
+            "Registered office: Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, United Kingdom.",
+            "Correspondence address: 6 rue Voltaire, 93100 Montreuil, France.",
+            "UK VAT number: [TO COMPLETE: UK VAT number, if applicable].",
+            "E-mail: hello@monkeysticker.fr.",
+            "Telephone: [TO COMPLETE: telephone number, if you provide one]."
+          ]
+        },
+        {
+          "title": "2. Publication manager",
+          "paragraphs": [
+            "Publication manager: [TO COMPLETE: name and role].",
+            "Editorial contact: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "3. Hosting",
+          "paragraphs": [
+            "The site (front-end) is hosted by Vercel Inc., 440 N Barranca Ave, PMB 4133, Covina, CA 91723, USA — https://vercel.com. The application server (back-end) is hosted by Fly.io, Inc., 321 North Clark Street, Chicago, IL, USA — legal@fly.io. The database is hosted by Render Services, Inc., 525 Brannan Street, Ste 300, San Francisco, CA 94107, USA — https://render.com."
+          ]
+        },
+        {
+          "title": "4. Intellectual property",
+          "paragraphs": [
+            "Unless otherwise stated, the elements of the site — in particular texts, images, logos, designs, videos and code — are protected by intellectual property rights. Any unauthorised reproduction, adaptation or use is prohibited, save with the prior written authorisation of Geno Studio Ltd or unless otherwise permitted by law."
+          ]
+        },
+        {
+          "title": "5. Personal data and cookies",
+          "paragraphs": [
+            "The arrangements for collecting and processing personal data are detailed in our privacy policy: /pages/confidentialite.",
+            "If you use cookies or similar technologies that are not strictly necessary, state your purposes, your providers and how to manage choices in your privacy policy and your consent tool: [TO COMPLETE: link or description]."
+          ]
+        },
+        {
+          "title": "6. Governing law and jurisdiction",
+          "paragraphs": [
+            "This notice is governed by the law of England and Wales, subject to the mandatory consumer protection provisions applicable in the customer's country of residence. The competent courts are determined by the applicable legal rules."
+          ]
+        }
+      ]
+    },
+    "confidentialite": {
+      "title": "Privacy policy",
+      "introduction": "This policy explains which personal data Geno Studio Ltd collects via this site, why, how long it is kept and what your rights are. It is drawn up with regard to the UK GDPR and the GDPR (EU). This template should be reviewed by a professional and adjusted to your actual processing before publication.",
+      "sections": [
+        {
+          "title": "1. Data controller",
+          "paragraphs": [
+            "The data controller is Geno Studio Ltd, a private limited company registered in England and Wales under number 17113844, whose registered office is at Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, United Kingdom.",
+            "For any question about your data or to exercise your rights: hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "2. Data we collect",
+          "bullets": [
+            "Order and delivery: name, postal address, e-mail and order details.",
+            "Payment: handled by Stripe. We do not store card numbers; we receive limited information from Stripe (payment status, billing details).",
+            "Personalisation: the artwork you upload for a personalised sticker (the “Make your own” offer).",
+            "Newsletter: your e-mail address and the source of the sign-up, if you subscribe.",
+            "Technical data: server logs and connection data necessary for the operation and security of the site."
+          ]
+        },
+        {
+          "title": "3. Purposes and legal bases",
+          "bullets": [
+            "Processing and delivering your orders, contacting you about them and providing after-sales service — performance of the contract (art. 6(1)(b)).",
+            "Sending you the newsletter — your consent (art. 6(1)(a)), which can be withdrawn at any time.",
+            "Complying with our accounting and tax obligations — legal obligation (art. 6(1)(c)).",
+            "Securing the site, preventing fraud and improving our services — legitimate interest (art. 6(1)(f))."
+          ]
+        },
+        {
+          "title": "4. Retention periods",
+          "paragraphs": [
+            "Order and billing data: for as long as necessary to perform the contract, then for the legal accounting retention period — [TO COMPLETE: period, e.g. 6 years].",
+            "Newsletter sign-up: until you unsubscribe, then deletion or anonymisation.",
+            "Uploaded personalised artwork: [TO COMPLETE: file retention period]."
+          ]
+        },
+        {
+          "title": "5. Processors and recipients",
+          "paragraphs": [
+            "We do not sell your data. We share it only with the providers strictly necessary to the service, bound by contract to protect it:"
+          ],
+          "bullets": [
+            "Site hosting (front-end): Vercel Inc. (USA). Application server: Fly.io, Inc. (USA). Database: Render Services, Inc. (USA).",
+            "Payment: Stripe — for a European customer, the contracting party is Stripe Payments Europe, Limited (Ireland).",
+            "Shipping from France: [TO COMPLETE: carrier(s), where applicable]."
+          ]
+        },
+        {
+          "title": "6. Transfers outside the European Union",
+          "paragraphs": [
+            "Some of our providers are located outside the European Union, notably in the United States: Vercel (site hosting), Fly.io (application server) and Render (database). Your personal data may therefore be transferred to and processed in the United States.",
+            "These transfers are covered by appropriate safeguards under the UK GDPR and the GDPR — standard contractual clauses (SCCs) and/or EU–US Data Privacy Framework certification, set out in these providers' data processing agreements (DPAs). Stripe also applies such safeguards. You may request a copy of the safeguards in place by writing to hello@monkeysticker.fr."
+          ]
+        },
+        {
+          "title": "7. Cookies",
+          "paragraphs": [
+            "The site uses cookies and technologies strictly necessary for its operation (for example the cart and payment), which do not require your consent. [TO COMPLETE: list here any non-essential cookies — analytics, marketing — and how to obtain and manage your consent.]"
+          ]
+        },
+        {
+          "title": "8. Your rights",
+          "paragraphs": [
+            "You have the rights of access, rectification, erasure, restriction, objection and portability, as well as the right to withdraw your consent at any time (without affecting processing already carried out). To exercise them, write to hello@monkeysticker.fr.",
+            "If you consider that your rights are not being respected, you may lodge a complaint with a supervisory authority: in the United Kingdom, the Information Commissioner's Office (ICO); in the EU, the authority of your country of residence (in France, the CNIL)."
+          ]
+        }
+      ]
+    },
+    "cgv": {
+      "title": "Terms and conditions of sale",
+      "introduction": "These terms and conditions of sale are a template to adapt to your business, your countries of sale and your commercial arrangements. Replace all bracketed fields before publication.",
+      "sections": [
+        {
+          "title": "1. Seller's identity and scope",
+          "paragraphs": [
+            "These terms govern sales made on this site between Geno Studio Ltd, a company established in the United Kingdom, registered under number 17113844, whose registered office is at Suite 3H, The Old Courthouse, Chapel Street, Dukinfield, SK16 4DT, United Kingdom, and any customer purchasing the products offered on the site.",
+            "They apply to both consumers and business customers. The rights that the law reserves for consumers — in particular the 14-day right to cancel and the provisions of our Return policy that follow from it — benefit only customers acting for private purposes: a business customer does not have a right to cancel, without prejudice to the statutory guarantees of conformity applicable to goods."
+          ]
+        },
+        {
+          "title": "2. Products",
+          "paragraphs": [
+            "The essential characteristics of each product appear on its page before the order is confirmed. Photographs and visuals are provided for illustration; slight variations in colour or rendering may exist depending on screens and manufacturing processes.",
+            "[TO COMPLETE: product warnings, usage limits and application instructions applicable to your catalogue.]"
+          ]
+        },
+        {
+          "title": "3. Prices, taxes and shipping costs",
+          "paragraphs": [
+            "The prices displayed are shown in euros (EUR) and state whether the applicable taxes are included or added at the time of payment. Any applicable shipping costs, duties or import taxes are presented before the order is confirmed.",
+            "Our products are shipped from France. Depending on the delivery country, customs duties, import VAT or clearance fees may apply: orders destined for the United Kingdom are shipped from the European Union and may give rise to import formalities and taxes, whereas orders delivered within the European Union do not give rise to customs formalities. State who bears these costs: [TO COMPLETE: allocation of duties, import VAT and clearance fees, any Incoterm (e.g. DDP or DAP)]."
+          ],
+          "notice": "VAT to be verified: a UK company shipping from France may have VAT obligations in the European Union (VAT registration, OSS/IOSS one-stop shop) and in the United Kingdom. Have your VAT treatment for price display and invoicing confirmed by a competent adviser: [TO COMPLETE: VAT regime applied]."
+        },
+        {
+          "title": "4. Order and formation of the contract",
+          "paragraphs": [
+            "The customer selects the products, checks the order summary, corrects any errors, accepts these terms and then proceeds to payment. The order confirmation sent by e-mail summarises the contract on a durable medium.",
+            "We may refuse or cancel an order in the event of unavailability, an obvious pricing error, suspected fraud or a reasonable inability to fulfil the order. Where applicable, sums collected are refunded using the payment method used."
+          ]
+        },
+        {
+          "title": "5. Payment",
+          "paragraphs": [
+            "Payment is due at the time of the order, via the means displayed at checkout. Payments are processed by Stripe. We do not keep bank card data beyond what is necessary for this provider to process the payment."
+          ]
+        },
+        {
+          "title": "6. Delivery",
+          "paragraphs": [
+            "We deliver to the address given when placing the order, in the territories specified on the site. Orders are prepared and shipped from France; times may vary depending on the destination and any customs formalities. Preparation and delivery times are indicated before purchase and in the order confirmation. Unless otherwise agreed, the goods are delivered no later than 30 days after the contract is concluded.",
+            "If delivery is significantly delayed, contact us at hello@monkeysticker.fr. Your rights in the event of delay, inability to deliver or loss are those provided by the applicable law."
+          ]
+        },
+        {
+          "title": "7. Right to cancel",
+          "paragraphs": [
+            "Where you have the status of a consumer and no exception applies, you may cancel your order within 14 days of receiving the goods, in accordance in particular with the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.",
+            "The arrangements for exercising this right, any exclusions for personalised goods, return costs and refund arrangements are detailed in our Return policy: /pages/politique-de-retour."
+          ]
+        },
+        {
+          "title": "8. Defective products and guarantees",
+          "paragraphs": [
+            "Nothing in these terms limits the customer's statutory rights. Products must be of satisfactory quality, fit for their usual purpose and match their description, within the limits set by the applicable law.",
+            "To report a problem, contact hello@monkeysticker.fr with your order number and, if possible, photos. We will assess the request and propose the appropriate solution in accordance with your rights."
+          ]
+        },
+        {
+          "title": "9. Uploaded content and intellectual property",
+          "paragraphs": [
+            "When you create a personalised sticker, you upload content (photo, logo, illustration, text). You remain solely responsible for it. By uploading it, you represent and warrant that you hold all necessary rights — copyright, trade mark rights, and the image/personality rights of any people shown — or that you have obtained the permissions required to use it and have it reproduced on your order.",
+            "You agree not to upload any content that is unlawful, infringing, defamatory, hateful, or that infringes a third party's rights. We may refuse or cancel any order whose content appears to infringe rights or breach the law; in that case, any amounts already paid for that order are refunded to you.",
+            "You grant us only the limited licence necessary to reproduce, print, cut and deliver your order, and to keep the file for as long as processing the order requires. We claim no ownership over your content.",
+            "You will indemnify us against any third-party claim, action or award arising from the content you have uploaded, in particular for infringement of an intellectual property right or an image/personality right. To the extent permitted by law, we accept no liability for content provided by customers."
+          ]
+        },
+        {
+          "title": "10. Liability",
+          "paragraphs": [
+            "We neither limit nor exclude our liability where such a limitation or exclusion would be unlawful, in particular in the event of fraud, death or injury resulting from our negligence, or where the consumer's statutory rights preclude it.",
+            "Subject to the foregoing, our liability is limited to the fullest extent permitted by law. [TO COMPLETE: any limits adapted to your business, following legal advice]."
+          ]
+        },
+        {
+          "title": "11. Governing law and jurisdiction",
+          "paragraphs": [
+            "These terms of sale are governed by the law of England and Wales. This clause does not deprive the consumer of the mandatory protection afforded to them by the applicable rules of their country of habitual residence.",
+            "Any dispute falls within the competent courts determined by the applicable procedural and consumer protection rules. [TO COMPLETE: contact details of the complaints department and any amicable procedure]."
+          ]
+        }
+      ]
+    }
+  },
+  "pose": {
+    "eyebrow": "How to apply",
+    "title": "Applied in 60 seconds",
+    "intro": {
+      "part1": "Every order ships with an ",
+      "cradle": "alignment cradle",
+      "part2": ", a wipe, a mini squeegee and a ",
+      "spare": "spare backup sticker",
+      "part3": ". The cradle handles the alignment for you — all that's left is three simple moves."
+    },
+    "video": {
+      "label": "The application on video (30s) —",
+      "status": "shoot in progress"
+    },
+    "steps": [
+      {
+        "n": "01",
+        "title": "Prep",
+        "text": "Clean the front of your card with the wipe provided (one direction, no circles). Wait 10 seconds, then seat the card at the bottom of the cardboard cradle."
+      },
+      {
+        "n": "02",
+        "title": "Align — without sticking",
+        "text": "Sticker still on its backing: slide the two tabs into the cradle's slots. The window lands right on the chip. Nothing sticks yet, so take your time."
+      },
+      {
+        "n": "03",
+        "title": "Stick",
+        "text": "Fold the sticker over, peel off the bottom half of the backing, and press with your thumb from the centre outwards. Detach the tabs, pull the rest of the backing while pressing."
+      }
+    ],
+    "panic": {
+      "title": "Don't panic",
+      "subtitle": "The three things that can happen, and why none of them is a problem.",
+      "items": [
+        {
+          "title": "A few small bubbles?",
+          "content": "Perfectly normal: they vanish on their own within 24-48 h. A big bubble? Push it towards the nearest edge with your nail or the mini squeegee provided."
+        },
+        {
+          "title": "Off to a bad start?",
+          "content": "You have about 60 seconds to gently peel it off and start over — and there's a second sticker in your parcel, made exactly for this. Breathe."
+        },
+        {
+          "title": "Does your card have a raised (embossed) name?",
+          "content": "Press for longer around the letters with your thumb. Slight bubbles may remain along the raised parts: that's normal and it fades away."
+        },
+        {
+          "title": "Really messed it up?",
+          "content": "Use the second sticker from your parcel (buy one, get one free) and work through the steps one by one: the second attempt is almost always the good one."
+        }
+      ]
+    },
+    "cta": {
+      "text": "No sticker yet?",
+      "included": "The cradle and the 2nd sticker are included with every order."
+    },
+    "metaTitle": "Application in 60 seconds",
+    "metaDescription": "Apply your bank card sticker perfectly the first time: alignment cradle included, 3 steps, 30-second video."
+  },
+  "productPage": {
+    "breadcrumbHome": "Home",
+    "breadcrumbStickers": "Stickers",
+    "viewNoWindow": "Without chip window",
+    "viewOnCard": "On the card",
+    "reviewCount": {
+      "one": "{count} review",
+      "other": "{count} reviews"
+    },
+    "accDescriptionTitle": "Description",
+    "accDescriptionFallback": "The « {name} » sticker dresses up your bank card at the exact ISO size (85.6 × 54 mm, rounded corners). The chip window is pre-cut: the chip stays visible and functional, and so does contactless. Thin vinyl that resists wallet wear, peels off without residue.",
+    "accApplicationTitle": "Apply in 30 seconds",
+    "accApplicationContent": "1. Degrease your card (wipe included in the kit). 2. Peel the sticker and line up the left edge with the chip: the window guides you. 3. Squeegee from the centre out to the edges. Tip: the application kit makes for a perfect fit on the first try.",
+    "accShippingTitle": "Shipping & returns",
+    "accShippingContent": "Shipped within 48 h from France, by tracked letter (2–4 business days). A printing flaw? We'll send you a new sticker — just reach out via the contact page with a photo.",
+    "reviewsEyebrow": "Verified reviews",
+    "reviewsTitle": "They love it",
+    "verifiedReviewCount": {
+      "one": "{count} verified review",
+      "other": "{count} verified reviews"
+    },
+    "reviews": [
+      {
+        "name": "Léa M.",
+        "text": "Super easy to apply, the window lands right on the chip. My card is unrecognisable (in a good way).",
+        "rating": 5
+      },
+      {
+        "name": "Thomas R.",
+        "text": "Contactless works perfectly, no difference when paying. The matte finish is really clean.",
+        "rating": 5
+      },
+      {
+        "name": "Sarah K.",
+        "text": "Second order, buy one get one free is great for switching it up depending on my mood.",
+        "rating": 4
+      }
+    ],
+    "reviewByline": "{name} — verified purchase",
+    "recosEyebrow": "The showroom",
+    "recosTitle": "You'll also like",
+    "recosSeeAll": "See all →",
+    "deliveryEstimate": "Estimated delivery:",
+    "bundleHeading": "Pick your pack — buy one, get one free",
+    "bundleTags": {
+      "popular": "Popular",
+      "bestValue": "Best value"
+    },
+    "bundleLabel": {
+      "one": "{count} sticker",
+      "other": "{count} stickers"
+    },
+    "bundleFree": {
+      "one": "including {count} free",
+      "other": "including {count} free"
+    },
+    "chipHeading": "Your card's chip",
+    "includedTitle": "Included with every order",
+    "includedItems": [
+      "Application kit: alignment cradle, squeegee, wipe",
+      "One sticker in every two is free — enough to redo the application or switch up your style"
+    ],
+    "recap": "{count} stickers – {free}",
+    "recapFree": {
+      "one": "{count} free",
+      "other": "{count} free"
+    },
+    "quantity": "Quantity",
+    "addToCart": "Add to cart — {price}",
+    "featureCradle": "The application cradle does the alignment for you —",
+    "featureCradleLink": "apply in 60 s",
+    "featureFormat": "Exact bank card size (85.6 × 54 mm), window cut to the size of your chip",
+    "featureContactless": "100% compatible with contactless and ATMs",
+    "featureAllowed": "No data altered: your card stays valid and accepted everywhere",
+    "featureResidue": "Peels off without residue",
+    "featureShipping": "Shipped within 48 h from France, tracking included"
+  },
+  "trackOrder": {
+    "intro": "Enter your order number (received by email) and the email you used at checkout to see where your parcel is.",
+    "help": "Didn't get a confirmation email? Check your spam folder, or reach out via the FAQ & Contact page.",
+    "orderNumberPlaceholder": "Order no. (e.g. MS-10234)",
+    "orderNumberLabel": "Order number",
+    "emailPlaceholder": "Order email",
+    "emailLabel": "Order email",
+    "submit": "Track",
+    "trackParcel": "Track my parcel",
+    "demoStatus": "Order found: shipped yesterday, on its way. Estimated delivery within {days} business days. (Local demo — plug the tracking API in here.)"
+  },
+  "account": {
+    "loginTitle": "Sign in",
+    "loginSubtitle": "Find your orders and check out faster.",
+    "resetOk": "Password updated. You can sign in.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "••••••••",
+    "signIn": "Sign in",
+    "forgotPassword": "Forgot password?",
+    "createAccount": "Create an account",
+    "loginError": "Sign-in failed.",
+    "registerTitle": "Create an account",
+    "registerSubtitle": "Track your orders and save time on your next purchase.",
+    "nameLabel": "First name (optional)",
+    "namePlaceholder": "Alex",
+    "passwordMinPlaceholder": "8 characters minimum",
+    "createMyAccount": "Create my account",
+    "registerError": "Sign-up failed.",
+    "haveAccount": "Already have an account?",
+    "forgotTitle": "Forgot password",
+    "forgotSubtitle": "Enter your email and we'll send you a link to choose a new one.",
+    "sendLink": "Send the link",
+    "forgotSent": "If an account exists for {email}, a reset link has just been sent. Check your spam folder.",
+    "backToLogin": "← Back to sign in",
+    "resetTitle": "New password",
+    "newPasswordLabel": "New password",
+    "confirmPasswordLabel": "Confirm password",
+    "updatePassword": "Update",
+    "resetInvalid": "This link has expired or is invalid. Reset links can be used once and expire after one hour.",
+    "requestNewLink": "Request a new link",
+    "accountTitle": "My account",
+    "connectedAs": "Signed in as",
+    "logout": "Log out",
+    "adminLink": "Administration",
+    "tabDashboard": "Dashboard",
+    "tabOrders": "My orders",
+    "tabProfile": "Profile",
+    "greeting": "Hi {name}",
+    "greetingFallback": "Hi 👋",
+    "ordersCount": {
+      "one": "You have {count} order on your account.",
+      "other": "You have {count} orders on your account."
+    },
+    "noOrdersYet": "Your future orders will show up here.",
+    "recentOrders": "Recent orders",
+    "seeAll": "See all →",
+    "noOrders": "No orders yet.",
+    "discoverStickers": "Discover the stickers",
+    "ordersTitle": "My orders",
+    "ordersEmpty": "You don't have any order linked to this address yet.",
+    "profileTitle": "Profile",
+    "profileNameLabel": "First name",
+    "save": "Save",
+    "saved": "Saved ✓",
+    "profileEmailLabel": "Email",
+    "lastAddress": "Last shipping address",
+    "addressNote": "Used to prefill your next checkout.",
+    "profileError": "Could not save.",
+    "statusNew": "Being prepared",
+    "statusPrinted": "Printed",
+    "statusShipped": "Shipped",
+    "trackParcel": "Track my parcel",
+    "paid": "Paid",
+    "paymentPending": "Payment pending",
+    "items": {
+      "one": "{count} item",
+      "other": "{count} items"
+    },
+    "orderedOn": "Ordered on {date}",
+    "viewDetail": "View details",
+    "orderDetail": "Order details",
+    "backToOrders": "Back to my orders",
+    "orderItems": "Items",
+    "orderSummary": "Summary",
+    "subtotal": "Subtotal",
+    "bogoDiscount": "Buy one, get one free",
+    "total": "Total",
+    "shippingLabel": "Shipping",
+    "shippingValue": "Tracked letter · tracking included",
+    "shippingAddress": "Shipping address",
+    "stepConfirmed": "Confirmed",
+    "reorder": "Order again",
+    "reorderAdded": "Added to cart ✓",
+    "unitEach": "each",
+    "refunded": "Refunded",
+    "orderProblem": "A problem with this order?",
+    "contactSupport": "Contact us",
+    "errInvalidEmail": "Invalid email address.",
+    "errMinPassword": "Password: 8 characters minimum.",
+    "errTaken": "An account already exists with this email.",
+    "errCredentials": "Incorrect email or password.",
+    "errThrottled": "Too many attempts. Try again in a few minutes.",
+    "errServer": "Something went wrong, try again.",
+    "errPasswordMismatch": "The two passwords don't match.",
+    "nudgeCreate": "Create your account to track this order and future ones.",
+    "nudgeCreateWithEmail": "Create your account with {email} to track this order and future ones.",
+    "nudgeCta": "Create my account",
+    "seeMyOrders": "See my orders →"
+  }
+}

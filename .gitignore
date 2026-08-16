@@ -1,0 +1,14 @@
+out/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# données vivantes de l'admin boutique (le seed du code sert d'état initial)
+site/data/
+# index de l'outil codebase-memory (artefact local, non versionné)
+.codebase-memory/
+# logo dupliqué à la racine (la copie de référence vit dans site/public/)
+/logo-monkey-sticker.webp
+# artefacts locaux Claude Code (worktrees transitoires + verrou de tâches)
+.claude/worktrees/
+.claude/scheduled_tasks.lock

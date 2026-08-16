@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c2c31"/>
+      <stop offset="0.35" stop-color="#38383e"/>
+      <stop offset="0.62" stop-color="#232327"/>
+      <stop offset="1" stop-color="#151517"/>
+    </linearGradient>
+
+    <!-- brushed titanium: two fine stripe patterns with different periods -->
+    <pattern id="brushA" width="856" height="23" patternUnits="userSpaceOnUse">
+      <rect x="0" y="1" width="856" height="1" fill="#ffffff" opacity="0.05"/>
+      <rect x="0" y="4" width="856" height="1" fill="#000000" opacity="0.16"/>
+      <rect x="0" y="7" width="856" height="1" fill="#ffffff" opacity="0.03"/>
+      <rect x="0" y="9" width="856" height="2" fill="#000000" opacity="0.09"/>
+      <rect x="0" y="13" width="856" height="1" fill="#ffffff" opacity="0.06"/>
+      <rect x="0" y="16" width="856" height="1" fill="#000000" opacity="0.13"/>
+      <rect x="0" y="19" width="856" height="1" fill="#ffffff" opacity="0.04"/>
+      <rect x="0" y="21" width="856" height="1" fill="#000000" opacity="0.07"/>
+    </pattern>
+    <pattern id="brushB" width="856" height="37" patternUnits="userSpaceOnUse">
+      <rect x="0" y="2" width="856" height="1" fill="#000000" opacity="0.10"/>
+      <rect x="0" y="8" width="856" height="1" fill="#ffffff" opacity="0.045"/>
+      <rect x="0" y="14" width="856" height="2" fill="#000000" opacity="0.07"/>
+      <rect x="0" y="21" width="856" height="1" fill="#ffffff" opacity="0.03"/>
+      <rect x="0" y="27" width="856" height="1" fill="#000000" opacity="0.12"/>
+      <rect x="0" y="33" width="856" height="1" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+
+    <!-- diagonal light sweep, like light catching brushed metal -->
+    <linearGradient id="sheen" x1="0" y1="0" x2="856" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.13" stop-color="#ffffff" stop-opacity="0.045"/>
+      <stop offset="0.2" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.485" stop-color="#ffffff" stop-opacity="0.075"/>
+      <stop offset="0.525" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="0.74" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="vig" cx="50%" cy="42%" r="75%">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="0.62" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.36"/>
+    </radialGradient>
+
+    <linearGradient id="emboss" x1="0" y1="60" x2="0" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c2c2ca"/>
+      <stop offset="0.55" stop-color="#94949c"/>
+      <stop offset="1" stop-color="#75757d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===================== fond titane ===================== -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#bg)"/>
+  <rect x="0" y="0" width="856" height="540" fill="url(#brushA)"/>
+  <rect x="0" y="0" width="856" height="540" fill="url(#brushB)"/>
+
+  <!-- stries organiques supplementaires (pleine largeur) -->
+  <g>
+    <rect x="0" y="43" width="856" height="1" fill="#ffffff" opacity="0.055"/>
+    <rect x="0" y="97" width="856" height="1" fill="#000000" opacity="0.14"/>
+    <rect x="0" y="141" width="856" height="2" fill="#ffffff" opacity="0.03"/>
+    <rect x="0" y="196" width="856" height="1" fill="#000000" opacity="0.11"/>
+    <rect x="0" y="244" width="856" height="1" fill="#ffffff" opacity="0.05"/>
+    <rect x="0" y="287" width="856" height="1" fill="#000000" opacity="0.12"/>
+    <rect x="0" y="341" width="856" height="1" fill="#ffffff" opacity="0.04"/>
+    <rect x="0" y="374" width="856" height="1" fill="#000000" opacity="0.10"/>
+    <rect x="0" y="431" width="856" height="1" fill="#ffffff" opacity="0.045"/>
+    <rect x="0" y="474" width="856" height="1" fill="#000000" opacity="0.13"/>
+    <rect x="0" y="509" width="856" height="1" fill="#ffffff" opacity="0.035"/>
+  </g>
+
+  <!-- bandes larges tres subtiles pour casser l'uniformite -->
+  <rect x="0" y="58" width="856" height="42" fill="#ffffff" opacity="0.022"/>
+  <rect x="0" y="216" width="856" height="58" fill="#000000" opacity="0.05"/>
+  <rect x="0" y="352" width="856" height="34" fill="#ffffff" opacity="0.02"/>
+
+  <!-- balayage lumineux diagonal + vignettage -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#sheen)"/>
+  <rect x="0" y="0" width="856" height="540" fill="url(#vig)"/>
+
+  <!-- biseau du bord de la plaque metal -->
+  <rect x="0" y="0" width="856" height="3" fill="#ffffff" opacity="0.09"/>
+  <rect x="0" y="537" width="856" height="3" fill="#000000" opacity="0.45"/>
+  <rect x="0" y="0" width="3" height="540" fill="#ffffff" opacity="0.05"/>
+  <rect x="853" y="0" width="3" height="540" fill="#000000" opacity="0.38"/>
+
+  <!-- ===================== marque de carte (haut gauche) ===================== -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <!-- ombre gravee -->
+    <text x="64" y="94" font-size="42" font-weight="700" letter-spacing="7" fill="#0c0c0e" opacity="0.65">TITANE<tspan font-weight="300" dx="16">BROSS&#201;</tspan></text>
+    <!-- releve embosse -->
+    <text x="64" y="92" font-size="42" font-weight="700" letter-spacing="7" fill="url(#emboss)">TITANE<tspan font-weight="300" dx="16">BROSS&#201;</tspan></text>
+    <!-- liseret lumineux superieur -->
+    <text x="64" y="90.6" font-size="42" font-weight="700" letter-spacing="7" fill="#ffffff" opacity="0.14">TITANE<tspan font-weight="300" dx="16">BROSS&#201;</tspan></text>
+
+    <text x="66" y="123" font-size="14" letter-spacing="5" fill="#ffffff" opacity="0.10">M&#201;TAL V&#201;RITABLEMENT FAUX &#8226; &#201;DITION PREMIUM</text>
+    <text x="65" y="122" font-size="14" letter-spacing="5" fill="#111113" opacity="0.85">M&#201;TAL V&#201;RITABLEMENT FAUX &#8226; &#201;DITION PREMIUM</text>
+  </g>
+
+  <!-- ===================== embleme hexagonal TB (haut droite) ===================== -->
+  <g>
+    <path d="M760,46 L795.5,66.5 L795.5,107.5 L760,128 L724.5,107.5 L724.5,66.5 Z" fill="none" stroke="#0d0d0f" stroke-width="3" opacity="0.6"/>
+    <path d="M760,44.5 L794.2,64.3 L794.2,103.7 L760,123.5 L725.8,103.7 L725.8,64.3 Z" fill="none" stroke="#9a9aa2" stroke-width="1.6" opacity="0.5"/>
+    <path d="M760,55 L785,69.5 L785,98.5 L760,113 L735,98.5 L735,69.5 Z" fill="none" stroke="#6a6a72" stroke-width="1" opacity="0.45"/>
+    <text x="760" y="95" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="2" fill="#ffffff" opacity="0.10">TB</text>
+    <text x="760" y="94" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="700" letter-spacing="2" fill="#121214" opacity="0.9">TB</text>
+  </g>
+
+  <!-- ===================== lunette fraisee autour de la fenetre puce ===================== -->
+  <!-- (zone 70-230 / 160-320 laissee libre : la vraie puce de la carte apparait ici) -->
+  <g fill="none">
+    <rect x="56" y="146" width="188" height="188" rx="18" stroke="#0e0e10" stroke-width="3" opacity="0.7"/>
+    <rect x="54.5" y="144.5" width="191" height="191" rx="19" stroke="#a2a2aa" stroke-width="1.4" opacity="0.4"/>
+    <rect x="62" y="152" width="176" height="176" rx="14" stroke="#77777f" stroke-width="1" opacity="0.35"/>
+  </g>
+  <!-- vis fraisees decoratives aux coins de la lunette -->
+  <g stroke="#0f0f11" stroke-width="1.6" opacity="0.55" fill="none">
+    <circle cx="45" cy="146" r="6"/><path d="M41,142 L49,150"/>
+    <circle cx="255" cy="146" r="6"/><path d="M251,150 L259,142"/>
+    <circle cx="45" cy="334" r="6"/><path d="M41,338 L49,330"/>
+    <circle cx="255" cy="334" r="6"/><path d="M251,330 L259,338"/>
+  </g>
+
+  <!-- ===================== sans-contact (grave) ===================== -->
+  <g fill="none" stroke-linecap="round">
+    <g stroke="#0d0d0f" stroke-width="5.5" opacity="0.6">
+      <path d="M296.4,231.6 A14,14 0 0 1 296.4,251.4"/>
+      <path d="M304.9,223.1 A26,26 0 0 1 304.9,259.9"/>
+      <path d="M313.4,214.6 A38,38 0 0 1 313.4,268.4"/>
+      <path d="M321.9,206.1 A50,50 0 0 1 321.9,276.9"/>
+    </g>
+    <g stroke="#a6a6ae" stroke-width="5" opacity="0.4">
+      <path d="M294.9,230.1 A14,14 0 0 1 294.9,249.9"/>
+      <path d="M303.4,221.6 A26,26 0 0 1 303.4,258.4"/>
+      <path d="M311.9,213.1 A38,38 0 0 1 311.9,266.9"/>
+      <path d="M320.4,204.6 A50,50 0 0 1 320.4,275.4"/>
+    </g>
+  </g>
+
+  <!-- ===================== numero grave laser ===================== -->
+  <g font-family="'Courier New', Courier, monospace" font-size="46" font-weight="700" letter-spacing="7">
+    <text x="70" y="401.5" fill="#ffffff" opacity="0.13">1199 2540 0806 2026</text>
+    <text x="70" y="400" fill="#0e0e10" opacity="0.92">1199 2540 0806 2026</text>
+  </g>
+
+  <!-- ===================== bloc titulaire (bas gauche) ===================== -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="70" y="452.8" font-size="13" letter-spacing="4" fill="#ffffff" opacity="0.09">TITULAIRE</text>
+    <text x="70" y="452" font-size="13" letter-spacing="4" fill="#131315" opacity="0.8">TITULAIRE</text>
+
+    <text x="70" y="487.5" font-size="27" font-weight="600" letter-spacing="4.5" fill="#ffffff" opacity="0.13">M. JEUNE ACTIF</text>
+    <text x="70" y="486" font-size="27" font-weight="600" letter-spacing="4.5" fill="#101012" opacity="0.92">M. JEUNE ACTIF</text>
+  </g>
+
+  <!-- ===================== bloc expiration + serie (bas droite) ===================== -->
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="end">
+    <text x="792" y="452.8" font-size="13" letter-spacing="4" fill="#ffffff" opacity="0.09">EXPIRE FIN</text>
+    <text x="792" y="452" font-size="13" letter-spacing="4" fill="#131315" opacity="0.8">EXPIRE FIN</text>
+
+    <text x="792" y="487.5" font-size="27" font-weight="600" letter-spacing="4.5" fill="#ffffff" opacity="0.13">12/34</text>
+    <text x="792" y="486" font-size="27" font-weight="600" letter-spacing="4.5" fill="#101012" opacity="0.92">12/34</text>
+
+    <text x="792" y="516" font-size="13" letter-spacing="3" fill="#a08c58" opacity="0.85">S&#201;RIE N&#186; 011/999</text>
+  </g>
+
+  <!-- ===================== micro-gravure signature (bas centre) ===================== -->
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="428" y="524.6" font-size="12" letter-spacing="3" fill="#ffffff" opacity="0.07">L&#8217;UPGRADE DE STATUT &#8226; 11,99 &#8364; &#8226; SANS BANQUE PREMIUM</text>
+    <text x="428" y="524" font-size="12" letter-spacing="3" fill="#141416" opacity="0.75">L&#8217;UPGRADE DE STATUT &#8226; 11,99 &#8364; &#8226; SANS BANQUE PREMIUM</text>
+  </g>
+</svg>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 856 540">
+  <defs>
+    <clipPath id="card"><rect x="0" y="0" width="856" height="540"/></clipPath>
+
+    <!-- Fond textile bleu profond -->
+    <linearGradient id="fabric" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a3a56"/>
+      <stop offset="0.55" stop-color="#003049"/>
+      <stop offset="1" stop-color="#00253a"/>
+    </linearGradient>
+
+    <!-- Rayure rouge tricot (leger volume) -->
+    <linearGradient id="redStripe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e0263a"/>
+      <stop offset="0.5" stop-color="#C1121F"/>
+      <stop offset="1" stop-color="#960d18"/>
+    </linearGradient>
+
+    <!-- Creme / ivoire du bandeau ecusson -->
+    <linearGradient id="cream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#F5F3F0"/>
+    </linearGradient>
+
+    <!-- Or de l'ecusson -->
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6dd8f"/>
+      <stop offset="0.5" stop-color="#e3b64a"/>
+      <stop offset="1" stop-color="#b98423"/>
+    </linearGradient>
+
+    <!-- Numero floque (relief) -->
+    <linearGradient id="numFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbfaf7"/>
+      <stop offset="0.55" stop-color="#f0ece2"/>
+      <stop offset="1" stop-color="#ddd8cc"/>
+    </linearGradient>
+
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="softS" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+
+    <!-- Etoile de champion (5 branches) -->
+    <path id="star" d="M0,-13 L3.8,-4 L13.4,-3.2 L6.1,3.1 L8.3,12.5 L0,7.6 L-8.3,12.5 L-6.1,3.1 L-13.4,-3.2 L-3.8,-4 Z"/>
+
+    <!-- Piqure tricot en pointilles -->
+    <pattern id="knit" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="none"/>
+      <circle cx="1.5" cy="1.5" r="0.6" fill="#ffffff" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <!-- ============ FOND TEXTILE ============ -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#fabric)"/>
+  <rect x="0" y="0" width="856" height="540" fill="url(#knit)"/>
+
+  <!-- ============ RAYURES VERTICALES D'EQUIPE ============ -->
+  <g clip-path="url(#card)">
+    <!-- Larges bandes rouges type maillot raye -->
+    <rect x="-6" y="0" width="96" height="540" fill="url(#redStripe)"/>
+    <rect x="186" y="0" width="96" height="540" fill="url(#redStripe)"/>
+    <rect x="378" y="0" width="96" height="540" fill="url(#redStripe)"/>
+    <rect x="570" y="0" width="96" height="540" fill="url(#redStripe)"/>
+    <rect x="762" y="0" width="96" height="540" fill="url(#redStripe)"/>
+
+    <!-- Fins lisereres creme entre les bandes -->
+    <rect x="90" y="0" width="6" height="540" fill="#F5F3F0" opacity="0.55"/>
+    <rect x="180" y="0" width="6" height="540" fill="#F5F3F0" opacity="0.55"/>
+    <rect x="282" y="0" width="6" height="540" fill="#F5F3F0" opacity="0.55"/>
+    <rect x="372" y="0" width="6" height="540" fill="#F5F3F0" opacity="0.55"/>
+    <rect x="474" y="0" width="6" height="540" fill="#F5F3F0" opacity="0.55"/>
+    <rect x="564" y="0" width="6" height="540" fill="#F5F3F0" opacity="0.55"/>
+    <rect x="666" y="0" width="6" height="540" fill="#F5F3F0" opacity="0.55"/>
+    <rect x="756" y="0" width="6" height="540" fill="#F5F3F0" opacity="0.55"/>
+
+    <!-- Ombrage doux sur chaque rayure rouge pour le volume tricot -->
+    <rect x="-6" y="0" width="96" height="540" fill="#000000" opacity="0.10"/>
+    <rect x="90" y="0" width="6" height="540" fill="#000000" opacity="0.10"/>
+  </g>
+
+  <!-- Voile de lumiere diagonale (photogenie) -->
+  <polygon points="560,0 700,0 300,540 160,540" fill="#ffffff" opacity="0.05" clip-path="url(#card)"/>
+  <polygon points="740,0 800,0 400,540 340,540" fill="#ffffff" opacity="0.04" clip-path="url(#card)"/>
+
+  <!-- Ombre haute (col) et basse pour ancrer -->
+  <rect x="0" y="0" width="856" height="120" fill="#000000" opacity="0.14"/>
+  <rect x="0" y="452" width="856" height="88" fill="#000000" opacity="0.16"/>
+
+  <!-- ============ COL DU MAILLOT (haut) ============ -->
+  <!-- Encolure en V stylisee, generique -->
+  <g clip-path="url(#card)">
+    <path d="M 338,-10 L 428,88 L 518,-10 Z" fill="#00253a"/>
+    <path d="M 338,-10 L 428,88 L 518,-10" fill="none" stroke="url(#cream)" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M 338,-10 L 428,88 L 518,-10" fill="none" stroke="#C1121F" stroke-width="4" stroke-linejoin="round"/>
+  </g>
+
+  <!-- ============ BANDEAU ECUSSON STYLISE (haut) ============ -->
+  <!-- Blason bouclier generique, sans club -->
+  <g transform="translate(428,132)">
+    <ellipse cx="0" cy="6" rx="70" ry="14" fill="#000000" opacity="0.22" filter="url(#soft)"/>
+    <!-- contour or -->
+    <path d="M -58,-52 L 58,-52 L 58,-4 Q 58,34 0,58 Q -58,34 -58,-4 Z" fill="url(#gold)"/>
+    <!-- coeur du blason -->
+    <path d="M -49,-44 L 49,-44 L 49,-6 Q 49,28 0,49 Q -49,28 -49,-6 Z" fill="#003049"/>
+    <!-- chevron creme -->
+    <path d="M -49,-16 L 0,10 L 49,-16 L 49,-4 L 0,22 L -49,-4 Z" fill="url(#cream)" opacity="0.95"/>
+    <!-- barre rouge haute avec etoiles -->
+    <path d="M -49,-44 L 49,-44 L 49,-24 L -49,-24 Z" fill="#C1121F"/>
+    <use href="#star" xlink:href="#star" fill="url(#gold)" transform="translate(-24,-34) scale(0.72)"/>
+    <use href="#star" xlink:href="#star" fill="url(#gold)" transform="translate(0,-34) scale(0.72)"/>
+    <use href="#star" xlink:href="#star" fill="url(#gold)" transform="translate(24,-34) scale(0.72)"/>
+    <!-- ballon stylise au centre du chevron -->
+    <circle cx="0" cy="4" r="13" fill="#F5F3F0"/>
+    <path d="M 0,-4 L 6,0 L 4,7 L -4,7 L -6,0 Z" fill="#003049"/>
+    <path d="M 0,-4 L -6,0 M 0,-4 L 6,0 M 4,7 L 8,3 M -4,7 L -8,3" stroke="#003049" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- ============ RUBAN EMBLEME (court, entierement lisible, sous l'ecusson) ============ -->
+  <!-- centre x=428, largeur reduite : bord droit ~ x=520, bien a gauche du numero (bord gauche du 11 ~ x=452) -->
+  <!-- il ne passe PAS sous le numero : le 11 est centre plus bas (baseline 470) -->
+  <g transform="translate(428,204)">
+    <!-- ombre portee -->
+    <path d="M -92,-15 L 92,-15 L 108,-1 L 92,13 L -92,13 L -108,-1 Z" fill="#000000" opacity="0.22" filter="url(#softS)" transform="translate(3,4)"/>
+    <!-- pointes laterales foncees -->
+    <path d="M -92,-15 L -108,-1 L -92,13 Z" fill="#8f0c15"/>
+    <path d="M 92,-15 L 108,-1 L 92,13 Z" fill="#8f0c15"/>
+    <!-- corps du ruban -->
+    <rect x="-92" y="-15" width="184" height="28" rx="4" fill="url(#redStripe)"/>
+    <!-- filet or interieur -->
+    <rect x="-87" y="-11" width="174" height="20" rx="3" fill="none" stroke="url(#gold)" stroke-width="1.4" opacity="0.85"/>
+    <text x="0" y="5" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif"
+          font-size="14" font-weight="900" letter-spacing="6" fill="#F5F3F0">FOOTBALL CLUB</text>
+  </g>
+
+  <!-- ============ NOM CINTRE EN ARC (le HERO, lettres posees a la main = compatible rendu librsvg/sharp) ============ -->
+  <!-- sommet y~237, extremites y~255 ; ruban bas y~217, sommet du 11 y~290 -> gap net -->
+  <g>
+    <!-- passe 1 : ombre + contour bleu + liseret or -->
+    <g transform="translate(482.9,254.9) rotate(-22.8)">
+      <text x="2.5" y="3" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#000000" opacity="0.30">L</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#003049" stroke="#003049" stroke-width="9" stroke-linejoin="round">L</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round">L</text>
+    </g>
+    <g transform="translate(511.3,245.0) rotate(-15.7)">
+      <text x="2.5" y="3" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#000000" opacity="0.30">&#201;</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#003049" stroke="#003049" stroke-width="9" stroke-linejoin="round">&#201;</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round">&#201;</text>
+    </g>
+    <g transform="translate(539.6,239.0) rotate(-8.0)">
+      <text x="2.5" y="3" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#000000" opacity="0.30">G</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#003049" stroke="#003049" stroke-width="9" stroke-linejoin="round">G</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round">G</text>
+    </g>
+    <g transform="translate(568.0,237.0) rotate(0.0)">
+      <text x="2.5" y="3" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#000000" opacity="0.30">E</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#003049" stroke="#003049" stroke-width="9" stroke-linejoin="round">E</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round">E</text>
+    </g>
+    <g transform="translate(596.4,239.0) rotate(8.0)">
+      <text x="2.5" y="3" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#000000" opacity="0.30">N</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#003049" stroke="#003049" stroke-width="9" stroke-linejoin="round">N</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round">N</text>
+    </g>
+    <g transform="translate(624.7,245.0) rotate(15.7)">
+      <text x="2.5" y="3" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#000000" opacity="0.30">D</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#003049" stroke="#003049" stroke-width="9" stroke-linejoin="round">D</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round">D</text>
+    </g>
+    <g transform="translate(653.1,254.9) rotate(22.8)">
+      <text x="2.5" y="3" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#000000" opacity="0.30">E</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="#003049" stroke="#003049" stroke-width="9" stroke-linejoin="round">E</text>
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="none" stroke="url(#gold)" stroke-width="4" stroke-linejoin="round">E</text>
+    </g>
+    <!-- passe 2 : remplissage creme (au-dessus de tout) -->
+    <g transform="translate(482.9,254.9) rotate(-22.8)">
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="url(#numFill)">L</text>
+    </g>
+    <g transform="translate(511.3,245.0) rotate(-15.7)">
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="url(#numFill)">&#201;</text>
+    </g>
+    <g transform="translate(539.6,239.0) rotate(-8.0)">
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="url(#numFill)">G</text>
+    </g>
+    <g transform="translate(568.0,237.0) rotate(0.0)">
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="url(#numFill)">E</text>
+    </g>
+    <g transform="translate(596.4,239.0) rotate(8.0)">
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="url(#numFill)">N</text>
+    </g>
+    <g transform="translate(624.7,245.0) rotate(15.7)">
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="url(#numFill)">D</text>
+    </g>
+    <g transform="translate(653.1,254.9) rotate(22.8)">
+      <text text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif" font-size="42" font-weight="900" fill="url(#numFill)">E</text>
+    </g>
+  </g>
+
+  <!-- ============ NUMERO GEANT FLOQUE ============ -->
+  <!-- centre x=568 (bien a droite de la fenetre puce x70-230), baseline y=480 ; sommet des chiffres ~ y=290, sous l'arc du nom -->
+  <g transform="translate(568,480)">
+    <!-- ombre floquage -->
+    <text x="6" y="6" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif"
+          font-size="264" font-weight="900" fill="#000000" opacity="0.28" filter="url(#softS)">11</text>
+    <!-- contour bleu (bordure floquage) -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif"
+          font-size="264" font-weight="900" fill="none" stroke="#003049" stroke-width="20" stroke-linejoin="round">11</text>
+    <!-- contour or fin -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif"
+          font-size="264" font-weight="900" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linejoin="round">11</text>
+    <!-- remplissage creme -->
+    <text x="0" y="0" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif"
+          font-size="264" font-weight="900" fill="url(#numFill)">11</text>
+    <!-- reflet haut -->
+    <text x="0" y="-6" text-anchor="middle" font-family="'Arial Black','Archivo Black',Arial,sans-serif"
+          font-size="264" font-weight="900" fill="#ffffff" opacity="0.30">11</text>
+  </g>
+
+  <!-- ============ BAS : liseret sponsor generique + saison ============ -->
+  <rect x="0" y="486" width="856" height="4" fill="url(#gold)" opacity="0.85"/>
+  <text x="428" y="516" text-anchor="middle" font-family="Arial,Helvetica,sans-serif"
+        font-size="16" font-weight="700" letter-spacing="6" fill="#F5F3F0" opacity="0.92">ONZE DE L&#201;GENDE</text>
+  <text x="428" y="532" text-anchor="middle" font-family="Arial,Helvetica,sans-serif"
+        font-size="9" font-weight="700" letter-spacing="4" fill="#f6dd8f" opacity="0.75">SAISON MONDIALE &#183; MAILLOT R&#201;TRO &#183; TON N&#176; &#183; TES COULEURS</text>
+
+  <!-- ============ ETIQUETTE TISSU (coin bas gauche, hors zone puce) ============ -->
+  <g transform="translate(150,436)">
+    <rect x="-58" y="-14" width="116" height="28" rx="3" fill="#F5F3F0"/>
+    <rect x="-58" y="-14" width="116" height="9" rx="3" fill="#C1121F"/>
+    <text x="0" y="9" text-anchor="middle" font-family="Arial,Helvetica,sans-serif"
+          font-size="10" font-weight="900" letter-spacing="2" fill="#003049">RETRO 82</text>
+  </g>
+
+  <!-- Etiquette col style griffe (haut droit, discret) -->
+  <g transform="translate(806,44)">
+    <rect x="-42" y="-13" width="84" height="26" rx="4" fill="#F5F3F0" opacity="0.95"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial,Helvetica,sans-serif"
+          font-size="11" font-weight="900" letter-spacing="1.5" fill="#C1121F">XI</text>
+  </g>
+
+  <!-- Fine bordure interieure premium -->
+  <rect x="6" y="6" width="844" height="528" fill="none" stroke="#F5F3F0" stroke-width="2" opacity="0.16"/>
+</svg>

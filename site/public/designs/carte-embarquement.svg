@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540">
+  <title>Carte d'Embarquement</title>
+  <defs>
+    <linearGradient id="banner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2559ac"/>
+      <stop offset="1" stop-color="#1e4f9c"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4f5f7"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8edf6"/>
+      <stop offset="1" stop-color="#f4f5f7"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f4f5f7"/>
+      <stop offset="1" stop-color="#c9d3e4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond papier billet -->
+  <rect width="856" height="540" fill="url(#paper)"/>
+
+  <!-- Bandes diagonales discrètes façon aviation (ambiance stripes) -->
+  <g opacity="0.06">
+    <rect x="-60" y="0" width="34" height="900" fill="#1e4f9c" transform="rotate(20 428 270)"/>
+    <rect x="60" y="0" width="34" height="900" fill="#1e4f9c" transform="rotate(20 428 270)"/>
+    <rect x="180" y="0" width="34" height="900" fill="#1e4f9c" transform="rotate(20 428 270)"/>
+    <rect x="300" y="0" width="34" height="900" fill="#1e4f9c" transform="rotate(20 428 270)"/>
+    <rect x="420" y="0" width="34" height="900" fill="#1e4f9c" transform="rotate(20 428 270)"/>
+    <rect x="540" y="0" width="34" height="900" fill="#1e4f9c" transform="rotate(20 428 270)"/>
+    <rect x="660" y="0" width="34" height="900" fill="#1e4f9c" transform="rotate(20 428 270)"/>
+    <rect x="780" y="0" width="34" height="900" fill="#1e4f9c" transform="rotate(20 428 270)"/>
+    <rect x="900" y="0" width="34" height="900" fill="#1e4f9c" transform="rotate(20 428 270)"/>
+  </g>
+
+  <!-- Bande rouge signature en tête -->
+  <rect x="0" y="0" width="856" height="10" fill="#d62839"/>
+
+  <!-- BANDEAU COMPAGNIE (haut) -->
+  <rect x="0" y="10" width="856" height="72" fill="url(#banner)"/>
+  <rect x="0" y="80" width="856" height="4" fill="#d62839"/>
+  <!-- Logo avion stylisé dans un rond -->
+  <circle cx="52" cy="46" r="26" fill="#ffffff"/>
+  <path d="M35,46 L64,39 L59,46 L64,53 Z" fill="#1e4f9c"/>
+  <path d="M50,40 L57,29 L60,30 L55,42 Z" fill="#d62839"/>
+  <path d="M50,52 L57,63 L60,62 L55,50 Z" fill="#d62839"/>
+  <text x="92" y="42" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="27" letter-spacing="3" fill="#ffffff">AZUR AIRLINES</text>
+  <text x="93" y="66" font-family="'Courier New',monospace" font-weight="bold" font-size="13" letter-spacing="4" fill="#a9c1e6">SKY CLASS · PREMIUM CABIN</text>
+  <text x="835" y="40" text-anchor="end" font-family="'Courier New',monospace" font-weight="bold" font-size="13" letter-spacing="2" fill="#a9c1e6">BOARDING PASS</text>
+  <text x="835" y="66" text-anchor="end" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="21" letter-spacing="2" fill="#ffffff">CARTE D'EMBARQUEMENT</text>
+
+  <!-- Titre mono sous le bandeau -->
+  <text x="255" y="126" font-family="'Courier New',monospace" font-weight="bold" font-size="15" letter-spacing="3" fill="#1e4f9c">PASSAGER / PASSENGER</text>
+  <text x="255" y="150" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="26" letter-spacing="1" fill="#151a24">VOYAGEUR, T.</text>
+
+  <!-- Ligne de perforation verticale séparant la souche -->
+  <line x1="620" y1="96" x2="620" y2="470" stroke="#1e4f9c" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Cadre pointillé zone puce (rien d'important dedans) -->
+  <rect x="70" y="160" width="160" height="160" rx="14" fill="none" stroke="#1e4f9c" stroke-width="1.6" stroke-dasharray="7 6" opacity="0.35"/>
+
+  <!-- ============ SCENE CENTRALE : ITINERAIRE ============ -->
+  <!-- Ciel encadré du parcours -->
+  <rect x="255" y="176" width="352" height="150" rx="14" fill="url(#sky)" stroke="#dbe2ee" stroke-width="1.5"/>
+
+  <!-- Ville de départ -->
+  <text x="285" y="222" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="46" fill="#1e4f9c">PAR</text>
+  <text x="285" y="246" font-family="'Courier New',monospace" font-weight="bold" font-size="13" letter-spacing="2" fill="#5b6472">PARIS</text>
+
+  <!-- Ville d'arrivée -->
+  <text x="500" y="222" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="46" fill="#d62839">DXB</text>
+  <text x="500" y="246" font-family="'Courier New',monospace" font-weight="bold" font-size="13" letter-spacing="2" fill="#5b6472">DUBAI</text>
+
+  <!-- Trajectoire pointillée avion -->
+  <path d="M382,204 C420,182 450,182 492,204" fill="none" stroke="#1e4f9c" stroke-width="2.4" stroke-dasharray="1 8" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="382" cy="204" r="4" fill="#1e4f9c"/>
+  <circle cx="492" cy="204" r="4" fill="#d62839"/>
+  <!-- Petit avion au sommet de la courbe -->
+  <g transform="translate(437,180) rotate(45)">
+    <path d="M-4,-16 L4,-16 L6,10 L14,18 L14,24 L4,20 L4,30 L10,36 L10,40 L0,37 L-10,40 L-10,36 L-4,30 L-4,20 L-14,24 L-14,18 L-6,10 Z" fill="#151a24"/>
+  </g>
+
+  <!-- Aile / horizon décoratif bas de scène -->
+  <path d="M255,300 L607,300 L607,326 L255,326 Z" fill="url(#wing)" opacity="0.55"/>
+  <path d="M255,300 L420,300 L470,326 L255,326 Z" fill="#1e4f9c" opacity="0.12"/>
+
+  <!-- ============ SOUCHE DROITE (siège / vol) ============ -->
+  <text x="644" y="126" font-family="'Courier New',monospace" font-weight="bold" font-size="12" letter-spacing="2" fill="#5b6472">SIEGE / SEAT</text>
+  <text x="644" y="176" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="52" fill="#d62839">1A</text>
+  <line x1="644" y1="196" x2="812" y2="196" stroke="#dbe2ee" stroke-width="1.5"/>
+
+  <text x="644" y="224" font-family="'Courier New',monospace" font-weight="bold" font-size="12" letter-spacing="2" fill="#5b6472">VOL / FLIGHT</text>
+  <text x="644" y="250" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="22" fill="#151a24">AZ 100</text>
+
+  <text x="644" y="284" font-family="'Courier New',monospace" font-weight="bold" font-size="12" letter-spacing="2" fill="#5b6472">CLASSE / CLASS</text>
+  <text x="644" y="310" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="22" fill="#1e4f9c">FIRST</text>
+
+  <!-- ============ BAS : accroche + infos vol ============ -->
+  <!-- Bloc infos mono style billet -->
+  <g font-family="'Courier New',monospace" font-weight="bold">
+    <g font-size="13" letter-spacing="1" fill="#5b6472">
+      <text x="72" y="362">PORTE / GATE</text>
+      <text x="220" y="362">EMBARQUEMENT</text>
+      <text x="392" y="362">DECOLLAGE</text>
+      <text x="530" y="362">TERMINAL</text>
+    </g>
+    <g font-size="24" fill="#151a24" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900">
+      <text x="72" y="392">B24</text>
+      <text x="220" y="392">18:30</text>
+      <text x="392" y="392">19:05</text>
+      <text x="530" y="392">2E</text>
+    </g>
+  </g>
+
+  <!-- Accroche punchline -->
+  <rect x="70" y="410" width="484" height="42" rx="8" fill="#1e4f9c"/>
+  <rect x="70" y="410" width="8" height="42" fill="#d62839"/>
+  <text x="94" y="437" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="19" letter-spacing="0.5" fill="#ffffff">JE PARS EN VACANCES RIEN QU'EN PAYANT.</text>
+
+  <!-- Code-barres souche -->
+  <g fill="#151a24">
+    <rect x="644" y="356" width="4" height="86"/>
+    <rect x="651" y="356" width="2" height="86"/>
+    <rect x="656" y="356" width="6" height="86"/>
+    <rect x="665" y="356" width="2" height="86"/>
+    <rect x="670" y="356" width="3" height="86"/>
+    <rect x="676" y="356" width="5" height="86"/>
+    <rect x="684" y="356" width="2" height="86"/>
+    <rect x="689" y="356" width="4" height="86"/>
+    <rect x="696" y="356" width="2" height="86"/>
+    <rect x="701" y="356" width="6" height="86"/>
+    <rect x="710" y="356" width="3" height="86"/>
+    <rect x="716" y="356" width="2" height="86"/>
+    <rect x="721" y="356" width="5" height="86"/>
+    <rect x="729" y="356" width="2" height="86"/>
+    <rect x="734" y="356" width="4" height="86"/>
+    <rect x="741" y="356" width="6" height="86"/>
+    <rect x="750" y="356" width="2" height="86"/>
+    <rect x="755" y="356" width="3" height="86"/>
+    <rect x="761" y="356" width="5" height="86"/>
+    <rect x="769" y="356" width="2" height="86"/>
+    <rect x="774" y="356" width="4" height="86"/>
+    <rect x="781" y="356" width="2" height="86"/>
+    <rect x="786" y="356" width="6" height="86"/>
+    <rect x="795" y="356" width="3" height="86"/>
+    <rect x="801" y="356" width="2" height="86"/>
+    <rect x="806" y="356" width="6" height="86"/>
+  </g>
+  <text x="728" y="458" text-anchor="middle" font-family="'Courier New',monospace" font-weight="bold" font-size="11" letter-spacing="3" fill="#5b6472">AZ100 PARDXB 1A</text>
+
+  <!-- Bande de pied billet -->
+  <rect x="0" y="500" width="856" height="40" fill="#1e4f9c"/>
+  <rect x="0" y="496" width="856" height="4" fill="#d62839"/>
+  <text x="72" y="525" font-family="'Courier New',monospace" font-weight="bold" font-size="13" letter-spacing="3" fill="#a9c1e6">UN PASSEPORT DE DEPENSES · DESTINATION SOLDE</text>
+  <text x="812" y="525" text-anchor="end" font-family="'Courier New',monospace" font-weight="bold" font-size="13" letter-spacing="2" fill="#ffffff">★ ÉDITION VOYAGE</text>
+</svg>

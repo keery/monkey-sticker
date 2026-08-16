@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540">
+  <defs>
+    <!-- fond aura fondu rose -> violet -> bleu -->
+    <linearGradient id="aBg" x1="0.12" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#ffd9f0"/>
+      <stop offset="0.28" stop-color="#f5a3d6"/>
+      <stop offset="0.55" stop-color="#9b8cff"/>
+      <stop offset="0.80" stop-color="#7fb8f0"/>
+      <stop offset="1" stop-color="#7fe3f0"/>
+    </linearGradient>
+    <!-- voile lumineux diagonal -->
+    <linearGradient id="aGlaze" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7fe3f0" stop-opacity="0.35"/>
+    </linearGradient>
+    <!-- coeur alien : sphere iridescente -->
+    <radialGradient id="aCore" cx="0.38" cy="0.32" r="0.85">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.18" stop-color="#eafcff"/>
+      <stop offset="0.42" stop-color="#7fe3f0"/>
+      <stop offset="0.66" stop-color="#9b8cff"/>
+      <stop offset="0.86" stop-color="#f5a3d6"/>
+      <stop offset="1" stop-color="#c86fc0"/>
+    </radialGradient>
+    <!-- reflet holographique en biais sur le coeur -->
+    <linearGradient id="aHolo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9ad8"/>
+      <stop offset="0.34" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#9b8cff"/>
+      <stop offset="0.82" stop-color="#7fe3f0"/>
+      <stop offset="1" stop-color="#c8fff4"/>
+    </linearGradient>
+    <!-- halos concentriques (pulse) -->
+    <radialGradient id="aPulse" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.82" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <!-- ombre douce sous le coeur -->
+    <radialGradient id="aShadow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5b3d78" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#5b3d78" stop-opacity="0"/>
+    </radialGradient>
+    <!-- petale d'aura vaporeux -->
+    <radialGradient id="aMist" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <path id="aStar" d="M0,-20 C2.6,-6 6,-2.6 20,0 C6,2.6 2.6,6 0,20 C-2.6,6 -6,2.6 -20,0 C-6,-2.6 -2.6,-6 0,-20 Z"/>
+  </defs>
+
+  <!-- fond gradient plein format -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#aBg)"/>
+
+  <!-- brume d'aura : nappes vaporeuses colorees (decoratives, traversent la fenetre puce) -->
+  <g opacity="0.55">
+    <ellipse cx="120" cy="120" rx="260" ry="200" fill="url(#aMist)"/>
+    <ellipse cx="720" cy="470" rx="300" ry="220" fill="#7fe3f0" opacity="0.35"/>
+    <ellipse cx="150" cy="470" rx="240" ry="180" fill="#f5a3d6" opacity="0.4"/>
+    <ellipse cx="700" cy="90" rx="260" ry="180" fill="#9b8cff" opacity="0.35"/>
+  </g>
+
+  <!-- voile lumineux diagonal -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#aGlaze)" opacity="0.5"/>
+
+  <!-- ondes de flux irise en fond (fines lignes qui pulsent) -->
+  <g fill="none" stroke-linecap="round" opacity="0.5">
+    <path d="M-20,206 C160,176 300,240 470,206 C640,172 760,238 880,204" stroke="#ffffff" stroke-width="2.5" opacity="0.6"/>
+    <path d="M-20,262 C150,232 310,296 476,262 C642,228 764,292 880,258" stroke="#7fe3f0" stroke-width="3"/>
+    <path d="M-20,332 C160,300 320,364 486,330 C652,296 770,360 880,326" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+    <path d="M-20,392 C150,362 320,424 490,392 C660,360 772,422 880,388" stroke="#f5a3d6" stroke-width="3" opacity="0.7"/>
+  </g>
+
+  <!-- ============ COEUR ALIEN : sphere iridescente qui pulse ============ -->
+  <g transform="translate(548,268)">
+    <!-- ombre projetee -->
+    <ellipse cx="0" cy="176" rx="150" ry="26" fill="url(#aShadow)"/>
+
+    <!-- anneaux de pulsation -->
+    <circle cx="0" cy="0" r="196" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.28"/>
+    <circle cx="0" cy="0" r="196" fill="url(#aPulse)" opacity="0.5"/>
+    <circle cx="0" cy="0" r="164" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="0" cy="0" r="146" fill="url(#aPulse)" opacity="0.7"/>
+
+    <!-- rayonnement d'aura (petales de lumiere) -->
+    <g opacity="0.7">
+      <path d="M0,-150 C22,-206 -22,-206 0,-150 Z" fill="#ffffff" opacity="0.5"/>
+      <g fill="#ffffff" opacity="0.4">
+        <path d="M0,-142 L11,-232 L-11,-232 Z"/>
+        <path d="M0,-142 L11,-232 L-11,-232 Z" transform="rotate(45)"/>
+        <path d="M0,-142 L11,-232 L-11,-232 Z" transform="rotate(90)"/>
+        <path d="M0,-142 L11,-232 L-11,-232 Z" transform="rotate(135)"/>
+        <path d="M0,-142 L11,-232 L-11,-232 Z" transform="rotate(180)"/>
+        <path d="M0,-142 L11,-232 L-11,-232 Z" transform="rotate(225)"/>
+        <path d="M0,-142 L11,-232 L-11,-232 Z" transform="rotate(270)"/>
+        <path d="M0,-142 L11,-232 L-11,-232 Z" transform="rotate(315)"/>
+      </g>
+      <g fill="#ffe4f5" opacity="0.55">
+        <path d="M0,-146 L6,-206 L-6,-206 Z" transform="rotate(22)"/>
+        <path d="M0,-146 L6,-206 L-6,-206 Z" transform="rotate(67)"/>
+        <path d="M0,-146 L6,-206 L-6,-206 Z" transform="rotate(112)"/>
+        <path d="M0,-146 L6,-206 L-6,-206 Z" transform="rotate(157)"/>
+        <path d="M0,-146 L6,-206 L-6,-206 Z" transform="rotate(202)"/>
+        <path d="M0,-146 L6,-206 L-6,-206 Z" transform="rotate(247)"/>
+        <path d="M0,-146 L6,-206 L-6,-206 Z" transform="rotate(292)"/>
+        <path d="M0,-146 L6,-206 L-6,-206 Z" transform="rotate(337)"/>
+      </g>
+    </g>
+
+    <!-- corps de la sphere -->
+    <circle cx="0" cy="0" r="140" fill="url(#aCore)"/>
+    <!-- bandes holographiques en biais (reflets iridescents) -->
+    <clipPath id="clipCore"><circle cx="0" cy="0" r="140"/></clipPath>
+    <g clip-path="url(#clipCore)">
+      <path d="M-190,60 C-90,-10 60,10 200,-70 L200,-30 C60,50 -90,30 -190,100 Z" fill="url(#aHolo)" opacity="0.6"/>
+      <path d="M-190,120 C-70,60 80,80 200,10 L200,44 C80,114 -70,94 -190,154 Z" fill="#ffffff" opacity="0.35"/>
+      <path d="M-190,-40 C-90,-100 70,-80 200,-150 L200,-120 C70,-50 -90,-70 -190,-10 Z" fill="#7fe3f0" opacity="0.4"/>
+      <!-- veines internes 'alien core' -->
+      <path d="M-30,-120 C-70,-40 20,10 -20,120" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+      <path d="M40,-124 C90,-30 -10,20 60,120" fill="none" stroke="#c8fff4" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+      <path d="M-96,-70 C-40,-20 -60,40 -110,90" fill="none" stroke="#ff9ad8" stroke-width="2.5" opacity="0.4" stroke-linecap="round"/>
+      <!-- noyau lumineux interne -->
+      <circle cx="-8" cy="-6" r="52" fill="#ffffff" opacity="0.5"/>
+      <circle cx="-8" cy="-6" r="30" fill="#ffffff" opacity="0.7"/>
+    </g>
+    <!-- contour irise -->
+    <circle cx="0" cy="0" r="140" fill="none" stroke="url(#aHolo)" stroke-width="4" opacity="0.9"/>
+    <circle cx="0" cy="0" r="140" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- reflets speculaires -->
+    <ellipse cx="-46" cy="-58" rx="34" ry="20" fill="#ffffff" opacity="0.85" transform="rotate(-28 -46 -58)"/>
+    <ellipse cx="-72" cy="-24" rx="10" ry="6" fill="#ffffff" opacity="0.7" transform="rotate(-28 -72 -24)"/>
+    <ellipse cx="52" cy="66" rx="22" ry="10" fill="#ffffff" opacity="0.35" transform="rotate(-28 52 66)"/>
+
+    <!-- etincelles orbitales -->
+    <use href="#aStar" transform="translate(132,-104) scale(0.85)" fill="#ffffff"/>
+    <use href="#aStar" transform="translate(-150,72) scale(0.6)" fill="#ffffff" opacity="0.9"/>
+    <use href="#aStar" transform="translate(118,132) scale(0.5)" fill="#ffe4f5"/>
+    <use href="#aStar" transform="translate(-118,-118) scale(0.45)" fill="#ffffff" opacity="0.85"/>
+  </g>
+
+  <!-- ============ TYPOGRAPHIE ============ -->
+  <g font-family="'Avenir Next','Century Gothic','Trebuchet MS',Arial,sans-serif" text-anchor="middle">
+    <!-- titre AURA -->
+    <text x="548" y="118" font-size="80" font-weight="700" letter-spacing="14" fill="#5b3d78" opacity="0.28">AURA</text>
+    <text x="548" y="114" font-size="80" font-weight="700" letter-spacing="14" fill="#ffffff">AURA</text>
+    <!-- IRISEE -->
+    <text x="548" y="470" font-size="40" font-weight="600" letter-spacing="22" fill="#5b3d78" opacity="0.25">IRISÉE</text>
+    <text x="548" y="467" font-size="40" font-weight="600" letter-spacing="22" fill="#ffffff">IRISÉE</text>
+    <!-- slogan -->
+    <text x="548" y="506" font-size="16" font-weight="600" letter-spacing="6" fill="#ffffff" opacity="0.92">• ALIEN CORE • HOLOGRAPHIC GLOW •</text>
+  </g>
+
+  <!-- ============ AURA HUMAINE (silhouette de profil, tribu beaute/wellness) — hors fenetre puce, cote gauche bas ============ -->
+  <g transform="translate(150,442)">
+    <!-- halo d'aura autour de la tete -->
+    <circle cx="0" cy="-14" r="66" fill="url(#aMist)" opacity="0.7"/>
+    <circle cx="0" cy="-14" r="58" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+    <circle cx="0" cy="-14" r="48" fill="none" stroke="#7fe3f0" stroke-width="2.5" opacity="0.6"/>
+    <circle cx="0" cy="-14" r="38" fill="none" stroke="#f5a3d6" stroke-width="2.5" opacity="0.6"/>
+    <!-- profil / buste stylise -->
+    <path d="M-30,60 C-30,18 -22,-2 0,-2 C22,-2 30,18 30,60 Z" fill="#ffffff" opacity="0.9"/>
+    <circle cx="0" cy="-16" r="22" fill="#ffffff"/>
+    <path d="M-30,60 C-30,18 -22,-2 0,-2 C22,-2 30,18 30,60 Z" fill="none" stroke="#c86fc0" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="0" cy="-16" r="22" fill="none" stroke="#c86fc0" stroke-width="1.5" opacity="0.4"/>
+    <!-- point de chakra -->
+    <circle cx="0" cy="-14" r="4" fill="#9b8cff"/>
+  </g>
+
+  <!-- petites etincelles d'ambiance -->
+  <use href="#aStar" transform="translate(300,80) scale(0.55)" fill="#ffffff" opacity="0.9"/>
+  <use href="#aStar" transform="translate(790,190) scale(0.7)" fill="#ffffff" opacity="0.9"/>
+  <use href="#aStar" transform="translate(812,420) scale(0.5)" fill="#ffe4f5" opacity="0.9"/>
+  <use href="#aStar" transform="translate(268,470) scale(0.45)" fill="#ffffff" opacity="0.85"/>
+  <use href="#aStar" transform="translate(60,90) scale(0.5)" fill="#ffffff" opacity="0.8"/>
+  <use href="#aStar" transform="translate(760,320) scale(0.4)" fill="#ffffff" opacity="0.85"/>
+</svg>

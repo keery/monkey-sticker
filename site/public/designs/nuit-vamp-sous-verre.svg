@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" width="856" height="540" role="img" aria-label="Nuit Vamp Sous Verre — dentelle noire et rose oxblood sous verre laque">
+  <defs>
+    <!-- Oxblood deep background, radial glow from upper-right -->
+    <radialGradient id="bg" cx="66%" cy="30%" r="95%">
+      <stop offset="0%" stop-color="#5C1417"/>
+      <stop offset="42%" stop-color="#4A0E10"/>
+      <stop offset="78%" stop-color="#2B060A"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </radialGradient>
+    <!-- Lacquer sheen overlay (the 'sous verre' gloss) -->
+    <linearGradient id="lacquer" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="18%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="42%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.28"/>
+    </linearGradient>
+    <!-- Rose petal shading -->
+    <radialGradient id="roseCore" cx="46%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#7A1519"/>
+      <stop offset="55%" stop-color="#5A0F13"/>
+      <stop offset="100%" stop-color="#2E070A"/>
+    </radialGradient>
+    <linearGradient id="petalLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9A1D22"/>
+      <stop offset="100%" stop-color="#4A0E10"/>
+    </linearGradient>
+    <linearGradient id="petalDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5C1116"/>
+      <stop offset="100%" stop-color="#280609"/>
+    </linearGradient>
+    <!-- Gold hairline for framing accents -->
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E9C877"/>
+      <stop offset="50%" stop-color="#B8923F"/>
+      <stop offset="100%" stop-color="#7A5E22"/>
+    </linearGradient>
+    <!-- Soft dark vignette -->
+    <radialGradient id="vig" cx="50%" cy="48%" r="72%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+    <!-- Lace scallop clip so the lace has a real fabric edge -->
+    <clipPath id="glassClip">
+      <rect x="0" y="0" width="856" height="540"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#glassClip)">
+    <!-- Base oxblood -->
+    <rect x="0" y="0" width="856" height="540" fill="url(#bg)"/>
+
+    <!-- ================= BLACK LACE PANEL (draped, right + top) ================= -->
+    <!-- The lace is a dark near-black web with delicate floral eyelets, evoking suspended lace -->
+    <g fill="#0A0A0A" opacity="0.96">
+      <!-- Right vertical lace band -->
+      <path d="M856,0 L856,540 L640,540
+               C664,500 650,470 672,438
+               C696,404 668,378 690,344
+               C712,312 686,286 706,252
+               C726,220 700,196 720,162
+               C740,130 716,104 734,70
+               C748,42 730,20 748,0 Z"/>
+      <!-- Top horizontal lace band -->
+      <path d="M0,0 L856,0 L856,150
+               C812,132 786,150 742,132
+               C700,116 676,134 632,116
+               C592,100 566,118 522,100
+               C482,84 456,102 412,84
+               C372,68 346,86 302,68
+               C262,52 236,70 192,52
+               C152,36 126,54 82,36
+               C48,22 24,40 0,26 Z"/>
+    </g>
+
+    <!-- Lace scalloped inner edge (the vertical band) with picots -->
+    <g fill="none" stroke="#000000" stroke-opacity="0.9" stroke-width="2">
+      <path d="M636,540 C662,498 646,468 670,436 C696,400 666,372 690,338
+               C714,304 684,276 706,242 C728,208 700,182 720,148
+               C740,114 714,88 732,52 C744,28 726,10 742,-6"/>
+    </g>
+
+    <!-- Lace eyelet flowers scattered on the right band -->
+    <g stroke="#161616" stroke-width="1.4" fill="none">
+      <g transform="translate(730,64)">
+        <circle r="15" stroke="#1c1c1c"/>
+        <g fill="#000000">
+          <ellipse rx="6" ry="11" cx="0" cy="-13"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(60)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(120)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(180)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(240)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(300)"/>
+        </g>
+        <circle r="5" fill="#2b060a"/>
+      </g>
+      <g transform="translate(700,180) scale(0.85)">
+        <circle r="15" stroke="#1c1c1c"/>
+        <g fill="#000000">
+          <ellipse rx="6" ry="11" cx="0" cy="-13"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(72)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(144)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(216)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(288)"/>
+        </g>
+        <circle r="5" fill="#2b060a"/>
+      </g>
+      <g transform="translate(722,300) scale(0.78)">
+        <circle r="15" stroke="#1c1c1c"/>
+        <g fill="#000000">
+          <ellipse rx="6" ry="11" cx="0" cy="-13"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(60)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(120)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(180)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(240)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(300)"/>
+        </g>
+        <circle r="5" fill="#2b060a"/>
+      </g>
+      <g transform="translate(700,420) scale(0.9)">
+        <circle r="15" stroke="#1c1c1c"/>
+        <g fill="#000000">
+          <ellipse rx="6" ry="11" cx="0" cy="-13"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(72)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(144)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(216)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(288)"/>
+        </g>
+        <circle r="5" fill="#2b060a"/>
+      </g>
+    </g>
+
+    <!-- Lace eyelet flowers on the top band -->
+    <g stroke="#161616" stroke-width="1.3" fill="none">
+      <g transform="translate(560,58) scale(0.7)">
+        <circle r="15" stroke="#1c1c1c"/>
+        <g fill="#000000">
+          <ellipse rx="6" ry="11" cx="0" cy="-13"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(60)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(120)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(180)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(240)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(300)"/>
+        </g>
+        <circle r="5" fill="#2b060a"/>
+      </g>
+      <g transform="translate(688,66) scale(0.62)">
+        <circle r="15" stroke="#1c1c1c"/>
+        <g fill="#000000">
+          <ellipse rx="6" ry="11" cx="0" cy="-13"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(72)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(144)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(216)"/>
+          <ellipse rx="6" ry="11" cx="0" cy="-13" transform="rotate(288)"/>
+        </g>
+        <circle r="5" fill="#2b060a"/>
+      </g>
+    </g>
+
+    <!-- Lace connective mesh (fine cross-hatch just on bands) -->
+    <g stroke="#000000" stroke-opacity="0.5" stroke-width="1">
+      <path d="M660,40 L740,120 M660,120 L740,200 M660,200 L740,280 M660,280 L740,360 M660,360 L740,440 M660,440 L740,520"/>
+      <path d="M740,40 L660,120 M740,120 L660,200 M740,200 L660,280 M740,280 L660,360 M740,360 L660,440 M740,440 L660,520"/>
+    </g>
+
+    <!-- ================= CENTRAL HERO: black-red rose bloom ================= -->
+    <!-- A luxe gothic rose sits center-right, the 'very expensive night card' focal -->
+    <g transform="translate(470,300)">
+      <!-- outer petals (dark) -->
+      <g fill="url(#petalDark)" stroke="#0A0A0A" stroke-width="1.4">
+        <path d="M0,-118 C58,-120 96,-78 92,-24 C132,-44 176,-14 168,42
+                 C202,44 214,96 176,132 C196,176 158,214 108,200
+                 C104,244 46,258 8,222 C-30,258 -88,244 -92,198
+                 C-142,214 -180,176 -160,132 C-198,96 -186,44 -152,42
+                 C-160,-14 -116,-44 -76,-24 C-80,-78 -42,-120 0,-118 Z"/>
+      </g>
+      <!-- mid petals -->
+      <g fill="url(#petalLight)" stroke="#2B060A" stroke-width="1.2">
+        <path d="M0,-86 C40,-88 68,-56 64,-16 C96,-30 128,-6 122,34
+                 C148,40 152,80 122,104 C132,140 100,166 62,152
+                 C56,186 14,196 -14,168 C-44,192 -86,178 -88,144
+                 C-124,152 -150,122 -136,88 C-160,64 -150,26 -122,26
+                 C-128,-14 -96,-34 -66,-18 C-70,-58 -40,-88 0,-86 Z"/>
+      </g>
+      <!-- inner bloom -->
+      <g fill="url(#roseCore)" stroke="#2B060A" stroke-width="1">
+        <path d="M0,-54 C28,-56 46,-34 44,-8 C64,-18 86,-2 82,26
+                 C100,30 100,58 78,72 C82,96 60,112 34,102
+                 C30,124 2,132 -18,112 C-40,128 -68,116 -68,92
+                 C-92,96 -108,74 -96,52 C-112,34 -104,8 -84,10
+                 C-88,-16 -66,-32 -44,-20 C-46,-46 -26,-58 0,-54 Z"/>
+      </g>
+      <!-- rose spiral core -->
+      <g fill="none" stroke="#2B060A" stroke-width="2.4" stroke-linecap="round">
+        <path d="M6,-8 C24,-6 30,14 16,26 C0,40 -24,32 -28,12 C-32,-14 -8,-30 16,-24
+                 C46,-16 54,18 34,40 C14,62 -22,58 -38,34"/>
+      </g>
+      <path d="M4,-6 C16,-4 20,10 10,18 C-2,28 -18,20 -18,6 C-18,-10 -2,-18 12,-12"
+            fill="none" stroke="#7A1519" stroke-width="2"/>
+      <!-- petal glossy highlights -->
+      <g fill="#B33036" opacity="0.55">
+        <path d="M-8,-92 C22,-96 46,-72 42,-46 C30,-70 6,-80 -14,-72 C-20,-84 -18,-90 -8,-92 Z"/>
+        <path d="M96,20 C118,30 120,58 100,76 C112,54 108,36 90,30 C90,24 92,20 96,20 Z"/>
+      </g>
+    </g>
+
+    <!-- A couple of leaves for the floral ambiance -->
+    <g fill="#1A0A0A" stroke="#0A0A0A" stroke-width="1">
+      <path d="M330,392 C300,404 274,398 258,376 C286,372 314,376 330,392 Z"/>
+      <path d="M356,436 C332,458 306,462 284,448 C308,432 336,424 356,436 Z"/>
+    </g>
+    <g fill="none" stroke="#3a1013" stroke-width="1.2">
+      <path d="M262,378 C288,378 312,382 328,392"/>
+      <path d="M288,450 C312,438 336,432 352,436"/>
+    </g>
+
+    <!-- Small budding rose lower-left as secondary floral -->
+    <g transform="translate(300,452) scale(0.6)">
+      <path d="M0,-30 C18,-32 30,-16 26,4 C42,-4 58,10 52,30 C40,50 12,54 -6,40
+               C-28,50 -50,36 -48,14 C-64,10 -66,-14 -48,-22 C-34,-30 -16,-24 -12,-10
+               C-14,-26 -14,-30 0,-30 Z" fill="url(#petalDark)" stroke="#0A0A0A" stroke-width="1.2"/>
+      <path d="M0,-6 C12,-8 16,6 6,14 C-6,22 -22,12 -20,-2 C-18,-16 -2,-20 8,-12"
+            fill="none" stroke="#7A1519" stroke-width="1.6"/>
+    </g>
+
+    <!-- ================= WORDMARK ================= -->
+    <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+      <text x="470" y="470" font-size="42" letter-spacing="7" fill="#F3E4C6"
+            font-style="italic" font-weight="700">Nuit Vamp</text>
+      <text x="470" y="500" font-size="14" letter-spacing="11" fill="#C9A24B"
+            font-weight="400">SOUS&#160;&#160;VERRE</text>
+      <!-- gold hairline flourish under wordmark -->
+      <path d="M360,482 L560,482" stroke="url(#gold)" stroke-width="1.6"/>
+      <circle cx="352" cy="482" r="3" fill="url(#gold)"/>
+      <circle cx="568" cy="482" r="3" fill="url(#gold)"/>
+    </g>
+
+    <!-- ================= 'SOUS VERRE' LACQUER GLASS SEAL ================= -->
+    <!-- Full-frame gloss overlay -->
+    <rect x="0" y="0" width="856" height="540" fill="url(#lacquer)"/>
+    <!-- diagonal glass reflection streak -->
+    <path d="M-40,120 L300,-40 L360,-40 L20,120 Z" fill="#ffffff" opacity="0.10"/>
+    <path d="M40,220 L220,120 L250,120 L70,220 Z" fill="#ffffff" opacity="0.06"/>
+    <!-- inner beveled 'glass' frame -->
+    <rect x="14" y="14" width="828" height="512" fill="none"
+          stroke="url(#gold)" stroke-width="1.6" opacity="0.9"/>
+    <rect x="20" y="20" width="816" height="500" fill="none"
+          stroke="#000000" stroke-opacity="0.4" stroke-width="1"/>
+
+    <!-- Vignette to seat everything -->
+    <rect x="0" y="0" width="856" height="540" fill="url(#vig)"/>
+  </g>
+</svg>

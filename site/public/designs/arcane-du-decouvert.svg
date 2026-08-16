@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 856 540" role="img" aria-label="L'Arcane du Decouvert - carte de tarot XXII Le Decouvert">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#1a2a5c"/>
+      <stop offset="55%" stop-color="#101b3d"/>
+      <stop offset="100%" stop-color="#0a1129"/>
+    </radialGradient>
+    <linearGradient id="goldText" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f4e2a0"/>
+      <stop offset="55%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#b8912a"/>
+    </linearGradient>
+    <radialGradient id="haloGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#d4af37" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#26386f"/>
+      <stop offset="100%" stop-color="#0e1836"/>
+    </linearGradient>
+    <radialGradient id="coinGrad" cx="38%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#f4e2a0"/>
+      <stop offset="65%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#b08a24"/>
+    </radialGradient>
+    <linearGradient id="chipGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0d98c"/>
+      <stop offset="100%" stop-color="#c49b2c"/>
+    </linearGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="1.5" fill="#d4af37" opacity="0.13"/>
+      <circle cx="24" cy="24" r="1.1" fill="#d4af37" opacity="0.09"/>
+    </pattern>
+    <path id="spark" d="M0,-11 C1.2,-3.5 3.5,-1.2 11,0 C3.5,1.2 1.2,3.5 0,11 C-1.2,3.5 -3.5,1.2 -11,0 C-3.5,-1.2 -1.2,-3.5 0,-11 Z"/>
+    <path id="ray" d="M505,104 L513,212 L497,212 Z"/>
+    <path id="ray2" d="M505,134 L511,216 L499,216 Z"/>
+    <path id="sunray" d="M712,46 L719,78 L705,78 Z"/>
+    <g id="cornerOrn" fill="none" stroke="#d4af37">
+      <path d="M0,30 Q0,0 30,0" stroke-width="1.6"/>
+      <path d="M6,34 Q6,6 34,6" stroke-width="0.9" opacity="0.6"/>
+      <circle cx="15" cy="15" r="2.4" fill="#d4af37" stroke="none"/>
+      <circle cx="27" cy="12" r="1.4" fill="#d4af37" stroke="none" opacity="0.8"/>
+      <circle cx="12" cy="27" r="1.4" fill="#d4af37" stroke="none" opacity="0.8"/>
+    </g>
+    <mask id="moonMask">
+      <rect x="90" y="40" width="130" height="130" fill="#ffffff"/>
+      <circle cx="174" cy="92" r="31" fill="#000000"/>
+    </mask>
+  </defs>
+
+  <!-- ===== FOND ===== -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="856" height="540" fill="url(#dots)"/>
+
+  <!-- petites etoiles de fond (hors fenetre puce) -->
+  <g fill="#f4e2a0">
+    <circle cx="300" cy="142" r="1.6" opacity="0.5"/>
+    <circle cx="365" cy="95" r="1.2" opacity="0.4"/>
+    <circle cx="620" cy="150" r="1.5" opacity="0.5"/>
+    <circle cx="770" cy="360" r="1.4" opacity="0.45"/>
+    <circle cx="255" cy="330" r="1.3" opacity="0.4"/>
+    <circle cx="700" cy="255" r="1.4" opacity="0.4"/>
+    <circle cx="330" cy="430" r="1.3" opacity="0.35"/>
+    <circle cx="248" cy="112" r="1.4" opacity="0.45"/>
+  </g>
+
+  <!-- ===== CADRE GRAVE ===== -->
+  <rect x="16" y="16" width="824" height="508" fill="none" stroke="#d4af37" stroke-width="3"/>
+  <rect x="23" y="23" width="810" height="494" fill="none" stroke="#d4af37" stroke-width="1.4" stroke-dasharray="1 6" opacity="0.55"/>
+  <rect x="30" y="30" width="796" height="480" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.7"/>
+  <use href="#cornerOrn" transform="translate(44,44)"/>
+  <use href="#cornerOrn" transform="translate(812,44) scale(-1,1)"/>
+  <use href="#cornerOrn" transform="translate(44,496) scale(1,-1)"/>
+  <use href="#cornerOrn" transform="translate(812,496) scale(-1,-1)"/>
+
+  <!-- ===== TITRE HAUT ===== -->
+  <text x="428" y="92" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="bold" letter-spacing="8" fill="url(#goldText)">XXII</text>
+  <text x="428" y="116" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="6" fill="#d4af37" opacity="0.8">ARCANE MAJEUR</text>
+  <use href="#spark" transform="translate(340,72) scale(0.65)" fill="#e9c85e" opacity="0.9"/>
+  <use href="#spark" transform="translate(516,72) scale(0.65)" fill="#e9c85e" opacity="0.9"/>
+
+  <!-- ===== LUNE (haut gauche, au-dessus de la fenetre puce) ===== -->
+  <g>
+    <circle cx="150" cy="102" r="36" fill="#edd189" mask="url(#moonMask)"/>
+    <path d="M133,96 q 5,6 11,0" fill="none" stroke="#101b3d" stroke-width="2" stroke-linecap="round"/>
+    <path d="M134,116 q 4,4 9,1" fill="none" stroke="#101b3d" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="128" cy="107" r="2.4" fill="#c96f4a" opacity="0.55"/>
+    <circle cx="196" cy="70" r="1.6" fill="#f4e2a0" opacity="0.7"/>
+    <circle cx="105" cy="60" r="1.4" fill="#f4e2a0" opacity="0.6"/>
+    <use href="#spark" transform="translate(206,126) scale(0.4)" fill="#e9c85e" opacity="0.8"/>
+  </g>
+
+  <!-- ===== SOLEIL (haut droit) ===== -->
+  <g>
+    <g fill="#d4af37">
+      <use href="#sunray"/>
+      <use href="#sunray" transform="rotate(45 712 106)"/>
+      <use href="#sunray" transform="rotate(90 712 106)"/>
+      <use href="#sunray" transform="rotate(135 712 106)"/>
+      <use href="#sunray" transform="rotate(180 712 106)"/>
+      <use href="#sunray" transform="rotate(225 712 106)"/>
+      <use href="#sunray" transform="rotate(270 712 106)"/>
+      <use href="#sunray" transform="rotate(315 712 106)"/>
+    </g>
+    <g fill="#d4af37" opacity="0.6">
+      <use href="#sunray" transform="rotate(22.5 712 106) translate(0,14) scale(1,0.75)"/>
+      <use href="#sunray" transform="rotate(67.5 712 106) translate(0,14) scale(1,0.75)"/>
+      <use href="#sunray" transform="rotate(112.5 712 106) translate(0,14) scale(1,0.75)"/>
+      <use href="#sunray" transform="rotate(157.5 712 106) translate(0,14) scale(1,0.75)"/>
+      <use href="#sunray" transform="rotate(202.5 712 106) translate(0,14) scale(1,0.75)"/>
+      <use href="#sunray" transform="rotate(247.5 712 106) translate(0,14) scale(1,0.75)"/>
+      <use href="#sunray" transform="rotate(292.5 712 106) translate(0,14) scale(1,0.75)"/>
+      <use href="#sunray" transform="rotate(337.5 712 106) translate(0,14) scale(1,0.75)"/>
+    </g>
+    <circle cx="712" cy="106" r="30" fill="url(#coinGrad)" stroke="#a8862a" stroke-width="1.5"/>
+    <path d="M700,103 q 4,5 9,0" fill="none" stroke="#101b3d" stroke-width="2" stroke-linecap="round"/>
+    <path d="M716,103 q 4,5 9,0" fill="none" stroke="#101b3d" stroke-width="2" stroke-linecap="round"/>
+    <path d="M706,114 q 6,6 13,0" fill="none" stroke="#101b3d" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="698" cy="111" r="2.5" fill="#c96f4a" opacity="0.5"/>
+    <circle cx="727" cy="111" r="2.5" fill="#c96f4a" opacity="0.5"/>
+  </g>
+
+  <!-- ===== HALO + RAYONS derriere la carte ===== -->
+  <circle cx="505" cy="250" r="150" fill="url(#haloGrad)"/>
+  <g fill="#d4af37" fill-opacity="0.4">
+    <use href="#ray"/>
+    <use href="#ray" transform="rotate(30 505 250)"/>
+    <use href="#ray" transform="rotate(60 505 250)"/>
+    <use href="#ray" transform="rotate(90 505 250)"/>
+    <use href="#ray" transform="rotate(120 505 250)"/>
+    <use href="#ray" transform="rotate(150 505 250)"/>
+    <use href="#ray" transform="rotate(180 505 250)"/>
+    <use href="#ray" transform="rotate(210 505 250)"/>
+    <use href="#ray" transform="rotate(240 505 250)"/>
+    <use href="#ray" transform="rotate(270 505 250)"/>
+    <use href="#ray" transform="rotate(300 505 250)"/>
+    <use href="#ray" transform="rotate(330 505 250)"/>
+  </g>
+  <g fill="#d4af37" fill-opacity="0.24">
+    <use href="#ray2" transform="rotate(15 505 250)"/>
+    <use href="#ray2" transform="rotate(45 505 250)"/>
+    <use href="#ray2" transform="rotate(75 505 250)"/>
+    <use href="#ray2" transform="rotate(105 505 250)"/>
+    <use href="#ray2" transform="rotate(135 505 250)"/>
+    <use href="#ray2" transform="rotate(165 505 250)"/>
+    <use href="#ray2" transform="rotate(195 505 250)"/>
+    <use href="#ray2" transform="rotate(225 505 250)"/>
+    <use href="#ray2" transform="rotate(255 505 250)"/>
+    <use href="#ray2" transform="rotate(285 505 250)"/>
+    <use href="#ray2" transform="rotate(315 505 250)"/>
+    <use href="#ray2" transform="rotate(345 505 250)"/>
+  </g>
+  <circle cx="505" cy="250" r="118" fill="none" stroke="#d4af37" stroke-width="1" stroke-dasharray="2 8" opacity="0.4"/>
+
+  <!-- ===== PIECES QUI S'ECHAPPENT (le decouvert...) ===== -->
+  <g>
+    <path d="M414,318 q -10,16 -6,30" fill="none" stroke="#d4af37" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.5"/>
+    <path d="M368,356 q -10,16 -7,28" fill="none" stroke="#d4af37" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.45"/>
+    <path d="M318,394 q -10,14 -8,26" fill="none" stroke="#d4af37" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.4"/>
+    <g transform="translate(395,348)">
+      <circle r="15" fill="url(#coinGrad)" stroke="#7a5f1c" stroke-width="1.5"/>
+      <circle r="10.5" fill="none" stroke="#8a6d1f" stroke-width="1" stroke-dasharray="2 3"/>
+      <use href="#spark" transform="scale(0.42)" fill="#7a5f1c"/>
+    </g>
+    <g transform="translate(345,390) rotate(-18)">
+      <circle r="13" fill="url(#coinGrad)" stroke="#7a5f1c" stroke-width="1.4"/>
+      <circle r="9" fill="none" stroke="#8a6d1f" stroke-width="1" stroke-dasharray="2 3"/>
+      <use href="#spark" transform="scale(0.36)" fill="#7a5f1c"/>
+    </g>
+    <g transform="translate(296,428) rotate(14)">
+      <circle r="12" fill="url(#coinGrad)" stroke="#7a5f1c" stroke-width="1.3"/>
+      <circle r="8.2" fill="none" stroke="#8a6d1f" stroke-width="1" stroke-dasharray="2 3"/>
+      <use href="#spark" transform="scale(0.33)" fill="#7a5f1c"/>
+    </g>
+  </g>
+
+  <!-- ===== PETIT TAS DE PIECES ENVOLEES (bas gauche) ===== -->
+  <g>
+    <ellipse cx="155" cy="462" rx="27" ry="9" fill="url(#coinGrad)" stroke="#7a5f1c" stroke-width="1.4"/>
+    <ellipse cx="161" cy="449" rx="27" ry="9" fill="url(#coinGrad)" stroke="#7a5f1c" stroke-width="1.4"/>
+    <ellipse cx="152" cy="436" rx="27" ry="9" fill="url(#coinGrad)" stroke="#7a5f1c" stroke-width="1.4"/>
+    <ellipse cx="152" cy="433.5" rx="27" ry="9" fill="#f0d98c" stroke="#7a5f1c" stroke-width="1"/>
+    <g transform="translate(210,448) rotate(12)">
+      <circle r="14" fill="url(#coinGrad)" stroke="#7a5f1c" stroke-width="1.4"/>
+      <circle r="9.8" fill="none" stroke="#8a6d1f" stroke-width="1" stroke-dasharray="2 3"/>
+      <use href="#spark" transform="scale(0.4)" fill="#7a5f1c"/>
+    </g>
+    <use href="#spark" transform="translate(118,408) scale(0.42)" fill="#e9c85e" opacity="0.85"/>
+    <use href="#spark" transform="translate(238,414) scale(0.3)" fill="#e9c85e" opacity="0.7"/>
+  </g>
+
+  <!-- ===== LA CARTE-ARCANE (CB mystique) ===== -->
+  <g transform="translate(505,245) rotate(-10)">
+    <rect x="-98" y="-62" width="196" height="124" rx="12" fill="url(#cardGrad)" stroke="#d4af37" stroke-width="2.5"/>
+    <rect x="-88" y="-52" width="176" height="104" rx="8" fill="none" stroke="#d4af37" stroke-width="0.8" opacity="0.6"/>
+    <!-- puce -->
+    <rect x="-80" y="-36" width="28" height="22" rx="4" fill="url(#chipGrad)" stroke="#8a6d1f" stroke-width="1"/>
+    <path d="M-80,-25 h28 M-66,-36 v22" fill="none" stroke="#8a6d1f" stroke-width="0.8"/>
+    <!-- ondes sans contact -->
+    <path d="M-42,-32 a11,11 0 0 1 0,16 M-38,-28 a5.5,5.5 0 0 1 0,8" fill="none" stroke="#d4af37" stroke-width="1.5" stroke-linecap="round" opacity="0.85"/>
+    <!-- XXII embosse -->
+    <text x="86" y="-36" text-anchor="end" font-family="Georgia, 'Times New Roman', serif" font-size="14" font-weight="bold" letter-spacing="2" fill="#e9c85e">XXII</text>
+    <!-- oeil mystique qui verse une larme -->
+    <g transform="translate(20,-2)">
+      <path d="M-33,0 Q0,-25 33,0 Q0,25 -33,0 Z" fill="#f5e9cf" stroke="#d4af37" stroke-width="1.5"/>
+      <circle r="11.5" fill="#16244f" stroke="#d4af37" stroke-width="1"/>
+      <circle r="4.6" fill="#d4af37"/>
+      <circle cx="3.5" cy="-4" r="1.8" fill="#f5e9cf"/>
+      <g stroke="#d4af37" stroke-width="1.5" stroke-linecap="round">
+        <path d="M0,-27 L0,-35"/>
+        <path d="M19,-19 L25,-26"/>
+        <path d="M-19,-19 L-25,-26"/>
+        <path d="M31,-7 L40,-11"/>
+        <path d="M-31,-7 L-40,-11"/>
+      </g>
+      <path d="M-10,15 C-6,21 -5,26 -10,29 C-15,26 -14,21 -10,15 Z" fill="#8fa3d9"/>
+    </g>
+    <!-- numero en pointilles -->
+    <g fill="#d4af37" opacity="0.85">
+      <circle cx="-76" cy="44" r="2"/><circle cx="-67" cy="44" r="2"/><circle cx="-58" cy="44" r="2"/><circle cx="-49" cy="44" r="2"/>
+      <circle cx="-34" cy="44" r="2"/><circle cx="-25" cy="44" r="2"/><circle cx="-16" cy="44" r="2"/><circle cx="-7" cy="44" r="2"/>
+      <circle cx="8" cy="44" r="2"/><circle cx="17" cy="44" r="2"/><circle cx="26" cy="44" r="2"/><circle cx="35" cy="44" r="2"/>
+      <circle cx="50" cy="44" r="2"/><circle cx="59" cy="44" r="2"/><circle cx="68" cy="44" r="2"/><circle cx="77" cy="44" r="2"/>
+    </g>
+  </g>
+
+  <!-- ===== MANCHE + MAIN sortant des nuages ===== -->
+  <path d="M492,540 C495,472 514,416 540,378 L594,392 C586,432 590,482 602,540 Z" fill="#34477e" stroke="#d4af37" stroke-width="1.5"/>
+  <path d="M540,378 L594,392 L588,414 C568,404 552,400 533,400 Z" fill="#d4af37"/>
+  <ellipse cx="553" cy="348" rx="34" ry="28" transform="rotate(-12 553 348)" fill="#f2e3c0" stroke="#0d1633" stroke-width="2"/>
+  <rect x="516" y="288" width="17" height="54" rx="8.5" transform="rotate(-14 524 315)" fill="#f2e3c0" stroke="#0d1633" stroke-width="2"/>
+  <rect x="537" y="284" width="17" height="56" rx="8.5" transform="rotate(-10 545 312)" fill="#f2e3c0" stroke="#0d1633" stroke-width="2"/>
+  <rect x="558" y="282" width="17" height="54" rx="8.5" transform="rotate(-6 566 309)" fill="#f2e3c0" stroke="#0d1633" stroke-width="2"/>
+  <rect x="584" y="298" width="18" height="48" rx="9" transform="rotate(28 593 322)" fill="#f2e3c0" stroke="#0d1633" stroke-width="2"/>
+
+  <!-- ===== NUAGES bas (recouvrent la manche) ===== -->
+  <g fill="#1b2a52">
+    <circle cx="350" cy="560" r="70"/>
+    <circle cx="450" cy="555" r="80"/>
+    <circle cx="560" cy="560" r="85"/>
+    <circle cx="660" cy="555" r="70"/>
+    <circle cx="745" cy="572" r="60"/>
+  </g>
+  <g fill="#2a3c70">
+    <circle cx="400" cy="566" r="55"/>
+    <circle cx="500" cy="562" r="65"/>
+    <circle cx="602" cy="566" r="60"/>
+    <circle cx="692" cy="576" r="50"/>
+  </g>
+  <g fill="#d4af37" opacity="0.5">
+    <circle cx="418" cy="518" r="1.8"/>
+    <circle cx="530" cy="508" r="1.6"/>
+    <circle cx="636" cy="516" r="1.8"/>
+    <circle cx="712" cy="532" r="1.5"/>
+  </g>
+
+  <!-- ===== CONSTELLATION (droite) ===== -->
+  <g>
+    <polyline points="790,182 806,226 781,266 800,310" fill="none" stroke="#d4af37" stroke-width="0.9" opacity="0.5"/>
+    <circle cx="790" cy="182" r="2.4" fill="#e9c85e"/>
+    <circle cx="806" cy="226" r="1.9" fill="#e9c85e"/>
+    <circle cx="781" cy="266" r="2.4" fill="#e9c85e"/>
+    <circle cx="800" cy="310" r="1.9" fill="#e9c85e"/>
+  </g>
+
+  <!-- sparkles d'ambiance -->
+  <use href="#spark" transform="translate(305,205) scale(0.5)" fill="#e9c85e" opacity="0.8"/>
+  <use href="#spark" transform="translate(648,180) scale(0.6)" fill="#e9c85e" opacity="0.85"/>
+  <use href="#spark" transform="translate(672,392) scale(0.5)" fill="#e9c85e" opacity="0.75"/>
+  <use href="#spark" transform="translate(560,124) scale(0.4)" fill="#e9c85e" opacity="0.7"/>
+  <use href="#spark" transform="translate(760,436) scale(0.45)" fill="#e9c85e" opacity="0.7"/>
+  <use href="#spark" transform="translate(262,270) scale(0.38)" fill="#e9c85e" opacity="0.6"/>
+
+  <!-- ===== CARTOUCHE TITRE BAS ===== -->
+  <g>
+    <path d="M268,450 L234,471 L268,492 Z" fill="#0b1330" stroke="#d4af37" stroke-width="1.5"/>
+    <path d="M588,450 L622,471 L588,492 Z" fill="#0b1330" stroke="#d4af37" stroke-width="1.5"/>
+    <rect x="268" y="446" width="320" height="50" fill="#0d1633" stroke="#d4af37" stroke-width="2"/>
+    <rect x="274" y="452" width="308" height="38" fill="none" stroke="#d4af37" stroke-width="0.8" opacity="0.5"/>
+    <rect x="289" y="468" width="7" height="7" transform="rotate(45 292.5 471.5)" fill="#d4af37"/>
+    <rect x="560" y="468" width="7" height="7" transform="rotate(45 563.5 471.5)" fill="#d4af37"/>
+    <text x="428" y="479" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="bold" letter-spacing="3.5" fill="url(#goldText)">LE DÉCOUVERT</text>
+    <line x1="168" y1="471" x2="228" y2="471" stroke="#d4af37" stroke-width="1" opacity="0.6"/>
+    <circle cx="162" cy="471" r="2.5" fill="#d4af37" opacity="0.8"/>
+    <line x1="628" y1="471" x2="688" y2="471" stroke="#d4af37" stroke-width="1" opacity="0.6"/>
+    <circle cx="694" cy="471" r="2.5" fill="#d4af37" opacity="0.8"/>
+  </g>
+</svg>

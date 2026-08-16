@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 856 540">
+  <defs>
+    <clipPath id="card"><rect x="0" y="0" width="856" height="540"/></clipPath>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf9f3"/>
+      <stop offset="1" stop-color="#f0eee3"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eceef0"/>
+      <stop offset="0.5" stop-color="#b8bdc3"/>
+      <stop offset="1" stop-color="#7d838b"/>
+    </linearGradient>
+    <linearGradient id="metalDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdd1d6"/>
+      <stop offset="1" stop-color="#666c74"/>
+    </linearGradient>
+    <linearGradient id="bandGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5a12"/>
+      <stop offset="1" stop-color="#f24700"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <!-- Epingle a nourrice (safety pin), horizontale, centree sur l'origine -->
+    <g id="pin">
+      <ellipse cx="4" cy="16" rx="70" ry="8" fill="#161616" opacity="0.20" filter="url(#soft)"/>
+      <!-- fentes du trompe-l'oeil (l'aiguille perce le papier) -->
+      <ellipse cx="-16" cy="10" rx="9" ry="3" fill="#161616" opacity="0.42"/>
+      <ellipse cx="34" cy="8" rx="9" ry="3" fill="#161616" opacity="0.42"/>
+      <path d="M 58,6 L -46,9.4 A 13 13 0 1 1 -46,-7.4 L 58,-14"
+            fill="none" stroke="url(#metal)" stroke-width="6.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="52" y="-24" width="27" height="34" rx="11" fill="url(#metalDark)"/>
+      <rect x="57" y="-19" width="8" height="23" rx="4" fill="#f2f3f4" opacity="0.45"/>
+      <circle cx="-63" cy="-6" r="2.4" fill="#ffffff" opacity="0.85"/>
+    </g>
+  </defs>
+
+  <!-- ============ FOND PAPIER DU DOSSARD ============ -->
+  <rect x="0" y="0" width="856" height="540" fill="url(#paper)"/>
+
+  <!-- Rayures diagonales d'ambiance -->
+  <g clip-path="url(#card)">
+    <path transform="rotate(-18 428 270)" stroke="#ff4d00" stroke-width="14" opacity="0.05"
+          d="M-150 -220V760M-104 -220V760M-58 -220V760M-12 -220V760M34 -220V760M80 -220V760M126 -220V760M172 -220V760M218 -220V760M264 -220V760M310 -220V760M356 -220V760M402 -220V760M448 -220V760M494 -220V760M540 -220V760M586 -220V760M632 -220V760M678 -220V760M724 -220V760M770 -220V760M816 -220V760M862 -220V760M908 -220V760M954 -220V760M1000 -220V760"/>
+  </g>
+
+  <!-- Pli de lumiere (papier legerement froisse) -->
+  <polygon points="600,0 700,0 380,540 280,540" fill="#ffffff" opacity="0.07"/>
+  <polygon points="726,0 758,0 438,540 416,540" fill="#ffffff" opacity="0.05"/>
+
+  <!-- ============ BANDEAU DE TETE ============ -->
+  <rect x="0" y="0" width="856" height="122" fill="url(#bandGrad)"/>
+  <rect x="0" y="122" width="856" height="8" fill="#161616"/>
+  <text x="428" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="12" font-weight="700" letter-spacing="3" fill="#161616" opacity="0.85">&#201;DITION HEBDOMADAIRE N&#176; 42 &#8212; D&#201;PART 09:30-ISH</text>
+  <text x="428" y="94" text-anchor="middle" font-family="'Arial Black', 'Archivo Black', Arial, sans-serif"
+        font-size="34" font-weight="900" letter-spacing="1.5" fill="#f7f6f0">DOSSARD DU DIMANCHE</text>
+
+  <!-- Bandes verticales gauche (liseret course) -->
+  <rect x="0" y="130" width="22" height="300" fill="#ff4d00"/>
+  <rect x="28" y="130" width="7" height="300" fill="#161616"/>
+  <rect x="40" y="130" width="3" height="300" fill="#ff4d00" opacity="0.55"/>
+
+  <!-- ============ ZONE CENTRALE : NUMERO ============ -->
+  <text x="530" y="192" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" font-weight="700" letter-spacing="3" fill="#161616" opacity="0.7">DISTANCE : 10 KM (N&#201;GOCIABLE)</text>
+
+  <text x="536" y="348" text-anchor="middle" font-family="'Arial Black', 'Archivo Black', Arial, sans-serif"
+        font-size="175" font-weight="900" fill="#ff4d00" opacity="0.9">0930</text>
+  <text x="530" y="342" text-anchor="middle" font-family="'Arial Black', 'Archivo Black', Arial, sans-serif"
+        font-size="175" font-weight="900" fill="#161616">0930</text>
+
+  <!-- Pastille slogan -->
+  <rect x="372" y="366" width="316" height="38" rx="19" fill="#161616"/>
+  <text x="530" y="391" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="17" font-weight="700" letter-spacing="2.5" fill="#f7f6f0">ALLURE : DISCUTABLE</text>
+
+  <text x="428" y="426" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="10.5" font-weight="400" letter-spacing="1" fill="#161616" opacity="0.55">EN CAS D'ABANDON, RAMENER CE DOSSARD AU BRUNCH LE PLUS PROCHE</text>
+
+  <!-- Code-barres de chronometrage (bord droit) -->
+  <line x1="824" y1="176" x2="824" y2="344" stroke="#161616" stroke-width="34" opacity="0.88"
+        stroke-dasharray="4 3 7 2 3 5 2 6 3 2 8 3 2 5 4 2"/>
+  <text x="824" y="362" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="9" letter-spacing="1.5" fill="#161616" opacity="0.7">0930&#183;DIM</text>
+
+  <!-- ============ COUPON SPONSORS (bas detachable) ============ -->
+  <rect x="0" y="442" width="856" height="98" fill="#eeeadf"/>
+  <line x1="16" y1="441" x2="840" y2="441" stroke="#161616" stroke-width="2" opacity="0.3" stroke-dasharray="9 7"/>
+  <g transform="translate(58,441)" stroke="#161616" stroke-width="1.8" opacity="0.55" fill="none">
+    <path d="M -8,-6 L 10,6 M -8,6 L 10,-6"/>
+    <circle cx="-10" cy="-7" r="2.6"/>
+    <circle cx="-10" cy="7" r="2.6"/>
+  </g>
+  <text x="428" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="10" font-weight="700" letter-spacing="3" fill="#161616" opacity="0.55">SPONSORS OFFICIELS (100% FICTIFS)</text>
+
+  <!-- Sponsor 1 : cafe -->
+  <g transform="translate(245,481)">
+    <path d="M -4,-13 q 3,-4 0,-8 M 3,-13 q 3,-4 0,-8" stroke="#ff4d00" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+    <path d="M -10,-8 h 20 l -3,14 h -14 z" fill="#161616"/>
+    <path d="M 10,-6 q 8,0 6.5,6 q -1.5,5 -7,4" fill="none" stroke="#161616" stroke-width="2.4"/>
+    <rect x="-13" y="8" width="26" height="2.5" rx="1.2" fill="#161616"/>
+  </g>
+  <text x="245" y="514" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="11" font-weight="700" letter-spacing="0.5" fill="#161616">CAF&#201; AVANT &#183; CAF&#201; APR&#200;S</text>
+
+  <!-- Sponsor 2 : team fractionne -->
+  <rect x="338" y="466" width="180" height="52" rx="4" fill="#f7f6f0" stroke="#ff4d00" stroke-width="2.5"/>
+  <text x="428" y="489" text-anchor="middle" font-family="'Arial Black', 'Archivo Black', Arial, sans-serif"
+        font-size="13" font-weight="900" fill="#161616">TEAM FRACTIONN&#201;</text>
+  <text x="428" y="507" text-anchor="middle" font-family="'Arial Black', 'Archivo Black', Arial, sans-serif"
+        font-size="13" font-weight="900" fill="#ff4d00">DU DIMANCHE</text>
+
+  <!-- Sponsor 3 : croissant brunch -->
+  <g transform="translate(630,481)">
+    <path d="M -14,6 A 16 16 0 1 1 14,6 A 22 22 0 0 0 -14,6 Z" fill="#161616"/>
+    <path d="M -5,-8 L -4,2 M 5,-8 L 4,2" stroke="#f7f6f0" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+  <text x="630" y="514" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="11" font-weight="700" letter-spacing="0.5" fill="#161616">BRUNCH FINISHERS CLUB</text>
+
+  <rect x="0" y="532" width="856" height="8" fill="#ff4d00"/>
+
+  <!-- ============ EPINGLES A NOURRICE (trompe-l'oeil) ============ -->
+  <use href="#pin" xlink:href="#pin" transform="translate(88,64) rotate(-24) scale(0.85)"/>
+  <use href="#pin" xlink:href="#pin" transform="translate(768,62) scale(-1,1) rotate(-26) scale(0.85)"/>
+  <use href="#pin" xlink:href="#pin" transform="translate(88,492) rotate(20) scale(0.85)"/>
+  <use href="#pin" xlink:href="#pin" transform="translate(768,492) scale(-1,1) rotate(-20) scale(0.85)"/>
+</svg>
